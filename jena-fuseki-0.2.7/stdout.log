@@ -1,0 +1,13 @@
+&&-&& 10793
+02:48:21 INFO  Config               :: Home Directory: /home/alexis/git/openDataWrapper/jena-fuseki-0.2.7
+02:48:21 INFO  Config               :: Configuration file: /home/alexis/git/openDataWrapper/ressources/fusekiConfig.ttl
+02:48:21 INFO  Config               :: Service: TDB Service (R)
+02:48:21 INFO  Config               ::   name = openData
+02:48:21 INFO  Config               ::   query = /openData/sparql
+02:48:21 INFO  Config               ::   query = /openData/query
+02:48:21 INFO  Config               ::   update = /openData/update
+02:48:21 INFO  Config               ::   graphStore(R) = /openData/get
+02:48:21 INFO  Config               ::   graphStore(R) = /openData/data
+02:48:22 INFO  Server               :: Dataset path = /openData
+02:48:22 INFO  Server               :: Fuseki 0.2.7 2013-05-11T22:05:51+0100
+02:48:22 INFO  Server               :: Started 2013/10/03 02:48:22 PDT on port 3030
