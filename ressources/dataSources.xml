@@ -264,59 +264,37 @@
     <outputXmlFile>ressources/output/rdf-xml/parc_animalier_theme.rdf</outputXmlFile>
   </source>
   <source>
-    <nom>mydata</nom>
+    <nom>dataCollegesLA</nom>
     <apiurl>http://data.nantes.fr/api/publication/22440002800011_CG44_EDU_12002/BD_colleges_prives_2012_2013_STBL/content?format=xml</apiurl>
     <url>http://data.nantes.fr/donnees/detail/colleges-prives-en-loire-atlantique</url>
     <publisher>Département de Loire-Atlantique</publisher>
     <titre>Colleges prives en Loire-Atlantique</titre>
-    <xsltFile>ressources/xsl/mydata.xsl</xsltFile>
+    <xsltFile>ressources/xsl/dataCollegesLA.xsl</xsltFile>
     <specificXSLT>false</specificXSLT>
-    <outputTtlFile>ressources/output/ttl/mydata.n3</outputTtlFile>
-    <outputXmlFile>ressources/output/rdf-xml/mydata.rdf</outputXmlFile>
+    <outputTtlFile>ressources/output/ttl/dataCollegesLA.n3</outputTtlFile>
+    <outputXmlFile>ressources/output/rdf-xml/dataCollegesLA.rdf</outputXmlFile>
   </source>
   <source>
-    <nom>dataAdeline</nom>
-    <apiurl>http://data.loire-atlantique.fr/donnees/detail/localisation-des-equipements-publics-relevant-du-theme-enseignement-de-nantes-metropole-1/?format=xml</apiurl>
-    <url>dataAdeline = http://data.loire-atlantique.fr/donnees/detail/localisation-des-equipements-publics-relevant-du-theme-enseignement-de-nantes-metropole-1/</url>
-    <publisher>DataNantes</publisher>
-    <titre>Localisation des équipements publics relevant du thème 'Enseignement' de Nantes Métropole</titre>
-    <xsltFile>ressources/xsl/dataAdeline.xsl</xsltFile>
-    <specificXSLT>false</specificXSLT>
-    <outputTtlFile>ressources/output/ttl/dataAdeline.n3</outputTtlFile>
-    <outputXmlFile>ressources/output/rdf-xml/dataAdeline.rdf</outputXmlFile>
-  </source>
-  <source>
-    <nom>dataAdeline2</nom>
-    <apiurl>http://data.loire-atlantique.fr/api/publication/24440040400129_NM_NM_00020/LOC_EQUIPUB_ENSEIGNEMENT_NM_STBL/content/?format=xml?format=xml</apiurl>
-    <url>http://data.loire-atlantique.fr/donnees/detail/localisation-des-equipements-publics-relevant-du-theme-enseignement-de-nantes-metropole-1/</url>
-    <publisher>DataNantes</publisher>
-    <titre>Localisation des équipements publics relevant du thème 'Enseignement' de Nantes Métropole</titre>
-    <xsltFile>ressources/xsl/dataAdeline2.xsl</xsltFile>
-    <specificXSLT>false</specificXSLT>
-    <outputTtlFile>ressources/output/ttl/dataAdeline2.n3</outputTtlFile>
-    <outputXmlFile>ressources/output/rdf-xml/dataAdeline2.rdf</outputXmlFile>
-  </source>
-  <source>
-    <nom>dataAdeline3</nom>
+    <nom>dataEnseignementNantes</nom>
     <apiurl>http://data.loire-atlantique.fr/api/publication/24440040400129_NM_NM_00020/LOC_EQUIPUB_ENSEIGNEMENT_NM_STBL/content/?format=xml</apiurl>
     <url>http://data.loire-atlantique.fr/donnees/detail/localisation-des-equipements-publics-relevant-du-theme-enseignement-de-nantes-metropole-1/</url>
     <publisher>DataNantes</publisher>
     <titre>Localisation des équipements publics relevant du thème 'Enseignement' de Nantes Métropole</titre>
-    <xsltFile>ressources/xsl/dataAdeline3.xsl</xsltFile>
+    <xsltFile>ressources/xsl/dataEnseignementNantes.xsl</xsltFile>
     <specificXSLT>false</specificXSLT>
-    <outputTtlFile>ressources/output/ttl/dataAdeline3.n3</outputTtlFile>
-    <outputXmlFile>ressources/output/rdf-xml/dataAdeline3.rdf</outputXmlFile>
+    <outputTtlFile>ressources/output/ttl/dataEnseignementNantes.n3</outputTtlFile>
+    <outputXmlFile>ressources/output/rdf-xml/dataEnseignementNantes.rdf</outputXmlFile>
   </source>
   <source>
-    <nom>dataDavy</nom>
+    <nom>dataHebergement</nom>
     <apiurl>http://data.paysdelaloire.fr/api/publication/22440002800011_CG44_TOU_04817/hebergements_tourisme_et_handicap_STBL/content/?format=xml</apiurl>
     <url>http://data.paysdelaloire.fr/donnees/detail/hebergements-labellises-tourisme-et-handicap-en-loire-atlantique</url>
     <publisher>DataNantes</publisher>
     <titre>Hébergements labellisés "Tourisme et Handicap" en Loire-Atlantique</titre>
-    <xsltFile>ressources/xsl/dataDavy.xsl</xsltFile>
+    <xsltFile>ressources/xsl/dataHebergement.xsl</xsltFile>
     <specificXSLT>false</specificXSLT>
-    <outputTtlFile>ressources/output/ttl/dataDavy.n3</outputTtlFile>
-    <outputXmlFile>ressources/output/rdf-xml/dataDavy.rdf</outputXmlFile>
+    <outputTtlFile>ressources/output/ttl/dataHebergement.n3</outputTtlFile>
+    <outputXmlFile>ressources/output/rdf-xml/dataHebergement.rdf</outputXmlFile>
   </source>
   <source>
     <nom>dataVieSociale</nom>

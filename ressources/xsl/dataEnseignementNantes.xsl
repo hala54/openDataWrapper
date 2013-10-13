@@ -33,7 +33,7 @@
 @prefix sc: &lt;http://schema.org/&gt; .
 @prefix geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt; .
 
-&lt;http://lodpaddle.univ-nantes.fr/dataAdeline3&gt; rdf:type void:Dataset ;
+&lt;http://lodpaddle.univ-nantes.fr/dataEnseignementNantes&gt; rdf:type void:Dataset ;
 	foaf:homepage "http://data.loire-atlantique.fr/donnees/detail/localisation-des-equipements-publics-relevant-du-theme-enseignement-de-nantes-metropole-1/";
 	dcterms:title "Localisation des équipements publics relevant du thème 'Enseignement' de Nantes Métropole"^^xsd:string ;
 	dcterms:description "Localisation des équipements publics relevant du thème 'Enseignement' de Nantes Métropole"^^xsd:string ;
@@ -48,7 +48,7 @@
 
 <xsl:template match="element">
 	<xsl:apply-templates select="geo/name"/>
-<xsl:text>&#009;rdf:type&#009; pdll:dataAdeline3;
+<xsl:text>&#009;rdf:type&#009; pdll:dataEnseignementNantes;
 </xsl:text>
 	<xsl:apply-templates select="_l"/>
 	<xsl:apply-templates select="LIBTHEME"/>
@@ -114,7 +114,7 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="geo/name"><xsl:choose><xsl:when test=". = 'null'"></xsl:when>
-<xsl:otherwise><xsl:value-of select="concat(concat('&lt;http://lodpaddle.univ-nantes.fr/dataAdeline3/',encode-for-uri(.)),'&gt;')"/>&#009; foaf:name &#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise><xsl:value-of select="concat(concat('&lt;http://lodpaddle.univ-nantes.fr/dataEnseignementNantes/',encode-for-uri(.)),'&gt;')"/>&#009; foaf:name &#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="LIBCATEGORIE">

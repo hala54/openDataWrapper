@@ -18,17 +18,17 @@
 @prefix sc: <http://schema.org/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
-<http://lodpaddle.univ-nantes.fr/dataDavy> rdf:type void:Dataset ;
+<http://lodpaddle.univ-nantes.fr/dataHebergement> rdf:type void:Dataset ;
 	foaf:homepage "http://data.paysdelaloire.fr/donnees/detail/hebergements-labellises-tourisme-et-handicap-en-loire-atlantique";
 	dcterms:title "Hébergements labellisés "Tourisme et Handicap" en Loire-Atlantique"^^xsd:string ;
 	dcterms:description "Hébergements labellisés "Tourisme et Handicap" en Loire-Atlantique"^^xsd:string ;
-	dcterms:created "2013-10-06"^^xsd:date;
+	dcterms:created "2013-10-13"^^xsd:date;
 	dcterms:publisher :pub .
 
 :pub rdfs:label "DataNantes".
 
-<http://lodpaddle.univ-nantes.fr/dataDavy/LE%20RELAIS%20DE%20LA%20GRANGE>	 foaf:name 	 "LE RELAIS DE LA GRANGE"^^xsd:string ;
-	rdf:type	 pdll:dataDavy;
+<http://lodpaddle.univ-nantes.fr/dataHebergement/LE%20RELAIS%20DE%20LA%20GRANGE>	 foaf:name 	 "LE RELAIS DE LA GRANGE"^^xsd:string ;
+	rdf:type	 pdll:dataHebergement;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -80,8 +80,8 @@
 	dbpprop:seatingCapacity	 "-120404040"^^xsd:int ;
 	sc:postalCode	 "44390"^^xsd:int .
 
-<http://lodpaddle.univ-nantes.fr/dataDavy/NUIT%20DE%20RETZ>	 foaf:name 	 "NUIT DE RETZ"^^xsd:string ;
-	rdf:type	 pdll:dataDavy;
+<http://lodpaddle.univ-nantes.fr/dataHebergement/NUIT%20DE%20RETZ>	 foaf:name 	 "NUIT DE RETZ"^^xsd:string ;
+	rdf:type	 pdll:dataHebergement;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "A l'année"^^xsd:string ;
 	pdll:hasSpa	 "oui"^^xsd:string ;
@@ -133,8 +133,8 @@
 	dbpprop:seatingCapacity	 "-120404040"^^xsd:int ;
 	sc:postalCode	 "44710"^^xsd:int .
 
-<http://lodpaddle.univ-nantes.fr/dataDavy/HOTEL%20TEST>	 foaf:name 	 "HOTEL TEST"^^xsd:string ;
-	rdf:type	 pdll:dataDavy;
+<http://lodpaddle.univ-nantes.fr/dataHebergement/HOTEL%20TEST>	 foaf:name 	 "HOTEL TEST"^^xsd:string ;
+	rdf:type	 pdll:dataHebergement;
 	pdll:VignoleEtDecouverteLabelled	 "oui"^^xsd:string ;
 	sc:openingHours	 "Ouvert toute l'année"^^xsd:string ;
 	pdll:hasSpa	 "oui"^^xsd:string ;
@@ -186,8 +186,8 @@
 	dbpprop:seatingCapacity	 "-120404040"^^xsd:int ;
 	sc:postalCode	 "44300"^^xsd:int .
 
-<http://lodpaddle.univ-nantes.fr/dataDavy/M%2FMme%20AUBIN%20Fabienne%20et%20Gilles>	 foaf:name 	 "M/Mme AUBIN Fabienne et Gilles"^^xsd:string ;
-	rdf:type	 pdll:dataDavy;
+<http://lodpaddle.univ-nantes.fr/dataHebergement/M%2FMme%20AUBIN%20Fabienne%20et%20Gilles>	 foaf:name 	 "M/Mme AUBIN Fabienne et Gilles"^^xsd:string ;
+	rdf:type	 pdll:dataHebergement;
 	pdll:VignoleEtDecouverteLabelled	 "oui"^^xsd:string ;
 	sc:openingHours	 "Ouvert toute l'année"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -239,8 +239,8 @@
 	dbpprop:seatingCapacity	 "7"^^xsd:int ;
 	sc:postalCode	 "44330"^^xsd:int .
 
-<http://lodpaddle.univ-nantes.fr/dataDavy/Madame%20MALARD%20Marie%20Claire>	 foaf:name 	 "Madame MALARD Marie Claire"^^xsd:string ;
-	rdf:type	 pdll:dataDavy;
+<http://lodpaddle.univ-nantes.fr/dataHebergement/Madame%20MALARD%20Marie%20Claire>	 foaf:name 	 "Madame MALARD Marie Claire"^^xsd:string ;
+	rdf:type	 pdll:dataHebergement;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert toute l'année"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -292,8 +292,8 @@
 	dbpprop:seatingCapacity	 "12"^^xsd:int ;
 	sc:postalCode	 "44320"^^xsd:int .
 
-<http://lodpaddle.univ-nantes.fr/dataDavy/HOLIDAY%20INN%20EXPRESS>	 foaf:name 	 "HOLIDAY INN EXPRESS"^^xsd:string ;
-	rdf:type	 pdll:dataDavy;
+<http://lodpaddle.univ-nantes.fr/dataHebergement/HOLIDAY%20INN%20EXPRESS>	 foaf:name 	 "HOLIDAY INN EXPRESS"^^xsd:string ;
+	rdf:type	 pdll:dataHebergement;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -345,8 +345,8 @@
 	dbpprop:seatingCapacity	 "-120404040"^^xsd:int ;
 	sc:postalCode	 "44600"^^xsd:int .
 
-<http://lodpaddle.univ-nantes.fr/dataDavy/HOTEL%20PREMIERE%20CLASSE>	 foaf:name 	 "HOTEL PREMIERE CLASSE"^^xsd:string ;
-	rdf:type	 pdll:dataDavy;
+<http://lodpaddle.univ-nantes.fr/dataHebergement/HOTEL%20PREMIERE%20CLASSE>	 foaf:name 	 "HOTEL PREMIERE CLASSE"^^xsd:string ;
+	rdf:type	 pdll:dataHebergement;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -398,8 +398,8 @@
 	dbpprop:seatingCapacity	 "-120404040"^^xsd:int ;
 	sc:postalCode	 "44570"^^xsd:int .
 
-<http://lodpaddle.univ-nantes.fr/dataDavy/HOTEL%20F1>	 foaf:name 	 "HOTEL F1"^^xsd:string ;
-	rdf:type	 pdll:dataDavy;
+<http://lodpaddle.univ-nantes.fr/dataHebergement/HOTEL%20F1>	 foaf:name 	 "HOTEL F1"^^xsd:string ;
+	rdf:type	 pdll:dataHebergement;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -451,8 +451,8 @@
 	dbpprop:seatingCapacity	 "-120404040"^^xsd:int ;
 	sc:postalCode	 "44570"^^xsd:int .
 
-<http://lodpaddle.univ-nantes.fr/dataDavy/BEST%20HOTEL%20NANTES%20CENTRE>	 foaf:name 	 "BEST HOTEL NANTES CENTRE"^^xsd:string ;
-	rdf:type	 pdll:dataDavy;
+<http://lodpaddle.univ-nantes.fr/dataHebergement/BEST%20HOTEL%20NANTES%20CENTRE>	 foaf:name 	 "BEST HOTEL NANTES CENTRE"^^xsd:string ;
+	rdf:type	 pdll:dataHebergement;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -504,8 +504,8 @@
 	dbpprop:seatingCapacity	 "-120404040"^^xsd:int ;
 	sc:postalCode	 "44000"^^xsd:int .
 
-<http://lodpaddle.univ-nantes.fr/dataDavy/M%2FMme%20CHAUSSEPIED%20Bernard%20et%20Claudine>	 foaf:name 	 "M/Mme CHAUSSEPIED Bernard et Claudine"^^xsd:string ;
-	rdf:type	 pdll:dataDavy;
+<http://lodpaddle.univ-nantes.fr/dataHebergement/M%2FMme%20CHAUSSEPIED%20Bernard%20et%20Claudine>	 foaf:name 	 "M/Mme CHAUSSEPIED Bernard et Claudine"^^xsd:string ;
+	rdf:type	 pdll:dataHebergement;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert toute l'année"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -557,8 +557,8 @@
 	dbpprop:seatingCapacity	 "5"^^xsd:int ;
 	sc:postalCode	 "44320"^^xsd:int .
 
-<http://lodpaddle.univ-nantes.fr/dataDavy/Madame%20MESSU%20Dani%C3%A8le>	 foaf:name 	 "Madame MESSU Danièle"^^xsd:string ;
-	rdf:type	 pdll:dataDavy;
+<http://lodpaddle.univ-nantes.fr/dataHebergement/Madame%20MESSU%20Dani%C3%A8le>	 foaf:name 	 "Madame MESSU Danièle"^^xsd:string ;
+	rdf:type	 pdll:dataHebergement;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert toute l'année"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -610,8 +610,8 @@
 	dbpprop:seatingCapacity	 "12"^^xsd:int ;
 	sc:postalCode	 "44350"^^xsd:int .
 
-<http://lodpaddle.univ-nantes.fr/dataDavy/M%2FMme%20DEBARRE%20Chantal%20et%20Michel>	 foaf:name 	 "M/Mme DEBARRE Chantal et Michel"^^xsd:string ;
-	rdf:type	 pdll:dataDavy;
+<http://lodpaddle.univ-nantes.fr/dataHebergement/M%2FMme%20DEBARRE%20Chantal%20et%20Michel>	 foaf:name 	 "M/Mme DEBARRE Chantal et Michel"^^xsd:string ;
+	rdf:type	 pdll:dataHebergement;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert toute l'année"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -663,8 +663,8 @@
 	dbpprop:seatingCapacity	 "12"^^xsd:int ;
 	sc:postalCode	 "44290"^^xsd:int .
 
-<http://lodpaddle.univ-nantes.fr/dataDavy/Madame%20DE%20SARIAC%20Marguerite>	 foaf:name 	 "Madame DE SARIAC Marguerite"^^xsd:string ;
-	rdf:type	 pdll:dataDavy;
+<http://lodpaddle.univ-nantes.fr/dataHebergement/Madame%20DE%20SARIAC%20Marguerite>	 foaf:name 	 "Madame DE SARIAC Marguerite"^^xsd:string ;
+	rdf:type	 pdll:dataHebergement;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert toute l'année"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -716,8 +716,8 @@
 	dbpprop:seatingCapacity	 "12"^^xsd:int ;
 	sc:postalCode	 "44360"^^xsd:int .
 
-<http://lodpaddle.univ-nantes.fr/dataDavy/LE%20PR%C3%89%20MARIE>	 foaf:name 	 "LE PRÉ MARIE"^^xsd:string ;
-	rdf:type	 pdll:dataDavy;
+<http://lodpaddle.univ-nantes.fr/dataHebergement/LE%20PR%C3%89%20MARIE>	 foaf:name 	 "LE PRÉ MARIE"^^xsd:string ;
+	rdf:type	 pdll:dataHebergement;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -769,8 +769,8 @@
 	dbpprop:seatingCapacity	 "9"^^xsd:int ;
 	sc:postalCode	 "44170"^^xsd:int .
 
-<http://lodpaddle.univ-nantes.fr/dataDavy/Madame%20CAROUR%20Marie-B%C3%A9atrice>	 foaf:name 	 "Madame CAROUR Marie-Béatrice"^^xsd:string ;
-	rdf:type	 pdll:dataDavy;
+<http://lodpaddle.univ-nantes.fr/dataHebergement/Madame%20CAROUR%20Marie-B%C3%A9atrice>	 foaf:name 	 "Madame CAROUR Marie-Béatrice"^^xsd:string ;
+	rdf:type	 pdll:dataHebergement;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert de début Avril à la Toussaint"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -822,8 +822,8 @@
 	dbpprop:seatingCapacity	 "10"^^xsd:int ;
 	sc:postalCode	 "44440"^^xsd:int .
 
-<http://lodpaddle.univ-nantes.fr/dataDavy/HOTEL%20ECO%20NUIT>	 foaf:name 	 "HOTEL ECO NUIT"^^xsd:string ;
-	rdf:type	 pdll:dataDavy;
+<http://lodpaddle.univ-nantes.fr/dataHebergement/HOTEL%20ECO%20NUIT>	 foaf:name 	 "HOTEL ECO NUIT"^^xsd:string ;
+	rdf:type	 pdll:dataHebergement;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert toute l'année"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -875,8 +875,8 @@
 	dbpprop:seatingCapacity	 "-120404040"^^xsd:int ;
 	sc:postalCode	 "44350"^^xsd:int .
 
-<http://lodpaddle.univ-nantes.fr/dataDavy/Monsieur%20et%20Madame%20GASNIER%20Jean-Yves>	 foaf:name 	 "Monsieur et Madame GASNIER Jean-Yves"^^xsd:string ;
-	rdf:type	 pdll:dataDavy;
+<http://lodpaddle.univ-nantes.fr/dataHebergement/Monsieur%20et%20Madame%20GASNIER%20Jean-Yves>	 foaf:name 	 "Monsieur et Madame GASNIER Jean-Yves"^^xsd:string ;
+	rdf:type	 pdll:dataHebergement;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -928,8 +928,8 @@
 	dbpprop:seatingCapacity	 "2"^^xsd:int ;
 	sc:postalCode	 "44320"^^xsd:int .
 
-<http://lodpaddle.univ-nantes.fr/dataDavy/BRIT%20HOTEL%20LES%20ALIZES>	 foaf:name 	 "BRIT HOTEL LES ALIZES"^^xsd:string ;
-	rdf:type	 pdll:dataDavy;
+<http://lodpaddle.univ-nantes.fr/dataHebergement/BRIT%20HOTEL%20LES%20ALIZES>	 foaf:name 	 "BRIT HOTEL LES ALIZES"^^xsd:string ;
+	rdf:type	 pdll:dataHebergement;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert toute l'année"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;

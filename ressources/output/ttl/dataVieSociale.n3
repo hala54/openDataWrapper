@@ -22,7 +22,7 @@
 	foaf:homepage "http://data.nantes.fr/donnees/detail/localisation-des-equipements-publics-relevant-du-theme-action-sociale-de-nantes-metropole-1/";
 	dcterms:title "Localisation des équipements publics relevant du thème 'VIE sociale' de Nantes Métropole"^^xsd:string ;
 	dcterms:description "Localisation des équipements publics relevant du thème 'VIE sociale' de Nantes Métropole"^^xsd:string ;
-	dcterms:created "2013-10-07"^^xsd:date;
+	dcterms:created "2013-10-13"^^xsd:date;
 	dcterms:publisher :pub .
 
 :pub rdfs:label "DataNantes".
