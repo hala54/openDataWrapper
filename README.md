@@ -1,7 +1,7 @@
 openDataWrapper
 ===============
 
-Generic wrapper converting data sources from data.paysdelaloire.fr into RDF (N3 and RDF-XML). It uses API call. Data sources are XML files.
+Generic wrapper converting data sources from data.paysdelaloire.fr into RDF (N3 and RDF-XML). It uses API call. Data sources are XML files. Also uses Apache Maven
 
 Quick Start
 -----------
@@ -19,14 +19,19 @@ Quick Start
 	Run command mvn compile to compile the project. If you are using Eclipse, run mvn eclipse:eclipse to make eclipse maven-friendly, then run mvn compile
 	Run Principal.java as a java application
 	Follow the instruction
+
+	WARNING : If compilation errors occurs, run mvn install:install-file -DgroupId=de.fuberlin.wiwiss.silk -DartifactId=silk -Dversion=2.5 -Dpackaging=jar -Dfile=lib/silk/silk.jar
+
 	
-3) Data
+3) Data (For non-XML-friendly users)
 	
 	You can add data from data.paysdelaloire.fr API. 
 	Write into the import.odw file the name of your new data, =, and 4 informations separated by ';' :
 		mydata = api_url;api_url_description;title;publisher
 	Select add new sources in the main menu.
-	
+
+	If you are more a more XML friendly, you can add new dataSources directly writing dataSources.xml (more documentation in document.tex)
+
 4) Convert data
 
 	Select the convert data menu and check the result. The converted files should be in output/ folder.
