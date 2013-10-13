@@ -32,9 +32,12 @@ import org.jdom2.JDOMException;
 import org.jdom2.input.SAXBuilder;
 import org.jdom2.output.DOMOutputter;
 
-/*
+/**
  * Cette classe gère la conversion d'un XML à l'aide d'une feuille de style XSL (XSLT)
  * Les parametres de proxy sont à spécifier dans un fichier proxy.pwd à la racine de votre $HOME
+ * 
+ * @author alexis.linard
+ * 
  */
 public class ConvertTTL {
 
@@ -57,7 +60,7 @@ public class ConvertTTL {
 	final String PWD_File = System.getProperty("user.home")
 			+ "/.openDataWrapper/proxy.pwd";
 
-	/*
+	/**
 	 * The constructor tries to read the proxy file stored at the user
 	 * home/.openDataWrapper/proxy.pwd. If such file doesn't exist, continue
 	 * without warning.
@@ -94,7 +97,7 @@ public class ConvertTTL {
 
 	}
 
-	/*
+	/**
 	 * convert an XML file from a remote call into turtle. It uses the global
 	 * parameters XSLFile_ and outputFile of the class ConvertTTL. Checks if it
 	 * needs to create a new XSLT file or use the existing one. Contact the API
@@ -216,7 +219,7 @@ public class ConvertTTL {
 		}
 	}
 
-	/*
+	/**
 	 * This method contact the remote API, download and parse the XML received
 	 * First, it needs to be configured to use proxy (if needed).
 	 * 

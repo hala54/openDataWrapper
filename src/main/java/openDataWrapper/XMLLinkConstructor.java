@@ -8,6 +8,12 @@ import java.io.IOException;
 //import org.jdom2.Document;
 //import org.jdom2.Element;
 
+
+/**
+ * 
+ * @author alexis.linard
+ *
+ */
 public class XMLLinkConstructor {
 
 	public String source1;

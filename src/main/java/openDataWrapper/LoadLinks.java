@@ -18,7 +18,11 @@ import com.hp.hpl.jena.util.FileManager;
 
 import de.fuberlin.wiwiss.silk.Silk;
 
-
+/**
+ * 
+ * @author alexis.linard
+ *
+ */
 public class LoadLinks {
 
 	/**
@@ -69,6 +73,9 @@ public class LoadLinks {
 		
 	}
 	
+	/**
+	 * 
+	 */
 	public void run(){
 		try{			
 			Load();

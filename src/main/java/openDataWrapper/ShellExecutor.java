@@ -6,6 +6,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
+/**
+ * 
+ * @author alexis.linard
+ *
+ */
 public class ShellExecutor {
 
 	private String stdinFlag;

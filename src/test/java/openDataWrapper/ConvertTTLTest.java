@@ -4,6 +4,12 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+/**
+ * JUnit test
+ * Class under test : ConvertTTL
+ * @author alexis.linard
+ * 
+ */
 public class ConvertTTLTest {
 
 	@Test

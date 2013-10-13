@@ -22,8 +22,8 @@ import com.hp.hpl.jena.query.ResultSet;
 import com.hp.hpl.jena.query.ResultSetFormatter;
 
 /**
- * 
- * @author alexis
+ * Main Program
+ * @author alexis.linard
  *
  */
 public class Principale {

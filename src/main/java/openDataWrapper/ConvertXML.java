@@ -10,6 +10,11 @@ import org.apache.log4j.Logger;
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.util.FileManager;
 
+/**
+ * Class converting data contained into XML files into RDF-XML files
+ * @author alexis.linard
+ *
+ */
 public class ConvertXML {
 
 	static Logger logger = Logger.getLogger(ConvertXML.class);
@@ -17,13 +22,19 @@ public class ConvertXML {
 	public String source;
 	public String target;
 
+	
+	/**
+	 * Constructor
+	 * @param source DataSources
+	 * @param target Target file where converted data will be stored
+	 */
 	public ConvertXML(String source, String target) {
 		super();
 		this.source = source;
 		this.target = target;
 	}
 
-	/*
+	/**
 	 * This function takes a ttl file, import it into Jena and produce a RDF/XML
 	 * All parameters are given by the dataSources.xml
 	 * Issues: if the rdf-xml folder doesn't exist, the function create it.

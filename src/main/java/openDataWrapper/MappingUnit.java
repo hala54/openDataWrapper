@@ -1,11 +1,21 @@
 package main.java.openDataWrapper;
 
+/**
+ * 
+ * @author alexis.linard
+ *
+ */
 public class MappingUnit {
 
 	public String vocabulaire;
 	public String type;
 	public boolean ignore;
 
+	/**
+	 * 
+	 * @param vocabulaire
+	 * @param type
+	 */
 	public MappingUnit(String vocabulaire, String type) {
 		super();
 		this.vocabulaire = vocabulaire;
@@ -13,6 +23,10 @@ public class MappingUnit {
 		ignore = false;
 	}
 
+	/**
+	 * 
+	 * @param prop
+	 */
 	public MappingUnit(String prop) {
 		super();
 		String[] splitProp = prop.split(",");
@@ -28,10 +42,18 @@ public class MappingUnit {
 		}
 	}
 
+	/**
+	 * 
+	 * @return
+	 */
 	public String getVocabulaire() {
 		return vocabulaire;
 	}
 
+	/**
+	 * 
+	 * @return
+	 */
 	public String getType() {
 		return type;
 	}

@@ -20,6 +20,12 @@ import org.apache.log4j.Logger;
 import org.jdom2.Document;
 import org.jdom2.Element;
 
+
+/**
+ * 
+ * @author alexis.linard
+ *
+ */
 public class XSLConstructor {
 	static Logger logger = Logger.getLogger(XSLConstructor.class);
 

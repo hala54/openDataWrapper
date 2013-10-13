@@ -25,6 +25,11 @@ import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.tdb.TDBFactory;
 import com.hp.hpl.jena.util.FileManager;
 
+/**
+ * 
+ * @author alexis.linard
+ *
+ */
 public class OpenDataWrapper implements IOpenDataWrapper {
 
 	static Logger logger = Logger.getLogger(Principale.class);
@@ -36,6 +41,10 @@ public class OpenDataWrapper implements IOpenDataWrapper {
 
 	private final String UriBase = "http://localhost:3030/openData/";
 
+	
+	/**
+	 * 
+	 */
 	public OpenDataWrapper() {
 		BasicConfigurator.configure();
 		logger.info("loading...");
@@ -50,7 +59,10 @@ public class OpenDataWrapper implements IOpenDataWrapper {
 		}
 		listeDataSource = lr.extractData();
 	}
-
+	
+	/**
+	 * 
+	 */
 	@Override
 	public void convert() {
 		properties = getMapping(lr.mappingFile);
@@ -66,7 +78,7 @@ public class OpenDataWrapper implements IOpenDataWrapper {
 		}
 	}
 
-	/*
+	/**
 	 * conversion processing
 	 * 
 	 * @param DataSource dts, the DataSource ressource you want to convert
@@ -79,6 +91,10 @@ public class OpenDataWrapper implements IOpenDataWrapper {
 		cttl.convertFromApi(dts.getApiUrl(), properties, dts.isSpecificXSLT());
 	}
 
+	/**
+	 * 
+	 * @param dts
+	 */
 	private static void conversionXmlRdf(DataSource dts) {
 		ConvertXML cxml = new ConvertXML(dts.getOutputTtl(), dts.getOutputRdf());
 		cxml.convert();
@@ -107,7 +123,12 @@ public class OpenDataWrapper implements IOpenDataWrapper {
 		return p;
 	}
 
+	
+
 	@Override
+	/**
+	 * 
+	 */
 	public void runQuery(String queryString) {
 		try {
 			loadAllDataset();
@@ -123,6 +144,9 @@ public class OpenDataWrapper implements IOpenDataWrapper {
 	}
 
 	@Override
+	/**
+	 * 
+	 */
 	public void export(String TDBPath) {
 		deleteFolder(new File(TDBPath));
 		Dataset dataset = TDBFactory.createDataset(TDBPath);
@@ -159,6 +183,11 @@ public class OpenDataWrapper implements IOpenDataWrapper {
 		folder.delete();
 	}
 
+	
+	/**
+	 * 
+	 * @param dts
+	 */
 	private void loadDataset(DataSource dts) {
 		String n3path = dts.getOutputTtl();
 		if (masterModel == null) {
