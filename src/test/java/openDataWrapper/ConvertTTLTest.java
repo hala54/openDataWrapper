@@ -1,4 +1,4 @@
-package test.java.openDataWrapper;
+package openDataWrapper;
 
 import static org.junit.Assert.*;
 import org.junit.Test;
