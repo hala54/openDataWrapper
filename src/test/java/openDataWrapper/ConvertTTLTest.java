@@ -1,6 +1,7 @@
-package openDataWrapper;
+package test.java.openDataWrapper;
 
 import static org.junit.Assert.*;
+
 import org.junit.Test;
 
 public class ConvertTTLTest {
