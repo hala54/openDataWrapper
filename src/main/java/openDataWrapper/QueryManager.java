@@ -262,7 +262,7 @@ public class QueryManager {
 	 */
 	private void loadOneDataset() {
 		System.out.println("which dataset do you want to load?");
-		listDatasources();
+		DataSource.printAvailableDataSources();
 		Scanner in = new Scanner(System.in);
 		try {
 			int result = in.nextInt();
@@ -280,6 +280,32 @@ public class QueryManager {
 		}
 
 	}
+	
+	private void linkDataSets(){
+		System.out.println("which datasets do you want to link?");
+		DataSource.printAvailableDataSources();
+		Scanner in = new Scanner(System.in);
+		try {
+			String result = in.nextLine();
+			String[] results = result.split(";");
+			for(String res : results)
+			{
+				if (Integer.valueOf(res) > 0 && Integer.valueOf(res) <= dataSources.size()) {
+					DataSource dts = dataSources.get(Integer.valueOf(res));
+					loadDataset(dts);
+					System.out.println("loading "+dts.getNom()+" ok!");
+				} else {
+					System.err.println("error loading dataset!");
+				}
+			}
+		} catch (InputMismatchException e) {
+			System.err.println("The input isn't a string!");
+		} finally {
+			in.close();
+		}
+		
+		masterModel.write(System.out, "N3");
+	}
 
 	/**
 	 * This function display the query list
@@ -293,21 +319,6 @@ public class QueryManager {
 					+ queries.get(courant).split(":")[0]);
 		}
 
-	}
-
-	/**
-	 * this function display the data sources list, with the id number. Useful
-	 * when you want to make a process on only one data source.
-	 */
-	private void listDatasources() {
-		Set<Integer> nomData = dataSources.keySet();
-		Iterator<Integer> it = nomData.iterator();
-		System.out.println("Liste des dataset:");
-		while (it.hasNext()) {
-			Integer courant = it.next();
-			System.out.println("[" + courant + "] "
-					+ dataSources.get(courant).getNom());
-		}
 	}
 
 }

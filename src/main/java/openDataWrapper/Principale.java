@@ -96,7 +96,7 @@ public class Principale {
 		
 		 switch (result) {
 		 case 1:
-		 listDatasources();
+		 DataSource.printAvailableDataSources();
 		 break;
 		 case 2:
 		 addDataSources();
@@ -147,7 +147,7 @@ public class Principale {
 	 * 
 	 */
 	private static void linkDataSets() {
-		// TODO Auto-generated method stub
+		DataLinker dataLinker = new DataLinker();
 		
 	}
 
@@ -189,19 +189,6 @@ public class Principale {
 		System.out.println("done!");
 	}
 
-	/**
-	 * 
-	 */
-	private static void listDatasources() {
-		Set<Integer> nomData = listeDataSource.keySet();
-		Iterator<Integer> it = nomData.iterator();
-		System.out.println("Liste des dataset:");
-		while (it.hasNext()) {
-			Integer courant = it.next();
-			System.out.println("[" + courant + "] "
-					+ listeDataSource.get(courant).getNom());
-		}
-	}
 
 	/**
 	 * conversion processing
@@ -221,7 +208,7 @@ public class Principale {
 	 */
 	private static void conversionTtlOne() {
 		System.out.println("Which dataset?");
-		listDatasources();
+		DataSource.printAvailableDataSources();
 		Scanner in = new Scanner(System.in);
 		try {
 			int result = in.nextInt();
@@ -261,7 +248,7 @@ public class Principale {
 	 */
 	private static void conversionXmlOne() {
 		System.out.println("Which dataset?");
-		listDatasources();
+		DataSource.printAvailableDataSources();
 		Scanner in = new Scanner(System.in);
 		try {
 			int result = in.nextInt();
