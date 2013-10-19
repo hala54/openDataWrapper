@@ -1,8 +1,0 @@
-prefix pdll: <http://lodpaddle.univ-nantes.fr/> 
-prefix foaf: <http://xmlns.com/foaf/0.1/> 
-prefix dbpprop: <http://dbpedia.org/property/> 
-select count(?a)
-where { 
-?a  dbpprop:town        "NANTES".
-?a  pdll:statut         "Public".
-}
