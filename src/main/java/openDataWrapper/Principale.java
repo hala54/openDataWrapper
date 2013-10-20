@@ -96,7 +96,7 @@ public class Principale {
 
 				switch (result) {
 				case 1:
-					DataSource.printAvailableDataSources();
+					DataSourceManager.printAvailableDataSources();
 					break;
 				case 2:
 					addDataSources();
@@ -210,7 +210,7 @@ public class Principale {
 	 */
 	private static void conversionTtlOne() {
 		System.out.println("Which dataset?");
-		DataSource.printAvailableDataSources();
+		DataSourceManager.printAvailableDataSources();
 		Scanner in = new Scanner(System.in);
 		try {
 			int result = in.nextInt();
@@ -250,7 +250,7 @@ public class Principale {
 	 */
 	private static void conversionXmlOne() {
 		System.out.println("Which dataset?");
-		DataSource.printAvailableDataSources();
+		DataSourceManager.printAvailableDataSources();
 		Scanner in = new Scanner(System.in);
 		try {
 			int result = in.nextInt();

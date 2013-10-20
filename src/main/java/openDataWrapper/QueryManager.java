@@ -262,7 +262,7 @@ public class QueryManager {
 	 */
 	private void loadOneDataset() {
 		System.out.println("which dataset do you want to load?");
-		DataSource.printAvailableDataSources();
+		DataSourceManager.printAvailableDataSources();
 		Scanner in = new Scanner(System.in);
 		try {
 			int result = in.nextInt();

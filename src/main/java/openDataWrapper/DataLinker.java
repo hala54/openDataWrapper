@@ -118,7 +118,7 @@ public class DataLinker {
 	private void loadChosenDatasets(StringBuilder outputFileN3,
 			StringBuilder outputFileRDFXML) {
 		System.out.println("which datasets do you want to link?");
-		DataSource.printAvailableDataSources();
+		DataSourceManager.printAvailableDataSources();
 
 		Scanner in = new Scanner(System.in);
 
@@ -127,9 +127,9 @@ public class DataLinker {
 			String[] results = result.split(";");
 			for (String res : results) {
 				if (Integer.valueOf(res) > 0
-						&& Integer.valueOf(res) <= DataSource
+						&& Integer.valueOf(res) <= DataSourceManager
 								.getAvailableDataSources().size()) {
-					DataSource dts = DataSource.getAvailableDataSources().get(
+					DataSource dts = DataSourceManager.getAvailableDataSources().get(
 							Integer.valueOf(res));
 					outputFileN3.append(dts.getNom()).append("-");
 					outputFileRDFXML.append(dts.getNom()).append("-");
