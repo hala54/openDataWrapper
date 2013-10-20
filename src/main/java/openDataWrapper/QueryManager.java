@@ -281,31 +281,7 @@ public class QueryManager {
 
 	}
 	
-	private void linkDataSets(){
-		System.out.println("which datasets do you want to link?");
-		DataSource.printAvailableDataSources();
-		Scanner in = new Scanner(System.in);
-		try {
-			String result = in.nextLine();
-			String[] results = result.split(";");
-			for(String res : results)
-			{
-				if (Integer.valueOf(res) > 0 && Integer.valueOf(res) <= dataSources.size()) {
-					DataSource dts = dataSources.get(Integer.valueOf(res));
-					loadDataset(dts);
-					System.out.println("loading "+dts.getNom()+" ok!");
-				} else {
-					System.err.println("error loading dataset!");
-				}
-			}
-		} catch (InputMismatchException e) {
-			System.err.println("The input isn't a string!");
-		} finally {
-			in.close();
-		}
-		
-		masterModel.write(System.out, "N3");
-	}
+
 
 	/**
 	 * This function display the query list

@@ -147,8 +147,9 @@ public class Principale {
 	 * 
 	 */
 	private static void linkDataSets() {
-		DataLinker dataLinker = new DataLinker();
-		
+		DataLinker dataLinker = DataLinker.getInstance();
+		dataLinker.run();
+		System.out.println("Linked datasets' results into ressources/output/ttl/linked-*.n3 and ressources/output/ttl/linked-*.n3 file");
 	}
 
 	/**

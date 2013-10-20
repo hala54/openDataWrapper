@@ -129,17 +129,7 @@ public class DataSource {
 	 */
 	public static void printAvailableDataSources()
 	{
-		LoadRessources lr;
-		try {
-			lr = new LoadRessources();
-		} catch (JDOMException e1) {
-			System.err.println("The configuration file dataSource.xml is corrupted. Please check that this file is a valid XML file!");
-			return;
-		} catch (IOException e1) {
-			System.err.println("Unable to open the configuration file dataSources.xml");
-			return;
-		}
-		Map<Integer, DataSource> dataSources = lr.extractData();
+		Map<Integer, DataSource> dataSources = getAvailableDataSources();
 		Set<Integer> nomData = dataSources.keySet();
 		Iterator<Integer> it = nomData.iterator();
 		System.out.println("Liste des dataset:");
@@ -148,6 +138,21 @@ public class DataSource {
 			System.out.println("[" + courant + "] "
 					+ dataSources.get(courant).getNom());
 		}		
+	}
+
+	public static Map<Integer, DataSource> getAvailableDataSources() {
+		LoadRessources lr;
+		try {
+			lr = new LoadRessources();
+		} catch (JDOMException e1) {
+			System.err.println("The configuration file dataSource.xml is corrupted. Please check that this file is a valid XML file!");
+			return null;
+		} catch (IOException e1) {
+			System.err.println("Unable to open the configuration file dataSources.xml");
+			return null;
+		}
+		Map<Integer, DataSource> dataSources = lr.extractData();
+		return dataSources;
 	}
 
 }
