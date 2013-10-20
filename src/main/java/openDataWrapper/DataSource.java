@@ -1,12 +1,5 @@
 package main.java.openDataWrapper;
 
-import java.io.IOException;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
-
-import org.jdom2.JDOMException;
-
 /**
  * This class describes a datasource
  * 
@@ -62,7 +55,7 @@ public class DataSource {
 
 	/**
 	 * 
-	 * @return
+	 * @return Datasource's name
 	 */
 	public String getNom() {
 		return nom;
@@ -70,7 +63,7 @@ public class DataSource {
 
 	/**
 	 * 
-	 * @return
+	 * @return Datasource's api url
 	 */
 	public String getApiUrl() {
 		return apiUrl;
@@ -78,7 +71,7 @@ public class DataSource {
 
 	/**
 	 * 
-	 * @return
+	 * @return Datasource's xslt file
 	 */
 	public String getXsltFile() {
 		return xsltFile;
@@ -86,7 +79,7 @@ public class DataSource {
 
 	/**
 	 * 
-	 * @return
+	 * @return boolean
 	 */
 	public boolean isSpecificXSLT() {
 		return specificXSLT;
@@ -94,7 +87,7 @@ public class DataSource {
 
 	/**
 	 * 
-	 * @return
+	 * @return Datasource's output turtle file
 	 */
 	public String getOutputTtl() {
 		return outputTtl;
@@ -102,7 +95,7 @@ public class DataSource {
 
 	/**
 	 * 
-	 * @return
+	 * @return Datasource's output rdf file
 	 */
 	public String getOutputRdf() {
 		return outputRdf;
@@ -110,7 +103,7 @@ public class DataSource {
 
 	/**
 	 * 
-	 * @return
+	 * @return Datasource's url
 	 */
 	public String getUrl() {
 		return url;
@@ -118,7 +111,7 @@ public class DataSource {
 
 	/**
 	 * 
-	 * @return
+	 * @return Datasource's title
 	 */
 	public String getTitre() {
 		return titre;
@@ -126,7 +119,7 @@ public class DataSource {
 
 	/**
 	 * 
-	 * @return
+	 * @return Datasource's publisher
 	 */
 	public String getPublisher() {
 		return publisher;

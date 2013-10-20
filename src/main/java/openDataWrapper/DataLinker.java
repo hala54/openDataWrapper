@@ -61,7 +61,7 @@ public class DataLinker {
 	}
 
 	/**
-	 * 
+	 * Main method running DataLinker on chosen datasources
 	 */
 	public void run() {
 		StringBuilder outputFileN3 = new StringBuilder(
@@ -69,12 +69,16 @@ public class DataLinker {
 		StringBuilder outputFileRDFXML = new StringBuilder(
 				"ressources/output/linkedData/rdf-xml/linked-");
 
+		//choose and load datasets into model
 		loadChosenDatasets(outputFileN3, outputFileRDFXML);
 
+		//write loaded datasets into output files
 		writeModelIntoOutputFiles(outputFileN3, outputFileRDFXML);
 
+		//empty model
 		emptyModel();
 
+		//delete duplicated triples into files
 		try {
 			deleteAllDuplicate();
 		} catch (IOException e) {
@@ -83,9 +87,9 @@ public class DataLinker {
 	}
 
 	/**
-	 * 
-	 * @param outputFileN3
-	 * @param outputFileRDFXML
+	 * Writes models into output files
+	 * @param outputFileN3 output file for .n3 file
+	 * @param outputFileRDFXML output file for .rdf file
 	 */
 	private void writeModelIntoOutputFiles(StringBuilder outputFileN3,
 			StringBuilder outputFileRDFXML) {
@@ -111,13 +115,13 @@ public class DataLinker {
 	}
 
 	/**
-	 * 
-	 * @param outputFileN3
-	 * @param outputFileRDFXML
+	 * Let users choosing datasets and loading datasets into model
+	 * @param outputFileN3 output file for .n3 file
+	 * @param outputFileRDFXML output file for .rdf file
 	 */
 	private void loadChosenDatasets(StringBuilder outputFileN3,
 			StringBuilder outputFileRDFXML) {
-		System.out.println("which datasets do you want to link?");
+		System.out.println("which datasets do you want to link?\nwrite datasets numbers separating numbers by ';' ");
 		DataSourceManager.printAvailableDataSources();
 
 		Scanner in = new Scanner(System.in);
