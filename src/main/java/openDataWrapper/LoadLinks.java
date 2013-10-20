@@ -1,4 +1,4 @@
-package main.java.openDataWrapper;
+package openDataWrapper;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -30,7 +30,7 @@ public class LoadLinks {
 	 */
 	public void executeAllFiles() {
 
-		File file = new File("ressources/output/linksConfig");
+		File file = new File("src/main/resources/output/linksConfig");
 		File[] files = file.listFiles();
 
 		if (files != null) {
@@ -336,7 +336,7 @@ public class LoadLinks {
 	 * @throws IOException
 	 */
 	public void deleteAllDuplicate() throws FileNotFoundException, IOException {
-		File file = new File("ressources/output/ttl");
+		File file = new File("src/main/resources/output/ttl");
 		File[] files = file.listFiles();
 		Properties prop = new Properties();
 		prop.load(new FileReader("configuration/linkmapping.properties"));
@@ -358,7 +358,7 @@ public class LoadLinks {
 								System.out.println(name1 + " , " + name);
 
 								File f = new File(
-										"ressources/output/links/resultFiles");
+										"src/main/resources/output/links/resultFiles");
 								if (!f.exists() || !f.isDirectory()) {
 									// faire la création
 									if (!f.mkdirs()) {
@@ -368,9 +368,9 @@ public class LoadLinks {
 									}
 								}
 								deleteDuplicates(fi.getPath(),
-										"ressources/output/links/nt/" + name1
+										"src/main/resources/output/links/nt/" + name1
 												+ "-" + name + ".nt",
-										"ressources/output/links/resultFiles/"
+										"src/main/resources/output/links/resultFiles/"
 												+ name1 + "-" + name + ".ttl");
 							}
 						}

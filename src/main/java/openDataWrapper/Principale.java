@@ -1,4 +1,4 @@
-package main.java.openDataWrapper;
+package openDataWrapper;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -150,7 +150,7 @@ public class Principale {
 		DataLinker dataLinker = DataLinker.getInstance();
 		dataLinker.run();
 		System.out
-				.println("Linked datasets' results into ressources/output/ttl/linked-*.n3 and ressources/output/ttl/linked-*.n3 file");
+				.println("Linked datasets' results into src/main/resources/output/ttl/linked-*.n3 and src/main/resources/output/ttl/linked-*.n3 file");
 	}
 
 	/**

@@ -1,4 +1,4 @@
-package main.java.openDataWrapper;
+package openDataWrapper;
 
 import java.io.IOException;
 import java.util.Iterator;
@@ -6,6 +6,8 @@ import java.util.Map;
 import java.util.Set;
 
 import org.jdom2.JDOMException;
+
+import openDataWrapper.LoadRessources;
 
 /**
  * Manages available datasources

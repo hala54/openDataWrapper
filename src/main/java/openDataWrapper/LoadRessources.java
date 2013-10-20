@@ -1,4 +1,4 @@
-package main.java.openDataWrapper;
+package openDataWrapper;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -30,7 +30,7 @@ public class LoadRessources {
 	static Logger logger = Logger.getLogger(LoadRessources.class);
 
 	public Document document;
-	public String DocumentPath = "ressources/dataSources.xml";
+	public String DocumentPath = "src/main/resources/dataSources.xml";
 	public Map<Integer, DataSource> listeDataSource;
 	public Properties mapping;
 	public String mappingFile;
@@ -283,15 +283,15 @@ public class LoadRessources {
 					publisher.setText(listeProp[3]);
 
 					Element xsltFile = new Element("xsltFile");
-					xsltFile.setText("ressources/xsl/" + (String) valeur
+					xsltFile.setText("src/main/resources/xsl/" + (String) valeur
 							+ ".xsl");
 					Element specificXSLT = new Element("specificXSLT");
 					specificXSLT.setText("false");
 					Element outputTtlFile = new Element("outputTtlFile");
-					outputTtlFile.setText("ressources/output/ttl/"
+					outputTtlFile.setText("src/main/resources/output/ttl/"
 							+ (String) valeur + ".n3");
 					Element outputXmlFile = new Element("outputXmlFile");
-					outputXmlFile.setText("ressources/output/rdf-xml/"
+					outputXmlFile.setText("src/main/resources/output/rdf-xml/"
 							+ (String) valeur + ".rdf");
 
 					temp.addContent(name);
@@ -342,13 +342,13 @@ public class LoadRessources {
 		XMLOutputter xmlop = new XMLOutputter(Format.getPrettyFormat());
 		try {
 			xmlop.output(document, new FileOutputStream(
-					"ressources/dataSources.xml"));
+					"src/main/resources/dataSources.xml"));
 		} catch (FileNotFoundException e) {
-			System.err.println("ressources/dataSources.xml doesn't exist! "
+			System.err.println("src/main/resources/dataSources.xml doesn't exist! "
 					+ e.getMessage());
 		} catch (IOException e) {
 			System.err
-					.println("ressources/dataSources.xml cannot be opened. Chack that you hav the right to open this file. "
+					.println("src/main/resources/dataSources.xml cannot be opened. Chack that you hav the right to open this file. "
 							+ e.getMessage());
 		}
 	}

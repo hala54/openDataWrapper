@@ -45,4 +45,4 @@ Quick Start
 
 6) Running SPARQL requests on your DataSets
 
-	Write requests on ressources/queries (1 request per file). Run Principale.java, then follow the instructions through running queries. Before running a query, you shall load a dataset.
+	Write requests on src/main/resources/queries (1 request per file). Run Principale.java, then follow the instructions through running queries. Before running a query, you shall load a dataset.

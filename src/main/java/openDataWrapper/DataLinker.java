@@ -1,4 +1,4 @@
-package main.java.openDataWrapper;
+package openDataWrapper;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -65,9 +65,9 @@ public class DataLinker {
 	 */
 	public void run() {
 		StringBuilder outputFileN3 = new StringBuilder(
-				"ressources/output/linkedData/ttl/linked-");
+				"src/main/resources/output/linkedData/ttl/linked-");
 		StringBuilder outputFileRDFXML = new StringBuilder(
-				"ressources/output/linkedData/rdf-xml/linked-");
+				"src/main/resources/output/linkedData/rdf-xml/linked-");
 
 		//choose and load datasets into model
 		loadChosenDatasets(outputFileN3, outputFileRDFXML);
@@ -177,7 +177,7 @@ public class DataLinker {
 	 * @throws IOException
 	 */
 	private void deleteAllDuplicate() throws FileNotFoundException, IOException {
-		File file = new File("ressources/output/linkedData/ttl");
+		File file = new File("src/main/resources/output/linkedData/ttl");
 		File[] files = file.listFiles();
 		Properties prop = new Properties();
 		prop.load(new FileReader("configuration/linkmapping.properties"));
@@ -199,7 +199,7 @@ public class DataLinker {
 								System.out.println(name1 + " , " + name);
 
 								File f = new File(
-										"ressources/output/links/resultFiles");
+										"src/main/resources/output/links/resultFiles");
 								if (!f.exists() || !f.isDirectory()) {
 									// faire la création
 									if (!f.mkdirs()) {
@@ -209,9 +209,9 @@ public class DataLinker {
 									}
 								}
 								deleteDuplicates(fi.getPath(),
-										"ressources/output/links/nt/" + name1
+										"src/main/resources/output/links/nt/" + name1
 												+ "-" + name + ".nt",
-										"ressources/output/links/resultFiles/"
+										"src/main/resources/output/links/resultFiles/"
 												+ name1 + "-" + name + ".ttl");
 							}
 						}
