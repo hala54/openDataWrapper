@@ -223,8 +223,6 @@ public class Principale {
 			}
 		} catch (InputMismatchException e) {
 			System.err.println("input is not a number!");
-		} finally {
-			// in.close();
 		}
 	}
 

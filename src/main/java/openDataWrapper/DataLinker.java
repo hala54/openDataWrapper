@@ -145,8 +145,6 @@ public class DataLinker {
 			}
 		} catch (InputMismatchException e) {
 			System.err.println("The input isn't a string!");
-		} finally {
-			in.close();
 		}
 	}
 
