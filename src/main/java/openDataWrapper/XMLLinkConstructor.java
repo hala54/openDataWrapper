@@ -1,4 +1,4 @@
-package main.java.openDataWrapper;
+package openDataWrapper;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -64,7 +64,7 @@ public class XMLLinkConstructor {
 					+ source1 + "-" + source2 + ".............");
 			FileWriter fstream;
 
-			File f = new File("ressources/output/linksConfig");
+			File f = new File("src/main/resources/output/linksConfig");
 			if (!f.exists() || !f.isDirectory()) {
 				// faire la création
 				if (!f.mkdirs()) {
@@ -73,7 +73,7 @@ public class XMLLinkConstructor {
 				}
 			}
 
-			fstream = new FileWriter("ressources/output/linksConfig/" + source1
+			fstream = new FileWriter("src/main/resources/output/linksConfig/" + source1
 					+ "-" + source2 + "linkConfig.xml");
 			BufferedWriter out = new BufferedWriter(fstream);
 			// ready to write
@@ -206,7 +206,7 @@ public class XMLLinkConstructor {
 						+ "\">\n"
 						+ "				<Param name=\"file\" value=\""
 						+ System.getProperty("user.dir")
-						+ "/ressources/output/links/nt/"
+						+ "/src/main/resources/output/links/nt/"
 						+ source1
 						+ "-"
 						+ source2
@@ -287,7 +287,7 @@ public class XMLLinkConstructor {
 						+ "\">\n"
 						+ "				<Param name=\"file\" value=\""
 						+ System.getProperty("user.dir")
-						+ "/ressources/output/links/nt/"
+						+ "/src/main/resources/output/links/nt/"
 						+ source1
 						+ "-"
 						+ source2

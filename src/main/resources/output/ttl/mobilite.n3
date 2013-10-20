@@ -1,0 +1,3805 @@
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix : <#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix TEMPORAIRE: <http://temporaire.org/> .
+@prefix gr: <http://purl.org/goodrelations/> .
+@prefix pdll: <http://lodpaddle.univ-nantes.fr/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix prop-fr: <http://fr.dbpedia.org/property/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ex: <http://example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbpprop: <http://dbpedia.org/property/> .
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
+@prefix sc: <http://schema.org/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+<http://lodpaddle.univ-nantes.fr/mobilite> rdf:type void:Dataset ;
+	foaf:homepage "http://data.nantes.fr/donnees/detail/localisation-des-equipements-publics-relevant-du-theme-mobilite-de-nantes-metropole-1/";
+	dcterms:title "Localisation des équipements publics relevant du thème 'Mobilité' de Nantes Métropole"^^xsd:string ;
+	dcterms:description "Localisation des équipements publics relevant du thème 'Mobilité' de Nantes Métropole"^^xsd:string ;
+	dcterms:created "2013-10-02"^^xsd:date;
+	dcterms:publisher :pub .
+
+:pub rdfs:label "Nantes Métropole".
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parking%20ouvrage%20M%C3%A9diath%C3%A8que>	 foaf:name 	 "Parking ouvrage Médiathèque"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2108708271003"^^xsd:decimal ;
+	geo:long	"-1.5623381759623"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.parkings-nantes.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 51 84 94 51"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parking Ouvrage"^^xsd:string ;
+	dbpprop:location	 "Rue Neuve des Capucins"^^xsd:string ;
+	pdll:typeLabel	 "Mixte"^^xsd:string ;
+	pdll:id	 "134"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Gare%20SNCF%20de%20Doulon>	 foaf:name 	 "Gare SNCF de Doulon"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2285285048663"^^xsd:decimal ;
+	geo:long	"-1.51724402726267"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "www.gares-connexions.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "36 35"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "Rue des Perrines"^^xsd:string ;
+	pdll:typeLabel	 "Rail"^^xsd:string ;
+	pdll:id	 "245"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Gare%20SNCF%20de%20Chantenay>	 foaf:name 	 "Gare SNCF de Chantenay"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1972022454039"^^xsd:decimal ;
+	geo:long	"-1.59435499316903"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "www.gares-connexions.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "36 35"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "Rue de la Gare de Chantenay"^^xsd:string ;
+	pdll:typeLabel	 "Rail"^^xsd:string ;
+	pdll:id	 "261"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parking%20ouvrage%20Gare%20Nord>	 foaf:name 	 "Parking ouvrage Gare Nord"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2166890401729"^^xsd:decimal ;
+	geo:long	"-1.54498433411572"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.resaplace.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 25 88 88 26"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parking Ouvrage"^^xsd:string ;
+	dbpprop:location	 "Boulevard de Stalingrad"^^xsd:string ;
+	pdll:typeLabel	 "Elévation"^^xsd:string ;
+	pdll:id	 "280"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Gare%20SNCF%20de%20Nantes%20Nord%20-%20Direction%20r%C3%A9gionale>	 foaf:name 	 "Gare SNCF de Nantes Nord - Direction régionale"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2174431606581"^^xsd:decimal ;
+	geo:long	"-1.54235996605665"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.gares-connexions.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "36 35"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "Boulevard de Stalingrad"^^xsd:string ;
+	pdll:typeLabel	 "Rail"^^xsd:string ;
+	pdll:id	 "281"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Gare%20Fluviale%20Bateaux%20Nantais>	 foaf:name 	 "Gare Fluviale Bateaux Nantais"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2279684766427"^^xsd:decimal ;
+	geo:long	"-1.5516367391695"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bateaux-nantais.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 14 51 14"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "15 Place Waldeck Rousseau"^^xsd:string ;
+	pdll:typeLabel	 "Fluvial"^^xsd:string ;
+	pdll:id	 "282"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parking%20ouvrage%20Decr%C3%A9-Bouffay>	 foaf:name 	 "Parking ouvrage Decré-Bouffay"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2166626199643"^^xsd:decimal ;
+	geo:long	"-1.55400463227177"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.parkings-nantes.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 51 84 94 51"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parking Ouvrage"^^xsd:string ;
+	dbpprop:location	 "18 Rue du Moulin"^^xsd:string ;
+	pdll:typeLabel	 "Mixte"^^xsd:string ;
+	pdll:id	 "284"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parking%20ouvrage%20Graslin>	 foaf:name 	 "Parking ouvrage Graslin"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2143102105068"^^xsd:decimal ;
+	geo:long	"-1.56257181621741"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.parkings-nantes.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 51 84 94 51"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parking Ouvrage"^^xsd:string ;
+	dbpprop:location	 "Rue Scribe"^^xsd:string ;
+	pdll:typeLabel	 "Elévation"^^xsd:string ;
+	pdll:id	 "288"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parking%20ouvrage%20Tour%20Bretagne>	 foaf:name 	 "Parking ouvrage Tour Bretagne"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2177394198201"^^xsd:decimal ;
+	geo:long	"-1.55820163936291"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.parkings-nantes.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 51 84 94 51"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parking Ouvrage"^^xsd:string ;
+	dbpprop:location	 "4 Place de Bretagne"^^xsd:string ;
+	pdll:typeLabel	 "Mixte"^^xsd:string ;
+	pdll:id	 "299"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Gare%20Routi%C3%A8re%20Baco%20Eurolines>	 foaf:name 	 "Gare Routière Baco Eurolines"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2127402501474"^^xsd:decimal ;
+	geo:long	"-1.55276077185068"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.eurolines.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 92 89 90 91"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "Allée de la Maison Rouge"^^xsd:string ;
+	pdll:typeLabel	 "Route"^^xsd:string ;
+	pdll:id	 "663"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parking%20ouvrage%20Commerce>	 foaf:name 	 "Parking ouvrage Commerce"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2131202858024"^^xsd:decimal ;
+	geo:long	"-1.55771321969051"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.parkings-nantes.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 51 84 94 51"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parking Ouvrage"^^xsd:string ;
+	dbpprop:location	 "Place du Commerce"^^xsd:string ;
+	pdll:typeLabel	 "Souterrain"^^xsd:string ;
+	pdll:id	 "677"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Gare%20SNCF%20de%20Nantes%20Sud>	 foaf:name 	 "Gare SNCF de Nantes Sud"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.216448854427"^^xsd:decimal ;
+	geo:long	"-1.54155846026517"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.gares-connexions.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "36 35"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "2 Rue de Lourmel"^^xsd:string ;
+	pdll:typeLabel	 "Rail"^^xsd:string ;
+	pdll:id	 "1042"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parking%20ouvrage%20Aristide%20Briand>	 foaf:name 	 "Parking ouvrage Aristide Briand"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2170936048579"^^xsd:decimal ;
+	geo:long	"-1.56293641808053"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.vincipark.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 10 26 30 00"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parking Ouvrage"^^xsd:string ;
+	dbpprop:location	 "Place Aristide Briand"^^xsd:string ;
+	pdll:typeLabel	 "Souterrain"^^xsd:string ;
+	pdll:id	 "1043"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parking%20ouvrage%20Cit%C3%A9%20des%20Congr%C3%A8s>	 foaf:name 	 "Parking ouvrage Cité des Congrès"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2129016709023"^^xsd:decimal ;
+	geo:long	"-1.54397127716684"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.parkings-nantes.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 51 84 94 51"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parking Ouvrage"^^xsd:string ;
+	dbpprop:location	 "Avenue Jean Claude Bonduelle"^^xsd:string ;
+	pdll:typeLabel	 "Souterrain"^^xsd:string ;
+	pdll:id	 "1044"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parking%20ouvrage%20Gare%20Sud%201>	 foaf:name 	 "Parking ouvrage Gare Sud 1"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2161496359544"^^xsd:decimal ;
+	geo:long	"-1.54103682846398"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.resaplace.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 25 88 88 26"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parking Ouvrage"^^xsd:string ;
+	dbpprop:location	 "Rue de Lourmel"^^xsd:string ;
+	pdll:typeLabel	 "Elévation"^^xsd:string ;
+	pdll:id	 "1045"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parking%20ouvrage%20Talensac>	 foaf:name 	 "Parking ouvrage Talensac"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2202559810468"^^xsd:decimal ;
+	geo:long	"-1.55835729990237"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.parkings-nantes.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 51 84 94 51"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parking Ouvrage"^^xsd:string ;
+	dbpprop:location	 "Rue Le Nôtre"^^xsd:string ;
+	pdll:typeLabel	 "Elévation"^^xsd:string ;
+	pdll:id	 "1046"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Recteur%20Schmitt%201>	 foaf:name 	 "Parc relais tramway Recteur Schmitt 1"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2517352538688"^^xsd:decimal ;
+	geo:long	"-1.55290310437924"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Rue Recteur Schmitt"^^xsd:string ;
+	pdll:typeLabel	 "Ouvrage"^^xsd:string ;
+	pdll:id	 "1341"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Capitainerie%20du%20Port%20Atlantique%20Nantes%20Saint%20Nazaire>	 foaf:name 	 "Capitainerie du Port Atlantique Nantes Saint Nazaire"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2054007823477"^^xsd:decimal ;
+	geo:long	"-1.57398139134178"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "www.nantes.port.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 20 53"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "Quai Ernest Renaud"^^xsd:string ;
+	pdll:typeLabel	 "Fluvial"^^xsd:string ;
+	pdll:id	 "1581"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Port%20Autonome%20de%20Nantes%20Saint%20Nazaire>	 foaf:name 	 "Port Autonome de Nantes Saint Nazaire"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2055111148953"^^xsd:decimal ;
+	geo:long	"-1.57471135472788"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "www.nantes.port.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 20 20"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "18 Quai Ernest Renaud"^^xsd:string ;
+	pdll:typeLabel	 "Fluvial"^^xsd:string ;
+	pdll:id	 "1583"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Port%20de%20l%27Erdre>	 foaf:name 	 "Port de l'Erdre"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2252035773148"^^xsd:decimal ;
+	geo:long	"-1.55372459801084"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.nge-nantes.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 37 04 62"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "Quai de Versailles"^^xsd:string ;
+	pdll:typeLabel	 "Fluvial"^^xsd:string ;
+	pdll:id	 "1624"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Service%20Maritime%20et%20Navigation%20Ecluse%20Saint%20F%C3%A9lix>	 foaf:name 	 "Service Maritime et Navigation Ecluse Saint Félix"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2125286072856"^^xsd:decimal ;
+	geo:long	"-1.54089899952201"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.equipement.gouv.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 71 02 19"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "Quai Ferdinand Favre"^^xsd:string ;
+	pdll:typeLabel	 "Fluvial"^^xsd:string ;
+	pdll:id	 "1658"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Gare%20SNCF%20de%20Basse%20Indre%20St-Herblain>	 foaf:name 	 "Gare SNCF de Basse Indre St-Herblain"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2040832390443"^^xsd:decimal ;
+	geo:long	"-1.66031284128023"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44800"^^xsd:string ;
+	dbpprop:website	 "www.gares-connexions.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "36 35"^^xsd:string ;
+	dbpprop:town	 "ST-HERBLAIN"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "Rue de la Gare"^^xsd:string ;
+	pdll:typeLabel	 "Rail"^^xsd:string ;
+	pdll:id	 "1805"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/A%C3%A9roport%20Nantes%20Atlantique>	 foaf:name 	 "Aéroport Nantes Atlantique"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1575191481928"^^xsd:decimal ;
+	geo:long	"-1.60178206983725"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44340"^^xsd:string ;
+	dbpprop:website	 "www.nantes.aeroport.fr"^^xsd:string ;
+	pdll:statut	 "Public"^^xsd:string ;
+	sc:telephone	 "02 40 84 80 00"^^xsd:string ;
+	dbpprop:town	 "BOUGUENAIS"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "Rue Clément Ader"^^xsd:string ;
+	pdll:typeLabel	 "Aérien"^^xsd:string ;
+	pdll:id	 "2109"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Bacs%20de%20Loire%20entre%20Basse-Indre%20et%20Indret>	 foaf:name 	 "Bacs de Loire entre Basse-Indre et Indret"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1977692572592"^^xsd:decimal ;
+	geo:long	"-1.67391847052844"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44610"^^xsd:string ;
+	dbpprop:website	 "www.loire-atlantique.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 86 01 29"^^xsd:string ;
+	dbpprop:town	 "INDRE"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "Quai Victor Boquien"^^xsd:string ;
+	pdll:typeLabel	 "Fluvial"^^xsd:string ;
+	pdll:id	 "2374"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Gare%20SNCF%20de%20Bouaye>	 foaf:name 	 "Gare SNCF de Bouaye"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1381446873955"^^xsd:decimal ;
+	geo:long	"-1.68107526983411"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44830"^^xsd:string ;
+	dbpprop:website	 "www.gares-connexions.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "36 35"^^xsd:string ;
+	dbpprop:town	 "BOUAYE"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "Allée Louis Armand"^^xsd:string ;
+	pdll:typeLabel	 "Rail"^^xsd:string ;
+	pdll:id	 "2375"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Gare%20SNCF%20de%20Cou%C3%ABron>	 foaf:name 	 "Gare SNCF de Couëron"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2219441875147"^^xsd:decimal ;
+	geo:long	"-1.72359939991892"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44220"^^xsd:string ;
+	dbpprop:website	 "www.gares-connexions.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "36 35"^^xsd:string ;
+	dbpprop:town	 "COUERON"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "Rue de la Gare"^^xsd:string ;
+	pdll:typeLabel	 "Rail"^^xsd:string ;
+	pdll:id	 "2452"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Bacs%20de%20Loire%20entre%20Cou%C3%ABron%20et%20Le%20Pellerin>	 foaf:name 	 "Bacs de Loire entre Couëron et Le Pellerin"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2059274676151"^^xsd:decimal ;
+	geo:long	"-1.75225472914734"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44220"^^xsd:string ;
+	dbpprop:website	 "www.loire-atlantique.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 86 01 29"^^xsd:string ;
+	dbpprop:town	 "COUERON"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "RD 91"^^xsd:string ;
+	pdll:typeLabel	 "Fluvial"^^xsd:string ;
+	pdll:id	 "2497"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Gare%20SNCF%20de%20Rez%C3%A9%20Pont-Rousseau>	 foaf:name 	 "Gare SNCF de Rezé Pont-Rousseau"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.193331595479"^^xsd:decimal ;
+	geo:long	"-1.54939210542755"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44400"^^xsd:string ;
+	dbpprop:website	 "www.gares-connexions.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "36 35"^^xsd:string ;
+	dbpprop:town	 "REZE"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "Rue de la Gare"^^xsd:string ;
+	pdll:typeLabel	 "Rail"^^xsd:string ;
+	pdll:id	 "2517"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Gare%20SNCF%20de%20Thouar%C3%A9-sur-Loire>	 foaf:name 	 "Gare SNCF de Thouaré-sur-Loire"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2651201184653"^^xsd:decimal ;
+	geo:long	"-1.44096386071447"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44470"^^xsd:string ;
+	dbpprop:website	 "www.gares-connexions.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "36 35"^^xsd:string ;
+	dbpprop:town	 "THOUARE-SUR-LOIRE"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "Place de la République"^^xsd:string ;
+	pdll:typeLabel	 "Rail"^^xsd:string ;
+	pdll:id	 "2518"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Gare%20SNCF%20de%20Mauves-sur-Loire>	 foaf:name 	 "Gare SNCF de Mauves-sur-Loire"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2930081697889"^^xsd:decimal ;
+	geo:long	"-1.38930347898703"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44470"^^xsd:string ;
+	dbpprop:website	 "www.voyages-sncf.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "36 35"^^xsd:string ;
+	dbpprop:town	 "MAUVES-SUR-LOIRE"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "2 Place de la Gare"^^xsd:string ;
+	pdll:typeLabel	 "Rail"^^xsd:string ;
+	pdll:id	 "2519"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Gare%20SNCF%20de%20Vertou>	 foaf:name 	 "Gare SNCF de Vertou"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1861434794643"^^xsd:decimal ;
+	geo:long	"-1.47803194855925"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44120"^^xsd:string ;
+	dbpprop:website	 "www.gares-connexions.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "36 35"^^xsd:string ;
+	dbpprop:town	 "VERTOU"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "Impasse de la Gare"^^xsd:string ;
+	pdll:typeLabel	 "Rail"^^xsd:string ;
+	pdll:id	 "2520"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Port%20de%20Trentemoult>	 foaf:name 	 "Port de Trentemoult"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1953745261745"^^xsd:decimal ;
+	geo:long	"-1.57890616493528"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44400"^^xsd:string ;
+	dbpprop:website	 "www.nge-nantes.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 51 84 94 51"^^xsd:string ;
+	dbpprop:town	 "REZE"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "Allée Claude Choëmet"^^xsd:string ;
+	pdll:typeLabel	 "Fluvial"^^xsd:string ;
+	pdll:id	 "2532"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Port%20de%20Cou%C3%ABron>	 foaf:name 	 "Port de Couëron"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2091256884984"^^xsd:decimal ;
+	geo:long	"-1.72995922379383"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44220"^^xsd:string ;
+	dbpprop:website	 "www.nge-nantes.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 51 84 94 51"^^xsd:string ;
+	dbpprop:town	 "COUERON"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "Boulevard Gambetta"^^xsd:string ;
+	pdll:typeLabel	 "Fluvial"^^xsd:string ;
+	pdll:id	 "2533"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Frachon>	 foaf:name 	 "Parc relais tramway Frachon"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2186961365515"^^xsd:decimal ;
+	geo:long	"-1.62163336178234"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44800"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "ST-HERBLAIN"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Boulevard Salvador Allende"^^xsd:string ;
+	pdll:typeLabel	 "Libre"^^xsd:string ;
+	pdll:id	 "3188"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Le%20Cardo>	 foaf:name 	 "Parc relais tramway Le Cardo"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2625020936155"^^xsd:decimal ;
+	geo:long	"-1.58451198079141"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44700"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "ORVAULT"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Esplanade du Cardo"^^xsd:string ;
+	pdll:typeLabel	 "Ouvrage"^^xsd:string ;
+	pdll:id	 "3189"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Fran%C3%A7ois%20Mitterrand>	 foaf:name 	 "Parc relais tramway François Mitterrand"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.22170620087"^^xsd:decimal ;
+	geo:long	"-1.63948414305523"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44800"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "ST-HERBLAIN"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Rue Virginia Woolf"^^xsd:string ;
+	pdll:typeLabel	 "Ouvrage"^^xsd:string ;
+	pdll:id	 "3190"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Recteur%20Schmitt%202>	 foaf:name 	 "Parc relais tramway Recteur Schmitt 2"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2520277017386"^^xsd:decimal ;
+	geo:long	"-1.55247038464754"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Rue Recteur Schmitt"^^xsd:string ;
+	pdll:typeLabel	 "Libre"^^xsd:string ;
+	pdll:id	 "3191"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20La%20Beaujoire>	 foaf:name 	 "Parc relais tramway La Beaujoire"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2594833036504"^^xsd:decimal ;
+	geo:long	"-1.52739847057661"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Rue Colette"^^xsd:string ;
+	pdll:typeLabel	 "Enclos"^^xsd:string ;
+	pdll:id	 "3192"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%208%20Mai>	 foaf:name 	 "Parc relais tramway 8 Mai"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1901779141219"^^xsd:decimal ;
+	geo:long	"-1.55169145198101"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44400"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "REZE"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Avenue André Malraux"^^xsd:string ;
+	pdll:typeLabel	 "Ouvrage"^^xsd:string ;
+	pdll:id	 "3194"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Trocardi%C3%A8re>	 foaf:name 	 "Parc relais tramway Trocardière"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1832927458839"^^xsd:decimal ;
+	geo:long	"-1.57109558940531"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44400"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "REZE"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Avenue Léon Blum"^^xsd:string ;
+	pdll:typeLabel	 "Libre"^^xsd:string ;
+	pdll:id	 "3195"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Ren%C3%A9%20Cassin>	 foaf:name 	 "Parc relais tramway René Cassin"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2639509260101"^^xsd:decimal ;
+	geo:long	"-1.57499790750312"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Route de la Chapelle Sur Erdre"^^xsd:string ;
+	pdll:typeLabel	 "Libre"^^xsd:string ;
+	pdll:id	 "3196"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Pirmil>	 foaf:name 	 "Parc relais tramway Pirmil"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1973586776381"^^xsd:decimal ;
+	geo:long	"-1.54153359455402"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Rue Esnoult des Châtelets"^^xsd:string ;
+	pdll:typeLabel	 "Libre"^^xsd:string ;
+	pdll:id	 "3197"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Goudy>	 foaf:name 	 "Parc relais tramway Goudy"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1960989467374"^^xsd:decimal ;
+	geo:long	"-1.5410477469437"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Rue Gabriel Goudy"^^xsd:string ;
+	pdll:typeLabel	 "Enclos"^^xsd:string ;
+	pdll:id	 "3198"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20TER%20Fr%C3%AAne%20Rond>	 foaf:name 	 "Parc relais TER Frêne Rond"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1905492575224"^^xsd:decimal ;
+	geo:long	"-1.49621830894861"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44230"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "ST-SEBASTIEN"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Rue de l'Ouche Quinet"^^xsd:string ;
+	pdll:typeLabel	 "Libre"^^xsd:string ;
+	pdll:id	 "3200"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20TER%20Gare%20de%20Vertou%20Nord>	 foaf:name 	 "Parc relais TER Gare de Vertou Nord"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1864023763705"^^xsd:decimal ;
+	geo:long	"-1.47916185458301"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44120"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "VERTOU"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Impasse de la Gare"^^xsd:string ;
+	pdll:typeLabel	 "Libre"^^xsd:string ;
+	pdll:id	 "3201"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20TER%20Gare%20de%20Vertou%20Sud>	 foaf:name 	 "Parc relais TER Gare de Vertou Sud"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1857498067425"^^xsd:decimal ;
+	geo:long	"-1.47860856997784"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44120"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "VERTOU"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Rue du Bois Rigaud"^^xsd:string ;
+	pdll:typeLabel	 "Libre"^^xsd:string ;
+	pdll:id	 "3202"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Plaisance>	 foaf:name 	 "Parc relais tramway Plaisance"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2405326620207"^^xsd:decimal ;
+	geo:long	"-1.59344052396589"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44800"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "ST-HERBLAIN"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Route de Vannes"^^xsd:string ;
+	pdll:typeLabel	 "Libre"^^xsd:string ;
+	pdll:id	 "3227"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Gare%20SNCF%20de%20St-S%C3%A9bastien%20Fr%C3%AAne%20Rond>	 foaf:name 	 "Gare SNCF de St-Sébastien Frêne Rond"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1902026129156"^^xsd:decimal ;
+	geo:long	"-1.49592805587597"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44230"^^xsd:string ;
+	dbpprop:website	 "www.gares-connexions.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "36 35"^^xsd:string ;
+	dbpprop:town	 "ST-SEBASTIEN"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "Rue de l'Ouche Quinet"^^xsd:string ;
+	pdll:typeLabel	 "Rail"^^xsd:string ;
+	pdll:id	 "3353"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20en%20enclos%20Gloriette%201>	 foaf:name 	 "Parc en enclos Gloriette 1"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2111796553233"^^xsd:decimal ;
+	geo:long	"-1.55843872950464"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.parkings-nantes.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 51 84 94 51"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc en Enclos"^^xsd:string ;
+	dbpprop:location	 "Allée de l'Ile Gloriette"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "3549"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20en%20enclos%20H%C3%B4tel%20Dieu>	 foaf:name 	 "Parc en enclos Hôtel Dieu"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2110570860299"^^xsd:decimal ;
+	geo:long	"-1.55198311230427"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.parkings-nantes.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 51 84 94 51"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc en Enclos"^^xsd:string ;
+	dbpprop:location	 "Chaussée de la Madeleine"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "3550"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20en%20enclos%20Baco-LU%202%20c%C3%B4t%C3%A9%20CHU>	 foaf:name 	 "Parc en enclos Baco-LU 2 côté CHU"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2131509800273"^^xsd:decimal ;
+	geo:long	"-1.55160425745185"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.parkings-nantes.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 51 84 94 51"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc en Enclos"^^xsd:string ;
+	dbpprop:location	 "Allée Baco"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "3551"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20TER%20Gare%20des%20Pas%20Enchant%C3%A9s>	 foaf:name 	 "Parc relais TER Gare des Pas Enchantés"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2082290545652"^^xsd:decimal ;
+	geo:long	"-1.51299644307533"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44230"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "ST-SEBASTIEN"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Rue de la Loire"^^xsd:string ;
+	pdll:typeLabel	 "Libre"^^xsd:string ;
+	pdll:id	 "3552"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Gare%20SNCF%20de%20St-S%C3%A9bastien%20Pas%20Enchant%C3%A9s>	 foaf:name 	 "Gare SNCF de St-Sébastien Pas Enchantés"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2070087740385"^^xsd:decimal ;
+	geo:long	"-1.51111306351385"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44230"^^xsd:string ;
+	dbpprop:website	 "www.gares-connexions.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "36 35"^^xsd:string ;
+	dbpprop:town	 "ST-SEBASTIEN"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "Rue du Docteur Paul Michaux"^^xsd:string ;
+	pdll:typeLabel	 "Rail"^^xsd:string ;
+	pdll:id	 "3553"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20en%20enclos%20Ch%C3%A2teau>	 foaf:name 	 "Parc en enclos Château"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2169899609793"^^xsd:decimal ;
+	geo:long	"-1.54785044968527"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.parkings-nantes.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 51 84 94 51"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc en Enclos"^^xsd:string ;
+	dbpprop:location	 "Rue Henri IV"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "3554"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20en%20enclos%20Gare%20Sud%203>	 foaf:name 	 "Parc en enclos Gare Sud 3"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.216135859474"^^xsd:decimal ;
+	geo:long	"-1.53789482834948"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.resaplace.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 25 88 88 26"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc en Enclos"^^xsd:string ;
+	dbpprop:location	 "Rue Marcel Paul"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "3555"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20TER%20Gare%20de%20Cou%C3%ABron>	 foaf:name 	 "Parc relais TER Gare de Couëron"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2217771934083"^^xsd:decimal ;
+	geo:long	"-1.72363750160792"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44220"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "COUERON"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Rue de la Gare"^^xsd:string ;
+	pdll:typeLabel	 "Libre"^^xsd:string ;
+	pdll:id	 "3556"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Neustrie%202>	 foaf:name 	 "Parc relais tramway Neustrie 2"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.176672451111"^^xsd:decimal ;
+	geo:long	"-1.59339969648243"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44340"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "BOUGUENAIS"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Rue de la Neustrie"^^xsd:string ;
+	pdll:typeLabel	 "Enclos"^^xsd:string ;
+	pdll:id	 "3558"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20navibus%20Trentemoult-Roquios>	 foaf:name 	 "Parc relais navibus Trentemoult-Roquios"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1952525112789"^^xsd:decimal ;
+	geo:long	"-1.57778393206355"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44400"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "REZE"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Quai Surcouf"^^xsd:string ;
+	pdll:typeLabel	 "Libre"^^xsd:string ;
+	pdll:id	 "3560"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20TER%20Gare%20de%20Basse-Indre%20Saint-Herblain>	 foaf:name 	 "Parc relais TER Gare de Basse-Indre Saint-Herblain"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2041579741319"^^xsd:decimal ;
+	geo:long	"-1.66103809646199"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44800"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "ST-HERBLAIN"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Rue de la Gare"^^xsd:string ;
+	pdll:typeLabel	 "Libre"^^xsd:string ;
+	pdll:id	 "3561"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Neustrie%201>	 foaf:name 	 "Parc relais tramway Neustrie 1"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1756933085378"^^xsd:decimal ;
+	geo:long	"-1.5932723508575"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44340"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "BOUGUENAIS"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Chemin de la Neustrie"^^xsd:string ;
+	pdll:typeLabel	 "Enclos"^^xsd:string ;
+	pdll:id	 "3562"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20TER%20Gare%20de%20Thouar%C3%A9-sur-Loire>	 foaf:name 	 "Parc relais TER Gare de Thouaré-sur-Loire"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2647119908848"^^xsd:decimal ;
+	geo:long	"-1.4413893536783"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44470"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "THOUARE-SUR-LOIRE"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Place de la République"^^xsd:string ;
+	pdll:typeLabel	 "Libre"^^xsd:string ;
+	pdll:id	 "3564"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20TER%20Gare%20de%20Mauves-sur-Loire>	 foaf:name 	 "Parc relais TER Gare de Mauves-sur-Loire"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2932583339329"^^xsd:decimal ;
+	geo:long	"-1.388904886686"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44470"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "MAUVES-SUR-LOIRE"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "2 Place de la Gare"^^xsd:string ;
+	pdll:typeLabel	 "Libre"^^xsd:string ;
+	pdll:id	 "3565"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20TER%20Gare%20de%20Bouaye>	 foaf:name 	 "Parc relais TER Gare de Bouaye"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.138339716512"^^xsd:decimal ;
+	geo:long	"-1.68209925257509"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44830"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "BOUAYE"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Allée Louis Armand"^^xsd:string ;
+	pdll:typeLabel	 "Libre"^^xsd:string ;
+	pdll:id	 "3566"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20navibus%20Trentemoult-D%C3%A9p%C3%B4t>	 foaf:name 	 "Parc relais navibus Trentemoult-Dépôt"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1919649895095"^^xsd:decimal ;
+	geo:long	"-1.58068768637466"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44400"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "REZE"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Rue Ordronneau"^^xsd:string ;
+	pdll:typeLabel	 "Libre"^^xsd:string ;
+	pdll:id	 "3582"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Morli%C3%A8re%20Paquelais>	 foaf:name 	 "Parc relais tramway Morlière Paquelais"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2478235218625"^^xsd:decimal ;
+	geo:long	"-1.60283874722482"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44700"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "ORVAULT"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "50 Avenue de la Paquelais"^^xsd:string ;
+	pdll:typeLabel	 "Libre"^^xsd:string ;
+	pdll:id	 "3583"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Orvault%20Morli%C3%A8re>	 foaf:name 	 "Parc relais tramway Orvault Morlière"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2467766477065"^^xsd:decimal ;
+	geo:long	"-1.60304946676259"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44700"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "ORVAULT"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Avenue de la Morlière"^^xsd:string ;
+	pdll:typeLabel	 "Ouvrage"^^xsd:string ;
+	pdll:id	 "3584"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Beaus%C3%A9jour>	 foaf:name 	 "Parc relais tramway Beauséjour"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2384135213971"^^xsd:decimal ;
+	geo:long	"-1.5873437488368"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "142 Route de Vannes"^^xsd:string ;
+	pdll:typeLabel	 "Libre"^^xsd:string ;
+	pdll:id	 "3586"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20en%20enclos%20Gare%20Sud%202>	 foaf:name 	 "Parc en enclos Gare Sud 2"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2142340366163"^^xsd:decimal ;
+	geo:long	"-1.54134337584288"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.resaplace.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 25 88 88 26"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc en Enclos"^^xsd:string ;
+	dbpprop:location	 "Quai Malakoff"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "3589"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20en%20enclos%20Gare%20Sud%202%20limit%C3%A9%201h>	 foaf:name 	 "Parc en enclos Gare Sud 2 limité 1h"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2152021232956"^^xsd:decimal ;
+	geo:long	"-1.54267513884661"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.resaplace.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 25 88 88 26"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc en Enclos"^^xsd:string ;
+	dbpprop:location	 "Quai Malakoff"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "3590"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20busway%20Porte%20de%20Vertou>	 foaf:name 	 "Parc relais busway Porte de Vertou"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1801752959869"^^xsd:decimal ;
+	geo:long	"-1.50516017764927"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44120"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "VERTOU"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Boulevard Auguste Priou"^^xsd:string ;
+	pdll:typeLabel	 "Enclos"^^xsd:string ;
+	pdll:id	 "3627"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20busway%20Gr%C3%A9neraie>	 foaf:name 	 "Parc relais busway Gréneraie"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2001390392692"^^xsd:decimal ;
+	geo:long	"-1.53333362324729"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Boulevard Emile Gabory"^^xsd:string ;
+	pdll:typeLabel	 "Enclos"^^xsd:string ;
+	pdll:id	 "3628"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20busway%20Bourdonni%C3%A8res%201>	 foaf:name 	 "Parc relais busway Bourdonnières 1"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.186255590967"^^xsd:decimal ;
+	geo:long	"-1.52115429456528"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Boulevard de Vendée"^^xsd:string ;
+	pdll:typeLabel	 "Enclos"^^xsd:string ;
+	pdll:id	 "3629"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20busway%20Chapeau%20Verni>	 foaf:name 	 "Parc relais busway Chapeau Verni"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1895300762792"^^xsd:decimal ;
+	geo:long	"-1.51129889181404"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44230"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "VERTOU"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Route de Clisson"^^xsd:string ;
+	pdll:typeLabel	 "Enclos"^^xsd:string ;
+	pdll:id	 "3630"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20TER%20Gare%20de%20Pont-Rousseau>	 foaf:name 	 "Parc relais TER Gare de Pont-Rousseau"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1928009988406"^^xsd:decimal ;
+	geo:long	"-1.5481902720875"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44400"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "REZE"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Avenue de la Libération"^^xsd:string ;
+	pdll:typeLabel	 "Enclos"^^xsd:string ;
+	pdll:id	 "3648"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Bignon>	 foaf:name 	 "Parc relais tramway Bignon"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2489752466115"^^xsd:decimal ;
+	geo:long	"-1.59820022515513"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44700"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "ORVAULT"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Rue des Verts Prés"^^xsd:string ;
+	pdll:typeLabel	 "Libre"^^xsd:string ;
+	pdll:id	 "3649"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20en%20enclos%20Bellamy>	 foaf:name 	 "Parc en enclos Bellamy"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2223604161017"^^xsd:decimal ;
+	geo:long	"-1.55769369256355"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.parkings-nantes.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 51 84 94 51"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc en Enclos"^^xsd:string ;
+	dbpprop:location	 "Impasse de la Courtine"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "3650"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20en%20enclos%20CHU>	 foaf:name 	 "Parc en enclos CHU"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2093619715999"^^xsd:decimal ;
+	geo:long	"-1.55725023399242"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.parkings-nantes.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 51 84 94 51"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc en Enclos"^^xsd:string ;
+	dbpprop:location	 "Quai de Tourville"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "3651"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parking%20ouvrage%20Cath%C3%A9drale>	 foaf:name 	 "Parking ouvrage Cathédrale"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2208133510721"^^xsd:decimal ;
+	geo:long	"-1.55105616832611"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.parkings-nantes.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 51 84 94 51"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parking Ouvrage"^^xsd:string ;
+	dbpprop:location	 "Rue Sully"^^xsd:string ;
+	pdll:typeLabel	 "Souterrain"^^xsd:string ;
+	pdll:id	 "3652"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20busway%20Mara%C3%AEchers>	 foaf:name 	 "Parc relais busway Maraîchers"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1853027936471"^^xsd:decimal ;
+	geo:long	"-1.51085965558255"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44120"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "VERTOU"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Rue de la Grand' Maison"^^xsd:string ;
+	pdll:typeLabel	 "Libre"^^xsd:string ;
+	pdll:id	 "3655"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/1%20Station%20Abonnement%20Pr%C3%A9fecture>	 foaf:name 	 "1 Station Abonnement Préfecture"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2201950669957"^^xsd:decimal ;
+	geo:long	"-1.55417604861584"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "5 Quai Ceineray"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3685"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/2%20Station%20Accueil%20H%C3%B4tel%20de%20Ville>	 foaf:name 	 "2 Station Accueil Hôtel de Ville"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2185640015645"^^xsd:decimal ;
+	geo:long	"-1.55354426853678"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "29 Rue de Strasbourg"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3686"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/3%20Station%20Accueil%20Strasbourg>	 foaf:name 	 "3 Station Accueil Strasbourg"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.216532854728"^^xsd:decimal ;
+	geo:long	"-1.55161756498412"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Place Tirant Lo Blanc"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3687"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/4%20Station%20Accueil%20Moulin>	 foaf:name 	 "4 Station Accueil Moulin"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2166468712003"^^xsd:decimal ;
+	geo:long	"-1.55442584710721"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "18 Rue du Moulin"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3688"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/5%20Station%20Accueil%20Brossard>	 foaf:name 	 "5 Station Accueil Brossard"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2188225831247"^^xsd:decimal ;
+	geo:long	"-1.5563270902907"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "12 Allée Duquesne"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3689"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/6%20Station%20Abonnement%20Place%20du%20Cirque>	 foaf:name 	 "6 Station Abonnement Place du Cirque"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2176522877325"^^xsd:decimal ;
+	geo:long	"-1.55686962933674"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "7 Allée Duquesne"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3690"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/7%20Station%20Accueil%20Barillerie>	 foaf:name 	 "7 Station Accueil Barillerie"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2154096299385"^^xsd:decimal ;
+	geo:long	"-1.5561003799956"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "2 Allée Penthiévre"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3691"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/8%20Station%20Abonnement%20Boucherie>	 foaf:name 	 "8 Station Abonnement Boucherie"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2162081426351"^^xsd:decimal ;
+	geo:long	"-1.55709068678671"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Rue de la Boucherie"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3692"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/9%20Station%20Accueil%20Gu%C3%A9pin>	 foaf:name 	 "9 Station Accueil Guépin"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2158294340716"^^xsd:decimal ;
+	geo:long	"-1.55915573787153"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "2 Rue du Calvaire"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3693"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/11%20Station%20Accueil%20Calvaire>	 foaf:name 	 "11 Station Accueil Calvaire"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2155991819633"^^xsd:decimal ;
+	geo:long	"-1.56060630687651"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Place des Volontaires de la Défense Passive"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3695"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/12%20Station%20Abonnement%20et%20Bonus%20Place%20Delorme>	 foaf:name 	 "12 Station Abonnement et Bonus Place Delorme"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2151581344299"^^xsd:decimal ;
+	geo:long	"-1.56396356682832"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "2 Boulevard Gabriel Guist'Hau"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3696"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/13%20Station%20Abonnement%20et%20Bonus%20Bretagne%20Sud>	 foaf:name 	 "13 Station Abonnement et Bonus Bretagne Sud"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2167500594478"^^xsd:decimal ;
+	geo:long	"-1.55915731787571"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "1 Rue Pierre Chéreau"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3697"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/14%20Station%20Accueil%20Saint-F%C3%A9lix>	 foaf:name 	 "14 Station Accueil Saint-Félix"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2306076047205"^^xsd:decimal ;
+	geo:long	"-1.55623411620874"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Boulevard Amiral Courbet"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3698"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/15%20Station%20Accueil%20Place%20Aristide%20Briand>	 foaf:name 	 "15 Station Accueil Place Aristide Briand"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2171962876433"^^xsd:decimal ;
+	geo:long	"-1.56300550348212"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Place Aristide Briand"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3699"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/16%20Station%20Accueil%20Place%20Edouard%20Normand>	 foaf:name 	 "16 Station Accueil Place Edouard Normand"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2190280325433"^^xsd:decimal ;
+	geo:long	"-1.56349473337675"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Place Edouard Normand"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3700"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/17%20Station%20Accueil%20Sainte%20Elisabeth>	 foaf:name 	 "17 Station Accueil Sainte Elisabeth"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.219225442242"^^xsd:decimal ;
+	geo:long	"-1.56158876841816"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "3 Place Sainte Elisabeth"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3701"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/18%20Station%20Abonnement%20et%20Bonus%20Place%20Viarme>	 foaf:name 	 "18 Station Abonnement et Bonus Place Viarme"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2214408780072"^^xsd:decimal ;
+	geo:long	"-1.56332698114374"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "23 Place Viarme"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3702"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/19%20Station%20Accueil%20Saint%20Similien>	 foaf:name 	 "19 Station Accueil Saint Similien"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.219835952652"^^xsd:decimal ;
+	geo:long	"-1.55892890964265"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "1 Place Saint Similien"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3703"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/20%20Station%20Abonnement%20Bellamy>	 foaf:name 	 "20 Station Abonnement Bellamy"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.223348795628"^^xsd:decimal ;
+	geo:long	"-1.55765985443575"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "29 Rue Paul Bellamy"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3704"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/21%20Station%20Accueil%20March%C3%A9%20Talensac%20Sud>	 foaf:name 	 "21 Station Accueil Marché Talensac Sud"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.221154818394"^^xsd:decimal ;
+	geo:long	"-1.55649477179845"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Rue de Talensac"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3705"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/22%20Station%20Accueil%20Moquechien>	 foaf:name 	 "22 Station Accueil Moquechien"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2203790474815"^^xsd:decimal ;
+	geo:long	"-1.55558297927192"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "8 Rue Moquechien"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3706"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/23%20Station%20Accueil%20Buat>	 foaf:name 	 "23 Station Accueil Buat"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2271569726"^^xsd:decimal ;
+	geo:long	"-1.54242264341268"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "101 Rue Général Buat"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3707"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/24%20Station%20Accueil%20Versailles>	 foaf:name 	 "24 Station Accueil Versailles"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2244233838765"^^xsd:decimal ;
+	geo:long	"-1.55372803210723"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Quai de Versailles"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3708"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/25%20Station%20Abonnement%20Dalby>	 foaf:name 	 "25 Station Abonnement Dalby"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2236126488755"^^xsd:decimal ;
+	geo:long	"-1.53010845738847"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Boulevard Ernest Dalby"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3709"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/27%20Station%20Accueil%20Guist%27hau%20Nord>	 foaf:name 	 "27 Station Accueil Guist'hau Nord"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2179401852254"^^xsd:decimal ;
+	geo:long	"-1.56926720618524"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "44 Boulevard Gabriel Guist'Hau"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3710"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/26%20Station%20Abonnement%20et%20Bonus%20Guist%27hau%20Sud>	 foaf:name 	 "26 Station Abonnement et Bonus Guist'hau Sud"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2168394453051"^^xsd:decimal ;
+	geo:long	"-1.56702335731262"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "26T Boulevard Gabriel Guist'Hau"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3711"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/28%20Station%20Accueil%20Place%20Edit%20de%20Nantes>	 foaf:name 	 "28 Station Accueil Place Edit de Nantes"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2144590279511"^^xsd:decimal ;
+	geo:long	"-1.56761075012927"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Place de l'Edit de Nantes"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3712"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/29%20Station%20Accueil%20Duguay%20Trouin>	 foaf:name 	 "29 Station Accueil Duguay Trouin"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2134615787904"^^xsd:decimal ;
+	geo:long	"-1.55528850840637"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "7 Allée Duguay Trouin"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3714"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/30%20Station%20Abonnement%20Commerce>	 foaf:name 	 "30 Station Abonnement Commerce"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2131450294256"^^xsd:decimal ;
+	geo:long	"-1.55738072263822"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Allée Brancas"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3715"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/31%20Station%20Accueil%20Bourse>	 foaf:name 	 "31 Station Accueil Bourse"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2120943808486"^^xsd:decimal ;
+	geo:long	"-1.55910527758924"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Allée de la Bourse"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3716"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/32%20Station%20Accueil%20Rubens>	 foaf:name 	 "32 Station Accueil Rubens"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2143514409189"^^xsd:decimal ;
+	geo:long	"-1.56028729072365"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Rue Rubens"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3717"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/33%20Station%20Accueil%20Racine>	 foaf:name 	 "33 Station Accueil Racine"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2134832603266"^^xsd:decimal ;
+	geo:long	"-1.5631877058962"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "5 Rue Racine"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3718"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/34%20Station%20Abonnement%20M%C3%A9diath%C3%A8que>	 foaf:name 	 "34 Station Abonnement Médiathèque"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2109126549257"^^xsd:decimal ;
+	geo:long	"-1.5618418449525"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "24 Quai de la Fosse"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3719"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/35%20Station%20Abonnement%20Jean%20V>	 foaf:name 	 "35 Station Abonnement Jean V"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.212180370735"^^xsd:decimal ;
+	geo:long	"-1.56556289207478"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Place Jean V"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3720"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/36%20Station%20Accueil%20Alger>	 foaf:name 	 "36 Station Accueil Alger"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.210705238574"^^xsd:decimal ;
+	geo:long	"-1.5666743136651"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "5 Rue d'Alger"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3721"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/37%20Station%20Accueil%20Feydeau>	 foaf:name 	 "37 Station Accueil Feydeau"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2114728989176"^^xsd:decimal ;
+	geo:long	"-1.55688248342545"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Rue Gaston Veil"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3722"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/38%20Station%20Abonnement%20Place%20Ricordeau>	 foaf:name 	 "38 Station Abonnement Place Ricordeau"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2120904234566"^^xsd:decimal ;
+	geo:long	"-1.55313666650746"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Chaussée de la Madeleine"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3723"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/39%20Station%20Accueil%20Quai%20Moncousu>	 foaf:name 	 "39 Station Accueil Quai Moncousu"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2093654560619"^^xsd:decimal ;
+	geo:long	"-1.555248414263"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "10 Quai Moncousu"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3724"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/40%20Station%20Accueil%20Madeleine>	 foaf:name 	 "40 Station Accueil Madeleine"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.208815874652"^^xsd:decimal ;
+	geo:long	"-1.5504304749082"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "2 Quai Moncousu"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3725"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/41%20Station%20Accueil%20Chantier%20Naval>	 foaf:name 	 "41 Station Accueil Chantier Naval"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2083688395591"^^xsd:decimal ;
+	geo:long	"-1.56954316224266"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Rue Mathurin Brissonneau"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3726"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/42%20Station%20Abonnement%20Gare%20Maritime>	 foaf:name 	 "42 Station Abonnement Gare Maritime"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2066090811753"^^xsd:decimal ;
+	geo:long	"-1.57262953237793"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Quai Ernest Renaud"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3727"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/43%20Station%20Abonnement%20Machines%20de%20l%27Ile>	 foaf:name 	 "43 Station Abonnement Machines de l'Ile"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2069302605475"^^xsd:decimal ;
+	geo:long	"-1.56482580615095"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "2 Boulevard Léon Bureau"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3728"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/44%20Station%20Accueil%20Palais%20de%20Justice>	 foaf:name 	 "44 Station Accueil Palais de Justice"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2083631782056"^^xsd:decimal ;
+	geo:long	"-1.56124245373142"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "19 Quai François Mitterrand"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3729"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/45%20Station%20Accueil%20Prairie%20au%20Duc>	 foaf:name 	 "45 Station Accueil Prairie au Duc"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2047848192062"^^xsd:decimal ;
+	geo:long	"-1.55888284017234"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Boulevard de la Prairie au Duc"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3730"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/46%20Station%20Accueil%20Place%20R%C3%A9publique>	 foaf:name 	 "46 Station Accueil Place République"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2054012265916"^^xsd:decimal ;
+	geo:long	"-1.55519386163571"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "3 Place de la République"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3731"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/47%20Station%20Abonnement%20Martyrs%20Nantais>	 foaf:name 	 "47 Station Abonnement Martyrs Nantais"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.207035364629"^^xsd:decimal ;
+	geo:long	"-1.54817985054706"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "21 Boulevard Gaston Doumergue"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3732"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/48%20Station%20Abonnement%20Verdun>	 foaf:name 	 "48 Station Abonnement Verdun"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.217516769716"^^xsd:decimal ;
+	geo:long	"-1.55186817651381"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "17 Rue de Verdun"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3733"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/49%20Station%20Accueil%20Duchesse%20Anne>	 foaf:name 	 "49 Station Accueil Duchesse Anne"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2165287485861"^^xsd:decimal ;
+	geo:long	"-1.54707722079028"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Rue Henri IV"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3734"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/50%20Station%20Abonnement%20Ch%C3%A2teau>	 foaf:name 	 "50 Station Abonnement Château"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2151359323236"^^xsd:decimal ;
+	geo:long	"-1.55027600234498"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "2 Rue des Etats"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3735"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/52%20Station%20Accueil%20Baco>	 foaf:name 	 "52 Station Accueil Baco"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2143388426474"^^xsd:decimal ;
+	geo:long	"-1.54876893751898"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Allée Baco"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3737"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/53%20Station%20Accueil%20Olivettes>	 foaf:name 	 "53 Station Accueil Olivettes"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2117494265765"^^xsd:decimal ;
+	geo:long	"-1.54995935107843"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "10 Rue des Olivettes"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3738"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/54%20Station%20Abonnement%20Cit%C3%A9%20Internationale%20des%20Congr%C3%A8s>	 foaf:name 	 "54 Station Abonnement Cité Internationale des Congrès"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2131685540285"^^xsd:decimal ;
+	geo:long	"-1.54502748383111"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Rue de Jemmapes"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3739"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/55%20Station%20Accueil%20Magellan>	 foaf:name 	 "55 Station Accueil Magellan"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2106839754833"^^xsd:decimal ;
+	geo:long	"-1.54424826339243"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "11 Rue de Belfort"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3740"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/56%20Station%20Accueil%20Vincent%20Gache>	 foaf:name 	 "56 Station Accueil Vincent Gache"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2068847351676"^^xsd:decimal ;
+	geo:long	"-1.54185096726864"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "9 Rue François Albert"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3741"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/57%20Station%20Abonnement%20Ga%C3%ABtan%20Rondeau>	 foaf:name 	 "57 Station Abonnement Gaëtan Rondeau"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2054072118627"^^xsd:decimal ;
+	geo:long	"-1.53760013962524"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "20 Rue Gaëtan Rondeau"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3742"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/58%20Station%20Accueil%20Palais%20des%20Sports>	 foaf:name 	 "58 Station Accueil Palais des Sports"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2084771961567"^^xsd:decimal ;
+	geo:long	"-1.53599916068622"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "21 Rue René Viviani"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3743"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/59%20Station%20Accueil%20Stade%20Saupin>	 foaf:name 	 "59 Station Accueil Stade Saupin"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2139780010056"^^xsd:decimal ;
+	geo:long	"-1.53963958134972"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "35 Quai Malakoff"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3744"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/60%20Station%20Abonnement%20Gare%20Sud>	 foaf:name 	 "60 Station Abonnement Gare Sud"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2159307421474"^^xsd:decimal ;
+	geo:long	"-1.54286596091712"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nanresmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "12 Rue de Lourmel"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3745"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/61%20Station%20Accueil%20LU%20Lieu%20Unique>	 foaf:name 	 "61 Station Accueil LU Lieu Unique"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2156027850142"^^xsd:decimal ;
+	geo:long	"-1.54592421117785"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Quai Malakoff"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3746"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/62%20Station%20Abonnement%20Gare%20Nord>	 foaf:name 	 "62 Station Abonnement Gare Nord"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2181414046142"^^xsd:decimal ;
+	geo:long	"-1.54224096840209"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "1 Place Charles le Roux"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3747"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/63%20Station%20Accueil%20Jardins%20des%20Plantes>	 foaf:name 	 "63 Station Accueil Jardins des Plantes"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2199317719337"^^xsd:decimal ;
+	geo:long	"-1.54476410962437"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "6 Rue Stanislas Baudry"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3748"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/64%20Station%20Abonnement%20et%20Bonus%20Saint%20Cl%C3%A9ment>	 foaf:name 	 "64 Station Abonnement et Bonus Saint Clément"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2217983948072"^^xsd:decimal ;
+	geo:long	"-1.54717172480906"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "37 Rue Maréchal Joffre"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3750"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/65%20Station%20Accueil%20Sully>	 foaf:name 	 "65 Station Accueil Sully"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2225988184658"^^xsd:decimal ;
+	geo:long	"-1.5516848391931"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "7 Cours Sully"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3751"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/66%20Station%20Accueil%20Chanzy>	 foaf:name 	 "66 Station Accueil Chanzy"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2254413947716"^^xsd:decimal ;
+	geo:long	"-1.54801802179078"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Avenue Chanzy"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3752"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/67%20Station%20Accueil%20Place%20Waldeck%20Rousseau>	 foaf:name 	 "67 Station Accueil Place Waldeck Rousseau"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2277863381608"^^xsd:decimal ;
+	geo:long	"-1.55216613912966"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Place Waldeck Rousseau"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3753"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/68%20Station%20Accueil%20Livet>	 foaf:name 	 "68 Station Accueil Livet"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2240954955051"^^xsd:decimal ;
+	geo:long	"-1.54521632095855"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nanresmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "65 Rue Dufour"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3754"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/69%20Station%20Accueil%20Manufacture>	 foaf:name 	 "69 Station Accueil Manufacture"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2192276992993"^^xsd:decimal ;
+	geo:long	"-1.53586535019784"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "11 Boulevard de Stalingrad"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3755"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/70%20Station%20Abonnement%20et%20Bonus%20Foch%20Cath%C3%A9drale>	 foaf:name 	 "70 Station Abonnement et Bonus Foch Cathédrale"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2186945659362"^^xsd:decimal ;
+	geo:long	"-1.55048013677801"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Rue de l'Evêché"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3756"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/71%20Station%20Abonnement%20et%20Bonus%20March%C3%A9%20Talensac%20Nord>	 foaf:name 	 "71 Station Abonnement et Bonus Marché Talensac Nord"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2219103419541"^^xsd:decimal ;
+	geo:long	"-1.55906934287743"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "17 Rue de Bel Air"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3757"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/73%20Station%20Accueil%20Sarradin>	 foaf:name 	 "73 Station Accueil Sarradin"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2208837667212"^^xsd:decimal ;
+	geo:long	"-1.57050717785263"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "4 Place Emile Sarradin"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3759"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/74%20Station%20Accueil%20Place%20Canclaux>	 foaf:name 	 "74 Station Accueil Place Canclaux"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2143716842925"^^xsd:decimal ;
+	geo:long	"-1.57500608192678"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "8 Place Canclaux"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3760"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/75%20Station%20Accueil%20Lamorici%C3%A8re>	 foaf:name 	 "75 Station Accueil Lamoricière"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.212365614395"^^xsd:decimal ;
+	geo:long	"-1.57139899840128"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Rue Lamoricière"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3761"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/76%20Station%20Accueil%20Place%20Ren%C3%A9%20Bouhier>	 foaf:name 	 "76 Station Accueil Place René Bouhier"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2094420409641"^^xsd:decimal ;
+	geo:long	"-1.57058928666779"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "8 Place René Bouhier"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3762"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/77%20Station%20Accueil%20Ecole%20d%27Architecture>	 foaf:name 	 "77 Station Accueil Ecole d'Architecture"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2076169020017"^^xsd:decimal ;
+	geo:long	"-1.55755125966966"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Quai François Mitterrand"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3763"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/78%20Station%20Accueil%20De%20Gaulle>	 foaf:name 	 "78 Station Accueil De Gaulle"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2084603783954"^^xsd:decimal ;
+	geo:long	"-1.54056873329161"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Boulevard Général de Gaulle"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3764"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/79%20Station%20Accueil%20Malakoff>	 foaf:name 	 "79 Station Accueil Malakoff"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2132345266324"^^xsd:decimal ;
+	geo:long	"-1.53642071591634"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "13 Quai Malakoff"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3765"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Marcel%20Paul>	 foaf:name 	 "Parc relais tramway Marcel Paul"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2459045698135"^^xsd:decimal ;
+	geo:long	"-1.61800834963946"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44800"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "ST-HERBLAIN"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Boulevard Marcel Paul"^^xsd:string ;
+	pdll:typeLabel	 "Enclos"^^xsd:string ;
+	pdll:id	 "3776"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Grande%20Ouche>	 foaf:name 	 "Parc relais tramway Grande Ouche"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1819948350479"^^xsd:decimal ;
+	geo:long	"-1.57947203525665"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44340"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "BOUGUENAIS"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Rue de la Grande Ouche"^^xsd:string ;
+	pdll:typeLabel	 "Libre"^^xsd:string ;
+	pdll:id	 "3777"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20busway%20Bourdonni%C3%A8res%202>	 foaf:name 	 "Parc relais busway Bourdonnières 2"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1867242428305"^^xsd:decimal ;
+	geo:long	"-1.52315133155692"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Rue des Bourdonnières"^^xsd:string ;
+	pdll:typeLabel	 "Libre"^^xsd:string ;
+	pdll:id	 "3778"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/87%20Station%20Accueil%20Anatole-France>	 foaf:name 	 "87 Station Accueil Anatole-France"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2236164437223"^^xsd:decimal ;
+	geo:long	"-1.57139236049388"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "34 Rue Alexandre Dumas"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3830"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/86%20Station%20Accueil%20Hauts-Pav%C3%A9s>	 foaf:name 	 "86 Station Accueil Hauts-Pavés"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2254822618338"^^xsd:decimal ;
+	geo:long	"-1.56752047182291"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Rue des Hauts Pavés"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3831"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/88%20Station%20Accueil%20Mellinet>	 foaf:name 	 "88 Station Accueil Mellinet"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.211489622114"^^xsd:decimal ;
+	geo:long	"-1.57712676541886"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "1 Boulevard Allard"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3833"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/89%20Station%20Accueil%20Saint-Aignan>	 foaf:name 	 "89 Station Accueil Saint-Aignan"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2074440639466"^^xsd:decimal ;
+	geo:long	"-1.57871509661417"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "65 Boulevard Saint Aignan"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3834"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/80%20Station%20Accueil%20Victor-Hugo>	 foaf:name 	 "80 Station Accueil Victor-Hugo"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2040143599928"^^xsd:decimal ;
+	geo:long	"-1.55156732506795"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Boulevard Victor Hugo"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3835"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/81%20Station%20Abonnement%20Mangin>	 foaf:name 	 "81 Station Abonnement Mangin"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2010219272"^^xsd:decimal ;
+	geo:long	"-1.54549762740334"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "8 Place Victor Mangin"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3836"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/82%20Station%20Accueil%20S%C3%A9billeau>	 foaf:name 	 "82 Station Accueil Sébilleau"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2067685846983"^^xsd:decimal ;
+	geo:long	"-1.53313636292619"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Rue Docteur Jules Sébilleau"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3837"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/83%20Station%20Abonnement%20Millerand>	 foaf:name 	 "83 Station Abonnement Millerand"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.208217819463"^^xsd:decimal ;
+	geo:long	"-1.53016141349475"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "9 Boulevard Alexandre Millerand"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3838"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/84%20Station%20Accueil%20R%C3%A9gion>	 foaf:name 	 "84 Station Accueil Région"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2107532371851"^^xsd:decimal ;
+	geo:long	"-1.52595127548116"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Place Gaston Defferre"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3839"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20en%20enclos%20Courte%20Dur%C3%A9e%20Gare%20Nord>	 foaf:name 	 "Parc en enclos Courte Durée Gare Nord"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2172647322169"^^xsd:decimal ;
+	geo:long	"-1.54347875084443"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.resaplace.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 25 88 88 26"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc en Enclos"^^xsd:string ;
+	dbpprop:location	 "Boulevard de Stalingrad"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "3950"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parking%20ouvrage%20Les%20Machines>	 foaf:name 	 "Parking ouvrage Les Machines"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2059006220645"^^xsd:decimal ;
+	geo:long	"-1.56272779236372"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.resaplace.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 25 88 88 26"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parking Ouvrage"^^xsd:string ;
+	dbpprop:location	 "Rue Arthur III"^^xsd:string ;
+	pdll:typeLabel	 "Elévation"^^xsd:string ;
+	pdll:id	 "3951"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/85%20Station%20Accueil%20et%20Bonus%20Bel%20Air>	 foaf:name 	 "85 Station Accueil et Bonus Bel Air"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2264060339437"^^xsd:decimal ;
+	geo:long	"-1.56004122137593"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "102 Rue Paul Bellamy"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3952"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/10%20Station%20Accueil%20Picasso>	 foaf:name 	 "10 Station Accueil Picasso"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2163435868477"^^xsd:decimal ;
+	geo:long	"-1.53422912101255"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Mail Pablo Picasso"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3973"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/51%20Station%20Abonnement%20Berlin>	 foaf:name 	 "51 Station Abonnement Berlin"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2143914699763"^^xsd:decimal ;
+	geo:long	"-1.53007250061588"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Boulevard de Berlin"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3974"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parking%20ouvrage%20Gare%20Sud%204>	 foaf:name 	 "Parking ouvrage Gare Sud 4"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2152099260756"^^xsd:decimal ;
+	geo:long	"-1.53754504260148"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.resaplace.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 25 88 88 26"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parking Ouvrage"^^xsd:string ;
+	dbpprop:location	 "24 Mail Pablo Picasso"^^xsd:string ;
+	pdll:typeLabel	 "Souterrain"^^xsd:string ;
+	pdll:id	 "3989"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Pac%20en%20enclos%20Viviani>	 foaf:name 	 "Pac en enclos Viviani"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2087756042897"^^xsd:decimal ;
+	geo:long	"-1.53619706978924"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.parkings-nantes.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 51 84 94 51"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc en Enclos"^^xsd:string ;
+	dbpprop:location	 "Rue René Viviani"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "3990"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/92%20Station%20Abonnement%20Rond%20Point%20Rennes>	 foaf:name 	 "92 Station Abonnement Rond Point Rennes"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2330917037559"^^xsd:decimal ;
+	geo:long	"-1.56601698077602"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Rond-Point de Rennes"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3993"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/91%20Station%20Abonnement%20Rond%20Point%20Vannes>	 foaf:name 	 "91 Station Abonnement Rond Point Vannes"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.229675345348"^^xsd:decimal ;
+	geo:long	"-1.57201209125591"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "63B Boulevard Lelasseur"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3994"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/90%20Station%20Abonnement%20Proc%C3%A9>	 foaf:name 	 "90 Station Abonnement Procé"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2243215861999"^^xsd:decimal ;
+	geo:long	"-1.57658356660229"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Boulevard Gaston Serpette"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3995"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/102%20Station%20Abonnement%20Gare%20Pont%20Rousseau>	 foaf:name 	 "102 Station Abonnement Gare Pont Rousseau"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1931492766954"^^xsd:decimal ;
+	geo:long	"-1.54900545446362"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44400"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "REZE"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Rue de la Gare"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3996"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/101%20Station%20Abonnement%20Pirmil>	 foaf:name 	 "101 Station Abonnement Pirmil"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1966294882289"^^xsd:decimal ;
+	geo:long	"-1.54145063364339"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Rue Esnoult des Châtelets"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3997"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/99%20Station%20Accueil%20Saint-Jacques>	 foaf:name 	 "99 Station Accueil Saint-Jacques"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1958591605985"^^xsd:decimal ;
+	geo:long	"-1.53658962887906"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "85 Rue Saint Jacques"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3998"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/100%20Station%20Abonnement%20Gr%C3%A9neraie>	 foaf:name 	 "100 Station Abonnement Gréneraie"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1999707101929"^^xsd:decimal ;
+	geo:long	"-1.5346071537874"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Côte Saint Sébastien"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "3999"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/96%20Station%20Abonnement%20Torti%C3%A8re>	 foaf:name 	 "96 Station Abonnement Tortière"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2353448001876"^^xsd:decimal ;
+	geo:long	"-1.54947343741177"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Boulevard Eugène Orieux"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "4000"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/95%20Station%20Abonnement%20Michelet>	 foaf:name 	 "95 Station Abonnement Michelet"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2350837066755"^^xsd:decimal ;
+	geo:long	"-1.55638870204855"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "38 Boulevard Michelet"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "4001"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/94%20Station%20Abonnement%20Petit%20Port>	 foaf:name 	 "94 Station Abonnement Petit Port"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2432626440766"^^xsd:decimal ;
+	geo:long	"-1.55638098635507"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Place du Huit Mai 1945"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "4002"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/93%20Station%20Abonnement%20Facult%C3%A9s>	 foaf:name 	 "93 Station Abonnement Facultés"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2463232883454"^^xsd:decimal ;
+	geo:long	"-1.5553383498054"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Boulevard Guy Mollet"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "4003"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/97%20Station%20Accueil%20Saint-Donatien>	 foaf:name 	 "97 Station Accueil Saint-Donatien"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2291287626691"^^xsd:decimal ;
+	geo:long	"-1.5404024174378"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "69 Rue Général Buat"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "4004"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/98%20Station%20Abonnement%20Huit%20Mai>	 foaf:name 	 "98 Station Abonnement Huit Mai"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1899986201306"^^xsd:decimal ;
+	geo:long	"-1.55182125953104"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44400"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "REZE"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Place du 8 Mai 1945"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "4005"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Aire%20de%20covoiturage%20Piano%27cktail>	 foaf:name 	 "Aire de covoiturage Piano'cktail"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1743921106395"^^xsd:decimal ;
+	geo:long	"-1.60539271713277"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44340"^^xsd:string ;
+	dbpprop:website	 "www.covoiturage-nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	dbpprop:town	 "BOUGUENAIS"^^xsd:string ;
+	pdll:CategoryLabel	 "Aire de covoiturage"^^xsd:string ;
+	dbpprop:location	 "Rue Ginsheim Gustavsburg"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "4010"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Aire%20de%20covoiturage%20Le%20Paradis>	 foaf:name 	 "Aire de covoiturage Le Paradis"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2058433058368"^^xsd:decimal ;
+	geo:long	"-1.751615681513"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44220"^^xsd:string ;
+	dbpprop:website	 "www.covoiturage-nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	dbpprop:town	 "COUERON"^^xsd:string ;
+	pdll:CategoryLabel	 "Aire de covoiturage"^^xsd:string ;
+	dbpprop:location	 "RD 91"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "4011"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Aire%20de%20covoiturage%20Le%20V%C3%A9lodr%C3%B4me>	 foaf:name 	 "Aire de covoiturage Le Vélodrôme"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2114911474736"^^xsd:decimal ;
+	geo:long	"-1.73553587146421"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44220"^^xsd:string ;
+	dbpprop:website	 "www.covoiturage-nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	dbpprop:town	 "COUERON"^^xsd:string ;
+	pdll:CategoryLabel	 "Aire de covoiturage"^^xsd:string ;
+	dbpprop:location	 "Boulevard Francois Blancho"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "4012"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Aire%20de%20covoiturage%20Les%20Ormeaux>	 foaf:name 	 "Aire de covoiturage Les Ormeaux"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1558857839796"^^xsd:decimal ;
+	geo:long	"-1.68247122952125"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44830"^^xsd:string ;
+	dbpprop:website	 "www.covoiturage-nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	dbpprop:town	 "BOUAYE"^^xsd:string ;
+	pdll:CategoryLabel	 "Aire de covoiturage"^^xsd:string ;
+	dbpprop:location	 "Esplanade de l'Edit de Nantes"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "4013"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Aire%20de%20covoiturage%20Georges%20Brassens>	 foaf:name 	 "Aire de covoiturage Georges Brassens"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.183363813418"^^xsd:decimal ;
+	geo:long	"-1.6761600551125"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44620"^^xsd:string ;
+	dbpprop:website	 "www.covoiturage-nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	dbpprop:town	 "LA-MONTAGNE"^^xsd:string ;
+	pdll:CategoryLabel	 "Aire de covoiturage"^^xsd:string ;
+	dbpprop:location	 "Rue de la Gaudinière"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "4014"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Aire%20de%20covoiturage%20La%20Herdrie>	 foaf:name 	 "Aire de covoiturage La Herdrie"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1981631732408"^^xsd:decimal ;
+	geo:long	"-1.45487772478565"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44115"^^xsd:string ;
+	dbpprop:website	 "www.covoiturage-nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	dbpprop:town	 "BASSE-GOULAINE"^^xsd:string ;
+	pdll:CategoryLabel	 "Aire de covoiturage"^^xsd:string ;
+	dbpprop:location	 "Route du Loroux Bottereau"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "4015"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Aire%20de%20covoiturage%20Pas%20Enchant%C3%A9s>	 foaf:name 	 "Aire de covoiturage Pas Enchantés"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2103889373405"^^xsd:decimal ;
+	geo:long	"-1.5039410584835"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44230"^^xsd:string ;
+	dbpprop:website	 "www.covoiturage-nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	dbpprop:town	 "ST-SEBASTIEN"^^xsd:string ;
+	pdll:CategoryLabel	 "Aire de covoiturage"^^xsd:string ;
+	dbpprop:location	 "Boulevard des Pas Enchantés"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "4016"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Aire%20de%20covoiturage%20Les%203%20Brasseurs>	 foaf:name 	 "Aire de covoiturage Les 3 Brasseurs"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1909311959939"^^xsd:decimal ;
+	geo:long	"-1.48944982933608"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44230"^^xsd:string ;
+	dbpprop:website	 "www.covoiturage-nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	dbpprop:town	 "ST-SEBASTIEN"^^xsd:string ;
+	pdll:CategoryLabel	 "Aire de covoiturage"^^xsd:string ;
+	dbpprop:location	 "Rue Marie Curie"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "4017"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Aire%20de%20covoiturage%20La%20Charmeli%C3%A8re>	 foaf:name 	 "Aire de covoiturage La Charmelière"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2948276010662"^^xsd:decimal ;
+	geo:long	"-1.47381722266676"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44470"^^xsd:string ;
+	dbpprop:website	 "www.covoiturage-nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	dbpprop:town	 "CARQUEFOU"^^xsd:string ;
+	pdll:CategoryLabel	 "Aire de covoiturage"^^xsd:string ;
+	dbpprop:location	 "RD 37"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "4018"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Aire%20de%20covoiturage%20La%20Croix%20de%20Mauves>	 foaf:name 	 "Aire de covoiturage La Croix de Mauves"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.3002662582306"^^xsd:decimal ;
+	geo:long	"-1.39817225866548"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44470"^^xsd:string ;
+	dbpprop:website	 "www.covoiturage-nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	dbpprop:town	 "MAUVES-SUR-LOIRE"^^xsd:string ;
+	pdll:CategoryLabel	 "Aire de covoiturage"^^xsd:string ;
+	dbpprop:location	 "RD 723"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "4019"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Station%20Bretagne>	 foaf:name 	 "Station Bretagne"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2174899073883"^^xsd:decimal ;
+	geo:long	"-1.55963354318143"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.imarguerite.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 58 44 14"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Place de Bretagne"^^xsd:string ;
+	pdll:typeLabel	 "Marguerite"^^xsd:string ;
+	pdll:id	 "4020"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Station%2050%20Otages>	 foaf:name 	 "Station 50 Otages"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2184474307694"^^xsd:decimal ;
+	geo:long	"-1.55759693321303"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.imarguerite.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 58 44 14"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Rue Didienne"^^xsd:string ;
+	pdll:typeLabel	 "Marguerite"^^xsd:string ;
+	pdll:id	 "4021"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Station%20H%C3%B4tel%20de%20Ville>	 foaf:name 	 "Station Hôtel de Ville"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2176490515034"^^xsd:decimal ;
+	geo:long	"-1.55407383358279"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.imarguerite.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 58 44 14"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Rue Fanny Peccot"^^xsd:string ;
+	pdll:typeLabel	 "Marguerite"^^xsd:string ;
+	pdll:id	 "4022"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Station%20Aristide%20Briand>	 foaf:name 	 "Station Aristide Briand"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2172290515068"^^xsd:decimal ;
+	geo:long	"-1.5624656224159"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.imarguerite.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 58 44 14"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Place Aristide Briand"^^xsd:string ;
+	pdll:typeLabel	 "Marguerite"^^xsd:string ;
+	pdll:id	 "4023"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Station%20Commerce>	 foaf:name 	 "Station Commerce"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2123927720913"^^xsd:decimal ;
+	geo:long	"-1.55794606610268"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.imarguerite.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 58 44 14"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Place de la Petite Hollande"^^xsd:string ;
+	pdll:typeLabel	 "Marguerite"^^xsd:string ;
+	pdll:id	 "4024"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Station%20Mus%C3%A9e%20d%27Histoire%20Naturelle>	 foaf:name 	 "Station Musée d'Histoire Naturelle"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2124896929622"^^xsd:decimal ;
+	geo:long	"-1.56438071337637"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.imarguerite.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 58 44 14"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Rue Lesage"^^xsd:string ;
+	pdll:typeLabel	 "Marguerite"^^xsd:string ;
+	pdll:id	 "4025"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Station%20Baco>	 foaf:name 	 "Station Baco"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2125436084857"^^xsd:decimal ;
+	geo:long	"-1.55292426920598"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.imarguerite.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 58 44 14"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Allée de la Maison Rouge"^^xsd:string ;
+	pdll:typeLabel	 "Marguerite"^^xsd:string ;
+	pdll:id	 "4026"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Station%20CIO>	 foaf:name 	 "Station CIO"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.211224204201"^^xsd:decimal ;
+	geo:long	"-1.54530733424582"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.imarguerite.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 58 44 14"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Rue de Mayence"^^xsd:string ;
+	pdll:typeLabel	 "Marguerite"^^xsd:string ;
+	pdll:id	 "4027"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Station%20Cit%C3%A9%20des%20Congr%C3%A8s>	 foaf:name 	 "Station Cité des Congrès"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2132409347"^^xsd:decimal ;
+	geo:long	"-1.54452831608963"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.imarguerite.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 58 44 14"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Rue de Valmy"^^xsd:string ;
+	pdll:typeLabel	 "Marguerite"^^xsd:string ;
+	pdll:id	 "4028"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Station%20Gare%20SNCF%20Sud>	 foaf:name 	 "Station Gare SNCF Sud"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2149069334244"^^xsd:decimal ;
+	geo:long	"-1.54185994912442"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.imarguerite.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 58 44 14"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Quai Malakoff"^^xsd:string ;
+	pdll:typeLabel	 "Marguerite"^^xsd:string ;
+	pdll:id	 "4029"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Station%20Manufacture>	 foaf:name 	 "Station Manufacture"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.219107562114"^^xsd:decimal ;
+	geo:long	"-1.53586498523079"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.imarguerite.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 58 44 14"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Boulevard de Stalingrad"^^xsd:string ;
+	pdll:typeLabel	 "Marguerite"^^xsd:string ;
+	pdll:id	 "4030"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Station%20Rond%20Point%20de%20Paris>	 foaf:name 	 "Station Rond Point de Paris"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2344561541767"^^xsd:decimal ;
+	geo:long	"-1.53529009313813"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "www.imarguerite.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 58 44 14"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Boulevard Jules Verne"^^xsd:string ;
+	pdll:typeLabel	 "Marguerite"^^xsd:string ;
+	pdll:id	 "4031"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Station%20Ecole%20d%27Architecture>	 foaf:name 	 "Station Ecole d'Architecture"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2064491542021"^^xsd:decimal ;
+	geo:long	"-1.55657046348583"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.imarguerite.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 58 44 14"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Place François II"^^xsd:string ;
+	pdll:typeLabel	 "Marguerite"^^xsd:string ;
+	pdll:id	 "4032"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Station%20Mangin>	 foaf:name 	 "Station Mangin"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2012759690694"^^xsd:decimal ;
+	geo:long	"-1.54518063963327"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.imarguerite.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 58 44 14"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Boulevard Victor Hugo"^^xsd:string ;
+	pdll:typeLabel	 "Marguerite"^^xsd:string ;
+	pdll:id	 "4033"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Station%20Chantiers%20Navals>	 foaf:name 	 "Station Chantiers Navals"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2090844722945"^^xsd:decimal ;
+	geo:long	"-1.56838861516619"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "www.imarguerite.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 58 44 14"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Rue Charles Brunellière"^^xsd:string ;
+	pdll:typeLabel	 "Marguerite"^^xsd:string ;
+	pdll:id	 "4034"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Station%20Mairie%20de%20Chantenay>	 foaf:name 	 "Station Mairie de Chantenay"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2065168340528"^^xsd:decimal ;
+	geo:long	"-1.58787125667645"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "www.imarguerite.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 58 44 14"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Boulevard de la Liberté"^^xsd:string ;
+	pdll:typeLabel	 "Marguerite"^^xsd:string ;
+	pdll:id	 "4035"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Station%20Zola>	 foaf:name 	 "Station Zola"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.214077429887"^^xsd:decimal ;
+	geo:long	"-1.58739165581353"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "www.imarguerite.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 58 44 14"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Rue des Renardières"^^xsd:string ;
+	pdll:typeLabel	 "Marguerite"^^xsd:string ;
+	pdll:id	 "4036"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Station%20Sainte%20Th%C3%A9r%C3%A8se>	 foaf:name 	 "Station Sainte Thérèse"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2322056559262"^^xsd:decimal ;
+	geo:long	"-1.57724775456618"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "www.imarguerite.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 58 44 14"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Boulevard Boulay Paty"^^xsd:string ;
+	pdll:typeLabel	 "Marguerite"^^xsd:string ;
+	pdll:id	 "4037"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Station%20Duchesse%20Anne>	 foaf:name 	 "Station Duchesse Anne"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2165024497787"^^xsd:decimal ;
+	geo:long	"-1.54717075568781"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.imarguerite.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 58 44 14"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Rue Henri IV"^^xsd:string ;
+	pdll:typeLabel	 "Marguerite"^^xsd:string ;
+	pdll:id	 "4038"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Gare%20Routi%C3%A8re%20Baco%20Lila>	 foaf:name 	 "Gare Routière Baco Lila"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2126755417774"^^xsd:decimal ;
+	geo:long	"-1.55276994885937"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.loire-atlantique.fr/lila"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 25 08 71 56"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "13 Allée de la Maison Rouge"^^xsd:string ;
+	pdll:typeLabel	 "Route"^^xsd:string ;
+	pdll:id	 "4048"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Gare%20Routi%C3%A8re%20Pirmil%20Lila>	 foaf:name 	 "Gare Routière Pirmil Lila"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1963923435608"^^xsd:decimal ;
+	geo:long	"-1.54267335074876"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.loire-atlantique.fr/lila"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 25 08 71 56"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "Rue Esnoult des Châtelets"^^xsd:string ;
+	pdll:typeLabel	 "Route"^^xsd:string ;
+	pdll:id	 "4049"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Gare%20Routi%C3%A8re%20Beaus%C3%A9jour%20Lila>	 foaf:name 	 "Gare Routière Beauséjour Lila"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2380795016075"^^xsd:decimal ;
+	geo:long	"-1.58686060715571"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "www.loire-atlantique.fr/lila"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 25 08 71 56"^^xsd:string ;
+	dbpprop:town	 "ST-HERBLAIN"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "Route de Vannes"^^xsd:string ;
+	pdll:typeLabel	 "Route"^^xsd:string ;
+	pdll:id	 "4050"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Gare%20Routi%C3%A8re%20Cardo%20Lila>	 foaf:name 	 "Gare Routière Cardo Lila"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2617996203739"^^xsd:decimal ;
+	geo:long	"-1.58415510201614"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44700"^^xsd:string ;
+	dbpprop:website	 "www.loire-atlantique.fr/lila"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 25 08 71 56"^^xsd:string ;
+	dbpprop:town	 "ORVAULT"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "Esplanade du Cardo"^^xsd:string ;
+	pdll:typeLabel	 "Route"^^xsd:string ;
+	pdll:id	 "4051"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Gare%20Routi%C3%A8re%20Haluch%C3%A8re%20Lila>	 foaf:name 	 "Gare Routière Haluchère Lila"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2480211629729"^^xsd:decimal ;
+	geo:long	"-1.52143188594155"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "www.loire-atlantique.fr/lila"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 25 08 71 56"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport en commun"^^xsd:string ;
+	dbpprop:location	 "Boulevard Jules Verne"^^xsd:string ;
+	pdll:typeLabel	 "Route"^^xsd:string ;
+	pdll:id	 "4052"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/103%20Station%20Mobile>	 foaf:name 	 "103 Station Mobile"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2059145067047"^^xsd:decimal ;
+	geo:long	"-1.56970373529113"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Quai Fernand Crouan"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "4053"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Station%20Canclaux>	 foaf:name 	 "Station Canclaux"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2141712241294"^^xsd:decimal ;
+	geo:long	"-1.5748272514646"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "www.imarguerite.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 58 44 14"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Place Canclaux"^^xsd:string ;
+	pdll:typeLabel	 "Marguerite"^^xsd:string ;
+	pdll:id	 "4066"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Station%20Rez%C3%A9%20Mairie>	 foaf:name 	 "Station Rezé Mairie"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.1912719943743"^^xsd:decimal ;
+	geo:long	"-1.57041911066494"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44400"^^xsd:string ;
+	dbpprop:website	 "www.imarguerite.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 58 44 14"^^xsd:string ;
+	dbpprop:town	 "REZE"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Place Saint Pierre"^^xsd:string ;
+	pdll:typeLabel	 "Marguerite"^^xsd:string ;
+	pdll:id	 "4067"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Aire%20de%20covoiturage%20Sautron>	 foaf:name 	 "Aire de covoiturage Sautron"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2681305547612"^^xsd:decimal ;
+	geo:long	"-1.67105967309211"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44880"^^xsd:string ;
+	dbpprop:website	 "www.covoiturage-nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	dbpprop:town	 "SAUTRON"^^xsd:string ;
+	pdll:CategoryLabel	 "Aire de covoiturage"^^xsd:string ;
+	dbpprop:location	 "51 Rue de la Vallée"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "4071"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20en%20enclos%20Chantiers%20Navals>	 foaf:name 	 "Parc en enclos Chantiers Navals"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2082893195233"^^xsd:decimal ;
+	geo:long	"-1.56891560955727"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "www.parkings-nantes.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 51 84 94 51"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc en Enclos"^^xsd:string ;
+	dbpprop:location	 "Quai de la Fosse"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "4072"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20en%20enclos%20Gloriette%202>	 foaf:name 	 "Parc en enclos Gloriette 2"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2102736871054"^^xsd:decimal ;
+	geo:long	"-1.56028436884679"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.parkings-nantes.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 51 84 94 51"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc en Enclos"^^xsd:string ;
+	dbpprop:location	 "Rue Albert de Mun"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "4073"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Santos%20Dumont>	 foaf:name 	 "Parc relais tramway Santos Dumont"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2593236730243"^^xsd:decimal ;
+	geo:long	"-1.56822710791259"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Rue des Renards"^^xsd:string ;
+	pdll:typeLabel	 "Libre"^^xsd:string ;
+	pdll:id	 "4076"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/72%20Station%20Accueil%20Bellamy%20Gu%C3%A9-Moreau>	 foaf:name 	 "72 Station Accueil Bellamy Gué-Moreau"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2286141235376"^^xsd:decimal ;
+	geo:long	"-1.56192014921017"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.bicloo.nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "01 30 79 33 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Rue Paul Bellamy"^^xsd:string ;
+	pdll:typeLabel	 "Bicloo"^^xsd:string ;
+	pdll:id	 "4077"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Aire%20de%20covoiturage%20La%20M%C3%A9taierie%20Rouge>	 foaf:name 	 "Aire de covoiturage La Métaierie Rouge"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2744422259447"^^xsd:decimal ;
+	geo:long	"-1.54638397050348"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44240"^^xsd:string ;
+	dbpprop:website	 "www.covoiturage-nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	dbpprop:town	 "LA-CHAPELLE-SUR-ERDRE"^^xsd:string ;
+	pdll:CategoryLabel	 "Aire de covoiturage"^^xsd:string ;
+	dbpprop:location	 "VC 5"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "4083"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Aire%20de%20covoiturage%20Norauto%20Atlantis>	 foaf:name 	 "Aire de covoiturage Norauto Atlantis"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2257239248911"^^xsd:decimal ;
+	geo:long	"-1.62624641113902"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44800"^^xsd:string ;
+	dbpprop:website	 "www.covoiturage-nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	dbpprop:town	 "ST-HERBLAIN"^^xsd:string ;
+	pdll:CategoryLabel	 "Aire de covoiturage"^^xsd:string ;
+	dbpprop:location	 "Rue Océane"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "4084"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Aire%20de%20covoiturage%20Carrefour%20Beaujoire>	 foaf:name 	 "Aire de covoiturage Carrefour Beaujoire"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2578779098455"^^xsd:decimal ;
+	geo:long	"-1.50983215080644"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "www.covoiturage-nantesmetropole.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Aire de covoiturage"^^xsd:string ;
+	dbpprop:location	 "1 Avenue Flora Tristan"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "4099"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Ranzay>	 foaf:name 	 "Parc relais tramway Ranzay"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2543632744444"^^xsd:decimal ;
+	geo:long	"-1.53313665411229"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Route de Saint Joseph"^^xsd:string ;
+	pdll:typeLabel	 "Enclos"^^xsd:string ;
+	pdll:id	 "4100"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tram-train%20Haluch%C3%A8re%201>	 foaf:name 	 "Parc relais tram-train Haluchère 1"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2484503442291"^^xsd:decimal ;
+	geo:long	"-1.52283117372235"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "www.tan.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 44 44 44"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc Relais"^^xsd:string ;
+	dbpprop:location	 "Rue du Ranzai"^^xsd:string ;
+	pdll:typeLabel	 "Enclos"^^xsd:string ;
+	pdll:id	 "4101"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Parc%20en%20enclos%20Baco-LU%201%20c%C3%B4t%C3%A9%20gare>	 foaf:name 	 "Parc en enclos Baco-LU 1 côté gare"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.2143324211276"^^xsd:decimal ;
+	geo:long	"-1.54898882844897"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.parkings-nantes.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 51 84 94 51"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Parc en Enclos"^^xsd:string ;
+	dbpprop:location	 "Allée Baco"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "4142"^^xsd:string ;
+	.
+
+<http://lodpaddle.univ-nantes.fr/mobilite/Station%20Versailles>	 foaf:name 	 "Station Versailles"^^xsd:string ;
+	rdf:type	 pdll:mobilite;
+	geo:lat	"47.226783599264"^^xsd:decimal ;
+	geo:long	"-1.55558569228364"^^xsd:decimal  ;
+	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "undefined"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Transport partagé"^^xsd:string ;
+	dbpprop:location	 "Quai de Versailles"^^xsd:string ;
+	pdll:typeLabel	 "Marguerite"^^xsd:string ;
+	pdll:id	 "4146"^^xsd:string ;
+	.
+

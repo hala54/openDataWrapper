@@ -1,4 +1,4 @@
-package main.java.openDataWrapper;
+package openDataWrapper;
 
 /**
  * This class describes a datasource

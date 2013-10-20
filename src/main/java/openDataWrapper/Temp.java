@@ -1,4 +1,4 @@
-package main.java.openDataWrapper;
+package openDataWrapper;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -28,7 +28,7 @@ public class Temp {
 		SAXBuilder sxb = new SAXBuilder();
 		try {
 			Document document = sxb
-					.build(new File("ressources/dataSources.xml"));
+					.build(new File("src/main/resources/dataSources.xml"));
 			Element sources = document.getRootElement();
 			List<Element> fils = sources.getChildren("source");
 			Properties p = new Properties();
@@ -62,7 +62,7 @@ public class Temp {
 		SAXBuilder sxb = new SAXBuilder();
 		try {
 			Document document = sxb
-					.build(new File("ressources/dataSources.xml"));
+					.build(new File("src/main/resources/dataSources.xml"));
 			Element sources = document.getRootElement();
 			List<Element> fils = sources.getChildren("source");
 			FileWriter f = new FileWriter(new File(

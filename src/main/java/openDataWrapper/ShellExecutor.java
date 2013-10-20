@@ -1,4 +1,4 @@
-package main.java.openDataWrapper;
+package openDataWrapper;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

@@ -1,4 +1,4 @@
-package main.java.openDataWrapper;
+package openDataWrapper;
 
 /**
  * Interface to use opendatawrapper at its best The main action are: - convert
