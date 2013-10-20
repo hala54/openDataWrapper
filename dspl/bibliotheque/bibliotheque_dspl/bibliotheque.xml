@@ -11,7 +11,7 @@
 		</description>
 		<url>
 			<value>
-			    Alimentation auto
+				Alimentation auto
 			</value>
 		</url>
 	</info>
@@ -133,7 +133,7 @@
 			<attribute id="is_percentage">
 				<value>false</value>
 			</attribute>
-		</concept>		
+		</concept>
 		<concept id="TELEPHONE" extends="entity:entity">
 			<info>
 				<name>
@@ -185,7 +185,7 @@
 			<attribute id="is_percentage">
 				<value>false</value>
 			</attribute>
-		</concept>		
+		</concept>
 		<concept id="HORAIRES D_OUVERTURE" extends="entity:entity">
 			<info>
 				<name>
@@ -212,58 +212,58 @@
 				<value>false</value>
 			</attribute>
 		</concept>
-	  <concept id="lat" extends="dp:latitude">
-         <info>
-            <name>
-               <value>LATITUDE</value>
-            </name>
-            <totalName>
-               <value/>
-            </totalName>
-            <description>
-               <value>LATITUDE</value>
-            </description>
-         </info>
-         <type ref="float"/>
-         <attribute id="is_filterable">
-            <value>true</value>
-         </attribute>
-         <attribute id="is_displayed">
-            <value>true</value>
-         </attribute>
-         <attribute id="statistics">
-            <value>false</value>
-         </attribute>
-         <attribute id="is_percentage">
-            <value>false</value>
-         </attribute>
-      </concept>
-      <concept id="long" extends="dp:longitude">
-         <info>
-            <name>
-               <value>LONGITUDE</value>
-            </name>
-            <totalName>
-               <value/>
-            </totalName>
-            <description>
-               <value>LONGITUDE</value>
-            </description>
-         </info>
-         <type ref="float"/>
-         <attribute id="is_filterable">
-            <value>true</value>
-         </attribute>
-         <attribute id="is_displayed">
-            <value>true</value>
-         </attribute>
-         <attribute id="statistics">
-            <value>false</value>
-         </attribute>
-         <attribute id="is_percentage">
-            <value>false</value>
-         </attribute>
-      </concept>
+		<concept id="lat" extends="dp:latitude">
+			<info>
+				<name>
+					<value>LATITUDE</value>
+				</name>
+				<totalName>
+					<value />
+				</totalName>
+				<description>
+					<value>LATITUDE</value>
+				</description>
+			</info>
+			<type ref="float" />
+			<attribute id="is_filterable">
+				<value>true</value>
+			</attribute>
+			<attribute id="is_displayed">
+				<value>true</value>
+			</attribute>
+			<attribute id="statistics">
+				<value>false</value>
+			</attribute>
+			<attribute id="is_percentage">
+				<value>false</value>
+			</attribute>
+		</concept>
+		<concept id="long" extends="dp:longitude">
+			<info>
+				<name>
+					<value>LONGITUDE</value>
+				</name>
+				<totalName>
+					<value />
+				</totalName>
+				<description>
+					<value>LONGITUDE</value>
+				</description>
+			</info>
+			<type ref="float" />
+			<attribute id="is_filterable">
+				<value>true</value>
+			</attribute>
+			<attribute id="is_displayed">
+				<value>true</value>
+			</attribute>
+			<attribute id="statistics">
+				<value>false</value>
+			</attribute>
+			<attribute id="is_percentage">
+				<value>false</value>
+			</attribute>
+		</concept>
 	</concepts>
 	<slices>
 		<slice id="vignobles_et_decouvertes_SLI">
@@ -289,8 +289,8 @@
 			<column id="CP" type="string" />
 			<column id="COMMUNE" type="string" />
 			<column id="ADRESSE MAIL" type="string" />
-			<column id="lat" type="float"/>
-			<column id="long" type="float"/>
+			<column id="lat" type="float" />
+			<column id="long" type="float" />
 			<data>
 				<file encoding="UTF-8" format="csv">bibliotheque.csv</file>
 			</data>

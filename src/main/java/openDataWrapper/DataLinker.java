@@ -18,7 +18,7 @@ import com.hp.hpl.jena.util.FileManager;
 /**
  * 
  * @author alexis.linard
- *
+ * 
  */
 public class DataLinker {
 
@@ -26,31 +26,26 @@ public class DataLinker {
 	 * Modele en cours
 	 */
 	Model masterModel;
-	
+
 	/**
-	 *  Instance unique pré-initialisée du Singleton
+	 * Instance unique pré-initialisée du Singleton
 	 */
 	private static DataLinker INSTANCE = new DataLinker();
-	 
 
 	/**
 	 * Constructeur privé du singleton DataLinker
 	 */
-	private DataLinker()
-	{
-		
+	private DataLinker() {
+
 	}
-	 
 
 	/**
-	 *  Point d'accès pour l'instance unique du singleton
+	 * Point d'accès pour l'instance unique du singleton
 	 */
-	public static DataLinker getInstance()
-	{
+	public static DataLinker getInstance() {
 		return INSTANCE;
 	}
 
-	
 	/**
 	 * This method is supposed to clear the current model from memory. Haven't
 	 * seen any lowering in memory after execution though... garbage collector?
@@ -65,19 +60,19 @@ public class DataLinker {
 		}
 	}
 
-	
 	/**
 	 * 
 	 */
 	public void run() {
-		StringBuilder outputFileN3 = new StringBuilder("ressources/output/linkedData/ttl/linked-");
-		StringBuilder outputFileRDFXML = new StringBuilder("ressources/output/linkedData/rdf-xml/linked-");
+		StringBuilder outputFileN3 = new StringBuilder(
+				"ressources/output/linkedData/ttl/linked-");
+		StringBuilder outputFileRDFXML = new StringBuilder(
+				"ressources/output/linkedData/rdf-xml/linked-");
 
-		
 		loadChosenDatasets(outputFileN3, outputFileRDFXML);
 
 		writeModelIntoOutputFiles(outputFileN3, outputFileRDFXML);
-		
+
 		emptyModel();
 
 		try {
@@ -86,7 +81,6 @@ public class DataLinker {
 			e.printStackTrace();
 		}
 	}
-
 
 	/**
 	 * 
@@ -98,22 +92,23 @@ public class DataLinker {
 		BufferedWriter outN3;
 		BufferedWriter outRDFXML;
 		try {
-			outN3 = new BufferedWriter(new FileWriter(outputFileN3.append(".n3").toString()));
+			outN3 = new BufferedWriter(new FileWriter(outputFileN3
+					.append(".n3").toString()));
 			masterModel.write(outN3, "N3");
 			outN3.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
+
 		try {
-			outRDFXML = new BufferedWriter(new FileWriter(outputFileRDFXML.append(".rdf").toString()));
+			outRDFXML = new BufferedWriter(new FileWriter(outputFileRDFXML
+					.append(".rdf").toString()));
 			masterModel.write(outRDFXML, "RDF/XML");
 			outRDFXML.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
-
 
 	/**
 	 * 
@@ -124,9 +119,9 @@ public class DataLinker {
 			StringBuilder outputFileRDFXML) {
 		System.out.println("which datasets do you want to link?");
 		DataSource.printAvailableDataSources();
-		
+
 		Scanner in = new Scanner(System.in);
-		
+
 		try {
 			String result = in.nextLine();
 			String[] results = result.split(";");
@@ -188,7 +183,8 @@ public class DataLinker {
 
 		if (files != null) {
 			for (File fi : files) {
-				if (fi.isFile() == true && fi.getName().endsWith(".n3") && fi.getName().startsWith("linked-") && fi != null) {
+				if (fi.isFile() == true && fi.getName().endsWith(".n3")
+						&& fi.getName().startsWith("linked-") && fi != null) {
 
 					try {
 						if ((filename = fi.getName().substring(0,

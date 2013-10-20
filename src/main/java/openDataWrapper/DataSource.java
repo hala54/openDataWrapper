@@ -7,11 +7,11 @@ import java.util.Set;
 
 import org.jdom2.JDOMException;
 
-
 /**
  * This class describes a datasource
+ * 
  * @author alexis.linard
- *
+ * 
  */
 public class DataSource {
 
@@ -25,21 +25,29 @@ public class DataSource {
 	public String outputTtl;
 	public String outputRdf;
 
-	
 	/**
 	 * Constructor of a DataSource
-	 * @param nom API's name
-	 * @param apiUrl API's url
-	 * @param url API's description url
-	 * @param titre API's title
-	 * @param publisher Publisher of the API
-	 * @param xsltFile 
+	 * 
+	 * @param nom
+	 *            API's name
+	 * @param apiUrl
+	 *            API's url
+	 * @param url
+	 *            API's description url
+	 * @param titre
+	 *            API's title
+	 * @param publisher
+	 *            Publisher of the API
+	 * @param xsltFile
 	 * @param specificXSLT
-	 * @param outputTtl Output folder for generated Turtle files
-	 * @param outputRdf Output folder for generated RDF-XML files
+	 * @param outputTtl
+	 *            Output folder for generated Turtle files
+	 * @param outputRdf
+	 *            Output folder for generated RDF-XML files
 	 */
-	public DataSource(String nom, String apiUrl,String url, String titre, String publisher, String xsltFile,
-			boolean specificXSLT, String outputTtl, String outputRdf) {
+	public DataSource(String nom, String apiUrl, String url, String titre,
+			String publisher, String xsltFile, boolean specificXSLT,
+			String outputTtl, String outputRdf) {
 		super();
 		this.nom = nom;
 		this.apiUrl = apiUrl;
@@ -99,7 +107,7 @@ public class DataSource {
 	public String getOutputRdf() {
 		return outputRdf;
 	}
-	
+
 	/**
 	 * 
 	 * @return
@@ -123,12 +131,13 @@ public class DataSource {
 	public String getPublisher() {
 		return publisher;
 	}
-	
+
 	/**
-	 * Méthode affichant les datasources supportés par l'application. This function display the data sources list, with the id number. Useful when you want to make a process on only one data source.
+	 * Méthode affichant les datasources supportés par l'application. This
+	 * function display the data sources list, with the id number. Useful when
+	 * you want to make a process on only one data source.
 	 */
-	public static void printAvailableDataSources()
-	{
+	public static void printAvailableDataSources() {
 		Map<Integer, DataSource> dataSources = getAvailableDataSources();
 		Set<Integer> nomData = dataSources.keySet();
 		Iterator<Integer> it = nomData.iterator();
@@ -137,7 +146,7 @@ public class DataSource {
 			Integer courant = it.next();
 			System.out.println("[" + courant + "] "
 					+ dataSources.get(courant).getNom());
-		}		
+		}
 	}
 
 	public static Map<Integer, DataSource> getAvailableDataSources() {
@@ -145,10 +154,12 @@ public class DataSource {
 		try {
 			lr = new LoadRessources();
 		} catch (JDOMException e1) {
-			System.err.println("The configuration file dataSource.xml is corrupted. Please check that this file is a valid XML file!");
+			System.err
+					.println("The configuration file dataSource.xml is corrupted. Please check that this file is a valid XML file!");
 			return null;
 		} catch (IOException e1) {
-			System.err.println("Unable to open the configuration file dataSources.xml");
+			System.err
+					.println("Unable to open the configuration file dataSources.xml");
 			return null;
 		}
 		Map<Integer, DataSource> dataSources = lr.extractData();

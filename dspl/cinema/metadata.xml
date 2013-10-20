@@ -1,39 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
-   <identifiant>22440002800011_CG44_CLT_03001</identifiant>
-   <titre>Salles de cinéma en Loire-Atlantique</titre>
-   <description>Liste des salles de cinéma en Loire-Atlantique</description>
-   <themes>
-      <theme>culture_tourisme</theme>
-   </themes>
-   <themeInspire/>
-   <motsCles>art dramatique, art et essai, court métrage, dessin animé</motsCles>
-   <licence>odbl</licence>
-   <datePublication>17/06/2013</datePublication>
-   <dateCreation>15/06/2013</dateCreation>
-   <objetMaj>
-      <date>15/06/2013</date>
-      <modification>Création</modification>
-      <description>Création</description>
-   </objetMaj>
-   <frequenceMaj>Lorsque nécessaire</frequenceMaj>
-   <proprietaire>cg44</proprietaire>
-   <diffuseur>cg44</diffuseur>
-   <gestionnaire>cg44</gestionnaire>
-   <couvertureSpatiale>Loire-Atlantique</couvertureSpatiale>
-   <couvertureTemporelle>Sans objet</couvertureTemporelle>
-   <langue>fr</langue>
-   <qualite/>
-   <granularite/>
-   <documentation><a external="1" title="Opens external link in new window" class="external-link-new-window" target="_blank" href="http://www.loire-atlantique.fr/jcms/cg_7506/cinema">Pour plus d'information, cliquer ici</a></documentation>
-   <vocabulaire/>
-   <ressources>
-	    <ressource>
-         <format>dspl</format>
-         <description>Fichier de visualisation DSPL</description>
-         <encodage>UTF-8</encodage>
-         <nom>cinema_dspl.zip</nom>
-		 <vuePrincipale>cinema_STBL</vuePrincipale>
-      </ressource>
-   </ressources>
+	<identifiant>22440002800011_CG44_CLT_03001</identifiant>
+	<titre>Salles de cinéma en Loire-Atlantique</titre>
+	<description>Liste des salles de cinéma en Loire-Atlantique</description>
+	<themes>
+		<theme>culture_tourisme</theme>
+	</themes>
+	<themeInspire />
+	<motsCles>art dramatique, art et essai, court métrage, dessin animé</motsCles>
+	<licence>odbl</licence>
+	<datePublication>17/06/2013</datePublication>
+	<dateCreation>15/06/2013</dateCreation>
+	<objetMaj>
+		<date>15/06/2013</date>
+		<modification>Création</modification>
+		<description>Création</description>
+	</objetMaj>
+	<frequenceMaj>Lorsque nécessaire</frequenceMaj>
+	<proprietaire>cg44</proprietaire>
+	<diffuseur>cg44</diffuseur>
+	<gestionnaire>cg44</gestionnaire>
+	<couvertureSpatiale>Loire-Atlantique</couvertureSpatiale>
+	<couvertureTemporelle>Sans objet</couvertureTemporelle>
+	<langue>fr</langue>
+	<qualite />
+	<granularite />
+	<documentation>
+		<a external="1" title="Opens external link in new window" class="external-link-new-window"
+			target="_blank" href="http://www.loire-atlantique.fr/jcms/cg_7506/cinema">Pour plus d'information, cliquer ici</a>
+	</documentation>
+	<vocabulaire />
+	<ressources>
+		<ressource>
+			<format>dspl</format>
+			<description>Fichier de visualisation DSPL</description>
+			<encodage>UTF-8</encodage>
+			<nom>cinema_dspl.zip</nom>
+			<vuePrincipale>cinema_STBL</vuePrincipale>
+		</ressource>
+	</ressources>
 </data> 

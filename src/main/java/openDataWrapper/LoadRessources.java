@@ -115,8 +115,8 @@ public class LoadRessources {
 					.trim();
 
 			// chaque source est ajouté à la hashMap
-			listeDataSource.put(i, new DataSource(nom, apiUrl,url, titre, publisher, xsltFile,
-					specificXSLT, outputTtl, outputRdf));
+			listeDataSource.put(i, new DataSource(nom, apiUrl, url, titre,
+					publisher, xsltFile, specificXSLT, outputTtl, outputRdf));
 			i++;
 		}
 
@@ -265,23 +265,23 @@ public class LoadRessources {
 				if (!existing) {
 					modified = true;
 					Element temp = new Element("source");
-					
+
 					logger.info(((String) p.getProperty((String) valeur)));
-					String[] listeProp = ((String) p.getProperty((String) valeur)).split(";");
+					String[] listeProp = ((String) p
+							.getProperty((String) valeur)).split(";");
 					logger.info(listeProp.length);
 
 					Element name = new Element("nom");
 					name.setText((String) valeur);
 					Element apiurl = new Element("apiurl");
-					apiurl.setText(listeProp[0]+ "?format=xml");
+					apiurl.setText(listeProp[0] + "?format=xml");
 					Element url = new Element("url");
 					url.setText(listeProp[1]);
 					Element titre = new Element("titre");
 					titre.setText(listeProp[2]);
 					Element publisher = new Element("publisher");
 					publisher.setText(listeProp[3]);
-					
-					
+
 					Element xsltFile = new Element("xsltFile");
 					xsltFile.setText("ressources/xsl/" + (String) valeur
 							+ ".xsl");

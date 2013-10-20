@@ -33,8 +33,9 @@ import org.jdom2.input.SAXBuilder;
 import org.jdom2.output.DOMOutputter;
 
 /**
- * Cette classe gère la conversion d'un XML à l'aide d'une feuille de style XSL (XSLT)
- * Les parametres de proxy sont à spécifier dans un fichier proxy.pwd à la racine de votre $HOME
+ * Cette classe gère la conversion d'un XML à l'aide d'une feuille de style XSL
+ * (XSLT) Les parametres de proxy sont à spécifier dans un fichier proxy.pwd à
+ * la racine de votre $HOME
  * 
  * @author alexis.linard
  * 
@@ -65,14 +66,18 @@ public class ConvertTTL {
 	 * home/.openDataWrapper/proxy.pwd. If such file doesn't exist, continue
 	 * without warning.
 	 * 
-	 * @param XMLin The file to convert
+	 * @param XMLin
+	 *            The file to convert
 	 * 
-	 * @param XSL The conversion file
+	 * @param XSL
+	 *            The conversion file
 	 * 
-	 * @param XMLout the output folder of the conversion
+	 * @param XMLout
+	 *            the output folder of the conversion
 	 */
 	public ConvertTTL(String XSLin, String XMLout, String mappingPath,
-			String dataset, String speMap,String url, String titre, String publisher) {
+			String dataset, String speMap, String url, String titre,
+			String publisher) {
 		XSLFile_ = XSLin;
 		outputFile = XMLout;
 		this.mappingPath = mappingPath;
@@ -81,9 +86,8 @@ public class ConvertTTL {
 		this.url = url;
 		this.titre = titre;
 		this.publisher = publisher;
-		
 
-		//logger.error(XSLFile_);
+		// logger.error(XSLFile_);
 
 		try {
 			Properties prop = new Properties();
@@ -103,7 +107,8 @@ public class ConvertTTL {
 	 * needs to create a new XSLT file or use the existing one. Contact the API
 	 * using the proxy setting. Checks if the URI are unique.
 	 * 
-	 * @param url, the URL of the remote API *
+	 * @param url
+	 *            , the URL of the remote API *
 	 */
 	public void convertFromApi(String url, Properties p, boolean construct) {
 		Document document = getRemoteXML(url);
@@ -223,7 +228,8 @@ public class ConvertTTL {
 	 * This method contact the remote API, download and parse the XML received
 	 * First, it needs to be configured to use proxy (if needed).
 	 * 
-	 * @param url, the url of the remote API.
+	 * @param url
+	 *            , the url of the remote API.
 	 */
 	public Document getRemoteXML(String url) {
 		InputStream stream = null;
@@ -284,7 +290,7 @@ public class ConvertTTL {
 	 * @return true if the construction got well, false else
 	 */
 	public boolean constructXSL(Properties p, Document document) {
-		//logger.error(XSLFile_);
+		// logger.error(XSLFile_);
 		XSLConstructor xslc = new XSLConstructor(XSLFile_, document, p,
 				datasetName, speMappingPath, url, titre, publisher);
 		return xslc.construct(mappingPath);

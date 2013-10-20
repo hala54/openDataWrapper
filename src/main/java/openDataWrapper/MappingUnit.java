@@ -3,7 +3,7 @@ package main.java.openDataWrapper;
 /**
  * 
  * @author alexis.linard
- *
+ * 
  */
 public class MappingUnit {
 

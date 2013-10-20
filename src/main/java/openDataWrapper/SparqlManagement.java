@@ -93,7 +93,8 @@ public class SparqlManagement {
 						+ "SPARQL Management!\n" + " What do you want to do?\n"
 						+ "[1] Export local datasources into TDB folder\n"
 						+ "[2] Run Fuseki\n" + "[3] Get Graph URIs\n"
-						+ "[4] query?\n" + "[5] close Fuseki\n"+"[7] Link datasets \n" + "[0] Quit\n");
+						+ "[4] query?\n" + "[5] close Fuseki\n"
+						+ "[7] Link datasets \n" + "[0] Quit\n");
 				result = in.nextInt();
 
 				switch (result) {
@@ -185,7 +186,7 @@ public class SparqlManagement {
 				files = listOfFiles[i].getName();
 				if (files.endsWith(".ttl") || files.endsWith(".TTL")) {
 					Model temporaryModel = FileManager.get().loadModel(
-							"file:" +listOfFiles[i].getAbsolutePath(), "N3");
+							"file:" + listOfFiles[i].getAbsolutePath(), "N3");
 					logger.info(UriBase + listOfFiles[i].getName());
 					dataset.addNamedModel(UriBase + listOfFiles[i].getName(),
 							temporaryModel);
@@ -328,13 +329,15 @@ public class SparqlManagement {
 			dataset.end();
 		}
 	}
-	
-	private static void linkDatasets(){
-		System.out.println("   	****************************************************");
-		System.out.println("            	   Linking all the data sets");
-		System.out.println("   	****************************************************\n");
 
-		LoadLinks ll=new LoadLinks();
+	private static void linkDatasets() {
+		System.out
+				.println("   	****************************************************");
+		System.out.println("            	   Linking all the data sets");
+		System.out
+				.println("   	****************************************************\n");
+
+		LoadLinks ll = new LoadLinks();
 		ll.run();
 	}
 

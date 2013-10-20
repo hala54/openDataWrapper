@@ -20,11 +20,10 @@ import org.apache.log4j.Logger;
 import org.jdom2.Document;
 import org.jdom2.Element;
 
-
 /**
  * 
  * @author alexis.linard
- *
+ * 
  */
 public class XSLConstructor {
 	static Logger logger = Logger.getLogger(XSLConstructor.class);
@@ -59,7 +58,8 @@ public class XSLConstructor {
 	 *            the path to the specific property file
 	 */
 	public XSLConstructor(String xSLFile_, Document document, Properties p,
-			String Dataset, String spePath, String url_, String titre_, String publisher_) {
+			String Dataset, String spePath, String url_, String titre_,
+			String publisher_) {
 		XSLFile = xSLFile_;
 		XMLFile = document;
 		properties = p;
@@ -68,7 +68,7 @@ public class XSLConstructor {
 		url = url_;
 		titre = titre_;
 		publisher = publisher_;
-		//logger.error(XSLFile);
+		// logger.error(XSLFile);
 	}
 
 	/**
@@ -129,8 +129,8 @@ public class XSLConstructor {
 						}
 						if (!gotSource) {
 							properties.setProperty(name,
-									((String) properties.get(name))
-											+ ","+dataset);
+									((String) properties.get(name)) + ","
+											+ dataset);
 							modification = true;
 						}
 
@@ -171,7 +171,7 @@ public class XSLConstructor {
 		try {
 			// Create file
 			System.out.println("XSL construction processing...");
-			//   logger.error(XSLFile);
+			// logger.error(XSLFile);
 			FileWriter fstream = new FileWriter(XSLFile);
 			BufferedWriter out = new BufferedWriter(fstream);
 
@@ -196,7 +196,7 @@ public class XSLConstructor {
 			prefixes(out);
 
 			vo_id(out);
-			
+
 			out.write("\n" + "</xsl:text>\n" + "	<xsl:apply-templates/>\n"
 					+ "</xsl:template>\n" + "\n"
 					+ "<xsl:template match=\"element\">\n");
@@ -225,26 +225,28 @@ public class XSLConstructor {
 		}
 
 	}
+
 	/**
 	 * This function manage VoID information about the dataset
+	 * 
 	 * @param out
-	 * @throws IOException 
+	 * @throws IOException
 	 */
 	private void vo_id(BufferedWriter out) throws IOException {
-		
-		//logger.info("beginning of VoID");
-		
+
+		// logger.info("beginning of VoID");
+
 		DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 		Date date = new Date();
 		String d = dateFormat.format(date);
-		
-		out.write("\n&lt;"+URIBase+dataset+"&gt; rdf:type void:Dataset ;\n" +
-				"\tfoaf:homepage \""+url+"\";\n" +
-				"\tdcterms:title \""+titre+"\"^^xsd:string ;\n" +
-				"\tdcterms:description \""+titre+"\"^^xsd:string ;\n" +
-				"\tdcterms:created \""+d+"\"^^xsd:date;\n" +
-				"\tdcterms:publisher :pub .\n" +
-				"\n:pub rdfs:label \""+publisher+"\".\n");	
+
+		out.write("\n&lt;" + URIBase + dataset
+				+ "&gt; rdf:type void:Dataset ;\n" + "\tfoaf:homepage \"" + url
+				+ "\";\n" + "\tdcterms:title \"" + titre + "\"^^xsd:string ;\n"
+				+ "\tdcterms:description \"" + titre + "\"^^xsd:string ;\n"
+				+ "\tdcterms:created \"" + d + "\"^^xsd:date;\n"
+				+ "\tdcterms:publisher :pub .\n" + "\n:pub rdfs:label \""
+				+ publisher + "\".\n");
 
 	}
 
@@ -261,10 +263,11 @@ public class XSLConstructor {
 						+ URIBase
 						+ dataset
 						+ "/',encode-for-uri(.)),'&gt;')\"/>&#009; "
-//						+ "<xsl:value-of select=\"concat(concat('&lt;"
-//						+ URIBase
-//						+ dataset
-//						+ "/',translate(translate(translate(translate(translate(translate(translate(./text(),'&quot;',' '),'«',' '),'&gt;',' '),'&lt;',' '),'  ',' '),' ','_'),'.','_')),'&gt;')\"/>&#009; "
+						// + "<xsl:value-of select=\"concat(concat('&lt;"
+						// + URIBase
+						// + dataset
+						// +
+						// "/',translate(translate(translate(translate(translate(translate(translate(./text(),'&quot;',' '),'«',' '),'&gt;',' '),'&lt;',' '),'  ',' '),' ','_'),'.','_')),'&gt;')\"/>&#009; "
 						+ map.get(courant).vocabulaire
 						+ " &#009; \"<xsl:value-of select=\"translate(., '&quot;','')\"/>\"^^xsd:string ;"
 						+ lastRetour(it)
@@ -411,16 +414,16 @@ public class XSLConstructor {
 		else
 			return ".";
 	}
-	
-//	private boolean lastItem(Iterator<String> it){
-//		Iterator<String> i = it;
-//		if (i.hasNext()){
-//			if(i.next().split(regex))
-//			return lastItem(i);
-//		}
-//		else
-//			return true;
-//	}
+
+	// private boolean lastItem(Iterator<String> it){
+	// Iterator<String> i = it;
+	// if (i.hasNext()){
+	// if(i.next().split(regex))
+	// return lastItem(i);
+	// }
+	// else
+	// return true;
+	// }
 
 	private boolean templateDef(Map<String, MappingUnit> map, BufferedWriter out)
 			throws IOException {
@@ -457,7 +460,7 @@ public class XSLConstructor {
 	}
 
 	private void prefixes(BufferedWriter out) throws IOException {
-		//logger.info("prefixes management");
+		// logger.info("prefixes management");
 		String prefixChaine = (String) properties.get("$$prefixes$$");
 		String[] prefixes = prefixChaine.split(",");
 		for (String value : prefixes) {

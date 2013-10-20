@@ -23,8 +23,9 @@ import com.hp.hpl.jena.query.ResultSetFormatter;
 
 /**
  * Main Program
+ * 
  * @author alexis.linard
- *
+ * 
  */
 public class Principale {
 
@@ -54,93 +55,92 @@ public class Principale {
 		// open.runQuery("Select * where {?a ?b ?c} limit 100");
 		// open.export("/home/seb/TDB");
 
-//		Temp.convert();
+		// Temp.convert();
 
-		 try {
-		 lr = new LoadRessources();
-		 } catch (JDOMException e1) {
-		 System.err
-		 .println("The configuration file dataSource.xml is corrupted. Please check that this file is a valid XML file!");
-		 return;
-		 } catch (IOException e1) {
-		 System.err
-		 .println("Unable to open the configuration file dataSources.xml");
-		 return;
-		 }
-		 listeDataSource = lr.extractData();
-		 properties = getMapping(lr.mappingFile);
-		 queryFolder = lr.getQueryFolder();
-		 queries = lr.getQueries();
-		 System.out.println("loading...");
-		
-		 Scanner in = new Scanner(System.in);
-		 int result = 0;
-		 while (result >= 0) {
-		
-		 try {
-		 System.out.println("################################\n"
-		 + "welcome in the openData Wrapper!\n"
-		 + " What do you want to do?\n"
-		 + "[1] List datasources\n"
-		 + "[2] Add new datasources\n"
-		 + "[3] Convert one data into turtle\n"
-		 + "[4] Convert all data into turtle\n"
-		 + "[5] Convert one data into RDF/XML\n"
-		 + "[6] Convert all data into RDF/XML\n"
-		 + "[7] Query over converted data\n"
-		 + "[8] Reload data\n" + "[9] SPARQL Endpoint\n"
-		 + "[10] Test requete\n"
-		 + "[11] Link datasets \n"
-		 + "[0] Quit\n");
-		 result = in.nextInt();
-		
-		 switch (result) {
-		 case 1:
-		 DataSource.printAvailableDataSources();
-		 break;
-		 case 2:
-		 addDataSources();
-		 break;
-		 case 3:
-		 conversionTtlOne();
-		 break;
-		 case 4:
-		 conversionTtlAll();
-		 break;
-		 case 5:
-		 conversionXmlOne();
-		 break;
-		 case 6:
-		 conversionXmlAll();
-		 break;
-		 case 7:
-		 queryOverData();
-		 break;
-		 case 8:
-		 reloadData();
-		 break;
-		 case 9:
-		 sparql();
-		 break;
-		 case 10:
-		 fetchFile();
-		 break;
-		 case 11:
-	     linkDataSets();
-	     break;
-		 default:
-		 // on quitte
-		 result = -1;
-		 break;
-		 }
-		 } catch (InputMismatchException e) {
-		 System.out.println("input is not a number!");
-		 in.nextLine();
-		 result = 0;
-		 }
-		 }
-		 System.out.println("Exiting...");
-		 in.close();
+		try {
+			lr = new LoadRessources();
+		} catch (JDOMException e1) {
+			System.err
+					.println("The configuration file dataSource.xml is corrupted. Please check that this file is a valid XML file!");
+			return;
+		} catch (IOException e1) {
+			System.err
+					.println("Unable to open the configuration file dataSources.xml");
+			return;
+		}
+		listeDataSource = lr.extractData();
+		properties = getMapping(lr.mappingFile);
+		queryFolder = lr.getQueryFolder();
+		queries = lr.getQueries();
+		System.out.println("loading...");
+
+		Scanner in = new Scanner(System.in);
+		int result = 0;
+		while (result >= 0) {
+
+			try {
+				System.out.println("################################\n"
+						+ "welcome in the openData Wrapper!\n"
+						+ " What do you want to do?\n"
+						+ "[1] List datasources\n"
+						+ "[2] Add new datasources\n"
+						+ "[3] Convert one data into turtle\n"
+						+ "[4] Convert all data into turtle\n"
+						+ "[5] Convert one data into RDF/XML\n"
+						+ "[6] Convert all data into RDF/XML\n"
+						+ "[7] Query over converted data\n"
+						+ "[8] Reload data\n" + "[9] SPARQL Endpoint\n"
+						+ "[10] Test requete\n" + "[11] Link datasets \n"
+						+ "[0] Quit\n");
+				result = in.nextInt();
+
+				switch (result) {
+				case 1:
+					DataSource.printAvailableDataSources();
+					break;
+				case 2:
+					addDataSources();
+					break;
+				case 3:
+					conversionTtlOne();
+					break;
+				case 4:
+					conversionTtlAll();
+					break;
+				case 5:
+					conversionXmlOne();
+					break;
+				case 6:
+					conversionXmlAll();
+					break;
+				case 7:
+					queryOverData();
+					break;
+				case 8:
+					reloadData();
+					break;
+				case 9:
+					sparql();
+					break;
+				case 10:
+					fetchFile();
+					break;
+				case 11:
+					linkDataSets();
+					break;
+				default:
+					// on quitte
+					result = -1;
+					break;
+				}
+			} catch (InputMismatchException e) {
+				System.out.println("input is not a number!");
+				in.nextLine();
+				result = 0;
+			}
+		}
+		System.out.println("Exiting...");
+		in.close();
 	}
 
 	/**
@@ -149,7 +149,8 @@ public class Principale {
 	private static void linkDataSets() {
 		DataLinker dataLinker = DataLinker.getInstance();
 		dataLinker.run();
-		System.out.println("Linked datasets' results into ressources/output/ttl/linked-*.n3 and ressources/output/ttl/linked-*.n3 file");
+		System.out
+				.println("Linked datasets' results into ressources/output/ttl/linked-*.n3 and ressources/output/ttl/linked-*.n3 file");
 	}
 
 	/**
@@ -190,11 +191,11 @@ public class Principale {
 		System.out.println("done!");
 	}
 
-
 	/**
 	 * conversion processing
 	 * 
-	 * @param DataSource dts, the DataSource ressource you want to convert
+	 * @param DataSource
+	 *            dts, the DataSource ressource you want to convert
 	 */
 	private static void conversionTtl(DataSource dts) {
 		ConvertTTL cttl = new ConvertTTL(dts.getXsltFile(), dts.getOutputTtl(),
@@ -307,8 +308,8 @@ public class Principale {
 			p.load(new FileReader(path));
 			return p;
 		} catch (FileNotFoundException e) {
-			System.err.println("Mapping file does not exist! "
-					+ e.getMessage());
+			System.err
+					.println("Mapping file does not exist! " + e.getMessage());
 		} catch (IOException e) {
 			System.err
 					.println("Error with mapping file. Check that you have the right permission! "

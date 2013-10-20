@@ -28,7 +28,7 @@ import com.hp.hpl.jena.util.FileManager;
 /**
  * 
  * @author alexis.linard
- *
+ * 
  */
 public class OpenDataWrapper implements IOpenDataWrapper {
 
@@ -41,7 +41,6 @@ public class OpenDataWrapper implements IOpenDataWrapper {
 
 	private final String UriBase = "http://localhost:3030/openData/";
 
-	
 	/**
 	 * 
 	 */
@@ -59,7 +58,7 @@ public class OpenDataWrapper implements IOpenDataWrapper {
 		}
 		listeDataSource = lr.extractData();
 	}
-	
+
 	/**
 	 * 
 	 */
@@ -81,7 +80,8 @@ public class OpenDataWrapper implements IOpenDataWrapper {
 	/**
 	 * conversion processing
 	 * 
-	 * @param DataSource dts, the DataSource ressource you want to convert
+	 * @param DataSource
+	 *            dts, the DataSource ressource you want to convert
 	 */
 	private void conversionTtl(DataSource dts) {
 		ConvertTTL cttl = new ConvertTTL(dts.getXsltFile(), dts.getOutputTtl(),
@@ -113,8 +113,8 @@ public class OpenDataWrapper implements IOpenDataWrapper {
 			p.load(new FileReader(path));
 			return p;
 		} catch (FileNotFoundException e) {
-			System.err.println("Mapping file does not exist! "
-					+ e.getMessage());
+			System.err
+					.println("Mapping file does not exist! " + e.getMessage());
 		} catch (IOException e) {
 			System.err
 					.println("Error with mapping file. Check that you have the right permission! "
@@ -122,8 +122,6 @@ public class OpenDataWrapper implements IOpenDataWrapper {
 		}
 		return p;
 	}
-
-	
 
 	@Override
 	/**
@@ -183,7 +181,6 @@ public class OpenDataWrapper implements IOpenDataWrapper {
 		folder.delete();
 	}
 
-	
 	/**
 	 * 
 	 * @param dts

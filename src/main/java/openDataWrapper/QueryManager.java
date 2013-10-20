@@ -280,8 +280,6 @@ public class QueryManager {
 		}
 
 	}
-	
-
 
 	/**
 	 * This function display the query list

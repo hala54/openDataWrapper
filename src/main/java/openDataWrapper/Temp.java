@@ -16,7 +16,7 @@ import org.jdom2.input.SAXBuilder;
 /**
  * 
  * @author alexis.linard
- *
+ * 
  */
 public class Temp {
 
@@ -65,10 +65,11 @@ public class Temp {
 					.build(new File("ressources/dataSources.xml"));
 			Element sources = document.getRootElement();
 			List<Element> fils = sources.getChildren("source");
-			FileWriter f = new FileWriter(new File(System.getProperty("user.home")
-					+ "/.openDataWrapper/extract.txt"));
+			FileWriter f = new FileWriter(new File(
+					System.getProperty("user.home")
+							+ "/.openDataWrapper/extract.txt"));
 			for (Element e : fils) {
-				f.write(e.getChild("nom").getValue()+ "\n");
+				f.write(e.getChild("nom").getValue() + "\n");
 			}
 			f.close();
 		} catch (JDOMException e) {
