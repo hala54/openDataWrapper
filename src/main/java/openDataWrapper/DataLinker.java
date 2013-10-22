@@ -9,12 +9,14 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.InputMismatchException;
+import java.util.List;
 import java.util.Properties;
 import java.util.Scanner;
 
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.util.FileManager;
 
+//TODO REFACTOR CLASS
 /**
  * 
  * @author alexis.linard
@@ -104,6 +106,8 @@ public class DataLinker {
 			e.printStackTrace();
 		}
 
+		if(outputFileRDFXML != null)
+		{
 		try {
 			outRDFXML = new BufferedWriter(new FileWriter(outputFileRDFXML
 					.append(".rdf").toString()));
@@ -111,7 +115,7 @@ public class DataLinker {
 			outRDFXML.close();
 		} catch (IOException e) {
 			e.printStackTrace();
-		}
+		}}
 	}
 
 	/**
@@ -164,6 +168,27 @@ public class DataLinker {
 						.readModel(masterModel, "file:" + n3path, "N3");
 			} catch (Exception e) {
 				System.err.println("The n3 file doesn't exist " + n3path + "  "
+						+ e.getMessage());
+			}
+		}
+	}
+	
+	
+	/**
+	 * Load the specified data source data into the jena model.
+	 * 
+	 * @param dts
+	 *            the DataSource object containing information about data.
+	 */
+	private void loadDataset(String inputFile) {
+		if (masterModel == null) {
+			masterModel = FileManager.get().loadModel("file:" + inputFile, "N3");
+		} else {
+			try {
+				FileManager.get()
+						.readModel(masterModel, "file:" + inputFile, "N3");
+			} catch (Exception e) {
+				System.err.println("The n3 file doesn't exist " + inputFile + "  "
 						+ e.getMessage());
 			}
 		}
@@ -393,5 +418,23 @@ public class DataLinker {
 			System.out.println("Exception ");
 		}
 
+	}
+
+	public void link(List<String> listFiles, String outputFileTurtle) {
+		for(String s : listFiles){
+			loadDataset(s);
+		}
+		//write loaded datasets into output files
+		writeModelIntoOutputFiles(new StringBuilder(outputFileTurtle), null);
+
+		//empty model
+		emptyModel();
+
+		//delete duplicated triples into files
+		try {
+			deleteAllDuplicate();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 }
