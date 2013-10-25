@@ -1,0 +1,17 @@
+@prefix sc: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <#> .
+@prefix dbpprop: <http://dbpedia.org/property/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://lodpaddle.univ-nantes.fr/mydata/Saint%20F%C3%A9lix>	 foaf:name 	 "Saint Félix"^^xsd:string ;
+	dbpprop:location	 "27 rue du Ballet"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "BP 60105"^^xsd:string ;
+	sc:postalCode	 "44001"^^xsd:int ;
+	sc:telephone	 "02 40 14 50 50"^^xsd:string ;
+	sc:faxNumber	 "02 40 74 76 35"^^xsd:string .
+	
+	
+<http://lodpaddle.univ-nantes.fr/mydata/Blanche%20de%20Castille>	 foaf:name 	 "Blanche de Castille"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "BP 61902"^^xsd:string ;
+	dbpprop:location	 "bd jules verne"^^xsd:string .

@@ -1,0 +1,11 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <#> .
+@prefix sc: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+<http://lodpaddle.univ-nantes.fr/mydata/Blanche%20de%20Castille>	 foaf:name 	 "Blanche de Castille"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "BP 61902"^^xsd:string ;
+	sc:postalCode	 "44319"^^xsd:int ;
+	sc:telephone	 "02 40 52 54 60"^^xsd:string ;
+	sc:faxNumber	 "02 40 52 54 64"^^xsd:string .

@@ -7,6 +7,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.InputMismatchException;
 import java.util.List;
@@ -16,7 +17,6 @@ import java.util.Scanner;
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.util.FileManager;
 
-//TODO REFACTOR CLASS
 /**
  * 
  * @author alexis.linard
@@ -71,27 +71,40 @@ public class DataLinker {
 		StringBuilder outputFileRDFXML = new StringBuilder(
 				"src/main/resources/output/linkedData/rdf-xml/linked-");
 
-		//choose and load datasets into model
-		loadChosenDatasets(outputFileN3, outputFileRDFXML);
+		System.out
+				.println("which datasets do you want to link?\nwrite datasets numbers separating numbers by ';' ");
+		DataSourceManager.printAvailableDataSources();
 
-		//write loaded datasets into output files
-		writeModelIntoOutputFiles(outputFileN3, outputFileRDFXML);
+		Scanner in = new Scanner(System.in);
 
-		//empty model
-		emptyModel();
+		String result = in.nextLine();
+		String[] results = result.split(";");
+		List<String> listDatasources = new ArrayList<String>();
 
-		//delete duplicated triples into files
-		try {
-			deleteAllDuplicate();
-		} catch (IOException e) {
-			e.printStackTrace();
+		for (String res : results) {
+			if (Integer.valueOf(res) > 0
+					&& Integer.valueOf(res) <= DataSourceManager
+							.getAvailableDataSources().size()) {
+				DataSource dts = DataSourceManager.getAvailableDataSources()
+						.get(Integer.valueOf(res));
+				listDatasources.add(dts.getOutputTtl());
+				outputFileN3.append(dts.getNom()).append("-");
+				outputFileRDFXML.append(dts.getNom()).append("-");
+			}
 		}
+
+		link(listDatasources, outputFileN3.toString(),
+				outputFileRDFXML.toString());
+
 	}
 
 	/**
 	 * Writes models into output files
-	 * @param outputFileN3 output file for .n3 file
-	 * @param outputFileRDFXML output file for .rdf file
+	 * 
+	 * @param outputFileN3
+	 *            output file for .n3 file
+	 * @param outputFileRDFXML
+	 *            output file for .rdf file
 	 */
 	private void writeModelIntoOutputFiles(StringBuilder outputFileN3,
 			StringBuilder outputFileRDFXML) {
@@ -106,74 +119,18 @@ public class DataLinker {
 			e.printStackTrace();
 		}
 
-		if(outputFileRDFXML != null)
-		{
-		try {
-			outRDFXML = new BufferedWriter(new FileWriter(outputFileRDFXML
-					.append(".rdf").toString()));
-			masterModel.write(outRDFXML, "RDF/XML");
-			outRDFXML.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}}
-	}
-
-	/**
-	 * Let users choosing datasets and loading datasets into model
-	 * @param outputFileN3 output file for .n3 file
-	 * @param outputFileRDFXML output file for .rdf file
-	 */
-	private void loadChosenDatasets(StringBuilder outputFileN3,
-			StringBuilder outputFileRDFXML) {
-		System.out.println("which datasets do you want to link?\nwrite datasets numbers separating numbers by ';' ");
-		DataSourceManager.printAvailableDataSources();
-
-		Scanner in = new Scanner(System.in);
-
-		try {
-			String result = in.nextLine();
-			String[] results = result.split(";");
-			for (String res : results) {
-				if (Integer.valueOf(res) > 0
-						&& Integer.valueOf(res) <= DataSourceManager
-								.getAvailableDataSources().size()) {
-					DataSource dts = DataSourceManager.getAvailableDataSources().get(
-							Integer.valueOf(res));
-					outputFileN3.append(dts.getNom()).append("-");
-					outputFileRDFXML.append(dts.getNom()).append("-");
-					loadDataset(dts);
-					System.out.println("loading " + dts.getNom() + " ok!");
-				} else {
-					System.err.println("error loading dataset!");
-				}
-			}
-		} catch (InputMismatchException e) {
-			System.err.println("The input isn't a string!");
-		}
-	}
-
-	/**
-	 * Load the specified data source data into the jena model.
-	 * 
-	 * @param dts
-	 *            the DataSource object containing information about data.
-	 */
-	private void loadDataset(DataSource dts) {
-		String n3path = dts.getOutputTtl();
-		if (masterModel == null) {
-			masterModel = FileManager.get().loadModel("file:" + n3path, "N3");
-		} else {
+		if (outputFileRDFXML != null) {
 			try {
-				FileManager.get()
-						.readModel(masterModel, "file:" + n3path, "N3");
-			} catch (Exception e) {
-				System.err.println("The n3 file doesn't exist " + n3path + "  "
-						+ e.getMessage());
+				outRDFXML = new BufferedWriter(new FileWriter(outputFileRDFXML
+						.append(".rdf").toString()));
+				masterModel.write(outRDFXML, "RDF/XML");
+				outRDFXML.close();
+			} catch (IOException e) {
+				e.printStackTrace();
 			}
 		}
 	}
-	
-	
+
 	/**
 	 * Load the specified data source data into the jena model.
 	 * 
@@ -182,14 +139,15 @@ public class DataLinker {
 	 */
 	private void loadDataset(String inputFile) {
 		if (masterModel == null) {
-			masterModel = FileManager.get().loadModel("file:" + inputFile, "N3");
+			masterModel = FileManager.get()
+					.loadModel("file:" + inputFile, "N3");
 		} else {
 			try {
-				FileManager.get()
-						.readModel(masterModel, "file:" + inputFile, "N3");
+				FileManager.get().readModel(masterModel, "file:" + inputFile,
+						"N3");
 			} catch (Exception e) {
-				System.err.println("The n3 file doesn't exist " + inputFile + "  "
-						+ e.getMessage());
+				System.err.println("The n3 file doesn't exist " + inputFile
+						+ "  " + e.getMessage());
 			}
 		}
 	}
@@ -234,8 +192,8 @@ public class DataLinker {
 									}
 								}
 								deleteDuplicates(fi.getPath(),
-										"src/main/resources/output/links/nt/" + name1
-												+ "-" + name + ".nt",
+										"src/main/resources/output/links/nt/"
+												+ name1 + "-" + name + ".nt",
 										"src/main/resources/output/links/resultFiles/"
 												+ name1 + "-" + name + ".ttl");
 							}
@@ -420,17 +378,34 @@ public class DataLinker {
 
 	}
 
-	public void link(List<String> listFiles, String outputFileTurtle) {
-		for(String s : listFiles){
+	/**
+	 * Links datasets in input list of files, and prints the result in output
+	 * ttl and rdfxml files
+	 * 
+	 * @param listFiles
+	 *            Input files containing datasets to link
+	 * @param outputFileTurtle
+	 *            Output file in Turtle
+	 * @param outputFileRDF
+	 *            Output file in RDF
+	 */
+	public void link(List<String> listFiles, String outputFileTurtle,
+			String outputFileRDF) {
+		for (String s : listFiles) {
 			loadDataset(s);
 		}
-		//write loaded datasets into output files
-		writeModelIntoOutputFiles(new StringBuilder(outputFileTurtle), null);
+		// write loaded datasets into output files
+		if (outputFileRDF != null) {
+			writeModelIntoOutputFiles(new StringBuilder(outputFileTurtle),
+					new StringBuilder(outputFileRDF));
+		} else {
+			writeModelIntoOutputFiles(new StringBuilder(outputFileTurtle), null);
+		}
 
-		//empty model
+		// empty model
 		emptyModel();
 
-		//delete duplicated triples into files
+		// delete duplicated triples into files
 		try {
 			deleteAllDuplicate();
 		} catch (IOException e) {
