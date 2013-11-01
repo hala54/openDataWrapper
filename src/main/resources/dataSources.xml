@@ -342,4 +342,15 @@
 		<outputTtlFile>src/main/resources/output/ttl/dataActionSociale.n3</outputTtlFile>
 		<outputXmlFile>src/main/resources/output/rdf-xml/dataActionSociale.rdf</outputXmlFile>
 	</source>
+	<source>
+		<nom>dataSubventions</nom>
+		<apiurl>http://data.nantes.fr/api/publication/23440003400026_J072/gratuite_manuels_table/content/?format=xml</apiurl>
+		<url>http://data.nantes.fr/donnees/detail/gratuite-des-manuels-scolaires-dans-les-lycees-des-pays-de-la-loire/?tx_icsoddatastore_pi1</url>
+		<publisher>Région des Pays de la Loire</publisher>
+		<titre>Gratuité des manuels scolaires dans les lycées des Pays de la Loire</titre>
+		<xsltFile>src/main/resources/xsl/dataSubventions.xsl</xsltFile>
+		<specificXSLT>false</specificXSLT>
+		<outputTtlFile>src/main/resources/output/ttl/dataSubventions.n3</outputTtlFile>
+    		<outputXmlFile>src/main/resources/output/rdf-xml/dataSubventions.rdf</outputXmlFile>
+  	</source>
 </sources>
