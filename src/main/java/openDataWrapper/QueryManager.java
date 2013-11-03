@@ -8,6 +8,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
+import java.util.TreeMap;
 
 import org.apache.log4j.Logger;
 
@@ -20,6 +21,8 @@ import com.hp.hpl.jena.query.ResultSet;
 import com.hp.hpl.jena.query.ResultSetFormatter;
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.util.FileManager;
+
+import java.io.File;
 
 /**
  * This class manage query and data loading through jena. You will be able to
@@ -60,7 +63,7 @@ public class QueryManager {
 						+ "[1] Load one dataset\n" + "[2] Load all dataset\n"
 						+ "[3] Run one query\n" + "[4] Run all query\n"
 						+ "[5] Display queries\n" + "[6] Display model\n"
-						+ "[7] Empty model\n" + "[0] Quit\n");
+						+ "[7] Empty model\n" + "[8] Load linked dataset\n" + "[0] Quit\n");
 				result = in.nextInt();
 
 				switch (result) {
@@ -85,6 +88,9 @@ public class QueryManager {
 				case 7:
 					emptyModel();
 					break;
+				case 8:
+					loadLinkedDataset();
+					break;
 				default:
 					// on quitte
 					result = -1;
@@ -98,6 +104,15 @@ public class QueryManager {
 		}
 		// in.close();
 		System.out.println("Query manager exiting...");
+	}
+
+	/**
+	 * Methode permettant de charger un dataset issu d'autres datasets
+	 */
+	private void loadLinkedDataset() {
+		String pathToRequestedLinkedDataset = DataSourceManager.chooseAvailableLinkedDatasets();
+		
+		loadDataset(DataSourceManager.PATH_TO_LINKED_DATASETS.append("/").append(pathToRequestedLinkedDataset).toString());
 	}
 
 	/**
@@ -221,22 +236,22 @@ public class QueryManager {
 	/**
 	 * Load the specified data source data into the jena model.
 	 * 
-	 * @param dts
-	 *            the DataSource object containing information about data.
+	 * @param ttl
+	 *            the turtle input of data.
 	 */
-	private void loadDataset(DataSource dts) {
-		String n3path = dts.getOutputTtl();
+	private void loadDataset(String ttl) {
 		if (masterModel == null) {
-			masterModel = FileManager.get().loadModel("file:" + n3path, "N3");
+			masterModel = FileManager.get().loadModel("file:" + ttl, "N3");
 		} else {
 			try {
 				FileManager.get()
-						.readModel(masterModel, "file:" + n3path, "N3");
+						.readModel(masterModel, "file:" + ttl, "N3");
 			} catch (Exception e) {
-				System.err.println("The n3 file doesn't exist " + n3path + "  "
+				System.err.println("The n3 file doesn't exist " + ttl + "  "
 						+ e.getMessage());
 			}
 		}
+		logger.info("Dataset loaded");
 	}
 
 	/**
@@ -252,7 +267,7 @@ public class QueryManager {
 		while (it.hasNext()) {
 			courant = it.next();
 			dts = dataSources.get(courant);
-			loadDataset(dts);
+			loadDataset(dts.getOutputTtl());
 		}
 	}
 
@@ -268,7 +283,7 @@ public class QueryManager {
 			int result = in.nextInt();
 			if (result > 0 && result <= dataSources.size()) {
 				DataSource dts = dataSources.get(result);
-				loadDataset(dts);
+				loadDataset(dts.getOutputTtl());
 				System.out.println("loading ok!");
 			} else {
 				System.err.println("there is no such dataset!");

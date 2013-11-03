@@ -364,4 +364,15 @@
 		<outputTtlFile>src/main/resources/output/ttl/dataActionsEducativesLycees.n3</outputTtlFile>
     		<outputXmlFile>src/main/resources/output/rdf-xml/dataActionsEducativesLycees.rdf</outputXmlFile>
   	</source>
+  	  	<source>
+		<nom>dataEnvoleo</nom>
+		<apiurl>http://data.paysdelaloire.fr/api/publication/23440003400026_J127/Convention_envoleo_table/content/?format=xml</apiurl>
+		<url>http://data.paysdelaloire.fr/donnees/detail/etablissements-signataires-dune-convention-de-partenariat-de-mobilite-internationale-des-etudiant/</url>
+		<publisher>Région des Pays de la Loire</publisher>
+		<titre>Etablissements signataires d'une convention de partenariat de mobilité internationale des étudiants en Pays de la Loire</titre>
+		<xsltFile>src/main/resources/xsl/dataEnvoleo.xsl</xsltFile>
+		<specificXSLT>false</specificXSLT>
+		<outputTtlFile>src/main/resources/output/ttl/dataEnvoleo.n3</outputTtlFile>
+    		<outputXmlFile>src/main/resources/output/rdf-xml/dataEnvoleo.rdf</outputXmlFile>
+  	</source>
 </sources>
