@@ -20,9 +20,11 @@
 
 <http://lodpaddle.univ-nantes.fr/dataActionSociale> rdf:type void:Dataset ;
 	foaf:homepage "http://data.nantes.fr/donnees/detail/localisation-des-equipements-publics-relevant-du-theme-action-sociale-de-nantes-metropole-1/";
-	dcterms:title "Localisation des équipements publics relevant du thème 'Action sociale' de Nantes Métropole"^^xsd:string ;
-	dcterms:description "Localisation des équipements publics relevant du thème 'Action sociale' de Nantes Métropole"^^xsd:string ;
-	dcterms:created "2013-10-07"^^xsd:date;
+	dcterms:title "Localisation des équipements publics relevant du thème 'Action
+			sociale' de Nantes Métropole"^^xsd:string ;
+	dcterms:description "Localisation des équipements publics relevant du thème 'Action
+			sociale' de Nantes Métropole"^^xsd:string ;
+	dcterms:created "2013-11-03"^^xsd:date;
 	dcterms:publisher :pub .
 
 :pub rdfs:label "DataNantes".
@@ -2295,7 +2297,7 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://lodpaddle.univ-nantes.fr/dataActionSociale/Foyer%20Educatif%20de%20la%20Jaunaie>	 foaf:name 	 "Foyer Educatif de la Jaunaie"^^xsd:string ;
+<http://lodpaddle.univ-nantes.fr/dataActionSociale/Foyer%20Educatif%20de%20la%20Jaunaie%20%28Association%20Action%20Educative%20de%20Loire-Atlantique%29>	 foaf:name 	 "Foyer Educatif de la Jaunaie (Association Action Educative de Loire-Atlantique)"^^xsd:string ;
 	rdf:type	 pdll:dataActionSociale;
 	geo:lat	"47.1938166236004"^^xsd:decimal ;
 	geo:long	"-1.49690427508418"^^xsd:decimal  ;
@@ -2303,7 +2305,7 @@
 	sc:postalCode	 "44230"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	pdll:statut	 "Privé"^^xsd:string ;
-	sc:telephone	 "02 51 79 05 79"^^xsd:string ;
+	sc:telephone	 "02 51 79 16 16"^^xsd:string ;
 	pdll:theme	 "11"^^xsd:string ;
 	dbpprop:town	 "ST-SEBASTIEN"^^xsd:string ;
 	pdll:CategoryLabel	 "Insertion"^^xsd:string ;
@@ -2349,7 +2351,7 @@
 	TEMPORAIRE:TypeProblem	 "110203"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://lodpaddle.univ-nantes.fr/dataActionSociale/Restaurant%20du%20Coeur%20-%20Ouest>	 foaf:name 	 "Restaurant du Coeur - Ouest"^^xsd:string ;
+<http://lodpaddle.univ-nantes.fr/dataActionSociale/Jardins%20du%20Coeur>	 foaf:name 	 "Jardins du Coeur"^^xsd:string ;
 	rdf:type	 pdll:dataActionSociale;
 	geo:lat	"47.1956428593094"^^xsd:decimal ;
 	geo:long	"-1.52086515897107"^^xsd:decimal  ;
@@ -2367,7 +2369,7 @@
 	TEMPORAIRE:TypeProblem	 "110203"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://lodpaddle.univ-nantes.fr/dataActionSociale/Maison%20de%20la%20Naissance%20Saint%20S%C3%A9bastien>	 foaf:name 	 "Maison de la Naissance Saint Sébastien"^^xsd:string ;
+<http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20de%20Convalescence>	 foaf:name 	 "Centre de Convalescence"^^xsd:string ;
 	rdf:type	 pdll:dataActionSociale;
 	geo:lat	"47.1915524141425"^^xsd:decimal ;
 	geo:long	"-1.50190248641829"^^xsd:decimal  ;
@@ -2375,35 +2377,17 @@
 	sc:postalCode	 "44230"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	pdll:statut	 "Privé"^^xsd:string ;
-	sc:telephone	 "02 51 79 55 00"^^xsd:string ;
+	sc:telephone	 "02 51 79 55 55"^^xsd:string ;
 	pdll:theme	 "11"^^xsd:string ;
 	dbpprop:town	 "ST-SEBASTIEN"^^xsd:string ;
 	pdll:CategoryLabel	 "Santé"^^xsd:string ;
 	dbpprop:location	 "Place des Lucines"^^xsd:string ;
-	pdll:typeLabel	 "Hôpital-Clinique"^^xsd:string ;
+	pdll:typeLabel	 "Autre"^^xsd:string ;
 	pdll:id	 "2031"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "110303"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Social%20DISS%20Saint%20S%C3%A9bastien>	 foaf:name 	 "Centre Médico-Social DISS Saint Sébastien"^^xsd:string ;
-	rdf:type	 pdll:dataActionSociale;
-	geo:lat	"47.2038168560759"^^xsd:decimal ;
-	geo:long	"-1.48786380336692"^^xsd:decimal  ;
-	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
-	sc:postalCode	 "44230"^^xsd:string ;
-	dbpprop:website	 "www.loire-atlantique.fr"^^xsd:string ;
-	pdll:statut	 "Public"^^xsd:string ;
-	sc:telephone	 "02 40 33 18 61"^^xsd:string ;
-	pdll:theme	 "11"^^xsd:string ;
-	dbpprop:town	 "ST-SEBASTIEN"^^xsd:string ;
-	pdll:CategoryLabel	 "Santé"^^xsd:string ;
-	dbpprop:location	 "11 Rue du Languedoc"^^xsd:string ;
-	pdll:typeLabel	 "Centres Médico Sociaux"^^xsd:string ;
-	pdll:id	 "2046"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
-	pdll:Category	 "1103"^^xsd:string .
-
-<http://lodpaddle.univ-nantes.fr/dataActionSociale/Clinique%20Mutualiste>	 foaf:name 	 "Clinique Mutualiste"^^xsd:string ;
+<http://lodpaddle.univ-nantes.fr/dataActionSociale/Foyer%20des%20Lucines%20-%20ADAPEI>	 foaf:name 	 "Foyer des Lucines - ADAPEI"^^xsd:string ;
 	rdf:type	 pdll:dataActionSociale;
 	geo:lat	"47.1916227168911"^^xsd:decimal ;
 	geo:long	"-1.50125204057764"^^xsd:decimal  ;
@@ -2411,15 +2395,15 @@
 	sc:postalCode	 "44230"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	pdll:statut	 "Privé"^^xsd:string ;
-	sc:telephone	 "02 51 79 56 00"^^xsd:string ;
+	sc:telephone	 "02 28 00 20 40"^^xsd:string ;
 	pdll:theme	 "11"^^xsd:string ;
 	dbpprop:town	 "ST-SEBASTIEN"^^xsd:string ;
-	pdll:CategoryLabel	 "Santé"^^xsd:string ;
-	dbpprop:location	 "Rue de l'Ouche Catin"^^xsd:string ;
-	pdll:typeLabel	 "Hôpital-Clinique"^^xsd:string ;
+	pdll:CategoryLabel	 "Handicap"^^xsd:string ;
+	dbpprop:location	 "Place des Lucines"^^xsd:string ;
+	pdll:typeLabel	 "Hébergement"^^xsd:string ;
 	pdll:id	 "2049"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
-	pdll:Category	 "1103"^^xsd:string .
+	TEMPORAIRE:TypeProblem	 "110103"^^xsd:string ;
+	pdll:Category	 "1101"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Social%20Le%20Douet>	 foaf:name 	 "Centre Médico-Social Le Douet"^^xsd:string ;
 	rdf:type	 pdll:dataActionSociale;
@@ -2436,24 +2420,6 @@
 	dbpprop:location	 "35 Allée du Six Juin 1944"^^xsd:string ;
 	pdll:typeLabel	 "Centres Médico Sociaux"^^xsd:string ;
 	pdll:id	 "2050"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
-	pdll:Category	 "1103"^^xsd:string .
-
-<http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Social%20La%20Fontaine>	 foaf:name 	 "Centre Médico-Social La Fontaine"^^xsd:string ;
-	rdf:type	 pdll:dataActionSociale;
-	geo:lat	"47.2034027994707"^^xsd:decimal ;
-	geo:long	"-1.49135060241711"^^xsd:decimal  ;
-	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
-	sc:postalCode	 "44230"^^xsd:string ;
-	dbpprop:website	 "www.loire-atlantique.fr"^^xsd:string ;
-	pdll:statut	 "Public"^^xsd:string ;
-	sc:telephone	 "02 40 33 16 30"^^xsd:string ;
-	pdll:theme	 "11"^^xsd:string ;
-	dbpprop:town	 "ST-SEBASTIEN"^^xsd:string ;
-	pdll:CategoryLabel	 "Santé"^^xsd:string ;
-	dbpprop:location	 "Rue de Beaugency"^^xsd:string ;
-	pdll:typeLabel	 "Centres Médico Sociaux"^^xsd:string ;
-	pdll:id	 "2051"^^xsd:string ;
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
@@ -2475,24 +2441,6 @@
 	TEMPORAIRE:TypeProblem	 "110202"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20d%27Accueil%20Psychiatrie%20Saint%20S%C3%A9bastien>	 foaf:name 	 "Centre d'Accueil Psychiatrie Saint Sébastien"^^xsd:string ;
-	rdf:type	 pdll:dataActionSociale;
-	geo:lat	"47.2073058295455"^^xsd:decimal ;
-	geo:long	"-1.50860275246637"^^xsd:decimal  ;
-	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
-	sc:postalCode	 "44230"^^xsd:string ;
-	dbpprop:website	 "undefined"^^xsd:string ;
-	pdll:statut	 "Public"^^xsd:string ;
-	sc:telephone	 "02 40 34 32 29"^^xsd:string ;
-	pdll:theme	 "11"^^xsd:string ;
-	dbpprop:town	 "ST-SEBASTIEN"^^xsd:string ;
-	pdll:CategoryLabel	 "Santé"^^xsd:string ;
-	dbpprop:location	 "Rue des Becques"^^xsd:string ;
-	pdll:typeLabel	 "Hôpital-Clinique"^^xsd:string ;
-	pdll:id	 "2061"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
-	pdll:Category	 "1103"^^xsd:string .
-
 <http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20d%27Action%20M%C3%A9dico-Social%20Pr%C3%A9coce%20Polyvalent%20Saint%20S%C3%A9bastien>	 foaf:name 	 "Centre d'Action Médico-Social Précoce Polyvalent Saint Sébastien"^^xsd:string ;
 	rdf:type	 pdll:dataActionSociale;
 	geo:lat	"47.1927205420507"^^xsd:decimal ;
@@ -2510,24 +2458,6 @@
 	pdll:id	 "2062"^^xsd:string ;
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
-
-<http://lodpaddle.univ-nantes.fr/dataActionSociale/Economie%20Sociale%20et%20Familliale%20Saint%20S%C3%A9bastien>	 foaf:name 	 "Economie Sociale et Familliale Saint Sébastien"^^xsd:string ;
-	rdf:type	 pdll:dataActionSociale;
-	geo:lat	"47.2058710222044"^^xsd:decimal ;
-	geo:long	"-1.50610659590157"^^xsd:decimal  ;
-	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
-	sc:postalCode	 "44230"^^xsd:string ;
-	dbpprop:website	 "undefined"^^xsd:string ;
-	pdll:statut	 "Public"^^xsd:string ;
-	sc:telephone	 "02 40 80 71 34"^^xsd:string ;
-	pdll:theme	 "11"^^xsd:string ;
-	dbpprop:town	 "ST-SEBASTIEN"^^xsd:string ;
-	pdll:CategoryLabel	 "Insertion"^^xsd:string ;
-	dbpprop:location	 "Rue Jean Macé"^^xsd:string ;
-	pdll:typeLabel	 "Economie Sociale et Familiale"^^xsd:string ;
-	pdll:id	 "2063"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "110204"^^xsd:string ;
-	pdll:Category	 "1102"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Social%20Baptiste%20Marcet>	 foaf:name 	 "Centre Médico-Social Baptiste Marcet"^^xsd:string ;
 	rdf:type	 pdll:dataActionSociale;
@@ -2673,31 +2603,13 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Social%20Sainte%20Luce%20sur%20Loire>	 foaf:name 	 "Centre Médico-Social Sainte Luce sur Loire"^^xsd:string ;
-	rdf:type	 pdll:dataActionSociale;
-	geo:lat	"47.2484079030159"^^xsd:decimal ;
-	geo:long	"-1.48271252749765"^^xsd:decimal  ;
-	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
-	sc:postalCode	 "44980"^^xsd:string ;
-	dbpprop:website	 "www.loire-atlantique.fr"^^xsd:string ;
-	pdll:statut	 "undefined"^^xsd:string ;
-	sc:telephone	 "02 40 25 61 69"^^xsd:string ;
-	pdll:theme	 "11"^^xsd:string ;
-	dbpprop:town	 "SAINTE-LUCE-SUR-LOIRE"^^xsd:string ;
-	pdll:CategoryLabel	 "Santé"^^xsd:string ;
-	dbpprop:location	 "Mail de l'Europe"^^xsd:string ;
-	pdll:typeLabel	 "Centres Médico Sociaux"^^xsd:string ;
-	pdll:id	 "2591"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
-	pdll:Category	 "1103"^^xsd:string .
-
 <http://lodpaddle.univ-nantes.fr/dataActionSociale/Institut%20d%27Education%20Motrice%20%20La%20Grillonnais>	 foaf:name 	 "Institut d'Education Motrice  La Grillonnais"^^xsd:string ;
 	rdf:type	 pdll:dataActionSociale;
-	geo:lat	"47.2140184647143"^^xsd:decimal ;
-	geo:long	"-1.46672238565003"^^xsd:decimal  ;
+	geo:lat	"47.2136996714187"^^xsd:decimal ;
+	geo:long	"-1.46674599381544"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44115"^^xsd:string ;
-	dbpprop:website	 "undefined"^^xsd:string ;
+	dbpprop:website	 "www.iem-fp-la-grillonnais.com"^^xsd:string ;
 	pdll:statut	 "Privé"^^xsd:string ;
 	sc:telephone	 "02 40 03 56 66"^^xsd:string ;
 	pdll:theme	 "11"^^xsd:string ;
@@ -2793,7 +2705,7 @@
 	pdll:theme	 "11"^^xsd:string ;
 	dbpprop:town	 "VERTOU"^^xsd:string ;
 	pdll:CategoryLabel	 "Santé"^^xsd:string ;
-	dbpprop:location	 "15 Allée Alphonse Fillion"^^xsd:string ;
+	dbpprop:location	 "1 Allée Alphonse Fillion"^^xsd:string ;
 	pdll:typeLabel	 "Hôpital-Clinique"^^xsd:string ;
 	pdll:id	 "3011"^^xsd:string ;
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
@@ -2835,24 +2747,6 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Social%20%20H.%20Normand%20Chabossi%C3%A8re>	 foaf:name 	 "Centre Médico-Social  H. Normand Chabossière"^^xsd:string ;
-	rdf:type	 pdll:dataActionSociale;
-	geo:lat	"47.2146005024043"^^xsd:decimal ;
-	geo:long	"-1.68238113295341"^^xsd:decimal  ;
-	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
-	sc:postalCode	 "44220"^^xsd:string ;
-	dbpprop:website	 "www.loire-atlantique.fr"^^xsd:string ;
-	pdll:statut	 "undefined"^^xsd:string ;
-	sc:telephone	 "02 40 85 49 56"^^xsd:string ;
-	pdll:theme	 "11"^^xsd:string ;
-	dbpprop:town	 "COUERON"^^xsd:string ;
-	pdll:CategoryLabel	 "Santé"^^xsd:string ;
-	dbpprop:location	 "Place des Cités"^^xsd:string ;
-	pdll:typeLabel	 "Centres Médico Sociaux"^^xsd:string ;
-	pdll:id	 "3073"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
-	pdll:Category	 "1103"^^xsd:string .
-
 <http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Social%20Espace%20M%C3%A9dicis>	 foaf:name 	 "Centre Médico-Social Espace Médicis"^^xsd:string ;
 	rdf:type	 pdll:dataActionSociale;
 	geo:lat	"47.2989377347209"^^xsd:decimal ;
@@ -2871,10 +2765,10 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Social%20Pierre%20Legendre>	 foaf:name 	 "Centre Médico-Social Pierre Legendre"^^xsd:string ;
+<http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20m%C3%A9dico-social%20Cou%C3%ABron>	 foaf:name 	 "Centre médico-social Couëron"^^xsd:string ;
 	rdf:type	 pdll:dataActionSociale;
-	geo:lat	"47.2139000938195"^^xsd:decimal ;
-	geo:long	"-1.72788290811037"^^xsd:decimal  ;
+	geo:lat	"47.2146656167506"^^xsd:decimal ;
+	geo:long	"-1.71389516092216"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44220"^^xsd:string ;
 	dbpprop:website	 "www.loire-atlantique.fr"^^xsd:string ;
@@ -2883,7 +2777,7 @@
 	pdll:theme	 "11"^^xsd:string ;
 	dbpprop:town	 "COUERON"^^xsd:string ;
 	pdll:CategoryLabel	 "Santé"^^xsd:string ;
-	dbpprop:location	 "7 Boulevard Francois Blancho"^^xsd:string ;
+	dbpprop:location	 "76 Boulevard de l'Europe"^^xsd:string ;
 	pdll:typeLabel	 "Centres Médico Sociaux"^^xsd:string ;
 	pdll:id	 "3075"^^xsd:string ;
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
@@ -3015,7 +2909,7 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Social%203%20Moulins>	 foaf:name 	 "Centre Médico-Social 3 Moulins"^^xsd:string ;
+<http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Social%20Andr%C3%A9%20Coutant>	 foaf:name 	 "Centre Médico-Social André Coutant"^^xsd:string ;
 	rdf:type	 pdll:dataActionSociale;
 	geo:lat	"47.1786411293385"^^xsd:decimal ;
 	geo:long	"-1.54697811858537"^^xsd:decimal  ;
@@ -3087,7 +2981,7 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20Aide%20par%20le%20Travail%20Public%20D%C3%A9partemental%20Vertou>	 foaf:name 	 "Centre Aide par le Travail Public Départemental Vertou"^^xsd:string ;
+<http://lodpaddle.univ-nantes.fr/dataActionSociale/Etablissements%20et%20Services%20d%27Aide%20par%20le%20Travail>	 foaf:name 	 "Etablissements et Services d'Aide par le Travail"^^xsd:string ;
 	rdf:type	 pdll:dataActionSociale;
 	geo:lat	"47.1838635184052"^^xsd:decimal ;
 	geo:long	"-1.48325005919409"^^xsd:decimal  ;
@@ -3095,7 +2989,7 @@
 	sc:postalCode	 "44120"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	pdll:statut	 "undefined"^^xsd:string ;
-	sc:telephone	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 51 71 09 69"^^xsd:string ;
 	pdll:theme	 "11"^^xsd:string ;
 	dbpprop:town	 "VERTOU"^^xsd:string ;
 	pdll:CategoryLabel	 "Insertion"^^xsd:string ;
@@ -3123,7 +3017,7 @@
 	TEMPORAIRE:TypeProblem	 "110103"^^xsd:string ;
 	pdll:Category	 "1101"^^xsd:string .
 
-<http://lodpaddle.univ-nantes.fr/dataActionSociale/H%C3%B4pital%20de%20Jour%20%28Centre%20M%C3%A9dico-Psychologique%29>	 foaf:name 	 "Hôpital de Jour (Centre Médico-Psychologique)"^^xsd:string ;
+<http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-psychologique%20pour%20Adultes%20%22No%C3%A9%20de%20l%27Epinette%22>	 foaf:name 	 "Centre Médico-psychologique pour Adultes Noé de l'Epinette"^^xsd:string ;
 	rdf:type	 pdll:dataActionSociale;
 	geo:lat	"47.1861447872047"^^xsd:decimal ;
 	geo:long	"-1.51451079573778"^^xsd:decimal  ;
@@ -3153,7 +3047,7 @@
 	pdll:theme	 "11"^^xsd:string ;
 	dbpprop:town	 "VERTOU"^^xsd:string ;
 	pdll:CategoryLabel	 "Handicap"^^xsd:string ;
-	dbpprop:location	 "Rue des Fraîches"^^xsd:string ;
+	dbpprop:location	 "40 Rue des Fraîches"^^xsd:string ;
 	pdll:typeLabel	 "Formation"^^xsd:string ;
 	pdll:id	 "3338"^^xsd:string ;
 	TEMPORAIRE:TypeProblem	 "110101"^^xsd:string ;
@@ -3267,24 +3161,6 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://lodpaddle.univ-nantes.fr/dataActionSociale/Point%20Pr%C3%A9vention%20Sant%C3%A9%20La%20Montagne>	 foaf:name 	 "Point Prévention Santé La Montagne"^^xsd:string ;
-	rdf:type	 pdll:dataActionSociale;
-	geo:lat	"47.1907363619384"^^xsd:decimal ;
-	geo:long	"-1.68337010570577"^^xsd:decimal  ;
-	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
-	sc:postalCode	 "44620"^^xsd:string ;
-	dbpprop:website	 "www.loire-atlantique.fr"^^xsd:string ;
-	pdll:statut	 "undefined"^^xsd:string ;
-	sc:telephone	 "02 40 32 92 77"^^xsd:string ;
-	pdll:theme	 "11"^^xsd:string ;
-	dbpprop:town	 "LA-MONTAGNE"^^xsd:string ;
-	pdll:CategoryLabel	 "Santé"^^xsd:string ;
-	dbpprop:location	 "49 Rue Violin"^^xsd:string ;
-	pdll:typeLabel	 "Centres Médico Sociaux"^^xsd:string ;
-	pdll:id	 "3453"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
-	pdll:Category	 "1103"^^xsd:string .
-
 <http://lodpaddle.univ-nantes.fr/dataActionSociale/Foyer%20La%20Montagne>	 foaf:name 	 "Foyer La Montagne"^^xsd:string ;
 	rdf:type	 pdll:dataActionSociale;
 	geo:lat	"47.1802035469387"^^xsd:decimal ;
@@ -3351,25 +3227,25 @@
 	pdll:theme	 "11"^^xsd:string ;
 	dbpprop:town	 "SAINTE-LUCE-SUR-LOIRE"^^xsd:string ;
 	pdll:CategoryLabel	 "Santé"^^xsd:string ;
-	dbpprop:location	 "Avenue de Bretagne"^^xsd:string ;
+	dbpprop:location	 "2 Rue Jules Verne"^^xsd:string ;
 	pdll:typeLabel	 "Centres Médico Sociaux"^^xsd:string ;
 	pdll:id	 "3487"^^xsd:string ;
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://lodpaddle.univ-nantes.fr/dataActionSociale/le%20SENEVE%20%2C%20foyer%20de%20l%27Arche>	 foaf:name 	 "le SENEVE , foyer de l'Arche"^^xsd:string ;
+<http://lodpaddle.univ-nantes.fr/dataActionSociale/L%27Arche%20Le%20S%C3%A9n%C3%A9v%C3%A9%20-%20Foyer%20La%20Margelle>	 foaf:name 	 "L'Arche Le Sénévé - Foyer La Margelle"^^xsd:string ;
 	rdf:type	 pdll:dataActionSociale;
-	geo:lat	"47.1690783367244"^^xsd:decimal ;
-	geo:long	"-1.48125267996729"^^xsd:decimal  ;
+	geo:lat	"47.1692418510199"^^xsd:decimal ;
+	geo:long	"-1.47087151127098"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44120"^^xsd:string ;
-	dbpprop:website	 "undefined"^^xsd:string ;
+	dbpprop:website	 "www.larcheseneve.org"^^xsd:string ;
 	pdll:statut	 "undefined"^^xsd:string ;
-	sc:telephone	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 03 28 69"^^xsd:string ;
 	pdll:theme	 "11"^^xsd:string ;
 	dbpprop:town	 "VERTOU"^^xsd:string ;
 	pdll:CategoryLabel	 "Insertion"^^xsd:string ;
-	dbpprop:location	 "4 Quai de la Chaussée des Moines"^^xsd:string ;
+	dbpprop:location	 "Rue de l'Ile de France"^^xsd:string ;
 	pdll:typeLabel	 "Accueil insertion"^^xsd:string ;
 	pdll:id	 "3523"^^xsd:string ;
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
@@ -3417,7 +3293,7 @@
 	geo:long	"-1.4473706203127"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44120"^^xsd:string ;
-	dbpprop:website	 "undefined"^^xsd:string ;
+	dbpprop:website	 "www.thebaudieres.org"^^xsd:string ;
 	pdll:statut	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 51 79 50 00"^^xsd:string ;
 	pdll:theme	 "11"^^xsd:string ;
@@ -3465,7 +3341,7 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://lodpaddle.univ-nantes.fr/dataActionSociale/Foyer%20ADAPEI%20Bouaye>	 foaf:name 	 "Foyer ADAPEI Bouaye"^^xsd:string ;
+<http://lodpaddle.univ-nantes.fr/dataActionSociale/Foyer%20Les%20Machaons>	 foaf:name 	 "Foyer Les Machaons"^^xsd:string ;
 	rdf:type	 pdll:dataActionSociale;
 	geo:lat	"47.1537976120241"^^xsd:decimal ;
 	geo:long	"-1.68375125020565"^^xsd:decimal  ;
@@ -3477,7 +3353,7 @@
 	pdll:theme	 "11"^^xsd:string ;
 	dbpprop:town	 "BOUAYE"^^xsd:string ;
 	pdll:CategoryLabel	 "Handicap"^^xsd:string ;
-	dbpprop:location	 "Rue Colette Besson"^^xsd:string ;
+	dbpprop:location	 "11 Rue Colette Besson"^^xsd:string ;
 	pdll:typeLabel	 "Accueil"^^xsd:string ;
 	pdll:id	 "3595"^^xsd:string ;
 	TEMPORAIRE:TypeProblem	 "110102"^^xsd:string ;
@@ -3567,7 +3443,7 @@
 	pdll:theme	 "11"^^xsd:string ;
 	dbpprop:town	 "VERTOU"^^xsd:string ;
 	pdll:CategoryLabel	 "Santé"^^xsd:string ;
-	dbpprop:location	 "Rue de la Garenne"^^xsd:string ;
+	dbpprop:location	 "1 Rue de la Garenne"^^xsd:string ;
 	pdll:typeLabel	 "Centres Médico Sociaux"^^xsd:string ;
 	pdll:id	 "3787"^^xsd:string ;
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
@@ -4223,8 +4099,8 @@
 
 <http://lodpaddle.univ-nantes.fr/dataActionSociale/Atelier%20Chantier%20d%27Insertion%20TRAJET%20Pain%20Contre%20la%20Faim>	 foaf:name 	 "Atelier Chantier d'Insertion TRAJET Pain Contre la Faim"^^xsd:string ;
 	rdf:type	 pdll:dataActionSociale;
-	geo:lat	"47.2578506704216"^^xsd:decimal ;
-	geo:long	"-1.65440791964524"^^xsd:decimal  ;
+	geo:lat	"47.2577713021607"^^xsd:decimal ;
+	geo:long	"-1.65425474307305"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44880"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
@@ -4598,4 +4474,76 @@
 	pdll:id	 "4154"^^xsd:string ;
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataActionSociale/ACLADI%20La%20Maison%20Bleue>	 foaf:name 	 "ACLADI La Maison Bleue"^^xsd:string ;
+	rdf:type	 pdll:dataActionSociale;
+	geo:lat	"47.1499312928396"^^xsd:decimal ;
+	geo:long	"-1.52827841388252"^^xsd:decimal  ;
+	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
+	sc:postalCode	 "44840"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 58 79 32"^^xsd:string ;
+	pdll:theme	 "11"^^xsd:string ;
+	dbpprop:town	 "LES-SORINIERES"^^xsd:string ;
+	pdll:CategoryLabel	 "Handicap"^^xsd:string ;
+	dbpprop:location	 "12 Rue de l'Elan"^^xsd:string ;
+	pdll:typeLabel	 "Hébergement"^^xsd:string ;
+	pdll:id	 "4177"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "110103"^^xsd:string ;
+	pdll:Category	 "1101"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataActionSociale/Instituts%20M%C3%A9dico-Educatifs%20%28IME%29>	 foaf:name 	 "Instituts Médico-Educatifs (IME)"^^xsd:string ;
+	rdf:type	 pdll:dataActionSociale;
+	geo:lat	"47.1482390292689"^^xsd:decimal ;
+	geo:long	"-1.52049954330201"^^xsd:decimal  ;
+	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
+	sc:postalCode	 "44840"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 31 21 11"^^xsd:string ;
+	pdll:theme	 "11"^^xsd:string ;
+	dbpprop:town	 "LES-SORINIERES"^^xsd:string ;
+	pdll:CategoryLabel	 "Handicap"^^xsd:string ;
+	dbpprop:location	 "33 Rue des Papillons"^^xsd:string ;
+	pdll:typeLabel	 "Formation"^^xsd:string ;
+	pdll:id	 "4178"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "110101"^^xsd:string ;
+	pdll:Category	 "1101"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataActionSociale/Secours%20Populaire%20Fran%C3%A7ais2> foaf:name  "Secours Populaire Français"^^xsd:string ;
+	rdf:type	 pdll:dataActionSociale;
+	geo:lat	"47.1917616029681"^^xsd:decimal ;
+	geo:long	"-1.51947690894921"^^xsd:decimal  ;
+	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
+	sc:postalCode	 "44230"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 34 83 76"^^xsd:string ;
+	pdll:theme	 "11"^^xsd:string ;
+	dbpprop:town	 "ST-SEBASTIEN"^^xsd:string ;
+	pdll:CategoryLabel	 "Insertion"^^xsd:string ;
+	dbpprop:location	 "10 Rue Edouard Hervé"^^xsd:string ;
+	pdll:typeLabel	 "Accueil insertion"^^xsd:string ;
+	pdll:id	 "4209"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
+	pdll:Category	 "1102"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataActionSociale/Le%20Point%20Cl%C3%A9%20%28Centre%20Social%20du%20Douet%29>	 foaf:name 	 "Le Point Clé (Centre Social du Douet)"^^xsd:string ;
+	rdf:type	 pdll:dataActionSociale;
+	geo:lat	"47.1937256088805"^^xsd:decimal ;
+	geo:long	"-1.52046959960043"^^xsd:decimal  ;
+	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
+	sc:postalCode	 "44230"^^xsd:string ;
+	dbpprop:website	 "http://lepointcle.fr/"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 51 71 02 83"^^xsd:string ;
+	pdll:theme	 "11"^^xsd:string ;
+	dbpprop:town	 "ST-SEBASTIEN"^^xsd:string ;
+	pdll:CategoryLabel	 "Insertion"^^xsd:string ;
+	dbpprop:location	 "3 Allée du Six Juin 1944"^^xsd:string ;
+	pdll:typeLabel	 "Insertion professionnelle"^^xsd:string ;
+	pdll:id	 "4211"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
+	pdll:Category	 "1102"^^xsd:string .
 

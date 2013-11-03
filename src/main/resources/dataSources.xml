@@ -353,4 +353,15 @@
 		<outputTtlFile>src/main/resources/output/ttl/dataSubventions.n3</outputTtlFile>
     		<outputXmlFile>src/main/resources/output/rdf-xml/dataSubventions.rdf</outputXmlFile>
   	</source>
+  	<source>
+		<nom>dataActionsEducativesLycees</nom>
+		<apiurl>http://data.paysdelaloire.fr/api/publication/23440003400026_J068/Actions_educatives_lycees_table/content/?format=xml</apiurl>
+		<url>http://data.paysdelaloire.fr/donnees/detail/actions-educatives-conduites-dans-les-lycees-publics-et-prives-des-pays-de-la-loire/</url>
+		<publisher>Région des Pays de la Loire</publisher>
+		<titre>Actions Educatives conduites dans les lycées publics et privés des Pays de la Loire</titre>
+		<xsltFile>src/main/resources/xsl/dataActionsEducativesLycees.xsl</xsltFile>
+		<specificXSLT>false</specificXSLT>
+		<outputTtlFile>src/main/resources/output/ttl/dataActionsEducativesLycees.n3</outputTtlFile>
+    		<outputXmlFile>src/main/resources/output/rdf-xml/dataActionsEducativesLycees.rdf</outputXmlFile>
+  	</source>
 </sources>
