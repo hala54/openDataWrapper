@@ -8,15 +8,34 @@
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:foaf="http://xmlns.com/foaf/0.1/"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
-    xmlns="file:///home/alexis/git/openDataWrapper/src/main/resources/output/ttl/dataActionSociale.n3#"
     xmlns:dcterms="http://purl.org/dc/terms/"
-    xmlns:ex="http://example.org/"
     xmlns:TEMPORAIRE="http://temporaire.org/"
+    xmlns:ex="http://example.org/"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
     xmlns:prop-fr="http://fr.dbpedia.org/property/"
     xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+    xmlns="file:///home/alexis/Documents/Projets/OpenDataWrapper/openDataWrapper/openDataWrapper/src/main/resources/output/ttl/dataActionSociale.n3#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" > 
+  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/ACLADI%20La%20Maison%20Bleue">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.52827841388252</geo:long>
+    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1101</pdll:Category>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1499312928396</geo:lat>
+    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
+    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
+    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACLADI La Maison Bleue</foaf:name>
+    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4177</pdll:id>
+    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 58 79 32</sc:telephone>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LES-SORINIERES</dbpprop:town>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 Rue de l'Elan</dbpprop:location>
+    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44840</sc:postalCode>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
+    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hébergement</pdll:typeLabel>
+    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110103</TEMPORAIRE:TypeProblem>
+    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Handicap</pdll:CategoryLabel>
+  </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Social%20Espace%20M%C3%A9dicis">
     <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA-CHAPELLE-SUR-ERDRE</dbpprop:town>
     <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1103</pdll:Category>
@@ -130,6 +149,25 @@
     <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.loire-atlantique.fr</dbpprop:website>
     <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Secours%20Populaire%20Fran%C3%A7ais2">
+    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44230</sc:postalCode>
+    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4209</pdll:id>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 Rue Edouard Hervé</dbpprop:location>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.51947690894921</geo:long>
+    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1102</pdll:Category>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Secours Populaire Français</foaf:name>
+    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110201</TEMPORAIRE:TypeProblem>
+    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
+    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 34 83 76</sc:telephone>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
+    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accueil insertion</pdll:typeLabel>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1917616029681</geo:lat>
+    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insertion</pdll:CategoryLabel>
+    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-SEBASTIEN</dbpprop:town>
+    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Clinique%20Jules%20Verne">
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinique Jules Verne</foaf:name>
@@ -245,25 +283,6 @@
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1507</pdll:id>
     <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
   </rdf:Description>
-  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Social%20La%20Fontaine">
-    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centre Médico-Social La Fontaine</foaf:name>
-    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2034027994707</geo:lat>
-    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue de Beaugency</dbpprop:location>
-    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centres Médico Sociaux</pdll:typeLabel>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.49135060241711</geo:long>
-    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2051</pdll:id>
-    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44230</sc:postalCode>
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110301</TEMPORAIRE:TypeProblem>
-    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.loire-atlantique.fr</dbpprop:website>
-    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Public</pdll:statut>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-SEBASTIEN</dbpprop:town>
-    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 33 16 30</sc:telephone>
-    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santé</pdll:CategoryLabel>
-    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1103</pdll:Category>
-    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Social%20La%20Bugalli%C3%A8re">
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1919</pdll:id>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santé</pdll:CategoryLabel>
@@ -358,25 +377,6 @@
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hôpital-Clinique</pdll:typeLabel>
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44800</sc:postalCode>
     <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1103</pdll:Category>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Clinique%20Mutualiste">
-    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Privé</pdll:statut>
-    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2049</pdll:id>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1916227168911</geo:lat>
-    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
-    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santé</pdll:CategoryLabel>
-    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1103</pdll:Category>
-    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue de l'Ouche Catin</dbpprop:location>
-    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hôpital-Clinique</pdll:typeLabel>
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110302</TEMPORAIRE:TypeProblem>
-    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.50125204057764</geo:long>
-    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinique Mutualiste</foaf:name>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-SEBASTIEN</dbpprop:town>
-    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
-    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 79 56 00</sc:telephone>
-    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44230</sc:postalCode>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Social%20Jamet">
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2063316463051</geo:lat>
@@ -549,25 +549,6 @@
     <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Social%20%20H.%20Normand%20Chabossi%C3%A8re">
-    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
-    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1103</pdll:Category>
-    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centres Médico Sociaux</pdll:typeLabel>
-    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44220</sc:postalCode>
-    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COUERON</dbpprop:town>
-    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.loire-atlantique.fr</dbpprop:website>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2146005024043</geo:lat>
-    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
-    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Place des Cités</dbpprop:location>
-    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
-    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santé</pdll:CategoryLabel>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centre Médico-Social  H. Normand Chabossière</foaf:name>
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110301</TEMPORAIRE:TypeProblem>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.68238113295341</geo:long>
-    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3073</pdll:id>
-    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 85 49 56</sc:telephone>
-  </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Foyer%20de%20La%20Fraternit%C3%A9">
     <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
     <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
@@ -605,6 +586,25 @@
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
     <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44000</sc:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Foyer%20Educatif%20de%20la%20Jaunaie%20%28Association%20Action%20Educative%20de%20Loire-Atlantique%29">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.49690427508418</geo:long>
+    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44230</sc:postalCode>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Foyer Educatif de la Jaunaie (Association Action Educative de Loire-Atlantique)</foaf:name>
+    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1102</pdll:Category>
+    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
+    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1938166236004</geo:lat>
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110202</TEMPORAIRE:TypeProblem>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">113 Rue de la Jaunaie</dbpprop:location>
+    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 79 16 16</sc:telephone>
+    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Privé</pdll:statut>
+    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-SEBASTIEN</dbpprop:town>
+    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1988</pdll:id>
+    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hébergement insertion</pdll:typeLabel>
+    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insertion</pdll:CategoryLabel>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Atelier%20Chantier%20Insertion%20Recherche%20Emplois%20Familiaux">
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2121480349247</geo:lat>
@@ -815,6 +815,44 @@
     <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.55239561657516</geo:long>
   </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20m%C3%A9dico-social%20Cou%C3%ABron">
+    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
+    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centres Médico Sociaux</pdll:typeLabel>
+    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centre médico-social Couëron</foaf:name>
+    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3075</pdll:id>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2146656167506</geo:lat>
+    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santé</pdll:CategoryLabel>
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110301</TEMPORAIRE:TypeProblem>
+    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 86 10 77</sc:telephone>
+    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1103</pdll:Category>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.loire-atlantique.fr</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.71389516092216</geo:long>
+    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">76 Boulevard de l'Europe</dbpprop:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COUERON</dbpprop:town>
+    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
+    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44220</sc:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Etablissements%20et%20Services%20d%27Aide%20par%20le%20Travail">
+    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
+    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3320</pdll:id>
+    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1838635184052</geo:lat>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue du Bois de la Maladrie</dbpprop:location>
+    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accueil insertion</pdll:typeLabel>
+    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1102</pdll:Category>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VERTOU</dbpprop:town>
+    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.48325005919409</geo:long>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Etablissements et Services d'Aide par le Travail</foaf:name>
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110201</TEMPORAIRE:TypeProblem>
+    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 71 09 69</sc:telephone>
+    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insertion</pdll:CategoryLabel>
+    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44120</sc:postalCode>
+    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
+  </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Soins%20Infirmiers%20%C3%A0%20Domicile%20des%20Personnes%20Ag%C3%A9es%20Orvault">
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autre</pdll:typeLabel>
     <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORVAULT</dbpprop:town>
@@ -852,6 +890,25 @@
     <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insertion</pdll:CategoryLabel>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 72 56 92</sc:telephone>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Foyer%20Les%20Machaons">
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Foyer Les Machaons</foaf:name>
+    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
+    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Handicap</pdll:CategoryLabel>
+    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.68375125020565</geo:long>
+    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44830</sc:postalCode>
+    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1537976120241</geo:lat>
+    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accueil</pdll:typeLabel>
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110102</TEMPORAIRE:TypeProblem>
+    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3595</pdll:id>
+    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1101</pdll:Category>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11 Rue Colette Besson</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOUAYE</dbpprop:town>
+    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
+    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 11 05 97</sc:telephone>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Social%20Michelet">
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">95 Boulevard Eugène Orieux</dbpprop:location>
@@ -1042,6 +1099,25 @@
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33 Rue Fouré</dbpprop:location>
     <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1102</pdll:Category>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insertion</pdll:CategoryLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-psychologique%20pour%20Adultes%20%22No%C3%A9%20de%20l%27Epinette%22">
+    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santé</pdll:CategoryLabel>
+    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44120</sc:postalCode>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centre Médico-psychologique pour Adultes Noé de l'Epinette</foaf:name>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.51451079573778</geo:long>
+    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 71 04 35</sc:telephone>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
+    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3335</pdll:id>
+    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
+    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hôpital-Clinique</pdll:typeLabel>
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110302</TEMPORAIRE:TypeProblem>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53 Rue Henri Sauvage</dbpprop:location>
+    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1861447872047</geo:lat>
+    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VERTOU</dbpprop:town>
+    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
+    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1103</pdll:Category>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Entreprise%20d%27Insertion%20M%C3%A9nage%20Service">
     <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
@@ -1270,25 +1346,6 @@
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 28 01 82 80</sc:telephone>
     <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
     <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Point%20Pr%C3%A9vention%20Sant%C3%A9%20La%20Montagne">
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Point Prévention Santé La Montagne</foaf:name>
-    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.loire-atlantique.fr</dbpprop:website>
-    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centres Médico Sociaux</pdll:typeLabel>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA-MONTAGNE</dbpprop:town>
-    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
-    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44620</sc:postalCode>
-    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 32 92 77</sc:telephone>
-    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
-    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3453</pdll:id>
-    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1103</pdll:Category>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1907363619384</geo:lat>
-    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.68337010570577</geo:long>
-    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110301</TEMPORAIRE:TypeProblem>
-    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49 Rue Violin</dbpprop:location>
-    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santé</pdll:CategoryLabel>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Foyer%20Saint%20Martin%2C%20Les%20Eaux%20Vives">
     <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
@@ -1537,25 +1594,6 @@
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.atao-insertion.fr</dbpprop:website>
   </rdf:Description>
-  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Psycho-Infantile%20Nantes">
-    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
-    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centres Médico Sociaux</pdll:typeLabel>
-    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
-    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1437</pdll:id>
-    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7B Rue Jacques Cartier</dbpprop:location>
-    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santé</pdll:CategoryLabel>
-    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
-    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.loire-atlantique.fr</dbpprop:website>
-    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</sc:telephone>
-    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.57344885900796</geo:long>
-    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44300</sc:postalCode>
-    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1103</pdll:Category>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2591768811476</geo:lat>
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110301</TEMPORAIRE:TypeProblem>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centre Médico-Psycho-Infantile Nantes</foaf:name>
-  </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/CHU%20H%C3%B4pital%20de%20Jour%20Psychiatrie%20-%20Ste%20Anne">
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44100</sc:postalCode>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHU Hôpital de Jour Psychiatrie - Ste Anne</foaf:name>
@@ -1574,6 +1612,25 @@
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1103</pdll:Category>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 73 33 10</sc:telephone>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Psycho-Infantile%20Nantes">
+    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
+    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centres Médico Sociaux</pdll:typeLabel>
+    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
+    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1437</pdll:id>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7B Rue Jacques Cartier</dbpprop:location>
+    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santé</pdll:CategoryLabel>
+    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.loire-atlantique.fr</dbpprop:website>
+    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</sc:telephone>
+    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.57344885900796</geo:long>
+    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44300</sc:postalCode>
+    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1103</pdll:Category>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2591768811476</geo:lat>
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110301</TEMPORAIRE:TypeProblem>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centre Médico-Psycho-Infantile Nantes</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/SONACOTRA%20Ile%20Beaulieu">
     <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110202</TEMPORAIRE:TypeProblem>
@@ -1689,25 +1746,6 @@
     <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110302</TEMPORAIRE:TypeProblem>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 12 33 00</sc:telephone>
   </rdf:Description>
-  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20Aide%20par%20le%20Travail%20Public%20D%C3%A9partemental%20Vertou">
-    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44120</sc:postalCode>
-    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
-    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3320</pdll:id>
-    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
-    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue du Bois de la Maladrie</dbpprop:location>
-    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</sc:telephone>
-    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
-    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
-    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1102</pdll:Category>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1838635184052</geo:lat>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centre Aide par le Travail Public Départemental Vertou</foaf:name>
-    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110201</TEMPORAIRE:TypeProblem>
-    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accueil insertion</pdll:typeLabel>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.48325005919409</geo:long>
-    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insertion</pdll:CategoryLabel>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VERTOU</dbpprop:town>
-  </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Maison%20d%27Accueil%20Sp%C3%A9cialis%C3%A9e%20La%20S%C3%A8vre">
     <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REZE</dbpprop:town>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Handicap</pdll:CategoryLabel>
@@ -1765,25 +1803,6 @@
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44100</sc:postalCode>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santé</pdll:CategoryLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Social%20Pierre%20Legendre">
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110301</TEMPORAIRE:TypeProblem>
-    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.loire-atlantique.fr</dbpprop:website>
-    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centres Médico Sociaux</pdll:typeLabel>
-    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COUERON</dbpprop:town>
-    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3075</pdll:id>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.72788290811037</geo:long>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2139000938195</geo:lat>
-    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44220</sc:postalCode>
-    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
-    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centre Médico-Social Pierre Legendre</foaf:name>
-    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 86 10 77</sc:telephone>
-    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 Boulevard Francois Blancho</dbpprop:location>
-    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santé</pdll:CategoryLabel>
-    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
-    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1103</pdll:Category>
-  </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Bains%20Douches%20Nantes">
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accueil insertion</pdll:typeLabel>
@@ -1802,6 +1821,25 @@
     <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44000</sc:postalCode>
     <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110201</TEMPORAIRE:TypeProblem>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/L%27Arche%20Le%20S%C3%A9n%C3%A9v%C3%A9%20-%20Foyer%20La%20Margelle">
+    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.larcheseneve.org</dbpprop:website>
+    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L'Arche Le Sénévé - Foyer La Margelle</foaf:name>
+    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accueil insertion</pdll:typeLabel>
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110201</TEMPORAIRE:TypeProblem>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.47087151127098</geo:long>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue de l'Ile de France</dbpprop:location>
+    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1102</pdll:Category>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VERTOU</dbpprop:town>
+    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
+    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 03 28 69</sc:telephone>
+    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44120</sc:postalCode>
+    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1692418510199</geo:lat>
+    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3523</pdll:id>
+    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insertion</pdll:CategoryLabel>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico%20Psycho%20P%C3%A9dagogique%20Henri%20Vallon">
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44100</sc:postalCode>
@@ -1879,25 +1917,6 @@
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.55998236277056</geo:long>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perso.wanadoo.fr/uof.stvincent</dbpprop:website>
   </rdf:Description>
-  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/H%C3%B4pital%20de%20Jour%20%28Centre%20M%C3%A9dico-Psychologique%29">
-    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1861447872047</geo:lat>
-    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3335</pdll:id>
-    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hôpital-Clinique</pdll:typeLabel>
-    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53 Rue Henri Sauvage</dbpprop:location>
-    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VERTOU</dbpprop:town>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hôpital de Jour (Centre Médico-Psychologique)</foaf:name>
-    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
-    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1103</pdll:Category>
-    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
-    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 71 04 35</sc:telephone>
-    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44120</sc:postalCode>
-    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110302</TEMPORAIRE:TypeProblem>
-    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santé</pdll:CategoryLabel>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.51451079573778</geo:long>
-  </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Entreprise%20d%27Insertion%20Chantier%20Vert%20Environnement">
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.chantiervert.fr/</dbpprop:website>
@@ -1935,9 +1954,6 @@
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4106</pdll:id>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santé</pdll:CategoryLabel>
     <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110301</TEMPORAIRE:TypeProblem>
-  </rdf:Description>
-  <rdf:Description rdf:about="file:///home/alexis/git/openDataWrapper/src/main/resources/output/ttl/dataActionSociale.n3#pub">
-    <rdfs:label>DataNantes</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/H%C3%B4pital%20de%20Jour%20Chalonni%C3%A8res">
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hôpital de Jour Chalonnières</foaf:name>
@@ -2053,25 +2069,6 @@
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3633</pdll:id>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centre d'Hébergement et de Réinsertion Social  ARCHIPEL</foaf:name>
   </rdf:Description>
-  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Secours%20Catholique%20%28accompagnement%20dans%20la%20dur%C3%A9e%20des%20personnes%20en%20difficult%C3%A9%29%20Na">
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.54621545250455</geo:long>
-    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1485</pdll:id>
-    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 Rue Lorette de la Refoulais</dbpprop:location>
-    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44000</sc:postalCode>
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110203</TEMPORAIRE:TypeProblem>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Secours Catholique (accompagnement dans la durée des personnes en difficulté) Na</foaf:name>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2206920634374</geo:lat>
-    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 29 04 26</sc:telephone>
-    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Restauration</pdll:typeLabel>
-    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insertion</pdll:CategoryLabel>
-    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
-    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
-    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
-    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
-    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1102</pdll:Category>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
-    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Association%20Interm%C3%A9diaire%20Partage%2044">
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.53808156179507</geo:long>
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insertion professionnelle</pdll:typeLabel>
@@ -2090,6 +2087,25 @@
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44000</sc:postalCode>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41 Rue Général Buat</dbpprop:location>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 74 43 40</sc:telephone>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Secours%20Catholique%20%28accompagnement%20dans%20la%20dur%C3%A9e%20des%20personnes%20en%20difficult%C3%A9%29%20Na">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.54621545250455</geo:long>
+    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1485</pdll:id>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 Rue Lorette de la Refoulais</dbpprop:location>
+    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44000</sc:postalCode>
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110203</TEMPORAIRE:TypeProblem>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Secours Catholique (accompagnement dans la durée des personnes en difficulté) Na</foaf:name>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2206920634374</geo:lat>
+    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 29 04 26</sc:telephone>
+    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Restauration</pdll:typeLabel>
+    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insertion</pdll:CategoryLabel>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
+    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
+    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
+    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
+    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1102</pdll:Category>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
+    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Clinique%20Urologique%20Nantes%20Atlantique">
     <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1103</pdll:Category>
@@ -2111,8 +2127,8 @@
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hôpital-Clinique</pdll:typeLabel>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale">
-    <dcterms:publisher rdf:resource="file:///home/alexis/git/openDataWrapper/src/main/resources/output/ttl/dataActionSociale.n3#pub"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-10-07</dcterms:created>
+    <dcterms:publisher rdf:resource="file:///home/alexis/Documents/Projets/OpenDataWrapper/openDataWrapper/openDataWrapper/src/main/resources/output/ttl/dataActionSociale.n3#pub"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-11-04</dcterms:created>
     <dcterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Localisation des équipements publics relevant du thème 'Action sociale' de Nantes Métropole</dcterms:description>
     <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Localisation des équipements publics relevant du thème 'Action sociale' de Nantes Métropole</dcterms:title>
     <foaf:homepage>http://data.nantes.fr/donnees/detail/localisation-des-equipements-publics-relevant-du-theme-action-sociale-de-nantes-metropole-1/</foaf:homepage>
@@ -2122,19 +2138,19 @@
     <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110101</TEMPORAIRE:TypeProblem>
     <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Privé</pdll:statut>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Institut d'Education Motrice  La Grillonnais</foaf:name>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2140184647143</geo:lat>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50 Rue Busson Billault</dbpprop:location>
     <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BASSE-GOULAINE</dbpprop:town>
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2814</pdll:id>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.46672238565003</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2136996714187</geo:lat>
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44115</sc:postalCode>
     <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
-    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1101</pdll:Category>
     <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 03 56 66</sc:telephone>
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Formation</pdll:typeLabel>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.iem-fp-la-grillonnais.com</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.46674599381544</geo:long>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Handicap</pdll:CategoryLabel>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Entreprise%20d%27Insertion%20Hepdale%20Nantes%20Services%20%28magasin%29">
@@ -2194,44 +2210,6 @@
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.sonacotra.fr</dbpprop:website>
     <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20d%27Accueil%20Psychiatrie%20Saint%20S%C3%A9bastien">
-    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue des Becques</dbpprop:location>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.50860275246637</geo:long>
-    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hôpital-Clinique</pdll:typeLabel>
-    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2073058295455</geo:lat>
-    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santé</pdll:CategoryLabel>
-    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2061</pdll:id>
-    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
-    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
-    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
-    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 34 32 29</sc:telephone>
-    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44230</sc:postalCode>
-    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Public</pdll:statut>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centre d'Accueil Psychiatrie Saint Sébastien</foaf:name>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-SEBASTIEN</dbpprop:town>
-    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1103</pdll:Category>
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110302</TEMPORAIRE:TypeProblem>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Economie%20Sociale%20et%20Familliale%20Saint%20S%C3%A9bastien">
-    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44230</sc:postalCode>
-    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
-    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue Jean Macé</dbpprop:location>
-    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Public</pdll:statut>
-    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2063</pdll:id>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.50610659590157</geo:long>
-    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
-    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insertion</pdll:CategoryLabel>
-    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1102</pdll:Category>
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110204</TEMPORAIRE:TypeProblem>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-SEBASTIEN</dbpprop:town>
-    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 80 71 34</sc:telephone>
-    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
-    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Economie Sociale et Familiale</pdll:typeLabel>
-    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2058710222044</geo:lat>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Economie Sociale et Familliale Saint Sébastien</foaf:name>
-  </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Entreprise%20d%27Insertion%20Tris%20Actif%20Ouest">
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44800</sc:postalCode>
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insertion professionnelle</pdll:typeLabel>
@@ -2250,6 +2228,25 @@
     <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-HERBLAIN</dbpprop:town>
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3857</pdll:id>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entreprise d'Insertion Tris Actif Ouest</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Social%20Andr%C3%A9%20Coutant">
+    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centres Médico Sociaux</pdll:typeLabel>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REZE</dbpprop:town>
+    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
+    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1103</pdll:Category>
+    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3257</pdll:id>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.54697811858537</geo:long>
+    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</sc:telephone>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.loire-atlantique.fr</dbpprop:website>
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110301</TEMPORAIRE:TypeProblem>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 Rue des Déportés</dbpprop:location>
+    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santé</pdll:CategoryLabel>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1786411293385</geo:lat>
+    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
+    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
+    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44400</sc:postalCode>
+    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centre Médico-Social André Coutant</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Social%20Malakoff">
     <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
@@ -2518,7 +2515,6 @@
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3869</pdll:id>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Social%20Sainte%20Luce-sur-Loire">
-    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenue de Bretagne</dbpprop:location>
     <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3487</pdll:id>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centre Médico-Social Sainte Luce-sur-Loire</foaf:name>
@@ -2531,6 +2527,7 @@
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centres Médico Sociaux</pdll:typeLabel>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.48259890900022</geo:long>
     <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINTE-LUCE-SUR-LOIRE</dbpprop:town>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 Rue Jules Verne</dbpprop:location>
     <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</sc:telephone>
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44980</sc:postalCode>
@@ -2543,10 +2540,10 @@
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.4740364632095</geo:long>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.loire-atlantique.fr</dbpprop:website>
     <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 Rue de la Garenne</dbpprop:location>
     <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santé</pdll:CategoryLabel>
     <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VERTOU</dbpprop:town>
-    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue de la Garenne</dbpprop:location>
     <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1103</pdll:Category>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 34 20 38</sc:telephone>
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
@@ -2573,6 +2570,25 @@
     <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Privé</pdll:statut>
     <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1102</pdll:Category>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2340224929903</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Foyer%20des%20Lucines%20-%20ADAPEI">
+    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
+    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1101</pdll:Category>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1916227168911</geo:lat>
+    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2049</pdll:id>
+    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44230</sc:postalCode>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Place des Lucines</dbpprop:location>
+    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Privé</pdll:statut>
+    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hébergement</pdll:typeLabel>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Foyer des Lucines - ADAPEI</foaf:name>
+    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 28 00 20 40</sc:telephone>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.50125204057764</geo:long>
+    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110103</TEMPORAIRE:TypeProblem>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-SEBASTIEN</dbpprop:town>
+    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
+    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Handicap</pdll:CategoryLabel>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20de%20Vie%20Saint%20Yves">
     <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VERTOU</dbpprop:town>
@@ -2687,6 +2703,25 @@
     <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
     <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.53208703984382</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20de%20Convalescence">
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-SEBASTIEN</dbpprop:town>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.50190248641829</geo:long>
+    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
+    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1915524141425</geo:lat>
+    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santé</pdll:CategoryLabel>
+    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Privé</pdll:statut>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centre de Convalescence</foaf:name>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Place des Lucines</dbpprop:location>
+    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autre</pdll:typeLabel>
+    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2031</pdll:id>
+    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
+    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 79 55 55</sc:telephone>
+    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1103</pdll:Category>
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110303</TEMPORAIRE:TypeProblem>
+    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44230</sc:postalCode>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Atelier%20Chantier%20d%27Insertion%20L%27Homme%20Debout">
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insertion professionnelle</pdll:typeLabel>
@@ -2954,6 +2989,9 @@
     <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1102</pdll:Category>
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insertion professionnelle</pdll:typeLabel>
   </rdf:Description>
+  <rdf:Description rdf:about="file:///home/alexis/Documents/Projets/OpenDataWrapper/openDataWrapper/openDataWrapper/src/main/resources/output/ttl/dataActionSociale.n3#pub">
+    <rdfs:label>DataNantes</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Croix%20Rouge%20Fran%C3%A7aise%20-%20D%C3%A9l%C3%A9gation%20Locale%20Nantes">
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insertion</pdll:CategoryLabel>
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accueil insertion</pdll:typeLabel>
@@ -2995,7 +3033,7 @@
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/H%C3%B4pital%20Intercommunal%20S%C3%A8vres%20et%20Loire">
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1782836996128</geo:lat>
     <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1103</pdll:Category>
-    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15 Allée Alphonse Fillion</dbpprop:location>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 Allée Alphonse Fillion</dbpprop:location>
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44120</sc:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
@@ -3258,25 +3296,6 @@
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 Boulevard Mendès France</dbpprop:location>
   </rdf:Description>
-  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Social%20Sainte%20Luce%20sur%20Loire">
-    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mail de l'Europe</dbpprop:location>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.48271252749765</geo:long>
-    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santé</pdll:CategoryLabel>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centre Médico-Social Sainte Luce sur Loire</foaf:name>
-    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.loire-atlantique.fr</dbpprop:website>
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110301</TEMPORAIRE:TypeProblem>
-    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
-    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centres Médico Sociaux</pdll:typeLabel>
-    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
-    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2591</pdll:id>
-    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44980</sc:postalCode>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINTE-LUCE-SUR-LOIRE</dbpprop:town>
-    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 25 61 69</sc:telephone>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2484079030159</geo:lat>
-    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
-    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1103</pdll:Category>
-    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Atelier%20Chantier%20d%27Insertion%20A.R.B.R.E.S">
     <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110205</TEMPORAIRE:TypeProblem>
     <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1102</pdll:Category>
@@ -3371,25 +3390,6 @@
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85 Rue Félix Ménétrier</dbpprop:location>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.sonacotra.fr</dbpprop:website>
     <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Social%20DISS%20Saint%20S%C3%A9bastien">
-    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
-    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11 Rue du Languedoc</dbpprop:location>
-    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-SEBASTIEN</dbpprop:town>
-    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44230</sc:postalCode>
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110301</TEMPORAIRE:TypeProblem>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2038168560759</geo:lat>
-    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 33 18 61</sc:telephone>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centre Médico-Social DISS Saint Sébastien</foaf:name>
-    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santé</pdll:CategoryLabel>
-    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2046</pdll:id>
-    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centres Médico Sociaux</pdll:typeLabel>
-    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Public</pdll:statut>
-    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.loire-atlantique.fr</dbpprop:website>
-    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1103</pdll:Category>
-    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.48786380336692</geo:long>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Atelier%20Chantier%20d%27Insertion%20Nantes%20Ecologie">
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3B Rue Prémion</dbpprop:location>
@@ -3552,11 +3552,11 @@
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.48806172039653</geo:long>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 03 03 01</sc:telephone>
-    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue des Fraîches</dbpprop:location>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1786494081209</geo:lat>
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44120</sc:postalCode>
     <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VERTOU</dbpprop:town>
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Formation</pdll:typeLabel>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40 Rue des Fraîches</dbpprop:location>
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3338</pdll:id>
     <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Handicap</pdll:CategoryLabel>
@@ -3695,25 +3695,6 @@
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centre Médico-Social Chantenay</foaf:name>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.58835780347874</geo:long>
   </rdf:Description>
-  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Social%203%20Moulins">
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.54697811858537</geo:long>
-    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santé</pdll:CategoryLabel>
-    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</sc:telephone>
-    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.loire-atlantique.fr</dbpprop:website>
-    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1103</pdll:Category>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REZE</dbpprop:town>
-    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44400</sc:postalCode>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1786411293385</geo:lat>
-    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3257</pdll:id>
-    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centres Médico Sociaux</pdll:typeLabel>
-    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centre Médico-Social 3 Moulins</foaf:name>
-    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 Rue des Déportés</dbpprop:location>
-    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
-    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
-    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110301</TEMPORAIRE:TypeProblem>
-  </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Atelier%20Chantier%20d%27Insertion%20OSER%20For%C3%AAt%20Vivante">
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1907999359915</geo:lat>
     <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1102</pdll:Category>
@@ -3751,6 +3732,25 @@
     <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110204</TEMPORAIRE:TypeProblem>
     <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Instituts%20M%C3%A9dico-Educatifs%20%28IME%29">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1482390292689</geo:lat>
+    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Formation</pdll:typeLabel>
+    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110101</TEMPORAIRE:TypeProblem>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LES-SORINIERES</dbpprop:town>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instituts Médico-Educatifs (IME)</foaf:name>
+    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
+    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.52049954330201</geo:long>
+    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33 Rue des Papillons</dbpprop:location>
+    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 31 21 11</sc:telephone>
+    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4178</pdll:id>
+    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Handicap</pdll:CategoryLabel>
+    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1101</pdll:Category>
+    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44840</sc:postalCode>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Entreprise%20d%27Insertion%20Merelcom">
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
@@ -3866,25 +3866,6 @@
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Foyer Thérapeutique de la Chicotière</foaf:name>
     <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
   </rdf:Description>
-  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Restaurant%20du%20Coeur%20-%20Ouest">
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.52086515897107</geo:long>
-    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">39 Rue du Lieutenant Marty</dbpprop:location>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-SEBASTIEN</dbpprop:town>
-    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 34 17 71</sc:telephone>
-    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insertion</pdll:CategoryLabel>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1956428593094</geo:lat>
-    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Restaurant du Coeur - Ouest</foaf:name>
-    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
-    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Privé</pdll:statut>
-    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.terra.fr/restos</dbpprop:website>
-    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Restauration</pdll:typeLabel>
-    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1102</pdll:Category>
-    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110203</TEMPORAIRE:TypeProblem>
-    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44230</sc:postalCode>
-    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025</pdll:id>
-  </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Foyer%20Beaumanoir">
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insertion</pdll:CategoryLabel>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8 Rue Evariste Luminais</dbpprop:location>
@@ -3941,25 +3922,6 @@
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2240</pdll:id>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">128 Boulevard François Mitterrand</dbpprop:location>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.loire-atlantique.fr</dbpprop:website>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Foyer%20ADAPEI%20Bouaye">
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.68375125020565</geo:long>
-    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
-    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44830</sc:postalCode>
-    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
-    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 11 05 97</sc:telephone>
-    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Handicap</pdll:CategoryLabel>
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110102</TEMPORAIRE:TypeProblem>
-    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
-    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accueil</pdll:typeLabel>
-    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue Colette Besson</dbpprop:location>
-    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1101</pdll:Category>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1537976120241</geo:lat>
-    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Foyer ADAPEI Bouaye</foaf:name>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOUAYE</dbpprop:town>
-    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
-    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3595</pdll:id>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Foyer%20Arc%20en%20Ciel">
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hébergement insertion</pdll:typeLabel>
@@ -4151,6 +4113,25 @@
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centres Médico Sociaux</pdll:typeLabel>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21 Rue Jules Verne</dbpprop:location>
   </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Jardins%20du%20Coeur">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.52086515897107</geo:long>
+    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44230</sc:postalCode>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jardins du Coeur</foaf:name>
+    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.terra.fr/restos</dbpprop:website>
+    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Restauration</pdll:typeLabel>
+    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
+    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 34 17 71</sc:telephone>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1956428593094</geo:lat>
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110203</TEMPORAIRE:TypeProblem>
+    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025</pdll:id>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">39 Rue du Lieutenant Marty</dbpprop:location>
+    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
+    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insertion</pdll:CategoryLabel>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-SEBASTIEN</dbpprop:town>
+    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1102</pdll:Category>
+    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Privé</pdll:statut>
+  </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Atelier%20Chantier%20d%27Insertion%20Les%20Restos%20du%20Coeur">
     <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Privé</pdll:statut>
@@ -4272,11 +4253,11 @@
     <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
     <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110102</TEMPORAIRE:TypeProblem>
     <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
-    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
     <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VERTOU</dbpprop:town>
     <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1101</pdll:Category>
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accueil</pdll:typeLabel>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.thebaudieres.org</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Route de Saint-Fiacre</dbpprop:location>
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3527</pdll:id>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Handicap</pdll:CategoryLabel>
@@ -4322,7 +4303,27 @@
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44300</sc:postalCode>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 37 04 25</sc:telephone>
   </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Le%20Point%20Cl%C3%A9%20%28Centre%20Social%20du%20Douet%29">
+    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
+    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1102</pdll:Category>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1937256088805</geo:lat>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 Allée du Six Juin 1944</dbpprop:location>
+    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
+    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44230</sc:postalCode>
+    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4211</pdll:id>
+    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-SEBASTIEN</dbpprop:town>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lepointcle.fr/</dbpprop:website>
+    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 71 02 83</sc:telephone>
+    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Le Point Clé (Centre Social du Douet)</foaf:name>
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110205</TEMPORAIRE:TypeProblem>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.52046959960043</geo:long>
+    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insertion</pdll:CategoryLabel>
+    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insertion professionnelle</pdll:typeLabel>
+  </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Atelier%20Chantier%20d%27Insertion%20TRAJET%20Pain%20Contre%20la%20Faim">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.65425474307305</geo:long>
     <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAUTRON</dbpprop:town>
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
     <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1102</pdll:Category>
@@ -4335,9 +4336,8 @@
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9 Route de Brimberne</dbpprop:location>
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insertion professionnelle</pdll:typeLabel>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insertion</pdll:CategoryLabel>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2578506704216</geo:lat>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2577713021607</geo:lat>
     <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.65440791964524</geo:long>
     <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 78 64 62</sc:telephone>
   </rdf:Description>
@@ -4454,44 +4454,6 @@
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conseil Départemental de la Croix Rouge Nantes</foaf:name>
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autre</pdll:typeLabel>
     <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110303</TEMPORAIRE:TypeProblem>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Maison%20de%20la%20Naissance%20Saint%20S%C3%A9bastien">
-    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hôpital-Clinique</pdll:typeLabel>
-    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1103</pdll:Category>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maison de la Naissance Saint Sébastien</foaf:name>
-    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 79 55 00</sc:telephone>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-SEBASTIEN</dbpprop:town>
-    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Place des Lucines</dbpprop:location>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1915524141425</geo:lat>
-    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Privé</pdll:statut>
-    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44230</sc:postalCode>
-    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
-    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110302</TEMPORAIRE:TypeProblem>
-    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2031</pdll:id>
-    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santé</pdll:CategoryLabel>
-    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
-    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.50190248641829</geo:long>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Foyer%20Educatif%20de%20la%20Jaunaie">
-    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
-    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Privé</pdll:statut>
-    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1102</pdll:Category>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1938166236004</geo:lat>
-    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1988</pdll:id>
-    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insertion</pdll:CategoryLabel>
-    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
-    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hébergement insertion</pdll:typeLabel>
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110202</TEMPORAIRE:TypeProblem>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.49690427508418</geo:long>
-    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 79 05 79</sc:telephone>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Foyer Educatif de la Jaunaie</foaf:name>
-    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44230</sc:postalCode>
-    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">113 Rue de la Jaunaie</dbpprop:location>
-    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-SEBASTIEN</dbpprop:town>
-    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20m%C3%A9dico-social%20Les%20Mahaudi%C3%A8res">
     <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
@@ -4683,24 +4645,24 @@
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3880</pdll:id>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insertion</pdll:CategoryLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/le%20SENEVE%20%2C%20foyer%20de%20l%27Arche">
-    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VERTOU</dbpprop:town>
-    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3523</pdll:id>
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110201</TEMPORAIRE:TypeProblem>
-    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insertion</pdll:CategoryLabel>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">le SENEVE , foyer de l'Arche</foaf:name>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.48125267996729</geo:long>
-    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44120</sc:postalCode>
-    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
-    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accueil insertion</pdll:typeLabel>
-    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1102</pdll:Category>
-    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 Quai de la Chaussée des Moines</dbpprop:location>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1690783367244</geo:lat>
+  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Social%20Office%20Central%20d%27Hygi%C3%A8ne%20Sociale%20Nantes">
     <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
-    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</sc:telephone>
-    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
+    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 73 12 18</sc:telephone>
+    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
     <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17 Rue Arsène Leloup</dbpprop:location>
+    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44100</sc:postalCode>
+    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1460</pdll:id>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.loire-atlantique.fr</dbpprop:website>
+    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santé</pdll:CategoryLabel>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centre Médico-Social Office Central d'Hygiène Sociale Nantes</foaf:name>
+    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1103</pdll:Category>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.56970635045377</geo:long>
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110301</TEMPORAIRE:TypeProblem>
+    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centres Médico Sociaux</pdll:typeLabel>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.21203569549</geo:lat>
+    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Social%20Cl%C3%A9mence%20Royer">
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santé</pdll:CategoryLabel>
@@ -4720,25 +4682,6 @@
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
     <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1103</pdll:Category>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 75 62 94</sc:telephone>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Centre%20M%C3%A9dico-Social%20Office%20Central%20d%27Hygi%C3%A8ne%20Sociale%20Nantes">
-    <pdll:statut rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:statut>
-    <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 73 12 18</sc:telephone>
-    <pdll:themeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTION SOCIALE</pdll:themeLabel>
-    <pdll:theme rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</pdll:theme>
-    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17 Rue Arsène Leloup</dbpprop:location>
-    <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44100</sc:postalCode>
-    <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1460</pdll:id>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
-    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.loire-atlantique.fr</dbpprop:website>
-    <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santé</pdll:CategoryLabel>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centre Médico-Social Office Central d'Hygiène Sociale Nantes</foaf:name>
-    <pdll:Category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1103</pdll:Category>
-    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.56970635045377</geo:long>
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110301</TEMPORAIRE:TypeProblem>
-    <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centres Médico Sociaux</pdll:typeLabel>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.21203569549</geo:lat>
-    <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/dataActionSociale"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataActionSociale/Restaurant%20Brin%20de%20Causette">
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2200777274075</geo:lat>

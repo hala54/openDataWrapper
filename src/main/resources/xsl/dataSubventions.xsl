@@ -37,7 +37,7 @@
 	foaf:homepage "http://data.nantes.fr/donnees/detail/gratuite-des-manuels-scolaires-dans-les-lycees-des-pays-de-la-loire/?tx_icsoddatastore_pi1";
 	dcterms:title "Gratuité des manuels scolaires dans les lycées des Pays de la Loire"^^xsd:string ;
 	dcterms:description "Gratuité des manuels scolaires dans les lycées des Pays de la Loire"^^xsd:string ;
-	dcterms:created "2013-11-03"^^xsd:date;
+	dcterms:created "2013-11-04"^^xsd:date;
 	dcterms:publisher :pub .
 
 :pub rdfs:label "Région des Pays de la Loire".

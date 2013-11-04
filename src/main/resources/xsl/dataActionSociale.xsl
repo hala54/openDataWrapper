@@ -35,11 +35,9 @@
 
 &lt;http://lodpaddle.univ-nantes.fr/dataActionSociale&gt; rdf:type void:Dataset ;
 	foaf:homepage "http://data.nantes.fr/donnees/detail/localisation-des-equipements-publics-relevant-du-theme-action-sociale-de-nantes-metropole-1/";
-	dcterms:title "Localisation des équipements publics relevant du thème 'Action
-			sociale' de Nantes Métropole"^^xsd:string ;
-	dcterms:description "Localisation des équipements publics relevant du thème 'Action
-			sociale' de Nantes Métropole"^^xsd:string ;
-	dcterms:created "2013-11-03"^^xsd:date;
+	dcterms:title "Localisation des équipements publics relevant du thème 'Action sociale' de Nantes Métropole"^^xsd:string ;
+	dcterms:description "Localisation des équipements publics relevant du thème 'Action sociale' de Nantes Métropole"^^xsd:string ;
+	dcterms:created "2013-11-04"^^xsd:date;
 	dcterms:publisher :pub .
 
 :pub rdfs:label "DataNantes".

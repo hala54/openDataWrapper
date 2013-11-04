@@ -37,7 +37,7 @@
 	foaf:homepage "http://data.paysdelaloire.fr/donnees/detail/actions-educatives-conduites-dans-les-lycees-publics-et-prives-des-pays-de-la-loire/";
 	dcterms:title "Actions Educatives conduites dans les lycées publics et privés des Pays de la Loire"^^xsd:string ;
 	dcterms:description "Actions Educatives conduites dans les lycées publics et privés des Pays de la Loire"^^xsd:string ;
-	dcterms:created "2013-11-03"^^xsd:date;
+	dcterms:created "2013-11-04"^^xsd:date;
 	dcterms:publisher :pub .
 
 :pub rdfs:label "Région des Pays de la Loire".
@@ -95,10 +95,9 @@
 <xsl:otherwise>&#009;pdll:privacy&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
-<xsl:template match="NB_ELEVES">
-<xsl:choose><xsl:when test=". = 'null'">&#009;TEMPORAIRE:NB_ELEVES&#009; "undefined"^^xsd:string ;
+<xsl:template match="NB_ELEVES"><xsl:choose><xsl:when test=". = 'null'">&#009;pdll:studentNumber&#009; "-120404040"^^xsd:int ;
 </xsl:when>
-<xsl:otherwise>&#009;TEMPORAIRE:NB_ELEVES&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;pdll:studentNumber&#009; "<xsl:value-of select="."/>"^^xsd:int ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="ANNEE">
@@ -167,9 +166,9 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="SOUS_THEME">
-<xsl:choose><xsl:when test=". = 'null'">&#009;TEMPORAIRE:SOUS_THEME&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:subTheme&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;TEMPORAIRE:SOUS_THEME&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;pdll:subTheme&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="RNE">
@@ -191,10 +190,10 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="ACTION">
-<xsl:choose><xsl:when test=". = 'null'">&#009;TEMPORAIRE:ACTION&#009; "undefined"^^xsd:string .
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:educationalActivity&#009; "undefined"^^xsd:string .
 
 </xsl:when>
-<xsl:otherwise>&#009;TEMPORAIRE:ACTION&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string .
+<xsl:otherwise>&#009;pdll:educationalActivity&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string .
 
 </xsl:otherwise></xsl:choose></xsl:template>
 

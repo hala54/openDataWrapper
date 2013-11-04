@@ -37,7 +37,7 @@
 	foaf:homepage "http://data.loire-atlantique.fr/donnees/detail/localisation-des-equipements-publics-relevant-du-theme-enseignement-de-nantes-metropole-1/";
 	dcterms:title "Localisation des équipements publics relevant du thème 'Enseignement' de Nantes Métropole"^^xsd:string ;
 	dcterms:description "Localisation des équipements publics relevant du thème 'Enseignement' de Nantes Métropole"^^xsd:string ;
-	dcterms:created "2013-10-13"^^xsd:date;
+	dcterms:created "2013-11-04"^^xsd:date;
 	dcterms:publisher :pub .
 
 :pub rdfs:label "DataNantes".

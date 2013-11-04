@@ -3614,7 +3614,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/dataSubventions">
     <dcterms:publisher rdf:resource="file:///home/alexis/Documents/Projets/OpenDataWrapper/openDataWrapper/openDataWrapper/src/main/resources/output/ttl/dataSubventions.n3#pub"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-11-03</dcterms:created>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-11-04</dcterms:created>
     <dcterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gratuité des manuels scolaires dans les lycées des Pays de la Loire</dcterms:description>
     <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gratuité des manuels scolaires dans les lycées des Pays de la Loire</dcterms:title>
     <foaf:homepage>http://data.nantes.fr/donnees/detail/gratuite-des-manuels-scolaires-dans-les-lycees-des-pays-de-la-loire/?tx_icsoddatastore_pi1</foaf:homepage>

@@ -1,0 +1,1865 @@
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix : <#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix TEMPORAIRE: <http://temporaire.org/> .
+@prefix gr: <http://purl.org/goodrelations/> .
+@prefix pdll: <http://lodpaddle.univ-nantes.fr/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix prop-fr: <http://fr.dbpedia.org/property/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ex: <http://example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbpprop: <http://dbpedia.org/property/> .
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
+@prefix sc: <http://schema.org/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte> rdf:type void:Dataset ;
+	foaf:homepage "http://data.paysdelaloire.fr/donnees/detail/localisation-des-equipements-publics-relevant-du-theme-culte-de-nantes-metropole/";
+	dcterms:title "Localisation des équipements publics relevant du thème 'Culte' de Nantes Métropole"^^xsd:string ;
+	dcterms:description "Localisation des équipements publics relevant du thème 'Culte' de Nantes Métropole"^^xsd:string ;
+	dcterms:created "2013-11-04"^^xsd:date;
+	dcterms:publisher :pub .
+
+:pub rdfs:label "Région des Pays de la Loire".
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Fran%C3%A7ois%20d%27Assise>	 foaf:name 	 "Eglise Saint François d'Assise"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2532652090112"^^xsd:decimal ;
+	geo:long	"-1.55679585176621"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 59 46 79"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "68 Rue de la Bourgeonnière"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "163"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Dominique>	 foaf:name 	 "Eglise Saint Dominique"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2565516807428"^^xsd:decimal ;
+	geo:long	"-1.56553030991633"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 76 70 71"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "50 Rue des Renards"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "164"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Notre%20Dame%20de%20Lourdes>	 foaf:name 	 "Eglise Notre Dame de Lourdes"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2488391210941"^^xsd:decimal ;
+	geo:long	"-1.57684852829234"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 76 40 21"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "26 Route de Rennes"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "165"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Joseph%20de%20Porterie>	 foaf:name 	 "Eglise Saint Joseph de Porterie"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2697218507896"^^xsd:decimal ;
+	geo:long	"-1.51869633704499"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 30 33 53"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "6 Place François Dollier de Casson"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "166"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Georges>	 foaf:name 	 "Eglise Saint Georges"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.258455876183"^^xsd:decimal ;
+	geo:long	"-1.52291776323092"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 25 20 96"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "55 Boulevard de la Beaujoire"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "167"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Jean%20Baptiste>	 foaf:name 	 "Eglise Saint Jean Baptiste"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2436518994458"^^xsd:decimal ;
+	geo:long	"-1.52332690445688"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 49 41 87"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "2 Rue de Toul"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "168"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Etienne>	 foaf:name 	 "Eglise Saint Etienne"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2086967624759"^^xsd:decimal ;
+	geo:long	"-1.60995002250609"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 46 43 78"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "1 Allée des Pinsons"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "169"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Laurent>	 foaf:name 	 "Eglise Saint Laurent"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2237342639281"^^xsd:decimal ;
+	geo:long	"-1.5985214927098"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 46 34 55"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "14 Place des Dervallières"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "170"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Michel>	 foaf:name 	 "Eglise Saint Michel"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2091592583823"^^xsd:decimal ;
+	geo:long	"-1.59517198184298"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 58 50 99"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Rue des Pavillons"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "172"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Luc>	 foaf:name 	 "Eglise Saint Luc"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2280979823766"^^xsd:decimal ;
+	geo:long	"-1.58623420386211"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 76 40 80"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "45 Boulevard Pierre de Coubertin"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "173"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Clair>	 foaf:name 	 "Eglise Saint Clair"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2126487172273"^^xsd:decimal ;
+	geo:long	"-1.58345098169868"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 46 30 47"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "10 Rue Maxime Maufra"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "174"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20M%C3%A9dard>	 foaf:name 	 "Eglise Saint Médard"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2362697712849"^^xsd:decimal ;
+	geo:long	"-1.50303923444128"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 49 69 00"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "3 Rue de la Papotière"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "175"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Notre%20Dame%20de%20Toutes%20Aides>	 foaf:name 	 "Eglise Notre Dame de Toutes Aides"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2256155799511"^^xsd:decimal ;
+	geo:long	"-1.52314604675565"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 49 24 54"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "23 Rue de la Ville en Pierre"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "176"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Marc>	 foaf:name 	 "Eglise Saint Marc"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2139938598891"^^xsd:decimal ;
+	geo:long	"-1.52779397967144"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 48 00 74"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "19 Rue d'Angleterre"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "177"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Fran%C3%A7ois%20de%20Sales>	 foaf:name 	 "Eglise Saint François de Sales"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2292628581813"^^xsd:decimal ;
+	geo:long	"-1.53065972695811"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 49 76 52"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "36 Rue des Agenets"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "178"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Martin%20de%20Chantenay>	 foaf:name 	 "Eglise Saint Martin de Chantenay"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.1992578742703"^^xsd:decimal ;
+	geo:long	"-1.59288298329616"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 46 21 03"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Rue des Réformes"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "179"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Jacques>	 foaf:name 	 "Eglise Saint Jacques"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.1964625887609"^^xsd:decimal ;
+	geo:long	"-1.53843347568101"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 75 60 23"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "75 Rue Saint Jacques"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "180"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Sainte%20Madeleine>	 foaf:name 	 "Eglise Sainte Madeleine"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2051055425771"^^xsd:decimal ;
+	geo:long	"-1.54945488841703"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 47 88 52"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "14 Boulevard Gustave Roch"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "181"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Sainte%20Anne>	 foaf:name 	 "Eglise Sainte Anne"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2029270646617"^^xsd:decimal ;
+	geo:long	"-1.57981524610534"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 73 50 36"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "4B Rue Mounet Sully"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "182"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Chapelle%20de%20l%27H%C3%B4tel%20Dieu>	 foaf:name 	 "Chapelle de l'Hôtel Dieu"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2104728878188"^^xsd:decimal ;
+	geo:long	"-1.55500443963914"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "undefined"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "3 Rue Gaston Veil"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "183"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Augustin%28Cure%20de%20Don%20Bosco%29>	 foaf:name 	 "Eglise Saint Augustin(Cure de Don Bosco)"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2384492786634"^^xsd:decimal ;
+	geo:long	"-1.5453113954042"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 50 42 79"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "35 Rue des Roches Grises"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "184"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Basilique%20Saint%20Donatien>	 foaf:name 	 "Basilique Saint Donatien"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2291424937948"^^xsd:decimal ;
+	geo:long	"-1.54266919742757"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 74 14 38"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "2 Rue Guillet de la Brosse"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "185"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Jean%20Bosco>	 foaf:name 	 "Eglise Saint Jean Bosco"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2383258394792"^^xsd:decimal ;
+	geo:long	"-1.53400570779692"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 49 29 65"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "17 Rue du Moulin des Carmes"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "186"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Sainte%20Elisabeth>	 foaf:name 	 "Eglise Sainte Elisabeth"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2220478360772"^^xsd:decimal ;
+	geo:long	"-1.53713461685472"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 74 12 35"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "47 Rue de Coulmiers"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "187"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Cl%C3%A9ment>	 foaf:name 	 "Eglise Saint Clément"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2213660008308"^^xsd:decimal ;
+	geo:long	"-1.54710160687075"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.multimania.com/saintclement"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 74 13 41"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "4 Rue Lorette de la Refoulais"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "188"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Chapelle%20de%20l%27Immacul%C3%A9e>	 foaf:name 	 "Chapelle de l'Immaculée"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2181779522736"^^xsd:decimal ;
+	geo:long	"-1.54653525831245"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "undefined"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "6 Rue Malherbe"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "189"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Cath%C3%A9drale%20Saint%20Pierre%20et%20Saint%20Paul%20de%20Nantes>	 foaf:name 	 "Cathédrale Saint Pierre et Saint Paul de Nantes"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2182899995309"^^xsd:decimal ;
+	geo:long	"-1.55076538183669"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "http://www.cathedrale-nantes.cef.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 47 84 64"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "7 Impasse Saint Laurent"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "190"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20F%C3%A9lix>	 foaf:name 	 "Eglise Saint Félix"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2311190456812"^^xsd:decimal ;
+	geo:long	"-1.55573950039638"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 74 19 50"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "8 Place Saint Felix"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "191"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Sainte%20Croix>	 foaf:name 	 "Eglise Sainte Croix"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2153088781586"^^xsd:decimal ;
+	geo:long	"-1.5541546065547"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 47 41 18"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "6 Place Sainte Croix"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "192"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Basilique%20Saint%20Nicolas>	 foaf:name 	 "Basilique Saint Nicolas"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2152737377637"^^xsd:decimal ;
+	geo:long	"-1.5578596056084"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 48 19 94"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "5 Rue Affre"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "193"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Similien>	 foaf:name 	 "Eglise Saint Similien"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2205085048049"^^xsd:decimal ;
+	geo:long	"-1.55953352127965"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 20 30 34"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "2 Rue de Bel Air"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "194"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Pasquier>	 foaf:name 	 "Eglise Saint Pasquier"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2283310344671"^^xsd:decimal ;
+	geo:long	"-1.5658445444596"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "stpasquier.ifrance.com/stpasquier"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 74 10 55"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "57 Rue Villebois Mareuil"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "195"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Notre%20Dame%20de%20Bon%20Port>	 foaf:name 	 "Eglise Notre Dame de Bon Port"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2103364677438"^^xsd:decimal ;
+	geo:long	"-1.569014889138"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 76 40 21"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "6 Place du Sanitat"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "196"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Chapelle%20des%20Franciscains>	 foaf:name 	 "Chapelle des Franciscains"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.215013149689"^^xsd:decimal ;
+	geo:long	"-1.57486829346834"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "perso.wanadoo.fr/francois.assise"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 69 82 25"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "1 Rue Colonel Desgrées du Lou"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "197"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Chapelle%20Rue%20Mond%C3%A9sir>	 foaf:name 	 "Chapelle Rue Mondésir"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2165736614692"^^xsd:decimal ;
+	geo:long	"-1.56904122706108"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "undefined"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Rue Mondésir"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "198"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Notre%20Dame%20de%20Toutes%20Joies>	 foaf:name 	 "Eglise Notre Dame de Toutes Joies"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.221234592001"^^xsd:decimal ;
+	geo:long	"-1.57329366590374"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 20 07 95"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "1 Rue Alexandre Dumas"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "199"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Sainte%20Th%C3%A9r%C3%A8se>	 foaf:name 	 "Eglise Sainte Thérèse"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2322636606466"^^xsd:decimal ;
+	geo:long	"-1.57762185733818"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "www.paroissestetherese.free.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 76 93 78"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "57 Rue Chanoine Larose"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "200"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/S%C3%A9minaire>	 foaf:name 	 "Séminaire"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2334594075897"^^xsd:decimal ;
+	geo:long	"-1.5713554820074"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 51 83 60 00"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "18 Rue de la Gourmette"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "201"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Synagogue>	 foaf:name 	 "Synagogue"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2154445331258"^^xsd:decimal ;
+	geo:long	"-1.56590135508542"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 73 48 92"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Juif"^^xsd:string ;
+	dbpprop:location	 "5 Impasse Copernic"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "202"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "203"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20R%C3%A9form%C3%A9e%20Temple%20Protestant>	 foaf:name 	 "Eglise Réformée Temple Protestant"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2189611054336"^^xsd:decimal ;
+	geo:long	"-1.56384098024837"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "perso.wanadoo.fr/fpf"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 47 55 36"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Protestant"^^xsd:string ;
+	dbpprop:location	 "15B Place Edouard Normand"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "203"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "204"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Mosqu%C3%A9e>	 foaf:name 	 "Mosquée"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2134826909489"^^xsd:decimal ;
+	geo:long	"-1.53675221661486"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "perso.club-internet.fr/uoif"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 35 50 02"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Musulman"^^xsd:string ;
+	dbpprop:location	 "14 Quai Malakoff"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "204"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "202"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Notre%20Dame%20des%20Lumi%C3%A8res>	 foaf:name 	 "Eglise Notre Dame des Lumières"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2104465842381"^^xsd:decimal ;
+	geo:long	"-1.52290429234205"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "www.carmel.asso.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 51 82 21 49"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Allée Titus Brandsma"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "664"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Bernard>	 foaf:name 	 "Eglise Saint Bernard"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2464337593868"^^xsd:decimal ;
+	geo:long	"-1.53264840158859"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 49 23 10"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "2 Avenue Abel Gance"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "688"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Orthodoxe%20Saint%20Basile%20de%20C%C3%A9sar%C3%A9e>	 foaf:name 	 "Eglise Orthodoxe Saint Basile de Césarée"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2242782369793"^^xsd:decimal ;
+	geo:long	"-1.5422381517003"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "orthodoxedenantes.free.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 69 19 24"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Orthodoxe"^^xsd:string ;
+	dbpprop:location	 "37 Rue Gaston Turpin"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "776"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "205"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Ev%C3%A9ch%C3%A9>	 foaf:name 	 "Evéché"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2327606151159"^^xsd:decimal ;
+	geo:long	"-1.57202895537563"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "www.cef.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 76 22 00"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "7 Rue Cardinal Richard"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "777"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Chapelle%20des%20P%C3%A8res%20J%C3%A9suites>	 foaf:name 	 "Chapelle des Pères Jésuites"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2157814290148"^^xsd:decimal ;
+	geo:long	"-1.56343593920306"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "www.jesuites.com"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 99 66 00"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "9 Rue Dugommier"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "1129"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Chapelle%20Bonne%20Garde>	 foaf:name 	 "Chapelle Bonne Garde"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.1957645978179"^^xsd:decimal ;
+	geo:long	"-1.53629194387735"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44200"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "undefined"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Rue Saint Jacques"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "1364"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Jean%20l%27Evang%C3%A9liste>	 foaf:name 	 "Eglise Saint Jean l'Evangéliste"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.1919012132069"^^xsd:decimal ;
+	geo:long	"-1.52406792351513"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44230"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "Public"^^xsd:string ;
+	sc:telephone	 "02 40 34 47 81"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "ST-SEBASTIEN"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Rue Elisa Mercoeur"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2144"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20S%C3%A9bastien%20sur%20Loire>	 foaf:name 	 "Eglise Saint Sébastien sur Loire"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2086238484181"^^xsd:decimal ;
+	geo:long	"-1.50310254072993"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44230"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "Public"^^xsd:string ;
+	sc:telephone	 "02 40 80 56 29"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "ST-SEBASTIEN"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Rue des Prisonniers"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2149"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Protestante%20Baptiste>	 foaf:name 	 "Eglise Protestante Baptiste"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.1894649073978"^^xsd:decimal ;
+	geo:long	"-1.51227654568943"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44230"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "Public"^^xsd:string ;
+	sc:telephone	 "02 51 71 38 11"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "ST-SEBASTIEN"^^xsd:string ;
+	pdll:CategoryLabel	 "Protestant"^^xsd:string ;
+	dbpprop:location	 "177 Route de Clisson"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2150"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "204"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Pierre>	 foaf:name 	 "Eglise Saint Pierre"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.1788070691501"^^xsd:decimal ;
+	geo:long	"-1.62354300508086"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44340"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "Public"^^xsd:string ;
+	sc:telephone	 "02 40 65 11 82"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "BOUGUENAIS"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Place de l'Eglise"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2168"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Chapelle%20Notre%20Dame%20des%20Ap%C3%B4tres%20des%20Cou%C3%AAts>	 foaf:name 	 "Chapelle Notre Dame des Apôtres des Couêts"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.1810750615002"^^xsd:decimal ;
+	geo:long	"-1.58677986000661"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44340"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "Public"^^xsd:string ;
+	sc:telephone	 "02 40 65 21 24"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "BOUGUENAIS"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "4 Rue de la Chapelle"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2169"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Louis%20de%20Monfort>	 foaf:name 	 "Eglise Saint Louis de Monfort"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2373934315162"^^xsd:decimal ;
+	geo:long	"-1.5952567150259"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44800"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "Public"^^xsd:string ;
+	sc:telephone	 "02 40 76 53 67"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "ST-HERBLAIN"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "15 Avenue de Chambord"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2209"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Hermeland>	 foaf:name 	 "Eglise Saint Hermeland"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2103191153087"^^xsd:decimal ;
+	geo:long	"-1.65153085197828"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44800"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "Public"^^xsd:string ;
+	sc:telephone	 "02 40 86 02 12"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "ST-HERBLAIN"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Place de l'Abbé Cherel"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2238"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20d%27Indre>	 foaf:name 	 "Eglise d'Indre"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.1986270984005"^^xsd:decimal ;
+	geo:long	"-1.67038538133352"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44610"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "Public"^^xsd:string ;
+	sc:telephone	 "02 40 86 01 53"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "undefined"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "2 "^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2245"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20de%20Brains>	 foaf:name 	 "Eglise de Brains"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.1686070820294"^^xsd:decimal ;
+	geo:long	"-1.72045068903083"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44830"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 65 46 68"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "BRAINS"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Place de l'Eglise"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2377"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Chapelle%20du%20Ch%C3%A2teau%20de%20la%20Tour>	 foaf:name 	 "Chapelle du Château de la Tour"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2876192022202"^^xsd:decimal ;
+	geo:long	"-1.62559465498803"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44700"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 51 78 31 00"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "ORVAULT"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Chemin de Gagné"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2386"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Chapelle%20Notre%20Dame%20des%20Anges>	 foaf:name 	 "Chapelle Notre Dame des Anges"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2750874049268"^^xsd:decimal ;
+	geo:long	"-1.63674460317085"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44700"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 78 31 00"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "ORVAULT"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Rue de Beausoleil"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2387"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20L%C3%A9ger>	 foaf:name 	 "Eglise Saint Léger"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2707111711139"^^xsd:decimal ;
+	geo:long	"-1.62362621692616"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44700"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 63 01 71"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "ORVAULT"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Place de l'Eglise"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2388"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Aignan%20de%20Grand%20Lieu>	 foaf:name 	 "Eglise Saint Aignan de Grand Lieu"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.1229161860939"^^xsd:decimal ;
+	geo:long	"-1.63295380293511"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44860"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 31 00 82"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "SAINT-AIGNAN-GRANDLIEU"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Place de l'Eglise"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2394"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20de%20Basse%20Goulaine>	 foaf:name 	 "Eglise de Basse Goulaine"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2152122967564"^^xsd:decimal ;
+	geo:long	"-1.46533696189201"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44115"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 06 00 05"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "BASSE-GOULAINE"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Place Saint Brice"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2404"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20de%20Bouaye>	 foaf:name 	 "Eglise de Bouaye"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.1444240534838"^^xsd:decimal ;
+	geo:long	"-1.69362649593802"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44830"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 65 44 02"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "BOUAYE"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Avenue du Moulin"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2406"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20de%20La%20Chapelle%20sur%20Erdre>	 foaf:name 	 "Eglise de La Chapelle sur Erdre"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2995064005004"^^xsd:decimal ;
+	geo:long	"-1.54956179017045"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44240"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 72 00 45"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "LA-CHAPELLE-SUR-ERDRE"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Place de l'Eglise"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2407"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20de%20Carquefou>	 foaf:name 	 "Eglise de Carquefou"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2965530235961"^^xsd:decimal ;
+	geo:long	"-1.49231790381251"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44470"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "undefined"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "CARQUEFOU"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Place Saint Pierre"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2408"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20de%20Cou%C3%ABron>	 foaf:name 	 "Eglise de Couëron"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2101447545309"^^xsd:decimal ;
+	geo:long	"-1.72895031069819"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44220"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 86 16 48"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "COUERON"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Place Charles Gide"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2409"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Eloi>	 foaf:name 	 "Eglise Saint Eloi"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2152498360784"^^xsd:decimal ;
+	geo:long	"-1.67879450397918"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44220"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "undefined"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "COUERON"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Boulevard de la Libération"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2410"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20de%20Mauves%20sur%20Loire>	 foaf:name 	 "Eglise de Mauves sur Loire"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2953319490169"^^xsd:decimal ;
+	geo:long	"-1.39314574495097"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44470"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "undefined"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "MAUVES-SUR-LOIRE"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "16 Place de l'Eglise"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2412"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20de%20La%20Montagne>	 foaf:name 	 "Eglise de La Montagne"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.1900052471503"^^xsd:decimal ;
+	geo:long	"-1.68414357769833"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44620"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 65 60 29"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "LA-MONTAGNE"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Place de l'Eglise"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2413"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Sainte%20Bernadette>	 foaf:name 	 "Eglise Sainte Bernadette"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2484484847357"^^xsd:decimal ;
+	geo:long	"-1.59868171419651"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44700"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 76 97 02"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "ORVAULT"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Rue des Verts Prés"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2415"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20du%20Pellerin>	 foaf:name 	 "Eglise du Pellerin"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.199702178621"^^xsd:decimal ;
+	geo:long	"-1.7515459722722"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44640"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 04 64 41"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "LE-PELLERIN"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Place de l'Eglise"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2416"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Paul>	 foaf:name 	 "Eglise Saint Paul"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.1847229935584"^^xsd:decimal ;
+	geo:long	"-1.5473739746211"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44400"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 75 66 35"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "REZE"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Place Roger Salengro"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2417"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Andr%C3%A9>	 foaf:name 	 "Eglise Saint André"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.1821629058559"^^xsd:decimal ;
+	geo:long	"-1.56393057300785"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44400"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 75 64 39"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "REZE"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Avenue de la Vendée"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2418"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Vincent%20de%20Paul>	 foaf:name 	 "Eglise Saint Vincent de Paul"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.1675173026313"^^xsd:decimal ;
+	geo:long	"-1.54331356438971"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44400"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 75 91 22"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "REZE"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "10 Rue Ernest Sauvestre"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2419"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Pierre1> foaf:name  "Eglise Saint Pierre"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.1909777672593"^^xsd:decimal ;
+	geo:long	"-1.57013931780589"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44400"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "undefined"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "REZE"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Rue Dupré Vilaine"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2420"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Notre%20Dame%20du%20Rosaire>	 foaf:name 	 "Eglise Notre Dame du Rosaire"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.1926135344276"^^xsd:decimal ;
+	geo:long	"-1.5465132299997"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44400"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "undefined"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "REZE"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Rue Alsace Lorraine"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2421"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20de%20Saint%20Jean%20de%20Boiseau>	 foaf:name 	 "Eglise de Saint Jean de Boiseau"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.1959968938622"^^xsd:decimal ;
+	geo:long	"-1.72450873498521"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44640"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 65 64 19"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "SAINT-JEAN-DE-BOISEAU"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Rue de l'Egalité"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2423"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20de%20Saint%20L%C3%A9ger%20les%20Vignes>	 foaf:name 	 "Eglise de Saint Léger les Vignes"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.134908045044"^^xsd:decimal ;
+	geo:long	"-1.73239491385642"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44710"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "undefined"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "SAINT-LEGER-LES-VIGNES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Place de l'Eglise"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2424"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20de%20Sainte%20Luce%20sur%20Loire>	 foaf:name 	 "Eglise de Sainte Luce sur Loire"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2493997247658"^^xsd:decimal ;
+	geo:long	"-1.48772621839281"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44980"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 25 60 90"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "SAINTE-LUCE-SUR-LOIRE"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Place Monseigneur Rabine"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2425"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20de%20Sautron>	 foaf:name 	 "Eglise de Sautron"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2644771523535"^^xsd:decimal ;
+	geo:long	"-1.67189562944816"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44880"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 63 16 21"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "SAUTRON"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Rue de l'Eglise"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2427"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20des%20Sorini%C3%A8res>	 foaf:name 	 "Eglise des Sorinières"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.1482585075926"^^xsd:decimal ;
+	geo:long	"-1.52982994740326"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44840"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 31 21 30"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "LES-SORINIERES"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Place de l'Eglise"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2428"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20de%20Thouar%C3%A9%20sur%20Loire>	 foaf:name 	 "Eglise de Thouaré sur Loire"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2671265665458"^^xsd:decimal ;
+	geo:long	"-1.4408047515336"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44470"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "undefined"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "THOUARE-SUR-LOIRE"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Place de la République"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2429"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Martin>	 foaf:name 	 "Eglise Saint Martin"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.1683655252145"^^xsd:decimal ;
+	geo:long	"-1.47295226606828"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44120"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 34 20 90"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "VERTOU"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Place Saint-Martin"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2430"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Chapelle%20Notre%20Dame%20des%20Victoires>	 foaf:name 	 "Chapelle Notre Dame des Victoires"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.1804355218392"^^xsd:decimal ;
+	geo:long	"-1.50955640553516"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44120"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "undefined"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "VERTOU"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Route de la Fontenelle"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2432"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Chapelle%20Saint%20Lupien>	 foaf:name 	 "Chapelle Saint Lupien"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.1920034945033"^^xsd:decimal ;
+	geo:long	"-1.56561510846483"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44400"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "undefined"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "REZE"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Chemin Saint Lupien"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2456"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Chapelle%20Bethl%C3%A9em>	 foaf:name 	 "Chapelle Bethléem"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.1954996212628"^^xsd:decimal ;
+	geo:long	"-1.73169253048406"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44640"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 65 64 19"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "SAINT-JEAN-DE-BOISEAU"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Rue de Bethleem"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2535"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Sainte%20Famille>	 foaf:name 	 "Eglise Sainte Famille"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.1851998398849"^^xsd:decimal ;
+	geo:long	"-1.50350098568316"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44120"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 34 38 47"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "VERTOU"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "98 Route de la Fontenelle"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2563"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Chapelle%20Notre%20Dame%20de%20Bon%20Garand>	 foaf:name 	 "Chapelle Notre Dame de Bon Garand"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2781292403406"^^xsd:decimal ;
+	geo:long	"-1.69660454472701"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44880"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "undefined"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "SAUTRON"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Rue de la Chapelle Bongarant"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "2621"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Centre%20Spirituel%20Dioc%C3%A9sain%20des%20Naudi%C3%A8res>	 foaf:name 	 "Centre Spirituel Diocésain des Naudières"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.1762451018279"^^xsd:decimal ;
+	geo:long	"-1.53877940321655"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44400"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 75 51 74"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "REZE"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "31 Rue des Naudières"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "3247"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Evang%C3%A9lique>	 foaf:name 	 "Eglise Evangélique"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.1800496638667"^^xsd:decimal ;
+	geo:long	"-1.55776601032678"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44400"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "undefined"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "REZE"^^xsd:string ;
+	pdll:CategoryLabel	 "Protestant"^^xsd:string ;
+	dbpprop:location	 "17 Rue Victor Fortun"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "3281"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "204"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Protestante%20Baptiste2> foaf:name  "Eglise Protestante Baptiste"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2078800842789"^^xsd:decimal ;
+	geo:long	"-1.49981648966679"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44230"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 80 65 11"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "ST-SEBASTIEN"^^xsd:string ;
+	pdll:CategoryLabel	 "Protestant"^^xsd:string ;
+	dbpprop:location	 "29 Rue du Général De Gaulle"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "3354"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "204"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Chapelle%20Saint%20St%C3%A9phane>	 foaf:name 	 "Chapelle Saint Stéphane"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2616549744949"^^xsd:decimal ;
+	geo:long	"-1.62937243070817"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44700"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "undefined"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "ORVAULT"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Rue Neptune"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "3429"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Chapelle%20Saint%20Ren%C3%A9>	 foaf:name 	 "Chapelle Saint René"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2690171151682"^^xsd:decimal ;
+	geo:long	"-1.59706388813633"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44700"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "undefined"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "ORVAULT"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Rue de la Chevalerie"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "3430"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Saint%20Thomas>	 foaf:name 	 "Eglise Saint Thomas"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2295783220167"^^xsd:decimal ;
+	geo:long	"-1.61766936593689"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44800"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "undefined"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "ST-HERBLAIN"^^xsd:string ;
+	pdll:CategoryLabel	 "Catholique"^^xsd:string ;
+	dbpprop:location	 "Impasse Auguste Fresnel"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "3534"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "201"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Orthodoxe>	 foaf:name 	 "Eglise Orthodoxe"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2581315442846"^^xsd:decimal ;
+	geo:long	"-1.52239838623559"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "undefined"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Orthodoxe"^^xsd:string ;
+	dbpprop:location	 "Boulevard de la Beaujoire"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "3569"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "205"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Temple>	 foaf:name 	 "Temple"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2531004150102"^^xsd:decimal ;
+	geo:long	"-1.52571329774243"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 52 22 52"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Protestant"^^xsd:string ;
+	dbpprop:location	 "20 Rue de l'Ouche Buron"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "3639"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "204"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Protestante%20Evang%C3%A9liste%20Nantes-Ouest>	 foaf:name 	 "Eglise Protestante Evangéliste Nantes-Ouest"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2178401989156"^^xsd:decimal ;
+	geo:long	"-1.6022595516947"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44100"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 46 83 89"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Protestant"^^xsd:string ;
+	dbpprop:location	 "137 Rue du Corps de Garde"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "3769"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "204"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Pagode%20Bouddhiste%20Van%20Hanh>	 foaf:name 	 "Pagode Bouddhiste Van Hanh"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.210347157357"^^xsd:decimal ;
+	geo:long	"-1.62805235816357"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44800"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 85 04 59"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "ST-HERBLAIN"^^xsd:string ;
+	pdll:CategoryLabel	 "Bouddhiste"^^xsd:string ;
+	dbpprop:location	 "3 Rue du Souvenir Français"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "3773"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "206"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Mosqu%C3%A9e3> foaf:name  "Mosquée"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2197787467056"^^xsd:decimal ;
+	geo:long	"-1.51842753528741"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44000"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "undefined"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Musulman"^^xsd:string ;
+	dbpprop:location	 "Rue Rosa Parks"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "3829"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "202"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Mosqu%C3%A9e%20Arrahma>	 foaf:name 	 "Mosquée Arrahma"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2637699946969"^^xsd:decimal ;
+	geo:long	"-1.57535871694578"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "www.mosquee-arrahma.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 78 91 03"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Musulman"^^xsd:string ;
+	dbpprop:location	 "1 Boulevard René Cassin"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "4056"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "202"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Orthodoxe%20La%20Trinit%C3%A9%20Saint%20Clair>	 foaf:name 	 "Eglise Orthodoxe La Trinité Saint Clair"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.260443083105"^^xsd:decimal ;
+	geo:long	"-1.57045745469617"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "nantesorthodoxe.free.fr"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 40 29 97"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Orthodoxe"^^xsd:string ;
+	dbpprop:location	 "63 Rue Stendhal"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "4057"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "205"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Eglise%20Protestante%20Baptiste%20Libre>	 foaf:name 	 "Eglise Protestante Baptiste Libre"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2551172403549"^^xsd:decimal ;
+	geo:long	"-1.56552036338582"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 45 53 56"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:CategoryLabel	 "Protestant"^^xsd:string ;
+	dbpprop:location	 "22 Rue des Renards"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "4058"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "204"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/dataLieuxCulte/Mosqu%C3%A9e%20Al%20Houda>	 foaf:name 	 "Mosquée Al Houda"^^xsd:string ;
+	rdf:type	 pdll:dataLieuxCulte;
+	geo:lat	"47.2198610371511"^^xsd:decimal ;
+	geo:long	"-1.62049991336285"^^xsd:decimal  ;
+	pdll:themeLabel	 "CULTE"^^xsd:string ;
+	sc:postalCode	 "44800"^^xsd:string ;
+	dbpprop:website	 "http://amsh.netau.net"^^xsd:string ;
+	pdll:statut	 "undefined"^^xsd:string ;
+	sc:telephone	 "02 40 92 19 35"^^xsd:string ;
+	pdll:theme	 "2"^^xsd:string ;
+	dbpprop:town	 "ST-HERBLAIN"^^xsd:string ;
+	pdll:CategoryLabel	 "Musulman"^^xsd:string ;
+	dbpprop:location	 "3 Impasse Marie Noël"^^xsd:string ;
+	pdll:typeLabel	 "undefined"^^xsd:string ;
+	pdll:id	 "4155"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
+	pdll:Category	 "202"^^xsd:string .
+
