@@ -1,11 +1,13 @@
 package openDataWrapper;
 
+import org.mindswap.pellet.jena.ModelExtractor;
+
 import com.hp.hpl.jena.rdf.model.Model;
 
 /**
  * 
  * @author alexis.linard
- *
+ * 
  */
 public class OWLConverter {
 
@@ -51,8 +53,16 @@ public class OWLConverter {
 	 * Main method running OWLConverter on chosen datasources
 	 */
 	public void run() {
-		//TODO implement
+		// TODO implement
 		System.err.println("Not Implemented yet");
+
+		// Create an inference extractor
+		ModelExtractor extractor = new ModelExtractor(masterModel);
+
+		// Extract default set of inferences
+		Model inferences = extractor.extractModel();
+
+		// inferences.write()
 	}
-	
+
 }
