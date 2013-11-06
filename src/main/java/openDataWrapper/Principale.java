@@ -91,6 +91,7 @@ public class Principale {
 						+ "[7] Query over converted data\n"
 						+ "[8] Reload data\n" + "[9] SPARQL Endpoint\n"
 						+ "[10] Test requete\n" + "[11] Link datasets \n"
+						+ "[12] RDFS generation\n" + "[13] OWL generation\n"
 						+ "[0] Quit\n");
 				result = in.nextInt();
 
@@ -128,6 +129,12 @@ public class Principale {
 				case 11:
 					linkDataSets();
 					break;
+				case 12:
+					rdfs();
+					break;
+				case 13:
+					owl();
+					break;
 				default:
 					// on quitte
 					result = -1;
@@ -141,6 +148,27 @@ public class Principale {
 		}
 		System.out.println("Exiting...");
 		in.close();
+	}
+
+	/**
+	 * Runs owl conversion
+	 */
+	private static void owl() {
+		OWLConverter owlConverter = OWLConverter.getInstance();
+		owlConverter.run();
+		System.out
+				.println("OWL-converted datasets' results into src/main/resources/output/owl/* files");
+		
+	}
+
+	/**
+	 * Runs rdfs conversion
+	 */
+	private static void rdfs() {
+		RDFSConverter rdfsConverter = RDFSConverter.getInstance();
+		rdfsConverter.run();
+		System.out
+				.println("RDFS-converted datasets' results into src/main/resources/output/rdfs/* files");		
 	}
 
 	/**
