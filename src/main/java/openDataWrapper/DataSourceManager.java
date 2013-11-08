@@ -22,8 +22,27 @@ public class DataSourceManager {
 	/**
 	 * Path to linked datasets in n3 format
 	 */
-	public final static StringBuilder PATH_TO_LINKED_DATASETS = new StringBuilder("src/main/resources/output/linkedData/ttl");
+	public final static StringBuilder PATH_TO_LINKED_DATASETS_TTL = new StringBuilder("src/main/resources/output/linkedData/ttl");
 	
+	/**
+	 * Path to linked datasets in rdf format
+	 */
+	public final static StringBuilder PATH_TO_LINKED_DATASETS_RDF = new StringBuilder("src/main/resources/output/linkedData/rdf-xml");
+	
+	/**
+	 * Path to datasets in n3 format
+	 */
+	public final static StringBuilder PATH_TO_DATASETS_TTL = new StringBuilder("src/main/resources/output/ttl");
+	
+	/**
+	 * Path to datasets in RDF format
+	 */
+	public final static StringBuilder PATH_TO_DATASETS_RDF = new StringBuilder("src/main/resources/output/rdf-xml");
+	
+	/**
+	 * Path to RDFS schemas
+	 */
+	public final static StringBuilder PATH_TO_RDFS_SCHEMAS = new StringBuilder("src/main/resources/input/rdfsSchema");
 	
 	/**
 	 * Méthode affichant les datasources supportés par l'application. This
@@ -65,20 +84,89 @@ public class DataSourceManager {
 	
 	
 	/**
-	 * Method showing available linked datasets and asking user which dataset he wants to load
+	 * Method showing available linked datasets in N3 format and asking user which dataset he wants to load
 	 * @return name of requested dataset
 	 */
-	public static String chooseAvailableLinkedDatasets()
+	public static String chooseAvailableLinkedDatasetsN3()
 	{
-		String files;
-		File folder = new File(PATH_TO_LINKED_DATASETS.toString());
+		File folder = new File(PATH_TO_LINKED_DATASETS_TTL.toString());
 		File[] listOfFiles = folder.listFiles();
 		Map<Integer, String> availableLinkedDatasources = new TreeMap<Integer, String>();
+		String extensionN3Lower = ".n3";
+		String extensionN3Upper = ".N3";
+		
+		return chooseFiles(listOfFiles, availableLinkedDatasources,
+				extensionN3Lower, extensionN3Upper);
+	}
+	
+	
+	/**
+	 * Method showing available linked datasets in RDF format and asking user which dataset he wants to load
+	 * @return name of requested dataset
+	 */
+	public static String chooseAvailableLinkedDatasetsRDF()
+	{
+		File folder = new File(PATH_TO_LINKED_DATASETS_RDF.toString());
+		File[] listOfFiles = folder.listFiles();
+		Map<Integer, String> availableLinkedDatasources = new TreeMap<Integer, String>();
+		String extensionRDFLower = ".rdf";
+		String extensionRDFUpper = ".RDF";
+		return chooseFiles(listOfFiles, availableLinkedDatasources,
+				extensionRDFLower, extensionRDFUpper);
+	}
+	
+	
+	/**
+	 * Method showing available datasets in RDF format and asking user which dataset he wants to load
+	 * @return name of requested dataset
+	 */
+	public static String chooseAvailableDatasetsRDF()
+	{
+		File folder = new File(PATH_TO_DATASETS_RDF.toString());
+		File[] listOfFiles = folder.listFiles();
+		Map<Integer, String> availableLinkedDatasources = new TreeMap<Integer, String>();
+		String extensionRDFLower = ".rdf";
+		String extensionRDFUpper = ".RDF";
+		
+		
+		return chooseFiles(listOfFiles, availableLinkedDatasources,
+				extensionRDFLower, extensionRDFUpper);
+	}
+	
+	/**
+	 * Method showing available RDFS schemas and asking user which one he wants to load
+	 * @return name of requested dataset
+	 */
+	public static String chooseAvailableRDFSSchemas()
+	{
+		File folder = new File(PATH_TO_RDFS_SCHEMAS.toString());
+		File[] listOfFiles = folder.listFiles();
+		Map<Integer, String> availableLinkedDatasources = new TreeMap<Integer, String>();
+		String extensionRDFLower = ".rdf";
+		String extensionRDFUpper = ".RDF";
+		
+		
+		return chooseFiles(listOfFiles, availableLinkedDatasources,
+				extensionRDFLower, extensionRDFUpper);
+	}
+
+	/**
+	 * Extracted method : available linked datasets and asking user which dataset he wants to load
+	 * @param listOfFiles list of files into given folder
+	 * @param availableLinkedDatasources Map
+	 * @param extensionLower the good extension for requested files
+	 * @param extensionUpper the good extension for requested files
+	 * @return
+	 */
+	private static String chooseFiles(File[] listOfFiles,
+			Map<Integer, String> availableLinkedDatasources,
+			String extensionLower, String extensionUpper) {
+		String files;
 		try {
 			for (int i = 0; i < listOfFiles.length; i++) {
 				if (listOfFiles[i].isFile()) {
 					files = listOfFiles[i].getName();
-					if (files.endsWith(".n3") || files.endsWith(".N3")) {
+					if (files.endsWith(extensionUpper) || files.endsWith(extensionUpper)) {
 						availableLinkedDatasources.put(i, files);
 					}
 				}
@@ -95,9 +183,9 @@ public class DataSourceManager {
 			i++;
 		}
 		
+		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
 		int result = in.nextInt();
 		return availableLinkedDatasources.get(result);
 	}
-	
 }

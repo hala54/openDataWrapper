@@ -165,7 +165,7 @@ public class Principale {
 	 * Runs rdfs conversion
 	 */
 	private static void rdfs() {
-		RDFSConverter rdfsConverter = RDFSConverter.getInstance();
+		RDFSInferenceMaker rdfsConverter = RDFSInferenceMaker.getInstance();
 		rdfsConverter.run();
 		System.out
 				.println("RDFS-converted datasets' results into src/main/resources/output/rdfs/* files");		

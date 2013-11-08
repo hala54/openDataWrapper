@@ -81,8 +81,8 @@ public class OWLConverter {
 	 * Methode permettant de charger un dataset issu d'autres datasets
 	 */
 	private StringBuilder loadLinkedDataset(StringBuilder outputFile) {
-		String pathToRequestedLinkedDataset = DataSourceManager.chooseAvailableLinkedDatasets();
-		loadDataset(DataSourceManager.PATH_TO_LINKED_DATASETS.append("/").append(pathToRequestedLinkedDataset).toString());
+		String pathToRequestedLinkedDataset = DataSourceManager.chooseAvailableLinkedDatasetsN3();
+		loadDataset(DataSourceManager.PATH_TO_LINKED_DATASETS_TTL.append("/").append(pathToRequestedLinkedDataset).toString());
 		return outputFile.append(pathToRequestedLinkedDataset);
 	}
 	
