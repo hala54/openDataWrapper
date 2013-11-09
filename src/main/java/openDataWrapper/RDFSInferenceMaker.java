@@ -112,11 +112,14 @@ public class RDFSInferenceMaker {
 	 * @param p the RDF property (RDF.type, etc...)
 	 * @param o ?
 	 */
-	public void printStatements(Model m, Resource s, Property p, Resource o) {
+	public String printStatements(Model m, Resource s, Property p, Resource o) {
+		StringBuilder stringOutput = new StringBuilder();
 		for (StmtIterator i = m.listStatements(s, p, o); i.hasNext();) {
 			Statement stmt = i.nextStatement();
 			System.out.println(" - " + PrintUtil.print(stmt));
+			stringOutput.append(" - ").append(PrintUtil.print(stmt)).append("\n");
 		}
+		return stringOutput.toString();
 	}
 
 }
