@@ -72,11 +72,7 @@ public class OWLInferenceMaker {
 			in.nextLine();
 		}
 
-		Reasoner reasoner = ReasonerRegistry.getOWLReasoner();
-		reasoner = reasoner.bindSchema(FileManager.get().loadModel(
-				"file:" + inputSchema));
-		InfModel infmodel = ModelFactory.createInfModel(reasoner, FileManager
-				.get().loadModel("file:" + inputData));
+		InfModel infmodel = createInfModel(inputSchema, inputData);
 
 		System.out
 				.println("Which resource do you want to test? Press 0 to exit\n");
@@ -92,6 +88,21 @@ public class OWLInferenceMaker {
 
 		}
 
+	}
+
+	/**
+	 * Creates an Inference model
+	 * @param inputSchema the input selected schema
+	 * @param inputData the input selected data
+	 * @return an InfModel to make inferences
+	 */
+	public InfModel createInfModel(String inputSchema, String inputData) {
+		Reasoner reasoner = ReasonerRegistry.getOWLReasoner();
+		reasoner = reasoner.bindSchema(FileManager.get().loadModel(
+				"file:" + inputSchema));
+		InfModel infmodel = ModelFactory.createInfModel(reasoner, FileManager
+				.get().loadModel("file:" + inputData));
+		return infmodel;
 	}
 
 	/**
