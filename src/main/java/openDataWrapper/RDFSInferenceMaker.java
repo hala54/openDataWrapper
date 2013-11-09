@@ -51,7 +51,7 @@ public class RDFSInferenceMaker {
 		Scanner in = new Scanner(System.in);
 		try {
 			System.out.println(" Do you want to use:\n"
-					+ "[1] List datasources\n" + "[2] Add new datasources\n");
+					+ "[1] Linked datasets\n" + "[2] Simple datasets\n");
 			int result = in.nextInt();
 
 			switch (result) {
@@ -61,7 +61,7 @@ public class RDFSInferenceMaker {
 				break;
 			case 2:
 				inputData = DataSourceManager
-						.chooseAvailableLinkedDatasetsRDF();
+						.chooseAvailableDatasetsRDF();
 				break;
 			default:
 				// on quitte
