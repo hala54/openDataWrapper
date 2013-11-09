@@ -45,6 +45,11 @@ public class DataSourceManager {
 	public final static StringBuilder PATH_TO_RDFS_SCHEMAS = new StringBuilder("src/main/resources/input/rdfsSchema");
 	
 	/**
+	 * Path to OWL schemas
+	 */
+	public final static StringBuilder PATH_TO_OWL_SCHEMAS = new StringBuilder("src/main/resources/input/owlSchema");
+	
+	/**
 	 * Méthode affichant les datasources supportés par l'application. This
 	 * function display the data sources list, with the id number. Useful when
 	 * you want to make a process on only one data source.
@@ -149,6 +154,24 @@ public class DataSourceManager {
 		return chooseFiles(listOfFiles, availableLinkedDatasources,
 				extensionRDFLower, extensionRDFUpper);
 	}
+	
+	/**
+	 * Method showing available OWL schemas and asking user which one he wants to load
+	 * @return name of requested dataset
+	 */
+	public static String chooseAvailableOWLSchemas()
+	{
+		File folder = new File(PATH_TO_OWL_SCHEMAS.toString());
+		File[] listOfFiles = folder.listFiles();
+		Map<Integer, String> availableLinkedDatasources = new TreeMap<Integer, String>();
+		String extensionOWLLower = ".owl";
+		String extensionOWLUpper = ".OWL";
+		
+		
+		return chooseFiles(listOfFiles, availableLinkedDatasources,
+				extensionOWLLower, extensionOWLUpper);
+	}
+
 
 	/**
 	 * Extracted method : available linked datasets and asking user which dataset he wants to load
