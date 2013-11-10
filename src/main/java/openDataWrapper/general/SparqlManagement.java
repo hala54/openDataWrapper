@@ -1,4 +1,4 @@
-package openDataWrapper;
+package openDataWrapper.general;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -10,6 +10,8 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
+
+import openDataWrapper.datasources.DataSource;
 
 import org.apache.log4j.Logger;
 

@@ -1,4 +1,4 @@
-package openDataWrapper;
+package openDataWrapper.general;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -13,6 +13,8 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
 import java.util.TreeMap;
+
+import openDataWrapper.datasources.DataSource;
 
 import org.apache.log4j.Logger;
 import org.jdom2.Document;

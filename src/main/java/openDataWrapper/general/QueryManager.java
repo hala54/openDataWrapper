@@ -1,4 +1,4 @@
-package openDataWrapper;
+package openDataWrapper.general;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -9,6 +9,9 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeMap;
+
+import openDataWrapper.datasources.DataSource;
+import openDataWrapper.datasources.DataSourceManager;
 
 import org.apache.log4j.Logger;
 

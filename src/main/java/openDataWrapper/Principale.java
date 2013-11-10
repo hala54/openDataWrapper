@@ -10,6 +10,17 @@ import java.util.Properties;
 import java.util.Scanner;
 import java.util.Set;
 
+import openDataWrapper.converter.ConvertTTL;
+import openDataWrapper.converter.ConvertXML;
+import openDataWrapper.datasources.DataSource;
+import openDataWrapper.datasources.DataSourceManager;
+import openDataWrapper.general.LoadRessources;
+import openDataWrapper.general.QueryManager;
+import openDataWrapper.general.SparqlManagement;
+import openDataWrapper.inference.OWLInferenceMaker;
+import openDataWrapper.inference.RDFSInferenceMaker;
+import openDataWrapper.linker.DataLinker;
+
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
 import org.jdom2.JDOMException;

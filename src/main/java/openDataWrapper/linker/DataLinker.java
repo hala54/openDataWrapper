@@ -1,4 +1,4 @@
-package openDataWrapper;
+package openDataWrapper.linker;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -13,6 +13,9 @@ import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Properties;
 import java.util.Scanner;
+
+import openDataWrapper.datasources.DataSource;
+import openDataWrapper.datasources.DataSourceManager;
 
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.util.FileManager;

@@ -1,4 +1,4 @@
-package openDataWrapper;
+package openDataWrapper.general;
 
 /**
  * Interface to use opendatawrapper at its best The main action are: - convert

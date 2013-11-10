@@ -1,4 +1,4 @@
-package openDataWrapper;
+package openDataWrapper.datasources;
 
 /**
  * This class describes a datasource

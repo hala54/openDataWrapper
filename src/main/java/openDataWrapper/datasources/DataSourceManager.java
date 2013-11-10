@@ -1,4 +1,4 @@
-package openDataWrapper;
+package openDataWrapper.datasources;
 
 import java.io.File;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import java.util.TreeMap;
 
 import org.jdom2.JDOMException;
 
-import openDataWrapper.LoadRessources;
+import openDataWrapper.general.LoadRessources;
 
 /**
  * Manages available datasources

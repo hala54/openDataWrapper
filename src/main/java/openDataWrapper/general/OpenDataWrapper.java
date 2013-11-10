@@ -1,4 +1,4 @@
-package openDataWrapper;
+package openDataWrapper.general;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -8,6 +8,11 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
+
+import openDataWrapper.Principale;
+import openDataWrapper.converter.ConvertTTL;
+import openDataWrapper.converter.ConvertXML;
+import openDataWrapper.datasources.DataSource;
 
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;

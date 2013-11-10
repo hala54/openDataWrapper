@@ -1,4 +1,4 @@
-package openDataWrapper;
+package openDataWrapper.converter;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -25,6 +25,8 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
+
+import openDataWrapper.general.XSLConstructor;
 
 import org.apache.log4j.Logger;
 import org.jdom2.Document;

@@ -4,6 +4,8 @@ import static org.junit.Assert.*;
 
 import java.util.Collection;
 
+import openDataWrapper.inference.OWLInferenceMaker;
+
 import org.junit.Test;
 
 import com.hp.hpl.jena.rdf.model.InfModel;

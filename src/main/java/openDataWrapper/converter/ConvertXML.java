@@ -1,4 +1,4 @@
-package openDataWrapper;
+package openDataWrapper.converter;
 
 import java.io.File;
 import java.io.FileNotFoundException;

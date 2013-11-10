@@ -1,4 +1,4 @@
-package openDataWrapper;
+package openDataWrapper.inference;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,49 +8,51 @@ import java.util.Collection;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+import openDataWrapper.datasources.DataSourceManager;
+
+import com.hp.hpl.jena.rdf.model.Property;
+import com.hp.hpl.jena.rdf.model.Resource;
 import com.hp.hpl.jena.rdf.model.InfModel;
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
-import com.hp.hpl.jena.rdf.model.Property;
-import com.hp.hpl.jena.rdf.model.Resource;
 import com.hp.hpl.jena.rdf.model.Statement;
 import com.hp.hpl.jena.rdf.model.StmtIterator;
-import com.hp.hpl.jena.reasoner.Reasoner;
-import com.hp.hpl.jena.reasoner.ReasonerRegistry;
 import com.hp.hpl.jena.util.FileManager;
 import com.hp.hpl.jena.util.PrintUtil;
+import com.hp.hpl.jena.vocabulary.RDF;
 
 /**
- * 
+ * Class implementing InferenceMaker for RDFS
  * @author alexis.linard
  * 
  */
-public class OWLInferenceMaker {
+public class RDFSInferenceMaker implements InferenceMaker {
 
 	/**
 	 * Instance unique pré-initialisée du Singleton
 	 */
-	private static OWLInferenceMaker INSTANCE = new OWLInferenceMaker();
+	private static RDFSInferenceMaker INSTANCE = new RDFSInferenceMaker();
 
 	/**
-	 * Constructeur privé du singleton OWLInferenceMaker
+	 * Constructeur privé du singleton RDFSConverter
 	 */
-	private OWLInferenceMaker() {
+	private RDFSInferenceMaker() {
+
 	}
 
 	/**
 	 * Point d'accès pour l'instance unique du singleton
 	 */
-	public static OWLInferenceMaker getInstance() {
+	public static RDFSInferenceMaker getInstance() {
 		return INSTANCE;
 	}
 
 	/**
-	 * Main method running OWLInferenceMaker on chosen datasources
+	 * Main method running RDFSConverter on chosen datasources
 	 */
 	public void run() {
 
-		String inputSchema = DataSourceManager.chooseAvailableOWLSchemas();
+		String inputSchema = DataSourceManager.chooseAvailableRDFSSchemas();
 		String inputData = "";
 
 		Scanner in = new Scanner(System.in);
@@ -87,20 +89,19 @@ public class OWLInferenceMaker {
 
 		try {
 			String resource = inString.readLine();
-
+			
 			while (!resource.contentEquals("0")) {
-				Resource res = infmodel.getResource(resource);
-				System.out.println(resource + " :");
-				printStatements(infmodel, res, null, null);
+				Resource r = infmodel.getResource(resource);
+				System.out.println(resource + " has types:");
+				printStatements(infmodel, r, RDF.type, null);
 				System.out
 						.println("Which resource do you want to test? Press 0 to exit\n");
 				resource = inString.readLine();
-
 			}
+
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
 	}
 
 	/**
@@ -113,11 +114,11 @@ public class OWLInferenceMaker {
 	 * @return an InfModel to make inferences
 	 */
 	public InfModel createInfModel(String inputSchema, String inputData) {
-		Reasoner reasoner = ReasonerRegistry.getOWLReasoner();
-		reasoner = reasoner.bindSchema(FileManager.get().loadModel(
-				"file:" + inputSchema));
-		InfModel infmodel = ModelFactory.createInfModel(reasoner, FileManager
-				.get().loadModel("file:" + inputData));
+		Model schema = FileManager.get().loadModel("file:" + inputSchema);
+
+		Model data = FileManager.get().loadModel("file:" + inputData);
+
+		InfModel infmodel = ModelFactory.createRDFSModel(schema, data);
 		return infmodel;
 	}
 
@@ -142,7 +143,6 @@ public class OWLInferenceMaker {
 			stringOutput.add(PrintUtil.print(stmt));
 		}
 		return stringOutput;
-
 	}
 
 }
