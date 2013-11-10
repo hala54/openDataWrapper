@@ -1,5 +1,7 @@
 package openDataWrapper;
 
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -117,15 +119,15 @@ public class OWLInferenceMaker {
 	 * @param o
 	 *            ?
 	 */
-	public String printStatements(Model m, Resource s, Property p, Resource o) {
-		StringBuilder stringOutput = new StringBuilder();
+	public Collection<String> printStatements(Model m, Resource s, Property p, Resource o) {
+		Collection<String> stringOutput = new ArrayList<String>();
 		for (StmtIterator i = m.listStatements(s, p, o); i.hasNext();) {
 			Statement stmt = i.nextStatement();
 			System.out.println(" - " + PrintUtil.print(stmt));
-			stringOutput.append(" - ").append(PrintUtil.print(stmt))
-					.append("\n");
+			stringOutput.add(PrintUtil.print(stmt));
 		}
-		return stringOutput.toString();
+		return stringOutput;
+				
 	}
 
 }

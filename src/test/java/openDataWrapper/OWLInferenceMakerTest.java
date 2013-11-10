@@ -2,6 +2,8 @@ package openDataWrapper;
 
 import static org.junit.Assert.*;
 
+import java.util.Collection;
+
 import org.junit.Test;
 
 import com.hp.hpl.jena.rdf.model.InfModel;
@@ -24,8 +26,18 @@ public class OWLInferenceMakerTest {
 		InfModel infmodel = instance.createInfModel(inputSchema, inputData);
 
 		Resource nForce = infmodel.getResource("urn:x-hp:eg/nForce");
-		assertEquals(expectedNForce, instance.printStatements(infmodel, nForce, null, null)); 
-	
+		
+		Collection<String> collection = instance.printStatements(infmodel, nForce, null, null);
+		
+		assertTrue(collection.contains("(eg:nForce rdf:type owl:Thing)"));
+		assertTrue(collection.contains("(eg:nForce owl:sameAs eg:unknownMB)"));
+		assertTrue(collection.contains("(eg:nForce owl:sameAs eg:nForce)"));
+		assertTrue(collection.contains("(eg:nForce rdf:type eg:MotherBoard)"));
+		assertTrue(collection.contains("(eg:nForce rdf:type rdfs:Resource)"));
+		assertTrue(collection.contains("(eg:nForce eg:hasGraphics eg:gamingGraphics)"));
+		assertTrue(collection.contains("(eg:nForce eg:hasComponent eg:gamingGraphics)"));
+
+		assertFalse(collection.contains("(eg:nForce owl:sameAs owl:Thing)"));
 	}
 
 }
