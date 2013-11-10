@@ -1,0 +1,18 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX pdll: <http://lodpaddle.univ-nantes.fr/>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+SELECT DISTINCT ?NomEns ?typeEns ?NomCulte ?typeCulte
+WHERE {
+        ?e pdll:themeLabel "ENSEIGNEMENT".
+        ?c pdll:themeLabel "CULTE".
+        ?c geo:long ?lonCulte
+        ?e geo:long ?lonEns
+        ?c geo:lat ?latCulte
+        ?e geo:lat ?latEns
+        ?c foaf:name ?NomCulte
+        ?e pdll:highschoolName ?NomEns
+        ?c pdll:CategoryLabel ?typeCulte
+        ?e pdll:privacy ?typeEns
+        FILTER( (-?lonCulte+?lonEns < 0.04 || -?lonEns+?lonCulte < 0.04 ) && (?latEns-?latCulte < 0.01 || ?latCulte-?latEns < 0.01  ) )
+}
