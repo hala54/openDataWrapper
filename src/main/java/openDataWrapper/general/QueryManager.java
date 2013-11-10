@@ -115,7 +115,7 @@ public class QueryManager {
 	private void loadLinkedDataset() {
 		String pathToRequestedLinkedDataset = DataSourceManager.chooseAvailableLinkedDatasetsN3();
 		
-		loadDataset(DataSourceManager.PATH_TO_LINKED_DATASETS_TTL.append("/").append(pathToRequestedLinkedDataset).toString());
+		loadDataset(pathToRequestedLinkedDataset);
 	}
 
 	/**
