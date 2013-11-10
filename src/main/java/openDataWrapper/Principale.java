@@ -91,7 +91,7 @@ public class Principale {
 						+ "[7] Query over converted data\n"
 						+ "[8] Reload data\n" + "[9] SPARQL Endpoint\n"
 						+ "[10] Test requete\n" + "[11] Link datasets \n"
-						+ "[12] RDFS generation\n" + "[13] OWL generation\n"
+						+ "[12] RDFS inferences\n" + "[13] OWL inferences\n"
 						+ "[0] Quit\n");
 				result = in.nextInt();
 
@@ -151,24 +151,19 @@ public class Principale {
 	}
 
 	/**
-	 * Runs owl conversion
+	 * Runs owl inference maker
 	 */
 	private static void owl() {
-		OWLConverter owlConverter = OWLConverter.getInstance();
-		owlConverter.run();
-		System.out
-				.println("OWL-converted datasets' results into src/main/resources/output/owl/* files");
-		
+		OWLInferenceMaker owlInferenceMaker = OWLInferenceMaker.getInstance();
+		owlInferenceMaker.run();
 	}
 
 	/**
-	 * Runs rdfs conversion
+	 * Runs rdfs inference maker
 	 */
 	private static void rdfs() {
-		RDFSInferenceMaker rdfsConverter = RDFSInferenceMaker.getInstance();
-		rdfsConverter.run();
-		System.out
-				.println("RDFS-converted datasets' results into src/main/resources/output/rdfs/* files");		
+		RDFSInferenceMaker rdfsInferenceMaker = RDFSInferenceMaker.getInstance();
+		rdfsInferenceMaker.run();
 	}
 
 	/**

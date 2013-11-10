@@ -100,8 +100,10 @@ public class DataSourceManager {
 		String extensionN3Lower = ".n3";
 		String extensionN3Upper = ".N3";
 		
-		return chooseFiles(listOfFiles, availableLinkedDatasources,
-				extensionN3Lower, extensionN3Upper);
+		System.out.println("Which linked dataset do you want to load?");
+
+		return PATH_TO_LINKED_DATASETS_TTL.append("/").append(chooseFiles(listOfFiles, availableLinkedDatasources,
+				extensionN3Lower, extensionN3Upper)).toString();
 	}
 	
 	
@@ -116,8 +118,11 @@ public class DataSourceManager {
 		Map<Integer, String> availableLinkedDatasources = new TreeMap<Integer, String>();
 		String extensionRDFLower = ".rdf";
 		String extensionRDFUpper = ".RDF";
-		return chooseFiles(listOfFiles, availableLinkedDatasources,
-				extensionRDFLower, extensionRDFUpper);
+		
+		System.out.println("Which linked dataset do you want to load?");
+
+		return PATH_TO_LINKED_DATASETS_RDF.append("/").append(chooseFiles(listOfFiles, availableLinkedDatasources,
+				extensionRDFLower, extensionRDFUpper)).toString();
 	}
 	
 	
@@ -133,9 +138,10 @@ public class DataSourceManager {
 		String extensionRDFLower = ".rdf";
 		String extensionRDFUpper = ".RDF";
 		
+		System.out.println("Which Dataset do you want to load?");
 		
-		return chooseFiles(listOfFiles, availableLinkedDatasources,
-				extensionRDFLower, extensionRDFUpper);
+		return PATH_TO_DATASETS_RDF.append("/").append(chooseFiles(listOfFiles, availableLinkedDatasources,
+				extensionRDFLower, extensionRDFUpper)).toString();
 	}
 	
 	/**
@@ -150,9 +156,10 @@ public class DataSourceManager {
 		String extensionRDFLower = ".rdf";
 		String extensionRDFUpper = ".RDF";
 		
-		
-		return chooseFiles(listOfFiles, availableLinkedDatasources,
-				extensionRDFLower, extensionRDFUpper);
+		System.out.println("Which RDFS schema do you want to use?");
+
+		return PATH_TO_RDFS_SCHEMAS.append("/").append(chooseFiles(listOfFiles, availableLinkedDatasources,
+				extensionRDFLower, extensionRDFUpper)).toString();
 	}
 	
 	/**
@@ -167,9 +174,10 @@ public class DataSourceManager {
 		String extensionOWLLower = ".owl";
 		String extensionOWLUpper = ".OWL";
 		
-		
-		return chooseFiles(listOfFiles, availableLinkedDatasources,
-				extensionOWLLower, extensionOWLUpper);
+		System.out.println("Which OWL schema do you want to use?");
+
+		return PATH_TO_OWL_SCHEMAS.append("/").append(chooseFiles(listOfFiles, availableLinkedDatasources,
+				extensionOWLLower, extensionOWLUpper)).toString();
 	}
 
 
@@ -189,9 +197,9 @@ public class DataSourceManager {
 			for (int i = 0; i < listOfFiles.length; i++) {
 				if (listOfFiles[i].isFile()) {
 					files = listOfFiles[i].getName();
-					if (files.endsWith(extensionUpper) || files.endsWith(extensionUpper)) {
+					//if (files.endsWith(extensionUpper) || files.endsWith(extensionUpper)) {
 						availableLinkedDatasources.put(i, files);
-					}
+					//}
 				}
 			}
 		} catch (NullPointerException npe) {
@@ -199,7 +207,6 @@ public class DataSourceManager {
 			return null;
 		}
 		
-		System.out.println("Which linked dataset do you want to load?");
 		int i=0;
 		for(String s:availableLinkedDatasources.values()){
 			System.out.println("["+ i +"] "+s);

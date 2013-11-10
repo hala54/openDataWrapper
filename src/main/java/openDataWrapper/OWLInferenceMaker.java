@@ -1,5 +1,8 @@
 package openDataWrapper;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.InputMismatchException;
@@ -78,24 +81,35 @@ public class OWLInferenceMaker {
 
 		System.out
 				.println("Which resource do you want to test? Press 0 to exit\n");
-		String resource = in.nextLine();
 
-		while (Integer.valueOf(resource) != 0) {
-			Resource res = infmodel.getResource(resource);
-			System.out.println(resource + " :");
-			printStatements(infmodel, res, null, null);
-			System.out
-					.println("Which resource do you want to test? Press 0 to exit\n");
-			resource = in.nextLine();
+		BufferedReader inString = new BufferedReader(new InputStreamReader(
+				System.in));
 
+		try {
+			String resource = inString.readLine();
+
+			while (!resource.contentEquals("0")) {
+				Resource res = infmodel.getResource(resource);
+				System.out.println(resource + " :");
+				printStatements(infmodel, res, null, null);
+				System.out
+						.println("Which resource do you want to test? Press 0 to exit\n");
+				resource = inString.readLine();
+
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
 		}
 
 	}
 
 	/**
 	 * Creates an Inference model
-	 * @param inputSchema the input selected schema
-	 * @param inputData the input selected data
+	 * 
+	 * @param inputSchema
+	 *            the input selected schema
+	 * @param inputData
+	 *            the input selected data
 	 * @return an InfModel to make inferences
 	 */
 	public InfModel createInfModel(String inputSchema, String inputData) {
@@ -119,7 +133,8 @@ public class OWLInferenceMaker {
 	 * @param o
 	 *            ?
 	 */
-	public Collection<String> printStatements(Model m, Resource s, Property p, Resource o) {
+	public Collection<String> printStatements(Model m, Resource s, Property p,
+			Resource o) {
 		Collection<String> stringOutput = new ArrayList<String>();
 		for (StmtIterator i = m.listStatements(s, p, o); i.hasNext();) {
 			Statement stmt = i.nextStatement();
@@ -127,7 +142,7 @@ public class OWLInferenceMaker {
 			stringOutput.add(PrintUtil.print(stmt));
 		}
 		return stringOutput;
-				
+
 	}
 
 }
