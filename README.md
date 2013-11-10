@@ -46,3 +46,19 @@ Quick Start
 6) Running SPARQL requests on your DataSets
 
 	Write requests on src/main/resources/queries (1 request per file). Run Principale.java, then follow the instructions through running queries. Before running a query, you shall load a dataset.
+
+7) Linking datasets
+
+	Run Principale.java, then follow the instructions through linking datasets. Select datasets to link, separating datasets numbers by a ';'.
+	Result into src/main/resources/output/linkedData folder
+
+8) Making RDFS inferences
+
+	Write you dataset schema into src/main/resources/input/rdfsSchema.
+	Then run Principale.java and follow the instructions through making RDFS inferences over selected (linked)datasets in relationship with the written schema.
+			
+9) Making OWL inferences
+
+	Write you dataset schema into src/main/resources/input/owlSchema.
+	Then run Principale.java and follow the instructions through making OWL inferences over selected (linked)datasets in relationship with the written schema.
+	
