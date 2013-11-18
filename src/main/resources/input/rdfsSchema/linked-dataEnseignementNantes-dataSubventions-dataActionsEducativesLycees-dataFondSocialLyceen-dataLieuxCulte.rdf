@@ -6,10 +6,35 @@
     <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
     <!ENTITY xsd  'http://www.w3.org/2001/XMLSchema#'>
     <!ENTITY owl  "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY pdllActEduLyc 'http://lodpaddle.univ-nantes.fr/dataActionsEducativesLycees/'>
+    <!ENTITY pdllSubv 'http://lodpaddle.univ-nantes.fr/dataSubventions/'>
+    <!ENTITY pdllEnsNantes 'http://lodpaddle.univ-nantes.fr/dataEnseignementNantes/'>
+    <!ENTITY pdllFondSocLyc 'http://lodpaddle.univ-nantes.fr/dataFondSocialLyceen/'>
+    <!ENTITY pdllLieuxCulte 'http://lodpaddle.univ-nantes.fr/dataLieuxCulte/'>
+    <!ENTITY pdll 'http://lodpaddle.univ-nantes.fr/'>
 ]>
 
 <rdf:RDF xmlns:rdf="&rdf;" xmlns:rdfs="&rdfs;" xmlns:xsd="&xsd;" xmlns:owl="&owl;"
          xml:base="urn:x-hp:eg/" xmlns:eg="&eg;" xmlns="&eg;">
 
+  <rdf:Description rdf:about="&pdllActEduLyc;">
+    <rdfs:subPropertyOf rdf:resource="&pdllEnsNantes;"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="&pdllSubv;">
+    <rdfs:subPropertyOf rdf:resource="&pdllEnsNantes;"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="&pdllEnsNantes;">
+
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="&pdllFondSocLyc;">
+    <rdfs:subPropertyOf rdf:resource="&pdllEnsNantes;"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="&pdllLieuxCulte;">
+
+  </rdf:Description>
          
 </rdf:RDF>
