@@ -1,0 +1,82 @@
+@prefix :        <file:////home/alexis/Documents/Projets/OpenDataWrapper/openDataWrapper/openDataWrapper/src/main/resources/output/ttl/dataLieuxCulte.n3#> .
+@prefix ex:      <http://example.org/> .
+@prefix dbpedia-owl:  <http://dbpedia.org/ontology/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix sc:      <http://schema.org/> .
+@prefix prop-fr:  <http://fr.dbpedia.org/property/> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix dbpedia:  <http://dbpedia.org/resource/> .
+@prefix pdll:    <http://lodpaddle.univ-nantes.fr/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix TEMPORAIRE:  <http://temporaire.org/> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbpprop:  <http://dbpedia.org/property/> .
+@prefix gr:      <http://purl.org/goodrelations/> .
+
+pdll:dataLieuxCulte
+      rdf:type       void:Dataset ;
+      dcterms:created "2013-11-04"^^xsd:date ;
+      dcterms:description "Localisation des équipements publics relevant du thème 'Culte' de Nantes Métropole"^^xsd:string ;
+      dcterms:publisher :pub ;
+      dcterms:title "Localisation des équipements publics relevant du thème 'Culte' de Nantes Métropole"^^xsd:string ;
+      foaf:homepage "http://data.paysdelaloire.fr/donnees/detail/localisation-des-equipements-publics-relevant-du-theme-culte-de-nantes-metropole/" .
+
+pdll:dataSubventions
+      rdf:type       void:Dataset ;
+      dcterms:created "2013-11-04"^^xsd:date ;
+      dcterms:description "Gratuité des manuels scolaires dans les lycées des Pays de la Loire"^^xsd:string ;
+      dcterms:publisher <file:////home/alexis/Documents/Projets/OpenDataWrapper/openDataWrapper/openDataWrapper/src/main/resources/output/ttl/dataSubventions.n3#pub> ;
+      dcterms:title "Gratuité des manuels scolaires dans les lycées des Pays de la Loire"^^xsd:string ;
+      foaf:homepage "http://data.nantes.fr/donnees/detail/gratuite-des-manuels-scolaires-dans-les-lycees-des-pays-de-la-loire/?tx_icsoddatastore_pi1" .
+      
+pdll:dataActionsEducativesLycees
+      rdf:type       void:Dataset ;
+      dcterms:created "2013-11-04"^^xsd:date ;
+      dcterms:description "Actions Educatives conduites dans les lycées publics et privés des Pays de la Loire"^^xsd:string ;
+      dcterms:publisher <file:////home/alexis/Documents/Projets/OpenDataWrapper/openDataWrapper/openDataWrapper/src/main/resources/output/ttl/dataActionsEducativesLycees.n3#pub> ;
+      dcterms:title "Actions Educatives conduites dans les lycées publics et privés des Pays de la Loire"^^xsd:string ;
+      foaf:homepage "http://data.paysdelaloire.fr/donnees/detail/actions-educatives-conduites-dans-les-lycees-publics-et-prives-des-pays-de-la-loire/" .
+      
+      
+pdll:dataEnseignementNantes
+      rdf:type       void:Dataset ;
+      dcterms:created "2013-11-04"^^xsd:date ;
+      dcterms:description "Localisation des équipements publics relevant du thème 'Enseignement' de Nantes Métropole"^^xsd:string ;
+      dcterms:publisher <file:////home/alexis/Documents/Projets/OpenDataWrapper/openDataWrapper/openDataWrapper/src/main/resources/output/ttl/dataEnseignementNantes.n3#pub> ;
+      dcterms:title "Localisation des équipements publics relevant du thème 'Enseignement' de Nantes Métropole"^^xsd:string ;
+      foaf:homepage "http://data.loire-atlantique.fr/donnees/detail/localisation-des-equipements-publics-relevant-du-theme-enseignement-de-nantes-metropole-1/" .
+
+
+pdll:dataFondSocialLyceen
+      rdf:type       void:Dataset ;
+      dcterms:created "2013-11-04"^^xsd:date ;
+      dcterms:description "Dotation du Fonds social Lycéens régional des Pays de la Loire"^^xsd:string ;
+      dcterms:publisher <file:////home/alexis/Documents/Projets/OpenDataWrapper/openDataWrapper/openDataWrapper/src/main/resources/output/ttl/dataFondSocialLyceen.n3#pub> ;
+      dcterms:title "Dotation du Fonds social Lycéens régional des Pays de la Loire"^^xsd:string ;
+      foaf:homepage "http://data.loire-atlantique.fr/donnees/detail/dotation-du-fonds-social-lyceens-regional-des-pays-de-la-loire/?tx_icsoddatastore_pi1" .
+
+pdll:dataEnseignementNantes void:subset :linkset1;
+		void:subset :linkset2;
+		void:subset :linkset3;
+		void:subset :linkset4;
+
+:linkset1 rdf:type void:Linkset ;
+      void:target pdll:dataEnseignementNantes;
+      void:target pdll:dataLieuxCulte .
+      
+:linkset2 rdf:type void:Linkset ;
+      void:target pdll:dataEnseignementNantes;
+      void:target pdll:dataSubventions .
+      
+:linkset3 rdf:type void:Linkset ;
+      void:target pdll:dataEnseignementNantes;
+      void:target pdll:dataActionsEducativesLycees .
+      
+:linkset4 rdf:type void:Linkset ;
+      void:target pdll:dataEnseignementNantes;
+      void:target pdll:dataFondSocialLyceen .
+      
