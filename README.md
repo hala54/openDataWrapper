@@ -1,37 +1,36 @@
 openDataWrapper
 ===============
 
-Generic wrapper converting data sources from data.paysdelaloire.fr into RDF (N3 and RDF-XML). It uses API call. Data sources are XML files. Also uses Apache Maven
+Generic wrapper converting data sources from data.paysdelaloire.fr into RDF (N3 and RDF-XML). 
+It uses API call. Data sources are XML files. Also uses Apache Maven
 
 Quick Start
 -----------
 
 1) Requirement
+	- JAVA 1.7
+	-  Maven : 2.2
+      -  Eclipse  with maven and git plugins installed 
 
-	You will need :
-	- JAVA 7
-	- The Java environment variable user.home must be set (should be /home/*computersname* in most cases)
-	- You have to create a directory in your home folder, named .openDataWrapper. Create a file called import.odw into this folder.
-	- You also have to download and set up Apache Maven in order to update the project's dependencies
-	- If you are behind proxy, read the documentation
 
 2) Start
 
-	Run command mvn compile to compile the project. If you are using Eclipse, run mvn eclipse:eclipse to make eclipse maven-friendly, then run mvn compile
-	Run Principal.java as a java application
-	Follow the instruction
-
-	WARNING : If compilation errors occurs, run mvn install:install-file -DgroupId=de.fuberlin.wiwiss.silk -DartifactId=silk -Dversion=2.5 -Dpackaging=jar -Dfile=lib/silk/silk.jar
-
+ - git clone https://github.com/hala54/openDataWrapper
+ - cd openDataWrapper/
+ - mvn eclipse:eclipse (permet de créer des fichiers "eclipse" -> ce qu'il y a dans le dossier .project, pour permettre d'importer le projet dans Eclipse)
+ - mvn install:install-file -DgroupId=de.fuberlin.wiwiss.silk -DartifactId=silk -Dversion=2.5 -Dpackaging=jar -Dfile=lib/silk/silk.jar 
+(add to repo maven local lib silk  lib/silk/silk.jar)   (More about silk in http://wifo5-03.informatik.uni-mannheim.de/bizer/silk/)
+ - Open  Eclipse, Import the project (import -> General -> existing projects into workspace)
+ - run  Principale.java  from Eclipse 
 	
 3) Data (For non-XML-friendly users)
-	
+	Create a file called import.odw into openDataWrapper folder.
 	You can add data from data.paysdelaloire.fr API. 
 	Write into the import.odw file the name of your new data, =, and 4 informations separated by ';' :
 		mydata = api_url;api_url_description;title;publisher
 	Select add new sources in the main menu.
 
-	If you are more a more XML friendly, you can add new dataSources directly writing dataSources.xml (more documentation in document.tex)
+	If you are more a more XML friendly, you can add new dataSources directly writing dataSources.xml (more documentation in document.pdf)
 
 4) Convert data
 
