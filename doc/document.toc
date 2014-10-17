@@ -10,5 +10,5 @@
 \contentsline {subsection}{\numberline {2.2}D\IeC {\'e}veloppement}{5}{subsection.2.2}
 \contentsline {subsubsection}{\numberline {2.2.1}dataSources.xml}{5}{subsubsection.2.2.1}
 \contentsline {subsubsection}{\numberline {2.2.2}ajout alternatif de source}{6}{subsubsection.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.3}mapping.properties}{6}{subsubsection.2.2.3}
-\contentsline {subsubsection}{\numberline {2.2.4}mapping.properties}{7}{subsubsection.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.3}mapping.properties}{7}{subsubsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.4}Linking Datasets}{7}{subsubsection.2.2.4}

@@ -52,8 +52,7 @@
 \captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white, singlelinecheck=false, margin=0pt, font={bf,footnotesize}}
 
 \title{LodPaddle et OpenDataWrapper - HOW TO}
-\author{M1ATAL-M1ALMA 2013-2014}
-\date{octobre 2013}
+\author{Master 1 Informatique- University of Nantes}
 
 \begin{document}
 \maketitle
@@ -92,11 +91,11 @@ pilote montrant que les données sémantifiées gagnent en valeur ajoutée.
 
 Aussi appelé web 3.0 ou web des données, le web sémantique est une évolution du
 web que nous connaissons. Actuellement, énormément d'information est dispersé
-sur la toile, comme sur wikipédia par exemple, mais il est difficile de
+sur la toile, comme sur Wikipédia par exemple, mais il est difficile de
 récupérer la bonne information rapidement. Par exemple, vous cherchez la liste
 des capitales mondiale, vous allez faire une requête sur votre moteur de
 recherche préféré, chercher une page qui pourrait éventuellement proposer la
-solution puis chercher dans la page choisie la probable information. Et celà est
+solution puis chercher dans la page choisie la probable information. Et celàaest
 vrai uniquement si une personne a crée cette liste au préalable.
 
 Dans le domaine du web sémantique, la réponse serait instantanément une liste
@@ -209,7 +208,7 @@ source de donnée.
 	<file>false</file>
 	<filepath>null</filepath>
 	<mappingFile>null</mappingFile>
-	<xsltFile>src/main/resources/hotel/hotelSaxon.xslt</xsltFile>
+	<xsltFile>src/main/resources/xsl/hotel.xsl</xsltFile>
 	<format>XML</format>
 	<outputTtlFile>src/main/resources/output/ttl/Hotel.n3</outputTtlFile>
 	<outputXmlFile>src/main/resources/output/rdf-xml/Hotel.rdf</outputXmlFile>
@@ -274,6 +273,8 @@ message s'affiche et le fichier mapping.properties est mis à jour avec une
 valeur par défaut. Vous devrez modifier cette valeur par la suite, pour lui
 attribuer un réel sens.
 
-\subsubsection{mapping.properties}
+Ignored propreties during transformation exist in \emph{src/main/resources/specific\_mapping}
 
+\subsubsection{Linking Datasets}
+Look at \emph{src/main/config/linkmapping/properties}  to learn about datasets mappings ..
 \end{document}
