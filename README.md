@@ -10,7 +10,6 @@ Quick Start
 
 	You will need :
 	- JAVA 7
-	- A Unix Operating System
 	- The Java environment variable user.home must be set (should be /home/*computersname* in most cases)
 	- You have to create a directory in your home folder, named .openDataWrapper. Create a file called import.odw into this folder.
 	- You also have to download and set up Apache Maven in order to update the project's dependencies
