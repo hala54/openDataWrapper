@@ -7,23 +7,27 @@ It uses API call. Data sources are XML files. Also uses Apache Maven
 Quick Start
 -----------
 
-1) Requirement
+1) Requirement :
+
 	- JAVA 1.7
+
 	-  Maven : 2.2
-      -  Eclipse  with maven and git plugins installed 
+
+        -  Eclipse  with maven and git plugins installed 
 
 
 2) Start
 
  - git clone https://github.com/hala54/openDataWrapper
  - cd openDataWrapper/
- - mvn eclipse:eclipse (permet de créer des fichiers "eclipse" -> ce qu'il y a dans le dossier .project, pour permettre d'importer le projet dans Eclipse)
+ - mvn eclipse:eclipse 
  - mvn install:install-file -DgroupId=de.fuberlin.wiwiss.silk -DartifactId=silk -Dversion=2.5 -Dpackaging=jar -Dfile=lib/silk/silk.jar 
 (add to repo maven local lib silk  lib/silk/silk.jar)   (More about silk in http://wifo5-03.informatik.uni-mannheim.de/bizer/silk/)
  - Open  Eclipse, Import the project (import -> General -> existing projects into workspace)
  - run  Principale.java  from Eclipse 
 	
 3) Data (For non-XML-friendly users)
+
 	Create a file called import.odw into openDataWrapper folder.
 	You can add data from data.paysdelaloire.fr API. 
 	Write into the import.odw file the name of your new data, =, and 4 informations separated by ';' :
