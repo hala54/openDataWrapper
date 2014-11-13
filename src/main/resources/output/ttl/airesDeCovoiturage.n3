@@ -1,0 +1,335 @@
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix : <#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix TEMPORAIRE: <http://temporaire.org/> .
+@prefix gr: <http://purl.org/goodrelations/> .
+@prefix pdll: <http://lodpaddle.univ-nantes.fr/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix prop-fr: <http://fr.dbpedia.org/property/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ex: <http://example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbpprop: <http://dbpedia.org/property/> .
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
+@prefix sc: <http://schema.org/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+<http://lodpaddle.univ-nantes.fr/airesDeCovoiturage> rdf:type void:Dataset ;
+	foaf:homepage "http://data.loire-atlantique.fr/donnees/detail/aires-de-covoiturage-de-nantes-metropole/";
+	dcterms:title "Localisation des aires de covoiturage de Nantes Métropole"^^xsd:string ;
+	dcterms:description "Localisation des aires de covoiturage de Nantes Métropole"^^xsd:string ;
+	dcterms:created "2014-11-13"^^xsd:date;
+	dcterms:publisher :pub .
+
+:pub rdfs:label "Région des Pays de la Loire".
+
+<http://lodpaddle.univ-nantes.fr/airesDeCovoiturage/Aire%20de%20covoiturage%20Piano%27cktail>	 foaf:name 	 "Aire de covoiturage Piano'cktail"^^xsd:string ;
+	rdf:type	 pdll:airesDeCovoiturage;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	pdll:hasBikeFeature	 "Non"^^xsd:string ;
+	dbpprop:website	 "http://www.covoiturage-nantesmetropole.fr"^^xsd:string ;
+	sc:postalCode	 "44340"^^xsd:string ;
+	geo:lat	"47.1743921106395"^^xsd:decimal ;
+	geo:long	"-1.60539271713277"^^xsd:decimal  ;
+	dbpprop:location	 "Rue Ginsheim Gustavsburg"^^xsd:string ;
+	sc:price	 "Libre"^^xsd:string ;
+	dbpprop:insee	 "440020"^^xsd:int ;
+	dbpprop:town	 "BOUGUENAIS"^^xsd:string ;
+	pdll:carCapacity	 "350"^^xsd:string ;
+	dbpedia-owl:abstract	 "Les aires de covoiturage de Nantes Métropole sont accessibles 24h24 et 7j/7."^^xsd:string ;
+	pdll:id	 "4010"^^xsd:string ;
+	dbpprop:owner	 "Nantes Métropole"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/airesDeCovoiturage/Aire%20de%20covoiturage%20Le%20Paradis>	 foaf:name 	 "Aire de covoiturage Le Paradis"^^xsd:string ;
+	rdf:type	 pdll:airesDeCovoiturage;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	pdll:hasBikeFeature	 "Non"^^xsd:string ;
+	dbpprop:website	 "http://www.covoiturage-nantesmetropole.fr/"^^xsd:string ;
+	sc:postalCode	 "44220"^^xsd:string ;
+	geo:lat	"47.2058433058368"^^xsd:decimal ;
+	geo:long	"-1.751615681513"^^xsd:decimal  ;
+	dbpprop:location	 "RD 91"^^xsd:string ;
+	sc:price	 "Libre"^^xsd:string ;
+	dbpprop:insee	 "440047"^^xsd:int ;
+	dbpprop:town	 "COUERON"^^xsd:string ;
+	pdll:carCapacity	 "16"^^xsd:string ;
+	dbpedia-owl:abstract	 "Les aires de covoiturage de Nantes Métropole sont accessibles 24h24 et 7j/7."^^xsd:string ;
+	pdll:id	 "4011"^^xsd:string ;
+	dbpprop:owner	 "Nantes Métropole"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/airesDeCovoiturage/Aire%20de%20covoiturage%20Le%20V%C3%A9lodr%C3%B4me>	 foaf:name 	 "Aire de covoiturage Le Vélodrôme"^^xsd:string ;
+	rdf:type	 pdll:airesDeCovoiturage;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	pdll:hasBikeFeature	 "Non"^^xsd:string ;
+	dbpprop:website	 "http://www.covoiturage-nantesmetropole.fr/"^^xsd:string ;
+	sc:postalCode	 "44220"^^xsd:string ;
+	geo:lat	"47.2114911474736"^^xsd:decimal ;
+	geo:long	"-1.73553587146421"^^xsd:decimal  ;
+	dbpprop:location	 "Boulevard Francois Blancho"^^xsd:string ;
+	sc:price	 "Libre"^^xsd:string ;
+	dbpprop:insee	 "440047"^^xsd:int ;
+	dbpprop:town	 "COUERON"^^xsd:string ;
+	pdll:carCapacity	 "160"^^xsd:string ;
+	dbpedia-owl:abstract	 "Les aires de covoiturage de Nantes Métropole sont accessibles 24h24 et 7j/7."^^xsd:string ;
+	pdll:id	 "4012"^^xsd:string ;
+	dbpprop:owner	 "Nantes Métropole"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/airesDeCovoiturage/Aire%20de%20covoiturage%20Les%20Ormeaux>	 foaf:name 	 "Aire de covoiturage Les Ormeaux"^^xsd:string ;
+	rdf:type	 pdll:airesDeCovoiturage;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	pdll:hasBikeFeature	 "Non"^^xsd:string ;
+	dbpprop:website	 "http://www.covoiturage-nantesmetropole.fr/"^^xsd:string ;
+	sc:postalCode	 "44830"^^xsd:string ;
+	geo:lat	"47.1558857839796"^^xsd:decimal ;
+	geo:long	"-1.68247122952125"^^xsd:decimal  ;
+	dbpprop:location	 "Esplanade de l'Edit de Nantes"^^xsd:string ;
+	sc:price	 "Libre"^^xsd:string ;
+	dbpprop:insee	 "440018"^^xsd:int ;
+	dbpprop:town	 "BOUAYE"^^xsd:string ;
+	pdll:carCapacity	 "156"^^xsd:string ;
+	dbpedia-owl:abstract	 "Les aires de covoiturage de Nantes Métropole sont accessibles 24h24 et 7j/7."^^xsd:string ;
+	pdll:id	 "4013"^^xsd:string ;
+	dbpprop:owner	 "Nantes Métropole"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/airesDeCovoiturage/Aire%20de%20covoiturage%20Georges%20Brassens>	 foaf:name 	 "Aire de covoiturage Georges Brassens"^^xsd:string ;
+	rdf:type	 pdll:airesDeCovoiturage;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	pdll:hasBikeFeature	 "Non"^^xsd:string ;
+	dbpprop:website	 "http://www.covoiturage-nantesmetropole.fr/"^^xsd:string ;
+	sc:postalCode	 "44620"^^xsd:string ;
+	geo:lat	"47.1833082568459"^^xsd:decimal ;
+	geo:long	"-1.6759732987008"^^xsd:decimal  ;
+	dbpprop:location	 "Rue de la Gaudinière"^^xsd:string ;
+	sc:price	 "Libre"^^xsd:string ;
+	dbpprop:insee	 "440101"^^xsd:int ;
+	dbpprop:town	 "LA-MONTAGNE"^^xsd:string ;
+	pdll:carCapacity	 "85"^^xsd:string ;
+	dbpedia-owl:abstract	 "Les aires de covoiturage de Nantes Métropole sont accessibles 24h24 et 7j/7."^^xsd:string ;
+	pdll:id	 "4014"^^xsd:string ;
+	dbpprop:owner	 "Nantes Métropole"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/airesDeCovoiturage/Aire%20de%20covoiturage%20La%20Herdrie>	 foaf:name 	 "Aire de covoiturage La Herdrie"^^xsd:string ;
+	rdf:type	 pdll:airesDeCovoiturage;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	pdll:hasBikeFeature	 "Non"^^xsd:string ;
+	dbpprop:website	 "http://www.covoiturage-nantesmetropole.fr/"^^xsd:string ;
+	sc:postalCode	 "44115"^^xsd:string ;
+	geo:lat	"47.1981364148521"^^xsd:decimal ;
+	geo:long	"-1.4545741556611"^^xsd:decimal  ;
+	dbpprop:location	 "Route du Loroux Bottereau"^^xsd:string ;
+	sc:price	 "Libre"^^xsd:string ;
+	dbpprop:insee	 "440009"^^xsd:int ;
+	dbpprop:town	 "BASSE-GOULAINE"^^xsd:string ;
+	pdll:carCapacity	 "120"^^xsd:string ;
+	dbpedia-owl:abstract	 "Les aires de covoiturage de Nantes Métropole sont accessibles 24h24 et 7j/7."^^xsd:string ;
+	pdll:id	 "4015"^^xsd:string ;
+	dbpprop:owner	 "Nantes Métropole"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/airesDeCovoiturage/Aire%20de%20covoiturage%20Pas%20Enchant%C3%A9s>	 foaf:name 	 "Aire de covoiturage Pas Enchantés"^^xsd:string ;
+	rdf:type	 pdll:airesDeCovoiturage;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	pdll:hasBikeFeature	 "Non"^^xsd:string ;
+	dbpprop:website	 "http://www.covoiturage-nantesmetropole.fr/"^^xsd:string ;
+	sc:postalCode	 "44230"^^xsd:string ;
+	geo:lat	"47.2103889373405"^^xsd:decimal ;
+	geo:long	"-1.5039410584835"^^xsd:decimal  ;
+	dbpprop:location	 "Boulevard des Pas Enchantés"^^xsd:string ;
+	sc:price	 "Libre"^^xsd:string ;
+	dbpprop:insee	 "440190"^^xsd:int ;
+	dbpprop:town	 "ST-SEBASTIEN"^^xsd:string ;
+	pdll:carCapacity	 "180"^^xsd:string ;
+	dbpedia-owl:abstract	 "Les aires de covoiturage de Nantes Métropole sont accessibles 24h24 et 7j/7."^^xsd:string ;
+	pdll:id	 "4016"^^xsd:string ;
+	dbpprop:owner	 "Nantes Métropole"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/airesDeCovoiturage/Aire%20de%20covoiturage%20Les%203%20Brasseurs>	 foaf:name 	 "Aire de covoiturage Les 3 Brasseurs"^^xsd:string ;
+	rdf:type	 pdll:airesDeCovoiturage;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	pdll:hasBikeFeature	 "Non"^^xsd:string ;
+	dbpprop:website	 "http://www.covoiturage-nantesmetropole.fr/"^^xsd:string ;
+	sc:postalCode	 "44230"^^xsd:string ;
+	geo:lat	"47.1909311959939"^^xsd:decimal ;
+	geo:long	"-1.48944982933608"^^xsd:decimal  ;
+	dbpprop:location	 "Rue Marie Curie"^^xsd:string ;
+	sc:price	 "Libre"^^xsd:string ;
+	dbpprop:insee	 "440190"^^xsd:int ;
+	dbpprop:town	 "ST-SEBASTIEN"^^xsd:string ;
+	pdll:carCapacity	 "140"^^xsd:string ;
+	dbpedia-owl:abstract	 "Les aires de covoiturage de Nantes Métropole sont accessibles 24h24 et 7j/7."^^xsd:string ;
+	pdll:id	 "4017"^^xsd:string ;
+	dbpprop:owner	 "Nantes Métropole"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/airesDeCovoiturage/Aire%20de%20covoiturage%20La%20Charmeli%C3%A8re>	 foaf:name 	 "Aire de covoiturage La Charmelière"^^xsd:string ;
+	rdf:type	 pdll:airesDeCovoiturage;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	pdll:hasBikeFeature	 "Non"^^xsd:string ;
+	dbpprop:website	 "http://www.covoiturage-nantesmetropole.fr/"^^xsd:string ;
+	sc:postalCode	 "44470"^^xsd:string ;
+	geo:lat	"47.2948276010662"^^xsd:decimal ;
+	geo:long	"-1.47381722266676"^^xsd:decimal  ;
+	dbpprop:location	 "RD 37"^^xsd:string ;
+	sc:price	 "Libre"^^xsd:string ;
+	dbpprop:insee	 "440026"^^xsd:int ;
+	dbpprop:town	 "CARQUEFOU"^^xsd:string ;
+	pdll:carCapacity	 "100"^^xsd:string ;
+	dbpedia-owl:abstract	 "Les aires de covoiturage de Nantes Métropole sont accessibles 24h24 et 7j/7."^^xsd:string ;
+	pdll:id	 "4018"^^xsd:string ;
+	dbpprop:owner	 "Nantes Métropole"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/airesDeCovoiturage/Aire%20de%20covoiturage%20La%20Croix%20de%20Mauves>	 foaf:name 	 "Aire de covoiturage La Croix de Mauves"^^xsd:string ;
+	rdf:type	 pdll:airesDeCovoiturage;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	pdll:hasBikeFeature	 "Non"^^xsd:string ;
+	dbpprop:website	 "http://www.covoiturage-nantesmetropole.fr/"^^xsd:string ;
+	sc:postalCode	 "44470"^^xsd:string ;
+	geo:lat	"47.3002260614374"^^xsd:decimal ;
+	geo:long	"-1.39840430261237"^^xsd:decimal  ;
+	dbpprop:location	 "RD 31"^^xsd:string ;
+	sc:price	 "Libre"^^xsd:string ;
+	dbpprop:insee	 "440094"^^xsd:int ;
+	dbpprop:town	 "MAUVES-SUR-LOIRE"^^xsd:string ;
+	pdll:carCapacity	 "40"^^xsd:string ;
+	dbpedia-owl:abstract	 "Les aires de covoiturage de Nantes Métropole sont accessibles 24h24 et 7j/7."^^xsd:string ;
+	pdll:id	 "4019"^^xsd:string ;
+	dbpprop:owner	 "Nantes Métropole"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/airesDeCovoiturage/Aire%20de%20covoiturage%20Sautron>	 foaf:name 	 "Aire de covoiturage Sautron"^^xsd:string ;
+	rdf:type	 pdll:airesDeCovoiturage;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	pdll:hasBikeFeature	 "Non"^^xsd:string ;
+	dbpprop:website	 "http://www.covoiturage-nantesmetropole.fr"^^xsd:string ;
+	sc:postalCode	 "44880"^^xsd:string ;
+	geo:lat	"47.2680407186535"^^xsd:decimal ;
+	geo:long	"-1.67112545623475"^^xsd:decimal  ;
+	dbpprop:location	 "51 Rue de la Vallée"^^xsd:string ;
+	sc:price	 "Libre"^^xsd:string ;
+	dbpprop:insee	 "440194"^^xsd:int ;
+	dbpprop:town	 "SAUTRON"^^xsd:string ;
+	pdll:carCapacity	 "30"^^xsd:string ;
+	dbpedia-owl:abstract	 "Les aires de covoiturage de Nantes Métropole sont accessibles 24h24 et 7j/7."^^xsd:string ;
+	pdll:id	 "4071"^^xsd:string ;
+	dbpprop:owner	 "Nantes Métropole"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/airesDeCovoiturage/Aire%20de%20covoiturage%20La%20M%C3%A9taierie%20Rouge>	 foaf:name 	 "Aire de covoiturage La Métaierie Rouge"^^xsd:string ;
+	rdf:type	 pdll:airesDeCovoiturage;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	pdll:hasBikeFeature	 "Non"^^xsd:string ;
+	dbpprop:website	 "http://www.covoiturage-nantesmetropole.fr/"^^xsd:string ;
+	sc:postalCode	 "44240"^^xsd:string ;
+	geo:lat	"47.2744422259447"^^xsd:decimal ;
+	geo:long	"-1.54638397050348"^^xsd:decimal  ;
+	dbpprop:location	 "VC 5"^^xsd:string ;
+	sc:price	 "Libre"^^xsd:string ;
+	dbpprop:insee	 "440035"^^xsd:int ;
+	dbpprop:town	 "LA-CHAPELLE-SUR-ERDRE"^^xsd:string ;
+	pdll:carCapacity	 "8"^^xsd:string ;
+	dbpedia-owl:abstract	 "Les aires de covoiturage de Nantes Métropole sont accessibles 24h24 et 7j/7."^^xsd:string ;
+	pdll:id	 "4083"^^xsd:string ;
+	dbpprop:owner	 "Nantes Métropole"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/airesDeCovoiturage/Aire%20de%20covoiturage%20Norauto%20Atlantis>	 foaf:name 	 "Aire de covoiturage Norauto Atlantis"^^xsd:string ;
+	rdf:type	 pdll:airesDeCovoiturage;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	pdll:hasBikeFeature	 "Non"^^xsd:string ;
+	dbpprop:website	 "http://www.covoiturage-nantesmetropole.fr/"^^xsd:string ;
+	sc:postalCode	 "44800"^^xsd:string ;
+	geo:lat	"47.2257239248911"^^xsd:decimal ;
+	geo:long	"-1.62624641113902"^^xsd:decimal  ;
+	dbpprop:location	 "Rue Océane"^^xsd:string ;
+	sc:price	 "Libre"^^xsd:string ;
+	dbpprop:insee	 "440162"^^xsd:int ;
+	dbpprop:town	 "ST-HERBLAIN"^^xsd:string ;
+	pdll:carCapacity	 "10"^^xsd:string ;
+	dbpedia-owl:abstract	 "Les aires de covoiturage de Nantes Métropole sont accessibles 24h24 et 7j/7."^^xsd:string ;
+	pdll:id	 "4084"^^xsd:string ;
+	dbpprop:owner	 "Nantes Métropole"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/airesDeCovoiturage/Aire%20de%20covoiturage%20Carrefour%20Beaujoire>	 foaf:name 	 "Aire de covoiturage Carrefour Beaujoire"^^xsd:string ;
+	rdf:type	 pdll:airesDeCovoiturage;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	pdll:hasBikeFeature	 "Non"^^xsd:string ;
+	dbpprop:website	 "http://www.covoiturage-nantesmetropole.fr/"^^xsd:string ;
+	sc:postalCode	 "44300"^^xsd:string ;
+	geo:lat	"47.2578779098455"^^xsd:decimal ;
+	geo:long	"-1.50983215080644"^^xsd:decimal  ;
+	dbpprop:location	 "1 Avenue Flora Tristan"^^xsd:string ;
+	sc:price	 "Libre"^^xsd:string ;
+	dbpprop:insee	 "440109"^^xsd:int ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:carCapacity	 "10"^^xsd:string ;
+	dbpedia-owl:abstract	 "Les aires de covoiturage de Nantes Métropole sont accessibles 24h24 et 7j/7."^^xsd:string ;
+	pdll:id	 "4099"^^xsd:string ;
+	dbpprop:owner	 "Nantes Métropole"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/airesDeCovoiturage/Aire%20de%20covoiturage%20de%20la%20Mairie%20de%20Saint-L%C3%A9ger-Les-Vignes>	 foaf:name 	 "Aire de covoiturage de la Mairie de Saint-Léger-Les-Vignes"^^xsd:string ;
+	rdf:type	 pdll:airesDeCovoiturage;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	pdll:hasBikeFeature	 "Non"^^xsd:string ;
+	dbpprop:website	 "http://www.covoiturage-nantesmetropole.fr/"^^xsd:string ;
+	sc:postalCode	 "44710"^^xsd:string ;
+	geo:lat	"47.1367028327517"^^xsd:decimal ;
+	geo:long	"-1.72710127303152"^^xsd:decimal  ;
+	dbpprop:location	 "Rue de Nantes"^^xsd:string ;
+	sc:price	 "Libre"^^xsd:string ;
+	dbpprop:insee	 "440171"^^xsd:int ;
+	dbpprop:town	 "SAINT-LEGER-LES-VIGNES"^^xsd:string ;
+	pdll:carCapacity	 "5"^^xsd:string ;
+	dbpedia-owl:abstract	 "Les aires de covoiturage de Nantes Métropole sont accessibles 24h24 et 7j/7."^^xsd:string ;
+	pdll:id	 "4315"^^xsd:string ;
+	dbpprop:owner	 "Nantes Métropole"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/airesDeCovoiturage/Aire%20de%20covoiturage%20Frachon>	 foaf:name 	 "Aire de covoiturage Frachon"^^xsd:string ;
+	rdf:type	 pdll:airesDeCovoiturage;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	pdll:hasBikeFeature	 "Non"^^xsd:string ;
+	dbpprop:website	 "http://www.covoiturage-nantesmetropole.fr/"^^xsd:string ;
+	sc:postalCode	 "44800"^^xsd:string ;
+	geo:lat	"47.2184797159027"^^xsd:decimal ;
+	geo:long	"-1.62157240555264"^^xsd:decimal  ;
+	dbpprop:location	 "Boulevard Salvador Allende"^^xsd:string ;
+	sc:price	 "Libre"^^xsd:string ;
+	dbpprop:insee	 "440162"^^xsd:int ;
+	dbpprop:town	 "ST-HERBLAIN"^^xsd:string ;
+	pdll:carCapacity	 "156"^^xsd:string ;
+	dbpedia-owl:abstract	 "Les aires de covoiturage de Nantes Métropole sont accessibles 24h24 et 7j/7."^^xsd:string ;
+	pdll:id	 "4316"^^xsd:string ;
+	dbpprop:owner	 "Nantes Métropole"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/airesDeCovoiturage/Aire%20de%20covoiturage%20de%20la%20Planchonnais>	 foaf:name 	 "Aire de covoiturage de la Planchonnais"^^xsd:string ;
+	rdf:type	 pdll:airesDeCovoiturage;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	pdll:hasBikeFeature	 "Non"^^xsd:string ;
+	dbpprop:website	 "http://www.covoiturage-nantesmetropole.fr/"^^xsd:string ;
+	sc:postalCode	 "44980"^^xsd:string ;
+	geo:lat	"47.2529809902532"^^xsd:decimal ;
+	geo:long	"-1.47507408048735"^^xsd:decimal  ;
+	dbpprop:location	 "Rue de la Planchonnais"^^xsd:string ;
+	sc:price	 "Libre"^^xsd:string ;
+	dbpprop:insee	 "440172"^^xsd:int ;
+	dbpprop:town	 "SAINTE-LUCE-SUR-LOIRE"^^xsd:string ;
+	pdll:carCapacity	 "87"^^xsd:string ;
+	dbpedia-owl:abstract	 "Les aires de covoiturage de Nantes Métropole sont accessibles 24h24 et 7j/7."^^xsd:string ;
+	pdll:id	 "4317"^^xsd:string ;
+	dbpprop:owner	 "Nantes Métropole"^^xsd:string .
+
+<http://lodpaddle.univ-nantes.fr/airesDeCovoiturage/Aire%20de%20covoiturage%20Mend%C3%A8s%20France>	 foaf:name 	 "Aire de covoiturage Mendès France"^^xsd:string ;
+	rdf:type	 pdll:airesDeCovoiturage;
+	sc:telephone	 "08 11 13 01 44"^^xsd:string ;
+	pdll:hasBikeFeature	 "Non"^^xsd:string ;
+	dbpprop:website	 "http://www.covoiturage-nantesmetropole.fr/"^^xsd:string ;
+	sc:postalCode	 "44400"^^xsd:string ;
+	geo:lat	"47.1771971887698"^^xsd:decimal ;
+	geo:long	"-1.52992740329385"^^xsd:decimal  ;
+	dbpprop:location	 "Boulevard Mendès France"^^xsd:string ;
+	sc:price	 "Libre"^^xsd:string ;
+	dbpprop:insee	 "440143"^^xsd:int ;
+	dbpprop:town	 "REZE"^^xsd:string ;
+	pdll:carCapacity	 "156"^^xsd:string ;
+	dbpedia-owl:abstract	 "Les aires de covoiturage de Nantes Métropole sont accessibles 24h24 et 7j/7."^^xsd:string ;
+	pdll:id	 "4318"^^xsd:string ;
+	dbpprop:owner	 "Nantes Métropole"^^xsd:string .
+

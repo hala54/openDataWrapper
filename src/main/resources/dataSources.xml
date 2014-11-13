@@ -395,4 +395,26 @@
 		<outputTtlFile>src/main/resources/output/ttl/dataLieuxCulte.n3</outputTtlFile>
     		<outputXmlFile>src/main/resources/output/rdf-xml/dataLieuxCulte.rdf</outputXmlFile>
   	</source>
+  	<source>
+		<nom>airesDeCovoiturage</nom>
+		<apiurl>http://data.nantes.fr//api/publication/24440040400129_NM_NM_00003/LOC_AIRES_COV_NM_STBL/content/?format=xml</apiurl>
+		<url>http://data.loire-atlantique.fr/donnees/detail/aires-de-covoiturage-de-nantes-metropole/</url>
+		<publisher>Région des Pays de la Loire</publisher>
+		<titre>Localisation des aires de covoiturage de Nantes Métropole</titre>
+		<xsltFile>src/main/resources/xsl/airesDeCovoiturage.xsl</xsltFile>
+		<specificXSLT>false</specificXSLT>
+		<outputTtlFile>src/main/resources/output/ttl/airesDeCovoiturage.n3</outputTtlFile>
+    	<outputXmlFile>src/main/resources/output/rdf-xml/airesDeCovoiturage.rdf</outputXmlFile>
+  	</source>
+  	<source>
+		<nom>parcsRelais</nom>
+		<apiurl>http://data.nantes.fr//api/publication/24440040400129_NM_NM_00039/LOC_PARCS_RELAIS_NM_STBL/content/?format=xml</apiurl>
+		<url>http://data.loire-atlantique.fr/donnees/detail/parcs-relais-de-nantes-metropole/</url>
+		<publisher>Région des Pays de la Loire</publisher>
+		<titre>Localisation des parcs relais de Nantes Métropole</titre>
+		<xsltFile>src/main/resources/xsl/parcsRelais.xsl</xsltFile>
+		<specificXSLT>false</specificXSLT>
+		<outputTtlFile>src/main/resources/output/ttl/parcsRelais.n3</outputTtlFile>
+    	<outputXmlFile>src/main/resources/output/rdf-xml/parcsRelais.rdf</outputXmlFile>
+  	</source>
 </sources>
