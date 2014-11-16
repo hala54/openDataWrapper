@@ -1,13 +1,6 @@
 package openDataWrapper.converter;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.net.Authenticator;
 import java.net.MalformedURLException;
 import java.net.PasswordAuthentication;
@@ -29,6 +22,7 @@ import javax.xml.transform.stream.StreamSource;
 import openDataWrapper.general.XSLConstructor;
 
 import org.apache.log4j.Logger;
+import org.dralagen.Csv2xml;
 import org.jdom2.Document;
 import org.jdom2.JDOMException;
 import org.jdom2.input.SAXBuilder;
@@ -259,6 +253,28 @@ public class ConvertTTL {
 			}
 			System.out.println("connecting to " + url + "...");
 			url_ = new URL(url);
+
+			// if the source is in csv format
+			String[] params = url_.getQuery().split("&");
+			for (String param : params) {
+
+				String[] query = param.split("=");
+
+				if ( "csv".equals(query[1]) ) {
+					File temp = File.createTempFile("openDataWrapper-", ".tmp");
+
+					Csv2xml xml = new Csv2xml();
+					xml.createNewDocument("document");
+					xml.addNode("data");
+
+					xml.convert(url_.openStream(), ";", "element");
+
+					xml.writeTo(new FileOutputStream(temp));
+
+					url_ = temp.toURI().toURL();
+				}
+			}
+
 			URLConnection connection = url_.openConnection();
 			stream = connection.getInputStream();
 			System.out.println("data received!");
