@@ -259,11 +259,14 @@ public class ConvertTTL {
 			for (String param : params) {
 
 				String[] query = param.split("=");
+				if ( "format".equals(query[0]) && "csv".equals(query[1]) ) {
 
-				if ( "csv".equals(query[1]) ) {
-					File temp = File.createTempFile("openDataWrapper-", ".tmp");
+					File temp = File.createTempFile("openDataWrapper-", ".tmp.xml");
 
 					Csv2xml xml = new Csv2xml();
+
+					xml.setCompact(true);
+
 					xml.createNewDocument("document");
 					xml.addNode("data");
 
@@ -271,6 +274,7 @@ public class ConvertTTL {
 
 					xml.writeTo(new FileOutputStream(temp));
 
+					System.out.println("convert the csv to xml in " + temp.getAbsolutePath());
 					url_ = temp.toURI().toURL();
 				}
 			}
