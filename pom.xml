@@ -172,7 +172,7 @@
 		<dependency>
 			<groupId>org.dralagen</groupId>
 			<artifactId>csv2xml</artifactId>
-			<version>0.1-beta-3</version>
+			<version>0.1</version>
 		</dependency>
 	</dependencies>
 </project>
