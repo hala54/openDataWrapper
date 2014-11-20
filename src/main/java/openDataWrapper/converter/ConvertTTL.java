@@ -263,6 +263,16 @@ public class ConvertTTL {
 
 					File temp = File.createTempFile("openDataWrapper-", ".tmp.xml");
 
+					InputStream is = url_.openStream();
+
+					BufferedReader reader = new BufferedReader(new InputStreamReader(is));
+					String firstLine = reader.readLine();
+					String delimiter = ",";
+					if (firstLine.split(";").length > firstLine.split(",").length) {
+						delimiter = ";";
+					}
+					reader.close();
+
 					Csv2xml xml = new Csv2xml();
 
 					xml.setCompact(true);
@@ -270,7 +280,7 @@ public class ConvertTTL {
 					xml.createNewDocument("document");
 					xml.addNode("data");
 
-					xml.convert(url_.openStream(), ";", "element");
+					xml.convert(url_.openStream(), delimiter, "element");
 
 					xml.writeTo(new FileOutputStream(temp));
 
