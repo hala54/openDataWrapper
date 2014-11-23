@@ -12,24 +12,36 @@ import org.junit.Test;
  */
 public class ConvertTTLTest {
 
+	//TODO dralagen 23/11/14 : implement test
+/*
 	@Test
 	public void testConvertTTL() {
 		fail("Not yet implemented");
 	}
+*/
 
+	//TODO dralagen 23/11/14 : implement test
+/*
 	@Test
 	public void testConvertFromApi() {
 		fail("Not yet implemented");
 	}
+*/
 
+	//TODO dralagen 23/11/14 : implement test
+/*
 	@Test
 	public void testGetRemoteXML() {
 		fail("Not yet implemented");
 	}
+*/
 
+	//TODO dralagen 23/11/14 : implement test
+/*
 	@Test
 	public void testConstructXSL() {
 		fail("Not yet implemented");
 	}
+*/
 
 }
