@@ -229,7 +229,6 @@ public class ConvertTTL {
 	 */
 	public Document getRemoteXML(String url) {
 		InputStream stream = null;
-		URL url_;
 
 		try {
 			if (proxyHost != null) {
@@ -251,46 +250,8 @@ public class ConvertTTL {
 					});
 				}
 			}
-			System.out.println("connecting to " + url + "...");
-			url_ = new URL(url);
 
-			// if the source is in csv format
-			String[] params = url_.getQuery().split("&");
-			for (String param : params) {
-
-				String[] query = param.split("=");
-				if ( "format".equals(query[0]) && "csv".equals(query[1]) ) {
-
-					File temp = File.createTempFile("openDataWrapper-", ".tmp.xml");
-
-					InputStream is = url_.openStream();
-
-					BufferedReader reader = new BufferedReader(new InputStreamReader(is));
-					String firstLine = reader.readLine();
-					String delimiter = ",";
-					if (firstLine.split(";").length > firstLine.split(",").length) {
-						delimiter = ";";
-					}
-					reader.close();
-
-					Csv2xml xml = new Csv2xml();
-
-					xml.setCompact(true);
-
-					xml.createNewDocument("document");
-					xml.addNode("data");
-
-					xml.convert(url_.openStream(), delimiter, "element");
-
-					xml.writeTo(new FileOutputStream(temp));
-
-					System.out.println("convert the csv to xml in " + temp.getAbsolutePath());
-					url_ = temp.toURI().toURL();
-				}
-			}
-
-			URLConnection connection = url_.openConnection();
-			stream = connection.getInputStream();
+			stream = getStream(url);
 			System.out.println("data received!");
 			return new SAXBuilder().build(stream);
 		} catch (MalformedURLException e) {
@@ -310,6 +271,77 @@ public class ConvertTTL {
 							+ e.getMessage() + ")");
 			return null;
 		}
+	}
+
+	/**
+	 * Get InputStream of url, and convert the source for compatible input file.
+	 *
+	 * Convert CSV file with ';' or ',' separator to XML on oneline content
+	 * See https://github.com/dralagen/csv2xml
+	 *
+	 * @param url String of the source url
+	 * @return InputStream content of the source in xml format
+	 * @throws IOException
+	 */
+	private InputStream getStream (String url) throws IOException {
+		InputStream stream = null;
+		URL url_ = null;
+
+		System.out.println("connecting to " + url + "...");
+		url_ = new URL(url);
+
+		// if the source is in csv format
+		String[] params = url_.getQuery().split("&");
+		for (String param : params) {
+
+			String[] query = param.split("=");
+			if ( "format".equals(query[0]) && "csv".equals(query[1]) ) {
+
+				url_ = createTmpCsv2Xml(url_);
+			}
+		}
+
+
+		URLConnection connection = url_.openConnection();
+
+		return connection.getInputStream();
+	}
+
+	/**
+	 * Create a temporal xml file with the content of csv file in url
+	 *
+	 * This methode auto detect the delimiter of csv file between ';' and ','
+	 *
+	 * @param url source of csv file
+	 * @return url of temporal xml file in local system
+	 * @throws IOException
+	 */
+	private URL createTmpCsv2Xml (URL url) throws IOException {
+		File temp = File.createTempFile("openDataWrapper-", ".tmp.xml");
+
+		InputStream is = url.openStream();
+
+		BufferedReader reader = new BufferedReader(new InputStreamReader(is));
+		String firstLine = reader.readLine();
+		String delimiter = ",";
+		if (firstLine.split(";").length > firstLine.split(",").length) {
+			delimiter = ";";
+		}
+		reader.close();
+
+		Csv2xml xml = new Csv2xml();
+
+		xml.setCompact(true);
+
+		xml.createNewDocument("document");
+		xml.addNode("data");
+
+		xml.convert(url.openStream(), delimiter, "element");
+
+		xml.writeTo(new FileOutputStream(temp));
+
+		System.out.println("convert the csv to xml in " + temp.getAbsolutePath());
+		return temp.toURI().toURL();
 	}
 
 	/**
