@@ -180,7 +180,7 @@ public class ConvertTTL {
 		int cpt = 1;
 		while ((line = reader.readLine()) != null) {
 			if (line.length() > 1) {
-				if (line.trim().charAt(0) == '<') {
+				if (line.trim().length() > 0 && line.trim().charAt(0) == '<') {
 					// nous sommes dans la déclaration d'un URI
 					temp = line.split("\t")[0];
 					if (!listeURI.contains(temp)) {
@@ -192,8 +192,8 @@ public class ConvertTTL {
 						// probleme d'unicité
 						String lineTemp = line.split("\t")[0];
 						// System.out.println(lineTemp);
-						lineTemp = lineTemp.trim()
-								.substring(0, lineTemp.length() - 1)
+						lineTemp = lineTemp.trim();
+						lineTemp = lineTemp.substring(0, lineTemp.length() - 1)
 								.concat(cpt + ">");
 						line = lineTemp.concat(line.split("\t")[1]).concat(
 								line.split("\t")[2]);
