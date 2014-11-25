@@ -10,7 +10,14 @@
 	<properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-</properties>	
+</properties>
+
+	<repositories>
+		<repository>
+			<id>dralagen-maven-repo</id>
+			<url>https://raw.github.com/dralagen/maven-repo/master/</url>
+		</repository>
+	</repositories>
 	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<plugins>
@@ -22,6 +29,42 @@
 					<target>1.7</target>
 				</configuration>
 			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.5</version>
+				<configuration>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<classpathPrefix>lib/</classpathPrefix>
+							<mainClass>openDataWrapper.Principale</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<version>2.5</version>
+				<executions>
+					<execution>
+						<id>copy</id>
+						<phase>package</phase>
+						<goals>
+							<goal>copy-dependencies</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>
+								${project.build.directory}/lib
+							</outputDirectory>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
@@ -124,6 +167,12 @@
 			<groupId>com.github.ansell.pellet</groupId>
 			<artifactId>pellet-jena</artifactId>
 			<version>2.3.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.dralagen</groupId>
+			<artifactId>csv2xml</artifactId>
+			<version>0.1</version>
 		</dependency>
 	</dependencies>
 </project>
