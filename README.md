@@ -35,7 +35,16 @@ Quick Start
 	Select add new sources in the main menu.
 
 	If you are more a more XML friendly, you can add new dataSources directly writing dataSources.xml (more documentation in document.pdf)
-
+	
+	Warning : your data (if xml) must have this form :
+	  <document> //An root element (name doesn't matter)
+	    <data>
+	      <element> ... </element>
+	      <element> ... </element>
+	      ...
+	    </data>
+	  </document>
+	  
 4) Convert data
 
 	Select the convert data menu and check the result. The converted files should be in output/ folder.
