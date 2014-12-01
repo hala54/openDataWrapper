@@ -438,5 +438,16 @@
     <specificXSLT>false</specificXSLT>
     <outputTtlFile>src/main/resources/output/ttl/parc_et_jardin.n3</outputTtlFile>
     <outputXmlFile>src/main/resources/output/rdf-xml/parc_et_jardin.rdf</outputXmlFile>
+  </source> 
+  <source>
+    <nom>evenementsCulturel</nom>
+    <apiurl>http://data.infolocale.fr/explore/dataset/agenda_culturel/download/?format=csv&amp;refine.nav_lieu=44&amp;timezone=Europe/Berlin</apiurl>
+    <url>http://data.infolocale.fr/explore/dataset/agenda_culturel/download/?format=csv&amp;refine.nav_lieu=44&amp;timezone=Europe/Berlin</url>
+    <publisher>Région pays de la loire</publisher>
+    <titre>les évenements Culturel de loire Atlantique</titre>
+    <xsltFile>src/main/resources/xsl/evenementsCulturel.xsl</xsltFile>
+    <specificXSLT>false</specificXSLT>
+    <outputTtlFile>src/main/resources/output/ttl/evenementsCulturel.n3</outputTtlFile>
+    <outputXmlFile>src/main/resources/output/rdf-xml/evenementsCulturel.rdf</outputXmlFile>
   </source>
 </sources>
