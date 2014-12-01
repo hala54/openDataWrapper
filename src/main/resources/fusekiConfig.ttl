@@ -31,6 +31,6 @@ fuseki:dataset           <#tdb_dataset_read> ;
 .
 
 <#tdb_dataset_read> rdf:type      tdb:DatasetTDB ;
-tdb:location "/root/.openDataWrapper/tdpDataset" ;
+tdb:location "/home/Soge/.openDataWrapper/tdpDataset" ;
 tdb:unionDefaultGraph true ;
 .

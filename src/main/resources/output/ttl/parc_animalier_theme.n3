@@ -22,7 +22,7 @@
 	foaf:homepage "http://data.nantes.fr/donnees/detail/parcs-animaliers-et-parcs-a-themes-en-loire-atlantique/?tx_icsoddatastore_pi1[page]=2";
 	dcterms:title "Parcs animaliers et parcs à thèmes en Loire-Atlantique"^^xsd:string ;
 	dcterms:description "Parcs animaliers et parcs à thèmes en Loire-Atlantique"^^xsd:string ;
-	dcterms:created "2013-10-02"^^xsd:date;
+	dcterms:created "2014-12-01"^^xsd:date;
 	dcterms:publisher :pub .
 
 :pub rdfs:label "Département de Loire-Atlantique".
