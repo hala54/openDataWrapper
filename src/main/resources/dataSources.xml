@@ -438,7 +438,7 @@
     <specificXSLT>false</specificXSLT>
     <outputTtlFile>src/main/resources/output/ttl/parc_et_jardin.n3</outputTtlFile>
     <outputXmlFile>src/main/resources/output/rdf-xml/parc_et_jardin.rdf</outputXmlFile>
-  </source> 
+  </source>
   <source>
     <nom>evenementsCulturel</nom>
     <apiurl>http://data.infolocale.fr/explore/dataset/agenda_culturel/download/?format=csv&amp;refine.nav_lieu=44&amp;timezone=Europe/Berlin</apiurl>
@@ -449,5 +449,16 @@
     <specificXSLT>false</specificXSLT>
     <outputTtlFile>src/main/resources/output/ttl/evenementsCulturel.n3</outputTtlFile>
     <outputXmlFile>src/main/resources/output/rdf-xml/evenementsCulturel.rdf</outputXmlFile>
+  </source>
+  <source>
+    <nom>festivals_printemps_ete_pays_de_la_loire</nom>
+    <apiurl>http://data.nantes.fr/api/publication/23440003400026_J293/carte_festivals_table/content/?format=xml</apiurl>
+    <url>liste de festivals en pays de la loire</url>
+    <publisher>Région des Pays de la Loire</publisher>
+    <titre>festivals printemps ete pays de la loire</titre>
+    <xsltFile>src/main/resources/xsl/festivals_printemps_ete_pays_de_la_loire.xsl</xsltFile>
+    <specificXSLT>false</specificXSLT>
+    <outputTtlFile>src/main/resources/output/ttl/festivals_printemps_ete_pays_de_la_loire.n3</outputTtlFile>
+    <outputXmlFile>src/main/resources/output/rdf-xml/festivals_printemps_ete_pays_de_la_loire.rdf</outputXmlFile>
   </source>
 </sources>
