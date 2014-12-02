@@ -96,9 +96,9 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="Acces_Tan">
-<xsl:choose><xsl:when test=". = 'null'">&#009;TEMPORAIRE:Acces_Tan&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:mobilityServicesNearby&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;TEMPORAIRE:Acces_Tan&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;pdll:mobilityServicesNearby&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="Mobilier_pique_nique">
