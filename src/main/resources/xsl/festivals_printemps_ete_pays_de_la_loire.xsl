@@ -32,12 +32,13 @@
 @prefix dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt; .
 @prefix sc: &lt;http://schema.org/&gt; .
 @prefix geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt; .
+@prefix  gndo: &lt;htpp://d-nb.info/standards/elementset/gnd#&gt; .
 
 &lt;http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire&gt; rdf:type void:Dataset ;
-	foaf:homepage "liste de festivals en pays de la loire";
+	foaf:homepage "http://data.nantes.fr/donnees/detail/les-festivals-du-printemps-et-de-lete-en-pays-de-la-loire/";
 	dcterms:title "festivals printemps ete pays de la loire"^^xsd:string ;
 	dcterms:description "festivals printemps ete pays de la loire"^^xsd:string ;
-	dcterms:created "2014-12-01"^^xsd:date;
+	dcterms:created "2014-12-02"^^xsd:date;
 	dcterms:publisher :pub .
 
 :pub rdfs:label "Région des Pays de la Loire".
@@ -71,9 +72,9 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="PAGE_FACEBOOK">
-<xsl:choose><xsl:when test=". = 'null'">&#009;TEMPORAIRE:PAGE_FACEBOOK&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;foaf:page&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;TEMPORAIRE:PAGE_FACEBOOK&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;foaf:page&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="_l">&#009;geo:lat&#009;"<xsl:value-of select="substring-after(substring-before(.,' ,'),'[ ')"/>"^^xsd:decimal ;
@@ -103,9 +104,9 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="CODE_INSEE">
-<xsl:choose><xsl:when test=". = 'null'">&#009;igeo:codeINSEE&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:insee&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;igeo:codeINSEE&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;dbpprop:insee&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="SITE_WEB">
@@ -115,22 +116,22 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="AUTRES_VILLES">
-<xsl:choose><xsl:when test=". = 'null'">&#009;TEMPORAIRE:AUTRES_VILLES&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;gndo:otherPlace&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;TEMPORAIRE:AUTRES_VILLES&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;gndo:otherPlace&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="PROGRAMMATION">
-<xsl:choose><xsl:when test=". = 'null'">&#009;TEMPORAIRE:PROGRAMMATION&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;sc:performers&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;TEMPORAIRE:PROGRAMMATION&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;sc:performers&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="TYPE">
-<xsl:choose><xsl:when test=". = 'null'">&#009;TEMPORAIRE:TypeProblem&#009; "undefined"^^xsd:string .
+<xsl:choose><xsl:when test=". = 'null'">&#009;sc:genre&#009; "undefined"^^xsd:string .
 
 </xsl:when>
-<xsl:otherwise>&#009;TEMPORAIRE:TypeProblem&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string .
+<xsl:otherwise>&#009;sc:genre&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string .
 
 </xsl:otherwise></xsl:choose></xsl:template>
 
