@@ -17,12 +17,13 @@
 @prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
 @prefix sc: <http://schema.org/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix  gndo: <htpp://d-nb.info/standards/elementset/gnd#> .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire> rdf:type void:Dataset ;
-	foaf:homepage "liste de festivals en pays de la loire";
+	foaf:homepage "http://data.nantes.fr/donnees/detail/les-festivals-du-printemps-et-de-lete-en-pays-de-la-loire/";
 	dcterms:title "festivals printemps ete pays de la loire"^^xsd:string ;
 	dcterms:description "festivals printemps ete pays de la loire"^^xsd:string ;
-	dcterms:created "2014-12-01"^^xsd:date;
+	dcterms:created "2014-12-02"^^xsd:date;
 	dcterms:publisher :pub .
 
 :pub rdfs:label "Région des Pays de la Loire".
@@ -30,1125 +31,1125 @@
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/AUX%20HEURES%20D%27%C3%89T%C3%89>	 foaf:name 	 "AUX HEURES D'ÉTÉ"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association culturelle de l'été"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/FestivalAuxHeuresDete"^^xsd:string ;
+	foaf:page	 "www.facebook.com/FestivalAuxHeuresDete"^^xsd:string ;
 	geo:lat	"47.216501"^^xsd:decimal ;
 	geo:long	"-1.554609"^^xsd:decimal  ;
 	sc:openingHours	 "du 8 juillet au 15 août"^^xsd:string ;
 	dbpedia-owl:department	 "44"^^xsd:string ;
 	dbpprop:town	 "Nantes"^^xsd:string ;
-	igeo:codeINSEE	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:string ;
 	dbpprop:website	 "www.auxheuresete.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "-"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Concerts, spectacles jeune public, cinéma, lecture "^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "-"^^xsd:string ;
+	sc:genre	 "Concerts, spectacles jeune public, cinéma, lecture "^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/CINEPRIDE>	 foaf:name 	 "CINEPRIDE"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Centre LGBT de Nantes"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "fr-fr.facebook.com/pages/Festival-Cin%C3%A9Pride/296753722163"^^xsd:string ;
+	foaf:page	 "fr-fr.facebook.com/pages/Festival-Cin%C3%A9Pride/296753722163"^^xsd:string ;
 	geo:lat	"47.216501"^^xsd:decimal ;
 	geo:long	"-1.554609"^^xsd:decimal  ;
 	sc:openingHours	 "du 4 au 10 juin"^^xsd:string ;
 	dbpedia-owl:department	 "44"^^xsd:string ;
 	dbpprop:town	 "Nantes "^^xsd:string ;
-	igeo:codeINSEE	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:string ;
 	dbpprop:website	 "www.clgbt-nantes.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Programmation de films gays, lesbiens, bi et trans"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Cinéma"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Programmation de films gays, lesbiens, bi et trans"^^xsd:string ;
+	sc:genre	 "Cinéma"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/CITE%20IDEALE>	 foaf:name 	 "CITE IDEALE"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Abbaye de Fontevraud"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "fr-fr.facebook.com/abbayedefontevraud"^^xsd:string ;
+	foaf:page	 "fr-fr.facebook.com/abbayedefontevraud"^^xsd:string ;
 	geo:lat	"47.182079"^^xsd:decimal ;
 	geo:long	"0.049629"^^xsd:decimal  ;
 	sc:openingHours	 "2014/06/14"^^xsd:string ;
 	dbpedia-owl:department	 "49"^^xsd:string ;
 	dbpprop:town	 "Fontevraud-L'Abbaye"^^xsd:string ;
-	igeo:codeINSEE	 "49140"^^xsd:string ;
+	dbpprop:insee	 "49140"^^xsd:string ;
 	dbpprop:website	 "www.abbayedefontevraud.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Abd al Malik, Christophe Blain et Barbara Carlotti, Oulipo et Elena Garcia Oliveros, Alberto Manguel"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique, spectacle, performance"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Abd al Malik, Christophe Blain et Barbara Carlotti, Oulipo et Elena Garcia Oliveros, Alberto Manguel"^^xsd:string ;
+	sc:genre	 "Musique, spectacle, performance"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/COMITE%20EQUESTRE%20DE%20SAUMUR>	 foaf:name 	 "COMITE EQUESTRE DE SAUMUR"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Comité Equestre de Saumur"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/carrouseldesaumur"^^xsd:string ;
+	foaf:page	 "www.facebook.com/carrouseldesaumur"^^xsd:string ;
 	geo:lat	"47.258648"^^xsd:decimal ;
 	geo:long	"-0.079227"^^xsd:decimal  ;
 	sc:openingHours	 "19 et 20 juillet"^^xsd:string ;
 	dbpedia-owl:department	 "49"^^xsd:string ;
 	dbpprop:town	 "Saumur"^^xsd:string ;
-	igeo:codeINSEE	 "49328"^^xsd:string ;
+	dbpprop:insee	 "49328"^^xsd:string ;
 	dbpprop:website	 "www.saumur.org/comite"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Comité équestre de Saumur, école d'équitation de Saumur, écoles militaires française et étrangère"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Spectacle équestre"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Comité équestre de Saumur, école d'équitation de Saumur, écoles militaires française et étrangère"^^xsd:string ;
+	sc:genre	 "Spectacle équestre"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/COURT-BOUILLON>	 foaf:name 	 "COURT-BOUILLON"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Ville de Sainte Luce sur Loire"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/sainteluceloire"^^xsd:string ;
+	foaf:page	 "www.facebook.com/sainteluceloire"^^xsd:string ;
 	geo:lat	"47.249388"^^xsd:decimal ;
 	geo:long	"-1.4869"^^xsd:decimal  ;
 	sc:openingHours	 "28 et 29 juin"^^xsd:string ;
 	dbpedia-owl:department	 "44"^^xsd:string ;
 	dbpprop:town	 "Sainte Luce sur Loire"^^xsd:string ;
-	igeo:codeINSEE	 "44172"^^xsd:string ;
+	dbpprop:insee	 "44172"^^xsd:string ;
 	dbpprop:website	 "www.sainte-luce-loire.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "-"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Arts de la rue"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "-"^^xsd:string ;
+	sc:genre	 "Arts de la rue"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/COUVRE%20FEU>	 foaf:name 	 "COUVRE FEU"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Couvre Feu"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/couvrefeu"^^xsd:string ;
+	foaf:page	 "www.facebook.com/couvrefeu"^^xsd:string ;
 	geo:lat	"47.276733"^^xsd:decimal ;
 	geo:long	"-2.059319"^^xsd:decimal  ;
 	sc:openingHours	 "du 22 au 24 août"^^xsd:string ;
 	dbpedia-owl:department	 "44"^^xsd:string ;
 	dbpprop:town	 "Corsept"^^xsd:string ;
-	igeo:codeINSEE	 "44046"^^xsd:string ;
+	dbpprop:insee	 "44046"^^xsd:string ;
 	dbpprop:website	 "www.couvrefeu.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Jimmy Cliff, Lauryn Hill, Les Ogres de Barback, Danakil, Casseurs Flowters, Ska P, Pungle Lions"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musiques actuelles"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Jimmy Cliff, Lauryn Hill, Les Ogres de Barback, Danakil, Casseurs Flowters, Ska P, Pungle Lions"^^xsd:string ;
+	sc:genre	 "Musiques actuelles"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/DUB%20CAMP%20FESTIVAL>	 foaf:name 	 "DUB CAMP FESTIVAL"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Get Up!"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/associationgetup"^^xsd:string ;
+	foaf:page	 "www.facebook.com/associationgetup"^^xsd:string ;
 	geo:lat	"47.19788"^^xsd:decimal ;
 	geo:long	"-1.754127"^^xsd:decimal  ;
 	sc:openingHours	 "du 4 au 6 juillet"^^xsd:string ;
 	dbpedia-owl:department	 "44"^^xsd:string ;
 	dbpprop:town	 "Le Pellerin"^^xsd:string ;
-	igeo:codeINSEE	 "44120"^^xsd:string ;
+	dbpprop:insee	 "44120"^^xsd:string ;
 	dbpprop:website	 "http://assogetup.com/dub-camp-festival"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Zion Gate Hifi, Iration Steppas, Aba Shanti-i sound system, Mellow Vibes, Maasai Warrior"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Zion Gate Hifi, Iration Steppas, Aba Shanti-i sound system, Mellow Vibes, Maasai Warrior"^^xsd:string ;
+	sc:genre	 "Musique"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/ECRIVAINS%20EN%20BORD%20DE%20MER>	 foaf:name 	 "ECRIVAINS EN BORD DE MER"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Ecrivains en bord de mer"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "fr-fr.facebook.com/pages/Ecrivains-en-bord-de-mer/401875209908689"^^xsd:string ;
+	foaf:page	 "fr-fr.facebook.com/pages/Ecrivains-en-bord-de-mer/401875209908689"^^xsd:string ;
 	geo:lat	"47.285185"^^xsd:decimal ;
 	geo:long	"-2.392391"^^xsd:decimal  ;
 	sc:openingHours	 "du 16 au 20 juillet"^^xsd:string ;
 	dbpedia-owl:department	 "44"^^xsd:string ;
 	dbpprop:town	 "La Baule"^^xsd:string ;
-	igeo:codeINSEE	 "44055"^^xsd:string ;
+	dbpprop:insee	 "44055"^^xsd:string ;
 	dbpprop:website	 "http://ecrivainsenborddemer.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Dans le cadre de la saison chinoise en Pays de la Loire : La Baule invite Shanghai. Ecrivains invités : Wang Zulin, Xue Shu, Laurent Mauvigner, Emmanuelle Pagano, Joy Sorman"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Littérature"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Dans le cadre de la saison chinoise en Pays de la Loire : La Baule invite Shanghai. Ecrivains invités : Wang Zulin, Xue Shu, Laurent Mauvigner, Emmanuelle Pagano, Joy Sorman"^^xsd:string ;
+	sc:genre	 "Littérature"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/ESCALES%20LYRIQUES>	 foaf:name 	 "ESCALES LYRIQUES"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Les Escales Lyriques"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "fr-fr.facebook.com/pages/Escales-Lyriques/189926757684522"^^xsd:string ;
+	foaf:page	 "fr-fr.facebook.com/pages/Escales-Lyriques/189926757684522"^^xsd:string ;
 	geo:lat	"46.723722"^^xsd:decimal ;
 	geo:long	"-2.348442"^^xsd:decimal  ;
 	sc:openingHours	 "du 27 juillet au 11 août"^^xsd:string ;
 	dbpedia-owl:department	 "85"^^xsd:string ;
 	dbpprop:town	 "Ile d'Yeu"^^xsd:string ;
-	igeo:codeINSEE	 "85113"^^xsd:string ;
+	dbpprop:insee	 "85113"^^xsd:string ;
 	dbpprop:website	 "www.escales-lyriques.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Concerts, masterclass, Les Noces de Figaro de Mozart"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Chant lyrique"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Concerts, masterclass, Les Noces de Figaro de Mozart"^^xsd:string ;
+	sc:genre	 "Chant lyrique"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/ESTIJAZZ>	 foaf:name 	 "ESTIJAZZ"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Agglomération du Choletais"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "-"^^xsd:string ;
+	foaf:page	 "-"^^xsd:string ;
 	geo:lat	"47.058123"^^xsd:decimal ;
 	geo:long	"-0.880303"^^xsd:decimal  ;
 	sc:openingHours	 "du 27 au 29 juin"^^xsd:string ;
 	dbpedia-owl:department	 "49"^^xsd:string ;
 	dbpprop:town	 "Cholet"^^xsd:string ;
-	igeo:codeINSEE	 "49099"^^xsd:string ;
+	dbpprop:insee	 "49099"^^xsd:string ;
 	dbpprop:website	 "www.agglo-choletais.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "-"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "-"^^xsd:string ;
+	sc:genre	 "Musique"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/FESTIVAL%20ATELIERS%20JAZZ%20DE%20MESLAY-GREZ>	 foaf:name 	 "FESTIVAL ATELIERS JAZZ DE MESLAY-GREZ"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Festival Ateliers Jazz de Meslay Grez"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "fr-fr.facebook.com/pages/Festival-Ateliers-Jazz-de-Meslay-Grez/130939853626830 "^^xsd:string ;
+	foaf:page	 "fr-fr.facebook.com/pages/Festival-Ateliers-Jazz-de-Meslay-Grez/130939853626830 "^^xsd:string ;
 	geo:lat	"47.950589"^^xsd:decimal ;
 	geo:long	"-0.556922"^^xsd:decimal  ;
 	sc:openingHours	 "du 27 au 31 mai"^^xsd:string ;
 	dbpedia-owl:department	 "53"^^xsd:string ;
 	dbpprop:town	 "Meslay-du-Maine"^^xsd:string ;
-	igeo:codeINSEE	 "53152"^^xsd:string ;
+	dbpprop:insee	 "53152"^^xsd:string ;
 	dbpprop:website	 "www.festivaljazz-meslay.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "Bazougers, Ballée, Arquenay"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Eliane Elias, Violontare & Guicelle, Please, Omer Avital, Projet Boris Vian avec le C.R.D. de Laval, Yilian Canizares"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique jazz"^^xsd:string .
+	gndo:otherPlace	 "Bazougers, Ballée, Arquenay"^^xsd:string ;
+	sc:performers	 "Eliane Elias, Violontare & Guicelle, Please, Omer Avital, Projet Boris Vian avec le C.R.D. de Laval, Yilian Canizares"^^xsd:string ;
+	sc:genre	 "Musique jazz"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/FESTIVAL%20AU%20FOIN%20DE%20LA%20RUE>	 foaf:name 	 "FESTIVAL AU FOIN DE LA RUE"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Au Foin de la Rue"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "fr-fr.facebook.com/FestivalAFDLR"^^xsd:string ;
+	foaf:page	 "fr-fr.facebook.com/FestivalAFDLR"^^xsd:string ;
 	geo:lat	"48.341423"^^xsd:decimal ;
 	geo:long	"-0.857891"^^xsd:decimal  ;
 	sc:openingHours	 "4 et 5 juillet"^^xsd:string ;
 	dbpedia-owl:department	 "53"^^xsd:string ;
 	dbpprop:town	 "Saint Denis de Gastines"^^xsd:string ;
-	igeo:codeINSEE	 "53211"^^xsd:string ;
+	dbpprop:insee	 "53211"^^xsd:string ;
 	dbpprop:website	 "www.aufoindelarue.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "High Tone, Morcheeba, Winston Mc Anuff & Fixi, La Rue Kétanou, St Lô, Chill Bump"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique actuelles"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "High Tone, Morcheeba, Winston Mc Anuff & Fixi, La Rue Kétanou, St Lô, Chill Bump"^^xsd:string ;
+	sc:genre	 "Musique actuelles"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/FESTIVAL%20BD%20DE%20MONTREUIL-BELLAY>	 foaf:name 	 "FESTIVAL BD DE MONTREUIL-BELLAY"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Au cœur des bulles"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "-"^^xsd:string ;
+	foaf:page	 "-"^^xsd:string ;
 	geo:lat	"47.131057"^^xsd:decimal ;
 	geo:long	"-0.153925"^^xsd:decimal  ;
 	sc:openingHours	 "24 et 25 mai"^^xsd:string ;
 	dbpedia-owl:department	 "49"^^xsd:string ;
 	dbpprop:town	 "Montreuil-Bellay"^^xsd:string ;
-	igeo:codeINSEE	 "49215"^^xsd:string ;
+	dbpprop:insee	 "49215"^^xsd:string ;
 	dbpprop:website	 "www.aucoeurdesbulles.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "ACHDE, Philippe Menvielle, Stéphane Créty, Almanza, Chamblain, Fino, José-Luis Munuera"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Bande dessinée"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "ACHDE, Philippe Menvielle, Stéphane Créty, Almanza, Chamblain, Fino, José-Luis Munuera"^^xsd:string ;
+	sc:genre	 "Bande dessinée"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/FESTIVAL%20BOUCHE%20A%20OREILLE>	 foaf:name 	 "FESTIVAL BOUCHE A OREILLE"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Jazz Maine"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/FestivalBAO"^^xsd:string ;
+	foaf:page	 "www.facebook.com/FestivalBAO"^^xsd:string ;
 	geo:lat	"47.421833"^^xsd:decimal ;
 	geo:long	"-0.610447"^^xsd:decimal  ;
 	sc:openingHours	 "du 6 au 9 juin"^^xsd:string ;
 	dbpedia-owl:department	 "49"^^xsd:string ;
 	dbpprop:town	 "Bouchemaine"^^xsd:string ;
-	igeo:codeINSEE	 "49035"^^xsd:string ;
+	dbpprop:insee	 "49035"^^xsd:string ;
 	dbpprop:website	 "http://festivalbao.wordpress.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Elias, Pai Pai Jazz Band, Tumbao, Henri Texier, Mixcity, Sandra Nkaké"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique jazz"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Elias, Pai Pai Jazz Band, Tumbao, Henri Texier, Mixcity, Sandra Nkaké"^^xsd:string ;
+	sc:genre	 "Musique jazz"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/FESTIVAL%20CHANTEZ%20GUINGUETTES>	 foaf:name 	 "FESTIVAL CHANTEZ GUINGUETTES"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Chantez Guinguettes"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "-"^^xsd:string ;
+	foaf:page	 "-"^^xsd:string ;
 	geo:lat	"46.574078"^^xsd:decimal ;
 	geo:long	"-1.343869"^^xsd:decimal  ;
 	sc:openingHours	 "du 20 juin au 20 août"^^xsd:string ;
 	dbpedia-owl:department	 "85"^^xsd:string ;
 	dbpprop:town	 "Le Tablier"^^xsd:string ;
-	igeo:codeINSEE	 "85285"^^xsd:string ;
+	dbpprop:insee	 "85285"^^xsd:string ;
 	dbpprop:website	 "www.chantezguinguettes.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "Nesmy, Champ Saint Père, Mareuil sur Lay, Le Poiré sur Vie, Olonne sur Mer"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "-"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique"^^xsd:string .
+	gndo:otherPlace	 "Nesmy, Champ Saint Père, Mareuil sur Lay, Le Poiré sur Vie, Olonne sur Mer"^^xsd:string ;
+	sc:performers	 "-"^^xsd:string ;
+	sc:genre	 "Musique"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/FESTIVAL%20D%27ANJOU>	 foaf:name 	 "FESTIVAL D'ANJOU"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "EPCC Anjou Théâtre"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/pages/Festival-dAnjou/299967149099"^^xsd:string ;
+	foaf:page	 "www.facebook.com/pages/Festival-dAnjou/299967149099"^^xsd:string ;
 	geo:lat	"47.541709"^^xsd:decimal ;
 	geo:long	"-0.674249"^^xsd:decimal  ;
 	sc:openingHours	 "du 10 juin au 5 juillet"^^xsd:string ;
 	dbpedia-owl:department	 "49"^^xsd:string ;
 	dbpprop:town	 "Le Plessis- Macé"^^xsd:string ;
-	igeo:codeINSEE	 "49242"^^xsd:string ;
+	dbpprop:insee	 "49242"^^xsd:string ;
 	dbpprop:website	 "www.festivaldanjou.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "Angers, Saumur, Doué la Fontaine"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Francis Perrin, Sara Giraudeau, Michel Boujenah, Roger Dumas, Robin Renucci"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Théâtre"^^xsd:string .
+	gndo:otherPlace	 "Angers, Saumur, Doué la Fontaine"^^xsd:string ;
+	sc:performers	 "Francis Perrin, Sara Giraudeau, Michel Boujenah, Roger Dumas, Robin Renucci"^^xsd:string ;
+	sc:genre	 "Théâtre"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/FESTIVAL%20D%27ARTS%20SACRES>	 foaf:name 	 "FESTIVAL D'ARTS SACRES"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Ville d'Evron"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "-"^^xsd:string ;
+	foaf:page	 "-"^^xsd:string ;
 	geo:lat	"48.154954"^^xsd:decimal ;
 	geo:long	"-0.402774"^^xsd:decimal  ;
 	sc:openingHours	 "du 4 au 9 juillet"^^xsd:string ;
 	dbpedia-owl:department	 "53"^^xsd:string ;
 	dbpprop:town	 "Evron"^^xsd:string ;
-	igeo:codeINSEE	 "53097"^^xsd:string ;
+	dbpprop:insee	 "53097"^^xsd:string ;
 	dbpprop:website	 "www.festival.evron.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "La Chapelle-Rainsouin"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Les Arts Florissants, Andrès Marìn, André Le Meut"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Concerts, danses, exposition, conférences, ateliers découvertes"^^xsd:string .
+	gndo:otherPlace	 "La Chapelle-Rainsouin"^^xsd:string ;
+	sc:performers	 "Les Arts Florissants, Andrès Marìn, André Le Meut"^^xsd:string ;
+	sc:genre	 "Concerts, danses, exposition, conférences, ateliers découvertes"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/FESTIVAL%20DE%20L%27EPAU>	 foaf:name 	 "FESTIVAL DE L'EPAU"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Département de la Sarthe"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "-"^^xsd:string ;
+	foaf:page	 "-"^^xsd:string ;
 	geo:lat	"48.003684"^^xsd:decimal ;
 	geo:long	"0.196304"^^xsd:decimal  ;
 	sc:openingHours	 "du 20 au 28 mai"^^xsd:string ;
 	dbpedia-owl:department	 "72"^^xsd:string ;
 	dbpprop:town	 "Le Mans"^^xsd:string ;
-	igeo:codeINSEE	 "72181"^^xsd:string ;
+	dbpprop:insee	 "72181"^^xsd:string ;
 	dbpprop:website	 "http://epau.sarthe.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "2E2M & Didier Sandre, Chœur accentus, Laurence Equilbey meets Nomad Wizard, Orfeo 55, Les Anches Hantées, Vocello"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique, conférence, exposition"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "2E2M & Didier Sandre, Chœur accentus, Laurence Equilbey meets Nomad Wizard, Orfeo 55, Les Anches Hantées, Vocello"^^xsd:string ;
+	sc:genre	 "Musique, conférence, exposition"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/FESTIVAL%20DE%20NOIRMOUTIER>	 foaf:name 	 "FESTIVAL DE NOIRMOUTIER"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Théâtre Régional des Pays de la Loire"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/pages/Festival-de-Th%C3%A9%C3%A2tre-de-Noirmoutier/158851640832544"^^xsd:string ;
+	foaf:page	 "www.facebook.com/pages/Festival-de-Th%C3%A9%C3%A2tre-de-Noirmoutier/158851640832544"^^xsd:string ;
 	geo:lat	"47.001033"^^xsd:decimal ;
 	geo:long	"-2.243542"^^xsd:decimal  ;
 	sc:openingHours	 "du 4 au 16 août"^^xsd:string ;
 	dbpedia-owl:department	 "85"^^xsd:string ;
 	dbpprop:town	 "Noirmoutier"^^xsd:string ;
-	igeo:codeINSEE	 "85163"^^xsd:string ;
+	dbpprop:insee	 "85163"^^xsd:string ;
 	dbpprop:website	 "www.trpl.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Compagnie Ah!, Les Brigades du Flore, Jamais trop d'art, Théâtre Nuit, Théâtre Icare"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Théâtre, musique"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Compagnie Ah!, Les Brigades du Flore, Jamais trop d'art, Théâtre Nuit, Théâtre Icare"^^xsd:string ;
+	sc:genre	 "Théâtre, musique"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/FESTIVAL%20DE%20POUPET>	 foaf:name 	 "FESTIVAL DE POUPET"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Poupet"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/FestivalPoupet"^^xsd:string ;
+	foaf:page	 "www.facebook.com/FestivalPoupet"^^xsd:string ;
 	geo:lat	"46.927875"^^xsd:decimal ;
 	geo:long	"-0.901431"^^xsd:decimal  ;
 	sc:openingHours	 "du 7 au 25 juillet"^^xsd:string ;
 	dbpedia-owl:department	 "85"^^xsd:string ;
 	dbpprop:town	 "Saint Malo du Bois"^^xsd:string ;
-	igeo:codeINSEE	 "85240"^^xsd:string ;
+	dbpprop:insee	 "85240"^^xsd:string ;
 	dbpprop:website	 "http://festival-poupet.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Stromae, Placebo, Zaz, Vanessa Paradis, Christophe Maé, Julien Doré"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Stromae, Placebo, Zaz, Vanessa Paradis, Christophe Maé, Julien Doré"^^xsd:string ;
+	sc:genre	 "Musique"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/FESTIVAL%20DE%20SABLE>	 foaf:name 	 "FESTIVAL DE SABLE"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association L'entracte"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/lentractesable?fref=ts"^^xsd:string ;
+	foaf:page	 "www.facebook.com/lentractesable?fref=ts"^^xsd:string ;
 	geo:lat	"47.839808"^^xsd:decimal ;
 	geo:long	"-0.33432"^^xsd:decimal  ;
 	sc:openingHours	 "du 26 au 30 août"^^xsd:string ;
 	dbpedia-owl:department	 "72"^^xsd:string ;
 	dbpprop:town	 "Sablé sur Sarthe"^^xsd:string ;
-	igeo:codeINSEE	 "72264"^^xsd:string ;
+	dbpprop:insee	 "72264"^^xsd:string ;
 	dbpprop:website	 "www.lentracte-sable.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "La Flèche, Le Bailleul, Vion, Loué, Brûlon"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Théâtre de L'Incrédule, ORFEO 55, Les Demoiselles de Saint Cyr, Les Witches, Théâtre de la Demeure"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Théâtre, musique, danse"^^xsd:string .
+	gndo:otherPlace	 "La Flèche, Le Bailleul, Vion, Loué, Brûlon"^^xsd:string ;
+	sc:performers	 "Théâtre de L'Incrédule, ORFEO 55, Les Demoiselles de Saint Cyr, Les Witches, Théâtre de la Demeure"^^xsd:string ;
+	sc:genre	 "Théâtre, musique, danse"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/FESTIVAL%20DES%20NUITS%20SALINES>	 foaf:name 	 "FESTIVAL DES NUITS SALINES"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Les Nuits Salines"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "fr-fr.facebook.com/pages/Les-Nuits-Salines/235661059794679"^^xsd:string ;
+	foaf:page	 "fr-fr.facebook.com/pages/Les-Nuits-Salines/235661059794679"^^xsd:string ;
 	geo:lat	"47.277038"^^xsd:decimal ;
 	geo:long	"-2.480392"^^xsd:decimal  ;
 	sc:openingHours	 "du 18 au 20 juillet"^^xsd:string ;
 	dbpedia-owl:department	 "44"^^xsd:string ;
 	dbpprop:town	 "Batz sur mer"^^xsd:string ;
-	igeo:codeINSEE	 "44010"^^xsd:string ;
+	dbpprop:insee	 "44010"^^xsd:string ;
 	dbpprop:website	 "http://www.lesnuitssalines.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Tri Yann, Celkilt"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Tri Yann, Celkilt"^^xsd:string ;
+	sc:genre	 "Musique"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/FESTIVAL%20ESTIVAL%20>	 foaf:name 	 "FESTIVAL ESTIVAL "^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Ville de Trélazé"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "fr-fr.facebook.com/FestivalEstivalDeTrelaze"^^xsd:string ;
+	foaf:page	 "fr-fr.facebook.com/FestivalEstivalDeTrelaze"^^xsd:string ;
 	geo:lat	"47.445195"^^xsd:decimal ;
 	geo:long	"-0.467114"^^xsd:decimal  ;
 	sc:openingHours	 "du 27 juin au 30 août"^^xsd:string ;
 	dbpedia-owl:department	 "49"^^xsd:string ;
 	dbpprop:town	 "Trélazé"^^xsd:string ;
-	igeo:codeINSEE	 "49353"^^xsd:string ;
+	dbpprop:insee	 "49353"^^xsd:string ;
 	dbpprop:website	 "www.trelaze.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Corneille, Kool and the Gang, Tom Jones, Simple Minds, NRJ Music Tour, Louisy Joseph, Renato Mambor"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique et exposition"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Corneille, Kool and the Gang, Tom Jones, Simple Minds, NRJ Music Tour, Louisy Joseph, Renato Mambor"^^xsd:string ;
+	sc:genre	 "Musique et exposition"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/FESTIVAL%20KIKLOCHE>	 foaf:name 	 "FESTIVAL KIKLOCHE"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Festivals en Pays de Haute Sarthe"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/pages/Festival-KIKLOCHE/122708491090830?fref=ts"^^xsd:string ;
+	foaf:page	 "www.facebook.com/pages/Festival-KIKLOCHE/122708491090830?fref=ts"^^xsd:string ;
 	geo:lat	"48.182598"^^xsd:decimal ;
 	geo:long	"-0.129779"^^xsd:decimal  ;
 	sc:openingHours	 "28 et 29 juin"^^xsd:string ;
 	dbpedia-owl:department	 "72"^^xsd:string ;
 	dbpprop:town	 "Sillé le Guillaume"^^xsd:string ;
-	igeo:codeINSEE	 "72334"^^xsd:string ;
+	dbpprop:insee	 "72334"^^xsd:string ;
 	dbpprop:website	 "http://kikloche.free.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "-"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Petites formes spectaculaires"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "-"^^xsd:string ;
+	sc:genre	 "Petites formes spectaculaires"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/FESTIVAL%20LE%20CHANT%20DE%20FOIRE>	 foaf:name 	 "FESTIVAL LE CHANT DE FOIRE"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association La Belle Equipe"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/chant.defoire "^^xsd:string ;
+	foaf:page	 "www.facebook.com/chant.defoire "^^xsd:string ;
 	geo:lat	"46.635312"^^xsd:decimal ;
 	geo:long	"-1.172834"^^xsd:decimal  ;
 	sc:openingHours	 "29 et 30 août"^^xsd:string ;
 	dbpedia-owl:department	 "85"^^xsd:string ;
 	dbpprop:town	 "Bournezeau"^^xsd:string ;
-	igeo:codeINSEE	 "85034"^^xsd:string ;
+	dbpprop:insee	 "85034"^^xsd:string ;
 	dbpprop:website	 "-"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Chanson d'Occasion, Les Kangourous, Traffic, Five Foot Fingers, Ugu le dj' de l'espace, Grande soirée 70' "^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Spectacle Vivant, cinéma, musique"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Chanson d'Occasion, Les Kangourous, Traffic, Five Foot Fingers, Ugu le dj' de l'espace, Grande soirée 70' "^^xsd:string ;
+	sc:genre	 "Spectacle Vivant, cinéma, musique"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/FESTIVAL%20LE%20SON%20DES%20CUIVRES>	 foaf:name 	 "FESTIVAL LE SON DES CUIVRES"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Musique en Saosnois"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/sondescuivres"^^xsd:string ;
+	foaf:page	 "www.facebook.com/sondescuivres"^^xsd:string ;
 	geo:lat	"48.349396"^^xsd:decimal ;
 	geo:long	"0.368376"^^xsd:decimal  ;
 	sc:openingHours	 "du 3 au 6 juillet"^^xsd:string ;
 	dbpedia-owl:department	 "72"^^xsd:string ;
 	dbpprop:town	 "Mamers"^^xsd:string ;
-	igeo:codeINSEE	 "72180"^^xsd:string ;
+	dbpprop:insee	 "72180"^^xsd:string ;
 	dbpprop:website	 "http://lesondescuivres.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "-"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "-"^^xsd:string ;
+	sc:genre	 "Musique"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/FESTIVAL%20LES%20FEUX%20DE%20L%27%C3%89T%C3%89>	 foaf:name 	 "FESTIVAL LES FEUX DE L'ÉTÉ"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Les Feux de L'Eté "^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/pages/Festival-Les-Feux-de-lEt%C3%A9/96506402404"^^xsd:string ;
+	foaf:page	 "www.facebook.com/pages/Festival-Les-Feux-de-lEt%C3%A9/96506402404"^^xsd:string ;
 	geo:lat	"46.75788"^^xsd:decimal ;
 	geo:long	"-0.958052"^^xsd:decimal  ;
 	sc:openingHours	 "4 et 5 juillet"^^xsd:string ;
 	dbpedia-owl:department	 "85"^^xsd:string ;
 	dbpprop:town	 "Saint Prouant"^^xsd:string ;
-	igeo:codeINSEE	 "85266"^^xsd:string ;
+	dbpprop:insee	 "85266"^^xsd:string ;
 	dbpprop:website	 "www.feuxdelete.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "La Rue Kétanou, Thomas Fersen, Les Sheriff, Dropkick Murphys, Wamps, Celkit"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musiques actuelles"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "La Rue Kétanou, Thomas Fersen, Les Sheriff, Dropkick Murphys, Wamps, Celkit"^^xsd:string ;
+	sc:genre	 "Musiques actuelles"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/FESTIVAL%20LES%20FOLIKLORES>	 foaf:name 	 "FESTIVAL LES FOLIKLORES"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Les Foliklores"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "-"^^xsd:string ;
+	foaf:page	 "-"^^xsd:string ;
 	geo:lat	"47.685809"^^xsd:decimal ;
 	geo:long	"-0.873048"^^xsd:decimal  ;
 	sc:openingHours	 "du 10 au 14 juillet"^^xsd:string ;
 	dbpedia-owl:department	 "49"^^xsd:string ;
 	dbpprop:town	 "Segré"^^xsd:string ;
-	igeo:codeINSEE	 "49331"^^xsd:string ;
+	dbpprop:insee	 "49331"^^xsd:string ;
 	dbpprop:website	 "www.foliklores.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "-"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique et danses populaires"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "-"^^xsd:string ;
+	sc:genre	 "Musique et danses populaires"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/FESTIVAL%20MONT%27EN%20SCENE>	 foaf:name 	 "FESTIVAL MONT'EN SCENE"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Ville de Montaigu"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "-"^^xsd:string ;
+	foaf:page	 "-"^^xsd:string ;
 	geo:lat	"46.972323"^^xsd:decimal ;
 	geo:long	"-1.310614"^^xsd:decimal  ;
 	sc:openingHours	 "du 15 au 17 mai"^^xsd:string ;
 	dbpedia-owl:department	 "85"^^xsd:string ;
 	dbpprop:town	 "Montaigu"^^xsd:string ;
-	igeo:codeINSEE	 "85146"^^xsd:string ;
+	dbpprop:insee	 "85146"^^xsd:string ;
 	dbpprop:website	 "www.ville-montaigu.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Chorale, gospel, beat-box, clown, improvisation, expression corporelle, marionnettes, capoeira, escrime, commedia del arte, conte"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Spectacle vivant"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Chorale, gospel, beat-box, clown, improvisation, expression corporelle, marionnettes, capoeira, escrime, commedia del arte, conte"^^xsd:string ;
+	sc:genre	 "Spectacle vivant"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/FESTIVAL%20PAILLE%20EN%20SON>	 foaf:name 	 "FESTIVAL PAILLE EN SON"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Full'bazart"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/FestivalPailleenSon"^^xsd:string ;
+	foaf:page	 "www.facebook.com/FestivalPailleenSon"^^xsd:string ;
 	geo:lat	"47.1323"^^xsd:decimal ;
 	geo:long	"-1.74912"^^xsd:decimal  ;
 	sc:openingHours	 "du 25 au 28 juin"^^xsd:string ;
 	dbpedia-owl:department	 "44"^^xsd:string ;
 	dbpprop:town	 "Port saint Père"^^xsd:string ;
-	igeo:codeINSEE	 "44133"^^xsd:string ;
+	dbpprop:insee	 "44133"^^xsd:string ;
 	dbpprop:website	 "www.fullbazart.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Malted Milk, Soul Square"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Malted Milk, Soul Square"^^xsd:string ;
+	sc:genre	 "Musique"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/FESTIVAL%20WEST%20SIDE>	 foaf:name 	 "FESTIVAL WEST SIDE"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Œil pour Œil production"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/westsidefestival"^^xsd:string ;
+	foaf:page	 "www.facebook.com/westsidefestival"^^xsd:string ;
 	geo:lat	"46.829726"^^xsd:decimal ;
 	geo:long	"-2.131817"^^xsd:decimal  ;
 	sc:openingHours	 "du 6 au 8 juin"^^xsd:string ;
 	dbpedia-owl:department	 "85"^^xsd:string ;
 	dbpprop:town	 "Notre Dame de Monts"^^xsd:string ;
-	igeo:codeINSEE	 "85164"^^xsd:string ;
+	dbpprop:insee	 "85164"^^xsd:string ;
 	dbpprop:website	 "www.westsidefestival.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Tujiko Noriko, Holograms, Octopus Project, Von Pariahs, Vundabar, Duchess Says"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Tujiko Noriko, Holograms, Octopus Project, Von Pariahs, Vundabar, Duchess Says"^^xsd:string ;
+	sc:genre	 "Musique"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/FINAL%20DE%20L%27EUROPAJAZZ>	 foaf:name 	 "FINAL DE L'EUROPAJAZZ"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Le Mans Jazz Festival"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/pages/Europajazz/218590714863925"^^xsd:string ;
+	foaf:page	 "www.facebook.com/pages/Europajazz/218590714863925"^^xsd:string ;
 	geo:lat	"48.003684"^^xsd:decimal ;
 	geo:long	"0.196304"^^xsd:decimal  ;
 	sc:openingHours	 "du 6 au 16 mai"^^xsd:string ;
 	dbpedia-owl:department	 "72"^^xsd:string ;
 	dbpprop:town	 "Le Mans"^^xsd:string ;
-	igeo:codeINSEE	 "72181"^^xsd:string ;
+	dbpprop:insee	 "72181"^^xsd:string ;
 	dbpprop:website	 "www.europajazz.fr/le-festival"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Youn Sun Nah, Cécile Mc Lorin-Salvant, Dave Douglas et Uri Caine Duo, Barre Phillips John Surman Tony Buck, François Corneloup"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique jazz"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Youn Sun Nah, Cécile Mc Lorin-Salvant, Dave Douglas et Uri Caine Duo, Barre Phillips John Surman Tony Buck, François Corneloup"^^xsd:string ;
+	sc:genre	 "Musique jazz"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/FOLLE%20JOURNEE%20A%20L%27ILE%20D%27YEU>	 foaf:name 	 "FOLLE JOURNEE A L'ILE D'YEU"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Région des Pays de la Loire"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/liledyeu"^^xsd:string ;
+	foaf:page	 "www.facebook.com/liledyeu"^^xsd:string ;
 	geo:lat	"46.723722"^^xsd:decimal ;
 	geo:long	"-2.348442"^^xsd:decimal  ;
 	sc:openingHours	 "2014/05/10"^^xsd:string ;
 	dbpedia-owl:department	 "85"^^xsd:string ;
 	dbpprop:town	 "Ile d'Yeu "^^xsd:string ;
-	igeo:codeINSEE	 "85113"^^xsd:string ;
+	dbpprop:insee	 "85113"^^xsd:string ;
 	dbpprop:website	 "mairie.ile-yeu.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Thomas Enhco Trio"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique jazz"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Thomas Enhco Trio"^^xsd:string ;
+	sc:genre	 "Musique jazz"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/HELLFEST>	 foaf:name 	 "HELLFEST"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Hellfest Productions"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/hellfest"^^xsd:string ;
+	foaf:page	 "www.facebook.com/hellfest"^^xsd:string ;
 	geo:lat	"47.086633"^^xsd:decimal ;
 	geo:long	"-1.284105"^^xsd:decimal  ;
 	sc:openingHours	 "du 20 au 22 juin"^^xsd:string ;
 	dbpedia-owl:department	 "44"^^xsd:string ;
 	dbpprop:town	 "Clisson"^^xsd:string ;
-	igeo:codeINSEE	 "44043"^^xsd:string ;
+	dbpprop:insee	 "44043"^^xsd:string ;
 	dbpprop:website	 "www.hellfest.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Slayer, Soundgarden, Aerosmith, Iron Maiden, Emperor, Carcass"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique métal"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Slayer, Soundgarden, Aerosmith, Iron Maiden, Emperor, Carcass"^^xsd:string ;
+	sc:genre	 "Musique métal"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LA%207EME%20VAGUE>	 foaf:name 	 "LA 7EME VAGUE"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Brétignolles Animations"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "fr-fr.facebook.com/pages/Festival-la-7%C3%A8me-Vague/63005155878"^^xsd:string ;
+	foaf:page	 "fr-fr.facebook.com/pages/Festival-la-7%C3%A8me-Vague/63005155878"^^xsd:string ;
 	geo:lat	"46.627539"^^xsd:decimal ;
 	geo:long	"-1.856148"^^xsd:decimal  ;
 	sc:openingHours	 "30 et 31 mai"^^xsd:string ;
 	dbpedia-owl:department	 "85"^^xsd:string ;
 	dbpprop:town	 "Brétignolles-sur-mer"^^xsd:string ;
-	igeo:codeINSEE	 "85035"^^xsd:string ;
+	dbpprop:insee	 "85035"^^xsd:string ;
 	dbpprop:website	 "www.7vague.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Bakermat, Keziah Jones, Gaëtan Roussel, Patrice, Oldelaf, FFF"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musiques actuelles "^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Bakermat, Keziah Jones, Gaëtan Roussel, Patrice, Oldelaf, FFF"^^xsd:string ;
+	sc:genre	 "Musiques actuelles "^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LA%20DEFERLANTE%20DE%20PRINTEMPS>	 foaf:name 	 "LA DEFERLANTE DE PRINTEMPS"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Ville présidente 2014 Noirmoutier en l'île"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/festivalladeferlante"^^xsd:string ;
+	foaf:page	 "www.facebook.com/festivalladeferlante"^^xsd:string ;
 	geo:lat	"47.001033"^^xsd:decimal ;
 	geo:long	"-2.243542"^^xsd:decimal  ;
 	sc:openingHours	 "du 28 mai au 1er juin"^^xsd:string ;
 	dbpedia-owl:department	 "85"^^xsd:string ;
 	dbpprop:town	 "Noirmoutier en L'Ile"^^xsd:string ;
-	igeo:codeINSEE	 "85163"^^xsd:string ;
+	dbpprop:insee	 "85163"^^xsd:string ;
 	dbpprop:website	 "www.ladeferlante.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "Barbatre, Saint Gilles Croix de Vie, Saint Hilaire de Riez, Notre Dame de Monts, Saint Jean de Monts, Les Sables D'Olonnes, La Tranche sur Mer, Saint Brévin les Pins, Pornic"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Illumina, Jamais Trop D'Art, Thank You For Coming, Theater Rue Piétonne, Street Orchestra Ukulele Klub, No Tunes International"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Arts de la rue"^^xsd:string .
+	gndo:otherPlace	 "Barbatre, Saint Gilles Croix de Vie, Saint Hilaire de Riez, Notre Dame de Monts, Saint Jean de Monts, Les Sables D'Olonnes, La Tranche sur Mer, Saint Brévin les Pins, Pornic"^^xsd:string ;
+	sc:performers	 "Illumina, Jamais Trop D'Art, Thank You For Coming, Theater Rue Piétonne, Street Orchestra Ukulele Klub, No Tunes International"^^xsd:string ;
+	sc:genre	 "Arts de la rue"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LA%20DEFERLANTE%20D%27%C3%89T%C3%89>	 foaf:name 	 "LA DEFERLANTE D'ÉTÉ"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Ville présidente 2014 Noirmoutier en l'île"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/festivalladeferlante "^^xsd:string ;
+	foaf:page	 "www.facebook.com/festivalladeferlante "^^xsd:string ;
 	geo:lat	"47.001033"^^xsd:decimal ;
 	geo:long	"-2.243542"^^xsd:decimal  ;
 	sc:openingHours	 "du 1er juillet au 31 août"^^xsd:string ;
 	dbpedia-owl:department	 "85"^^xsd:string ;
 	dbpprop:town	 "Noirmoutier en L'Ile"^^xsd:string ;
-	igeo:codeINSEE	 "85163"^^xsd:string ;
+	dbpprop:insee	 "85163"^^xsd:string ;
 	dbpprop:website	 "www.ladeferlante.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "Barbatre, Noirmoutier-en-L'Ile, Saint Gilles Croix de Vie, Saint Hilaire de Riez, Notre Dame de Monts, Saint Jean de Monts, Les Sables D'Olonnes, La Tranche sur Mer, Saint Brévin les Pins, Pornic"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Mountain Men, Z STAR, Annibal et ses éléphants, les 26000 couverts, Les urbaindigènes"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Arts de la rue, musique"^^xsd:string .
+	gndo:otherPlace	 "Barbatre, Noirmoutier-en-L'Ile, Saint Gilles Croix de Vie, Saint Hilaire de Riez, Notre Dame de Monts, Saint Jean de Monts, Les Sables D'Olonnes, La Tranche sur Mer, Saint Brévin les Pins, Pornic"^^xsd:string ;
+	sc:performers	 "Mountain Men, Z STAR, Annibal et ses éléphants, les 26000 couverts, Les urbaindigènes"^^xsd:string ;
+	sc:genre	 "Arts de la rue, musique"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LA%20RUE%20DU%20MILIEU>	 foaf:name 	 "LA RUE DU MILIEU"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association La Rue du Milieu"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "fr-fr.facebook.com/pages/Association-La-Rue-du-Milieu/108751902497145"^^xsd:string ;
+	foaf:page	 "fr-fr.facebook.com/pages/Association-La-Rue-du-Milieu/108751902497145"^^xsd:string ;
 	geo:lat	"47.524477"^^xsd:decimal ;
 	geo:long	"-0.747693"^^xsd:decimal  ;
 	sc:openingHours	 "30 et 31 août"^^xsd:string ;
 	dbpedia-owl:department	 "49"^^xsd:string ;
 	dbpprop:town	 "Saint Clément de la Place"^^xsd:string ;
-	igeo:codeINSEE	 "49271"^^xsd:string ;
+	dbpprop:insee	 "49271"^^xsd:string ;
 	dbpprop:website	 "www.laruedumilieu.org"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "Saint Léger des Bois, Saint Lambert la Potherie"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Cie Joseph K, Cie Maboul Distorsion, Cie Presque Siamoise, Cie Spectralex, Cie Crie de Banane, Monsieur le Directeur"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Arts de la rue"^^xsd:string .
+	gndo:otherPlace	 "Saint Léger des Bois, Saint Lambert la Potherie"^^xsd:string ;
+	sc:performers	 "Cie Joseph K, Cie Maboul Distorsion, Cie Presque Siamoise, Cie Spectralex, Cie Crie de Banane, Monsieur le Directeur"^^xsd:string ;
+	sc:genre	 "Arts de la rue"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LE%20CAFE%20DE%20L%27%C3%89T%C3%89>	 foaf:name 	 "LE CAFE DE L'ÉTÉ"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Ville de La Roche sur Yon"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "fr-fr.facebook.com/la.roche.sur.yon.officielle"^^xsd:string ;
+	foaf:page	 "fr-fr.facebook.com/la.roche.sur.yon.officielle"^^xsd:string ;
 	geo:lat	"46.669476"^^xsd:decimal ;
 	geo:long	"-1.428868"^^xsd:decimal  ;
 	sc:openingHours	 "du 10 juillet au 15 août"^^xsd:string ;
 	dbpedia-owl:department	 "85"^^xsd:string ;
 	dbpprop:town	 "La Roche sur Yon"^^xsd:string ;
-	igeo:codeINSEE	 "85191"^^xsd:string ;
+	dbpprop:insee	 "85191"^^xsd:string ;
 	dbpprop:website	 "www.ville-larochesuryon.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "-"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "-"^^xsd:string ;
+	sc:genre	 "Musique"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LE%20MANS%20FAIT%20SON%20CIRQUE>	 foaf:name 	 "LE MANS FAIT SON CIRQUE"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Ville du Mans"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/pages/Le-Mans-fait-son-Cirque-officiel/282778741859691"^^xsd:string ;
+	foaf:page	 "www.facebook.com/pages/Le-Mans-fait-son-Cirque-officiel/282778741859691"^^xsd:string ;
 	geo:lat	"48.003684"^^xsd:decimal ;
 	geo:long	"0.196304"^^xsd:decimal  ;
 	sc:openingHours	 "du 26 au 29 juin"^^xsd:string ;
 	dbpedia-owl:department	 "72"^^xsd:string ;
 	dbpprop:town	 "Le Mans"^^xsd:string ;
-	igeo:codeINSEE	 "72181"^^xsd:string ;
+	dbpprop:insee	 "72181"^^xsd:string ;
 	dbpprop:website	 "www.lemansfaitsoncirque.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Compagnie Sisters, Compagnie Oktobre, Compagnie Cirquons Flex, Compagnie Exalté, Compagnie Rasposo, Compagnie Cheptel Aleikoum"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Cirque"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Compagnie Sisters, Compagnie Oktobre, Compagnie Cirquons Flex, Compagnie Exalté, Compagnie Rasposo, Compagnie Cheptel Aleikoum"^^xsd:string ;
+	sc:genre	 "Cirque"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LE%20PRINTEMPS%20DES%20ARTS>	 foaf:name 	 "LE PRINTEMPS DES ARTS"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Le Printemps des Arts"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/PrintempsdesartsNantes"^^xsd:string ;
+	foaf:page	 "www.facebook.com/PrintempsdesartsNantes"^^xsd:string ;
 	geo:lat	"47.216501"^^xsd:decimal ;
 	geo:long	"-1.554609"^^xsd:decimal  ;
 	sc:openingHours	 "du 12 au 23 juin"^^xsd:string ;
 	dbpedia-owl:department	 "44"^^xsd:string ;
 	dbpprop:town	 "Nantes "^^xsd:string ;
-	igeo:codeINSEE	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:string ;
 	dbpprop:website	 "http://printempsdesarts.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "-"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique baroque"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "-"^^xsd:string ;
+	sc:genre	 "Musique baroque"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LECTURES%20A%20NAU%20PLAGE>	 foaf:name 	 "LECTURES A NAU PLAGE"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Ville du Pouliguen"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "fr-fr.facebook.com/pages/Le-Pouliguen/178377968584"^^xsd:string ;
+	foaf:page	 "fr-fr.facebook.com/pages/Le-Pouliguen/178377968584"^^xsd:string ;
 	geo:lat	"47.276372"^^xsd:decimal ;
 	geo:long	"-2.431336"^^xsd:decimal  ;
 	sc:openingHours	 "du 1er juillet au 1er septembre"^^xsd:string ;
 	dbpedia-owl:department	 "44"^^xsd:string ;
 	dbpprop:town	 "Le Pouliguen"^^xsd:string ;
-	igeo:codeINSEE	 "44135"^^xsd:string ;
+	dbpprop:insee	 "44135"^^xsd:string ;
 	dbpprop:website	 "www.lepouliguen.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Plus de 7000 livres de la petite édition, coin détente pour la lecture"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Lecture"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Plus de 7000 livres de la petite édition, coin détente pour la lecture"^^xsd:string ;
+	sc:genre	 "Lecture"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LES%203%20ELEPHANTS>	 foaf:name 	 "LES 3 ELEPHANTS"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association ASDA"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "fr-fr.facebook.com/3elephants"^^xsd:string ;
+	foaf:page	 "fr-fr.facebook.com/3elephants"^^xsd:string ;
 	geo:lat	"48.072007"^^xsd:decimal ;
 	geo:long	"-0.770371"^^xsd:decimal  ;
 	sc:openingHours	 "du 23 au 25 mai"^^xsd:string ;
 	dbpedia-owl:department	 "53"^^xsd:string ;
 	dbpprop:town	 "Laval"^^xsd:string ;
-	igeo:codeINSEE	 "53130"^^xsd:string ;
+	dbpprop:insee	 "53130"^^xsd:string ;
 	dbpprop:website	 "www.les3elephants.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Aldebert, Fauve, François & The Atlas Mountains, Josephine Foster, Les Frères Casquette, Collectif Jamais Trop D'Art"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musiques actuelles et arts de la rue"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Aldebert, Fauve, François & The Atlas Mountains, Josephine Foster, Les Frères Casquette, Collectif Jamais Trop D'Art"^^xsd:string ;
+	sc:genre	 "Musiques actuelles et arts de la rue"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LES%20AFFRANCHIS>	 foaf:name 	 "LES AFFRANCHIS"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Le Carroi"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/lesaffranchis.lafleche"^^xsd:string ;
+	foaf:page	 "www.facebook.com/lesaffranchis.lafleche"^^xsd:string ;
 	geo:lat	"47.699655"^^xsd:decimal ;
 	geo:long	"-0.076656"^^xsd:decimal  ;
 	sc:openingHours	 "du 11 au 13 juillet"^^xsd:string ;
 	dbpedia-owl:department	 "72"^^xsd:string ;
 	dbpprop:town	 "La Flèche"^^xsd:string ;
-	igeo:codeINSEE	 "72154"^^xsd:string ;
+	dbpprop:insee	 "72154"^^xsd:string ;
 	dbpprop:website	 "http://lecarroi.org"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "Le Lude, La Chapelle D'Aligné, Ligron"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Jamais trop d'art, Sivouplait, Jo Bithume, Tout simplement nous, CIA, Le bal des varietistes"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Arts de la rue"^^xsd:string .
+	gndo:otherPlace	 "Le Lude, La Chapelle D'Aligné, Ligron"^^xsd:string ;
+	sc:performers	 "Jamais trop d'art, Sivouplait, Jo Bithume, Tout simplement nous, CIA, Le bal des varietistes"^^xsd:string ;
+	sc:genre	 "Arts de la rue"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LES%20ATELIERS%20D%27ANGERS>	 foaf:name 	 "LES ATELIERS D'ANGERS"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Premiers Plans"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com"^^xsd:string ;
+	foaf:page	 "www.facebook.com"^^xsd:string ;
 	geo:lat	"47.472707"^^xsd:decimal ;
 	geo:long	"-0.556177"^^xsd:decimal  ;
 	sc:openingHours	 "du 25 au 30 août"^^xsd:string ;
 	dbpedia-owl:department	 "49"^^xsd:string ;
 	dbpprop:town	 "Angers"^^xsd:string ;
-	igeo:codeINSEE	 "49007"^^xsd:string ;
+	dbpprop:insee	 "49007"^^xsd:string ;
 	dbpprop:website	 "www.premiersplans.org"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Projection de longs métrages de jeunes réalisateurs"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Cinéma"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Projection de longs métrages de jeunes réalisateurs"^^xsd:string ;
+	sc:genre	 "Cinéma"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LES%20CELTIQUES%20DE%20GUERANDE>	 foaf:name 	 "LES CELTIQUES DE GUERANDE"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Le Centre Celtique Bro Gwenrann"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/brogwenrann?fref=ts"^^xsd:string ;
+	foaf:page	 "www.facebook.com/brogwenrann?fref=ts"^^xsd:string ;
 	geo:lat	"47.327824"^^xsd:decimal ;
 	geo:long	"-2.429306"^^xsd:decimal  ;
 	sc:openingHours	 "du 5 au 10 août"^^xsd:string ;
 	dbpedia-owl:department	 "44"^^xsd:string ;
 	dbpprop:town	 "Guérande"^^xsd:string ;
-	igeo:codeINSEE	 "44069"^^xsd:string ;
+	dbpprop:insee	 "44069"^^xsd:string ;
 	dbpprop:website	 "www.bro-gwenrann.org"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Erwann Hamon & Wenceslas Hervieux, Petrapoento, Association Skol Ar Louarn,Erwann Menpuy, Banda de Gaïtas Esbardu, Avalon Celtic Dance"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique et danses celtiques"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Erwann Hamon & Wenceslas Hervieux, Petrapoento, Association Skol Ar Louarn,Erwann Menpuy, Banda de Gaïtas Esbardu, Avalon Celtic Dance"^^xsd:string ;
+	sc:genre	 "Musique et danses celtiques"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LES%20DIMANCHES%20D%27%C3%89T%C3%89%20A%20FONTEVRAUD>	 foaf:name 	 "LES DIMANCHES D'ÉTÉ A FONTEVRAUD"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Abbaye de Fontevraud"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/abbayedefontevraud"^^xsd:string ;
+	foaf:page	 "www.facebook.com/abbayedefontevraud"^^xsd:string ;
 	geo:lat	"47.182079"^^xsd:decimal ;
 	geo:long	"0.049629"^^xsd:decimal  ;
 	sc:openingHours	 "du 13 juillet au 24 août"^^xsd:string ;
 	dbpedia-owl:department	 "49"^^xsd:string ;
 	dbpprop:town	 "Fontevraud L'Abbaye"^^xsd:string ;
-	igeo:codeINSEE	 "49140"^^xsd:string ;
+	dbpprop:insee	 "49140"^^xsd:string ;
 	dbpprop:website	 "www.abbayedefontevraud.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Pierrick Lefranc, Compagnie Frasques, Bulles de Zinc, Ensemble Ligériana, Utopium production"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Spectacle vivant"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Pierrick Lefranc, Compagnie Frasques, Bulles de Zinc, Ensemble Ligériana, Utopium production"^^xsd:string ;
+	sc:genre	 "Spectacle vivant"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LES%20ENTRELACES>	 foaf:name 	 "LES ENTRELACES"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 " Association Un Village en Fête"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "-"^^xsd:string ;
+	foaf:page	 "-"^^xsd:string ;
 	geo:lat	"48.437013"^^xsd:decimal ;
 	geo:long	"-0.49732"^^xsd:decimal  ;
 	sc:openingHours	 "du 1 au 14 juillet"^^xsd:string ;
 	dbpedia-owl:department	 "53"^^xsd:string ;
 	dbpprop:town	 "Lassay-les-Châteaux"^^xsd:string ;
-	igeo:codeINSEE	 "53127"^^xsd:string ;
+	dbpprop:insee	 "53127"^^xsd:string ;
 	dbpprop:website	 "www.lesentrelaces.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "Champéon, Melleray la Vallée"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Les sœurs Goudron, Cie Joe Sature & ses joyeux osselets, cirquons flex, Scopitone et cie, Compagnie Thé à la rue, compagnie Anonima Teatro, La compagnie Singulière"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Arts de la rue"^^xsd:string .
+	gndo:otherPlace	 "Champéon, Melleray la Vallée"^^xsd:string ;
+	sc:performers	 "Les sœurs Goudron, Cie Joe Sature & ses joyeux osselets, cirquons flex, Scopitone et cie, Compagnie Thé à la rue, compagnie Anonima Teatro, La compagnie Singulière"^^xsd:string ;
+	sc:genre	 "Arts de la rue"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LES%20ESCALES>	 foaf:name 	 "LES ESCALES"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Les Escales"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/Festival.les.escales.officiel"^^xsd:string ;
+	foaf:page	 "www.facebook.com/Festival.les.escales.officiel"^^xsd:string ;
 	geo:lat	"47.278984"^^xsd:decimal ;
 	geo:long	"-2.210437"^^xsd:decimal  ;
 	sc:openingHours	 "1 et 2 août"^^xsd:string ;
 	dbpedia-owl:department	 "44"^^xsd:string ;
 	dbpprop:town	 "Saint Nazaire"^^xsd:string ;
-	igeo:codeINSEE	 "44184"^^xsd:string ;
+	dbpprop:insee	 "44184"^^xsd:string ;
 	dbpprop:website	 "www.les-escales.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Bobby Womack, Bootsy Collins & the funky Unity Band, Ayo, Keziah Jones, Winston Mc Anuff & Fixi, Ben L'oncle Soul & Monophonics"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique du monde"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Bobby Womack, Bootsy Collins & the funky Unity Band, Ayo, Keziah Jones, Winston Mc Anuff & Fixi, Ben L'oncle Soul & Monophonics"^^xsd:string ;
+	sc:genre	 "Musique du monde"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LES%20ESQUISSES%20D%27%C3%89T%C3%89>	 foaf:name 	 "LES ESQUISSES D'ÉTÉ"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 " Le Menteur Volontaire"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "fr-fr.facebook.com/pages/LE-MENTEUR-VOLONTAIRE/227932647049"^^xsd:string ;
+	foaf:page	 "fr-fr.facebook.com/pages/LE-MENTEUR-VOLONTAIRE/227932647049"^^xsd:string ;
 	geo:lat	"46.669476"^^xsd:decimal ;
 	geo:long	"-1.428868"^^xsd:decimal  ;
 	sc:openingHours	 "du 16 au 24 juillet "^^xsd:string ;
 	dbpedia-owl:department	 "85"^^xsd:string ;
 	dbpprop:town	 "La Roche sur Yon"^^xsd:string ;
-	igeo:codeINSEE	 "85191"^^xsd:string ;
+	dbpprop:insee	 "85191"^^xsd:string ;
 	dbpprop:website	 "http://lementeurvolontaire.com/spip.php?rubrique16"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Massacre à Paris de Christopher Marlowe mise en scène Laurent Brethome"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Théâtre"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Massacre à Paris de Christopher Marlowe mise en scène Laurent Brethome"^^xsd:string ;
+	sc:genre	 "Théâtre"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LES%20HEURES%20MUSICALES%20DE%20CUNAULT>	 foaf:name 	 "LES HEURES MUSICALES DE CUNAULT"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Les Amis de Notre Dame de Cunault"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "-"^^xsd:string ;
+	foaf:page	 "-"^^xsd:string ;
 	geo:lat	"47.307454"^^xsd:decimal ;
 	geo:long	"-0.154208"^^xsd:decimal  ;
 	sc:openingHours	 "du 13 juillet au 17 août"^^xsd:string ;
 	dbpedia-owl:department	 "49"^^xsd:string ;
 	dbpprop:town	 "Chênehuette-Trèves-Cunault"^^xsd:string ;
-	igeo:codeINSEE	 "49094"^^xsd:string ;
+	dbpprop:insee	 "49094"^^xsd:string ;
 	dbpprop:website	 "http://amisndcunault.free.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "-"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "-"^^xsd:string ;
+	sc:genre	 "Musique"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LES%20HEURES%20MUSICALES%20DU%20HAUT%20ANJOU>	 foaf:name 	 "LES HEURES MUSICALES DU HAUT ANJOU"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Heures Musicales du Haut Anjou"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "-"^^xsd:string ;
+	foaf:page	 "-"^^xsd:string ;
 	geo:lat	"47.614758"^^xsd:decimal ;
 	geo:long	"-0.562583"^^xsd:decimal  ;
 	sc:openingHours	 "du 3 au 15 août"^^xsd:string ;
 	dbpedia-owl:department	 "49"^^xsd:string ;
 	dbpprop:town	 "Ecuillé"^^xsd:string ;
-	igeo:codeINSEE	 "49130"^^xsd:string ;
+	dbpprop:insee	 "49130"^^xsd:string ;
 	dbpprop:website	 "http://lesheuresmusicales.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "Segré, Miré, Thorigné d'Anjou,Brissarthe"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "-"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique de chambre, récitals, opéra, concerts"^^xsd:string .
+	gndo:otherPlace	 "Segré, Miré, Thorigné d'Anjou,Brissarthe"^^xsd:string ;
+	sc:performers	 "-"^^xsd:string ;
+	sc:genre	 "Musique de chambre, récitals, opéra, concerts"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LES%20IMPATIENTES%20DE%20BEAUFORT%20EN%20ANJOU>	 foaf:name 	 "LES IMPATIENTES DE BEAUFORT EN ANJOU"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Communauté de communes de Beaufort en Anjou"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com"^^xsd:string ;
+	foaf:page	 "www.facebook.com"^^xsd:string ;
 	geo:lat	"47.439301"^^xsd:decimal ;
 	geo:long	"-0.216083"^^xsd:decimal  ;
 	sc:openingHours	 "du 29 juin au 10 août"^^xsd:string ;
 	dbpedia-owl:department	 "49"^^xsd:string ;
 	dbpprop:town	 "Beaufort en Vallée"^^xsd:string ;
-	igeo:codeINSEE	 "49021"^^xsd:string ;
+	dbpprop:insee	 "49021"^^xsd:string ;
 	dbpprop:website	 "www.beaufortenanjou.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "Fontaine-Milon, Mazé, Saint Georges du Bois, Fontaine-Guérin, Gée"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Compagnie Singulière, Compagnie Barolosolo, Collectif Jamais Trop d'Art"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Arts de la rue"^^xsd:string .
+	gndo:otherPlace	 "Fontaine-Milon, Mazé, Saint Georges du Bois, Fontaine-Guérin, Gée"^^xsd:string ;
+	sc:performers	 "Compagnie Singulière, Compagnie Barolosolo, Collectif Jamais Trop d'Art"^^xsd:string ;
+	sc:genre	 "Arts de la rue"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LES%20ITALIENNES%20DE%20CLISSON>	 foaf:name 	 "LES ITALIENNES DE CLISSON"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Les Italiennes de Clisson"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "fr-fr.facebook.com/pages/Italiennes-de-Clisson/506913472697538"^^xsd:string ;
+	foaf:page	 "fr-fr.facebook.com/pages/Italiennes-de-Clisson/506913472697538"^^xsd:string ;
 	geo:lat	"47.086633"^^xsd:decimal ;
 	geo:long	"-1.284105"^^xsd:decimal  ;
 	sc:openingHours	 "du 2 au 6 juillet"^^xsd:string ;
 	dbpedia-owl:department	 "44"^^xsd:string ;
 	dbpprop:town	 "Clisson"^^xsd:string ;
-	igeo:codeINSEE	 "44043"^^xsd:string ;
+	dbpprop:insee	 "44043"^^xsd:string ;
 	dbpprop:website	 "http://italiennes.org"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "-"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Cirque, arts de la rue, cinéma, musique"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "-"^^xsd:string ;
+	sc:genre	 "Cirque, arts de la rue, cinéma, musique"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LES%20MOUILLOS>	 foaf:name 	 "LES MOUILLOS"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association AMAC"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/amac.mouillotins"^^xsd:string ;
+	foaf:page	 "www.facebook.com/amac.mouillotins"^^xsd:string ;
 	geo:lat	"47.842132"^^xsd:decimal ;
 	geo:long	"-1.042986"^^xsd:decimal  ;
 	sc:openingHours	 "2014/05/07"^^xsd:string ;
 	dbpedia-owl:department	 "53"^^xsd:string ;
 	dbpprop:town	 "La Selle Craonnaise"^^xsd:string ;
-	igeo:codeINSEE	 "53258"^^xsd:string ;
+	dbpprop:insee	 "53258"^^xsd:string ;
 	dbpprop:website	 "www.mouillotins.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Compagnie Hippo Tam-Tam, Troupe Payaso Loco, Compagnie Mandarine"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Magie, chanson, danse"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Compagnie Hippo Tam-Tam, Troupe Payaso Loco, Compagnie Mandarine"^^xsd:string ;
+	sc:genre	 "Magie, chanson, danse"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LES%20MOUILLOTINS>	 foaf:name 	 "LES MOUILLOTINS"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Assocation AMAC"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/amac.mouillotins"^^xsd:string ;
+	foaf:page	 "www.facebook.com/amac.mouillotins"^^xsd:string ;
 	geo:lat	"47.970414"^^xsd:decimal ;
 	geo:long	"-1.119567"^^xsd:decimal  ;
 	sc:openingHours	 "13 et 14 juin"^^xsd:string ;
 	dbpedia-owl:department	 "53"^^xsd:string ;
 	dbpprop:town	 "Cuillé"^^xsd:string ;
-	igeo:codeINSEE	 "53088"^^xsd:string ;
+	dbpprop:insee	 "53088"^^xsd:string ;
 	dbpprop:website	 "www.mouillotins.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "HK & Les Saltimbanks, Acne, Brigade d'Utilité Ludique, Métro Lutèce, Scarecrow, Soviet suprem"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique et arts de la rue"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "HK & Les Saltimbanks, Acne, Brigade d'Utilité Ludique, Métro Lutèce, Scarecrow, Soviet suprem"^^xsd:string ;
+	sc:genre	 "Musique et arts de la rue"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LES%20NUITS%20DE%20LA%20MAYENNE>	 foaf:name 	 "LES NUITS DE LA MAYENNE"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Mayenne culture"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/mayenneculture"^^xsd:string ;
+	foaf:page	 "www.facebook.com/mayenneculture"^^xsd:string ;
 	geo:lat	"48.072007"^^xsd:decimal ;
 	geo:long	"-0.770371"^^xsd:decimal  ;
 	sc:openingHours	 "du 15 juillet au 7 août"^^xsd:string ;
 	dbpedia-owl:department	 "53"^^xsd:string ;
 	dbpprop:town	 "Laval"^^xsd:string ;
-	igeo:codeINSEE	 "53130"^^xsd:string ;
+	dbpprop:insee	 "53130"^^xsd:string ;
 	dbpprop:website	 "http://mayenneculture.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "Bonchamp, Bouère, Ernée, Jublains, La Roë, L'Huisserie, Mézangers, Saint Berthevin, Sainte Suzanne"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Théâtre Icare, Compagnie 13, Compagnie des Passeurs, Ensemble instrumental de la mayenne, Les Troittoirs du Hasard, Le Petit théâtre de pain"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Spectacle vivant et patrimoine"^^xsd:string .
+	gndo:otherPlace	 "Bonchamp, Bouère, Ernée, Jublains, La Roë, L'Huisserie, Mézangers, Saint Berthevin, Sainte Suzanne"^^xsd:string ;
+	sc:performers	 "Théâtre Icare, Compagnie 13, Compagnie des Passeurs, Ensemble instrumental de la mayenne, Les Troittoirs du Hasard, Le Petit théâtre de pain"^^xsd:string ;
+	sc:genre	 "Spectacle vivant et patrimoine"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LES%20NUITS%20DE%20LA%20VIEILLE%20HORLOGE>	 foaf:name 	 "LES NUITS DE LA VIEILLE HORLOGE"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Pirate"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/ciepi.rate"^^xsd:string ;
+	foaf:page	 "www.facebook.com/ciepi.rate"^^xsd:string ;
 	geo:lat	"46.669476"^^xsd:decimal ;
 	geo:long	"-1.428868"^^xsd:decimal  ;
 	sc:openingHours	 "du 20 août au 4 septembre"^^xsd:string ;
 	dbpedia-owl:department	 "85"^^xsd:string ;
 	dbpprop:town	 "La Roche sur Yon"^^xsd:string ;
-	igeo:codeINSEE	 "85191"^^xsd:string ;
+	dbpprop:insee	 "85191"^^xsd:string ;
 	dbpprop:website	 "www.compagnie-pirate.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Autour du conte et du vaudeville, quatorze représentations, avec deux créations théâtrales dont une pour les enfants, trois lectures dessinées, un concert-lecture"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Théâtre"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Autour du conte et du vaudeville, quatorze représentations, avec deux créations théâtrales dont une pour les enfants, trois lectures dessinées, un concert-lecture"^^xsd:string ;
+	sc:genre	 "Théâtre"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LES%20NUITS%20MUSICALES%20EN%20VENDEE%20ROMANE>	 foaf:name 	 "LES NUITS MUSICALES EN VENDEE ROMANE"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association des Petites cités de caractères"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "fr-fr.facebook.com/nuitsmusicales.vendeeromane"^^xsd:string ;
+	foaf:page	 "fr-fr.facebook.com/nuitsmusicales.vendeeromane"^^xsd:string ;
 	geo:lat	"46.529548"^^xsd:decimal ;
 	geo:long	"-0.684557"^^xsd:decimal  ;
 	sc:openingHours	 "du 8 juillet au 12 août"^^xsd:string ;
 	dbpedia-owl:department	 "85"^^xsd:string ;
 	dbpprop:town	 "Foussais-Payré"^^xsd:string ;
-	igeo:codeINSEE	 "85094"^^xsd:string ;
+	dbpprop:insee	 "85094"^^xsd:string ;
 	dbpprop:website	 "www.festival-vendee.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "Faymoreau, Mallièvre, Mouchamps, Nieul sur L'Autise, Vouvant"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Orchestre National des Pays de la Loire, Maxime le Forestier, Lionel Belmondo, Erik Truffaz en quartet, Tanguy de Williencourt & Bruno Philippe, Ensemble Sagittarius"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique"^^xsd:string .
+	gndo:otherPlace	 "Faymoreau, Mallièvre, Mouchamps, Nieul sur L'Autise, Vouvant"^^xsd:string ;
+	sc:performers	 "Orchestre National des Pays de la Loire, Maxime le Forestier, Lionel Belmondo, Erik Truffaz en quartet, Tanguy de Williencourt & Bruno Philippe, Ensemble Sagittarius"^^xsd:string ;
+	sc:genre	 "Musique"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LES%20RENC%27ARTS%20DE%20PORNICHET>	 foaf:name 	 "LES RENC'ARTS DE PORNICHET"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Ville de Pornichet"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/pages/QUAI-DES-ARTS/328398713876969"^^xsd:string ;
+	foaf:page	 "www.facebook.com/pages/QUAI-DES-ARTS/328398713876969"^^xsd:string ;
 	geo:lat	"47.265679"^^xsd:decimal ;
 	geo:long	"-2.340358"^^xsd:decimal  ;
 	sc:openingHours	 "du 15 juillet au 14 août"^^xsd:string ;
 	dbpedia-owl:department	 "44"^^xsd:string ;
 	dbpprop:town	 "Pornichet"^^xsd:string ;
-	igeo:codeINSEE	 "44132"^^xsd:string ;
+	dbpprop:insee	 "44132"^^xsd:string ;
 	dbpprop:website	 "http://rencarts.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Compagnie Escale"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Arts de la rue, musiques métissées"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Compagnie Escale"^^xsd:string ;
+	sc:genre	 "Arts de la rue, musiques métissées"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LES%20RENCONTRES%20DE%20FONTEVRAUD>	 foaf:name 	 "LES RENCONTRES DE FONTEVRAUD"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association MEET"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "fr-fr.facebook.com/abbayedefontevraud"^^xsd:string ;
+	foaf:page	 "fr-fr.facebook.com/abbayedefontevraud"^^xsd:string ;
 	geo:lat	"47.182079"^^xsd:decimal ;
 	geo:long	"0.049629"^^xsd:decimal  ;
 	sc:openingHours	 "23 et 24 mai"^^xsd:string ;
 	dbpedia-owl:department	 "49"^^xsd:string ;
 	dbpprop:town	 "Fontevraud-L'Abbaye"^^xsd:string ;
-	igeo:codeINSEE	 "49140"^^xsd:string ;
+	dbpprop:insee	 "49140"^^xsd:string ;
 	dbpprop:website	 "www.meetingsaintnazaire.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Raquel Thiercelin, Jacques Jouet, Fabiàn Casas, Philippe Bataillon"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Littérature"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Raquel Thiercelin, Jacques Jouet, Fabiàn Casas, Philippe Bataillon"^^xsd:string ;
+	sc:genre	 "Littérature"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LES%20RENDEZ-VOUS%20DE%20L%27ERDRE>	 foaf:name 	 "LES RENDEZ-VOUS DE L'ERDRE"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association culturelle de l'été"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/lesrendezvousdelerdre"^^xsd:string ;
+	foaf:page	 "www.facebook.com/lesrendezvousdelerdre"^^xsd:string ;
 	geo:lat	"47.216501"^^xsd:decimal ;
 	geo:long	"-1.554609"^^xsd:decimal  ;
 	sc:openingHours	 "du 28 au 31  août"^^xsd:string ;
 	dbpedia-owl:department	 "44"^^xsd:string ;
 	dbpprop:town	 "Nantes"^^xsd:string ;
-	igeo:codeINSEE	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:string ;
 	dbpprop:website	 "www.rendezvouserdre.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "Carquefou, La Chapelle sur Erdre, Sucé sur Erdre, Nord sur Erdre, Petit Mars"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Henri Texier, Éric Le Lann, Jean-Jacques Milteau, Tchavolo Schmitt, Pascal Contet, Scanner, Joël Cadbury s"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique jazz"^^xsd:string .
+	gndo:otherPlace	 "Carquefou, La Chapelle sur Erdre, Sucé sur Erdre, Nord sur Erdre, Petit Mars"^^xsd:string ;
+	sc:performers	 "Henri Texier, Éric Le Lann, Jean-Jacques Milteau, Tchavolo Schmitt, Pascal Contet, Scanner, Joël Cadbury s"^^xsd:string ;
+	sc:genre	 "Musique jazz"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LES%20RENDEZ-VOUS%20DU%20BOIS%20CHEVALIER>	 foaf:name 	 "LES RENDEZ-VOUS DU BOIS CHEVALIER"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Les Amis de la Forge et du Bois Chevalier"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/rendezvousduboischevalier"^^xsd:string ;
+	foaf:page	 "www.facebook.com/rendezvousduboischevalier"^^xsd:string ;
 	geo:lat	"46.885326"^^xsd:decimal ;
 	geo:long	"-1.598987"^^xsd:decimal  ;
 	sc:openingHours	 "28 et 29 juin"^^xsd:string ;
 	dbpedia-owl:department	 "44"^^xsd:string ;
 	dbpprop:town	 "Legé"^^xsd:string ;
-	igeo:codeINSEE	 "44081"^^xsd:string ;
+	dbpprop:insee	 "44081"^^xsd:string ;
 	dbpprop:website	 "www.rendez-vous-du-bois-chevalier.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 " Poètes : Mathieu Coutisse, Patrick Dubost. Concerts : Pamphile Chambon, Classe du conservatoire de Nantes. Conférence: Marc-André Sélosse. Ecrivains: Chantal Dupuy-Dunier, Bernard Noël"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Conférences, débats, poésie, concerts"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 " Poètes : Mathieu Coutisse, Patrick Dubost. Concerts : Pamphile Chambon, Classe du conservatoire de Nantes. Conférence: Marc-André Sélosse. Ecrivains: Chantal Dupuy-Dunier, Bernard Noël"^^xsd:string ;
+	sc:genre	 "Conférences, débats, poésie, concerts"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/LES%20ZENDIMANCHES>	 foaf:name 	 "LES ZENDIMANCHES"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Collectif Spectacles en retz"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/spectaclesenretz.collectif"^^xsd:string ;
+	foaf:page	 "www.facebook.com/spectaclesenretz.collectif"^^xsd:string ;
 	geo:lat	"47.102879"^^xsd:decimal ;
 	geo:long	"-1.865616"^^xsd:decimal  ;
 	sc:openingHours	 "du 18 au 20 juillet"^^xsd:string ;
 	dbpedia-owl:department	 "44"^^xsd:string ;
 	dbpprop:town	 "Saint Hilaire de Chaléons"^^xsd:string ;
-	igeo:codeINSEE	 "44164"^^xsd:string ;
+	dbpprop:insee	 "44164"^^xsd:string ;
 	dbpprop:website	 "http://spectacles-en-retz.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "-"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Spectacle vivant"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "-"^^xsd:string ;
+	sc:genre	 "Spectacle vivant"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/L%27%C3%89T%C3%89%20CIGALE>	 foaf:name 	 "L'ÉTÉ CIGALE"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Agglomération du choletais"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "-"^^xsd:string ;
+	foaf:page	 "-"^^xsd:string ;
 	geo:lat	"47.058123"^^xsd:decimal ;
 	geo:long	"-0.880303"^^xsd:decimal  ;
 	sc:openingHours	 "du 27 au 29 août"^^xsd:string ;
 	dbpedia-owl:department	 "49"^^xsd:string ;
 	dbpprop:town	 "Cholet"^^xsd:string ;
-	igeo:codeINSEE	 "49099"^^xsd:string ;
+	dbpprop:insee	 "49099"^^xsd:string ;
 	dbpprop:website	 "www.agglo-choletais.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "-"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musiques actuelles"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "-"^^xsd:string ;
+	sc:genre	 "Musiques actuelles"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/MAI%20DE%20L%27ORGUE>	 foaf:name 	 "MAI DE L'ORGUE"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Les Amis de Notre Dame de Cunault"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "-"^^xsd:string ;
+	foaf:page	 "-"^^xsd:string ;
 	geo:lat	"47.307454"^^xsd:decimal ;
 	geo:long	"-0.154208"^^xsd:decimal  ;
 	sc:openingHours	 "du 4 au 25 mai"^^xsd:string ;
 	dbpedia-owl:department	 "49"^^xsd:string ;
 	dbpprop:town	 "Chênehuette-Trèves-Cunault"^^xsd:string ;
-	igeo:codeINSEE	 "49094"^^xsd:string ;
+	dbpprop:insee	 "49094"^^xsd:string ;
 	dbpprop:website	 "http://amisndcunault.free.fr"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Nathan Degrange-Roncier, Marylin Rebel, Florent darroux, Arthur Nicolas-Nauche"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Nathan Degrange-Roncier, Marylin Rebel, Florent darroux, Arthur Nicolas-Nauche"^^xsd:string ;
+	sc:genre	 "Musique"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/MARCHE%20DE%20LA%20POESIE>	 foaf:name 	 "MARCHE DE LA POESIE"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Ville de Rochefort sur Loire"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "fr-fr.facebook.com/pages/Centre-Po%C3%A9tique-de-Rochefort-sur-Loire/543916265633119"^^xsd:string ;
+	foaf:page	 "fr-fr.facebook.com/pages/Centre-Po%C3%A9tique-de-Rochefort-sur-Loire/543916265633119"^^xsd:string ;
 	geo:lat	"47.356721"^^xsd:decimal ;
 	geo:long	"-0.65719"^^xsd:decimal  ;
 	sc:openingHours	 "du 4 au 6 juillet"^^xsd:string ;
 	dbpedia-owl:department	 "49"^^xsd:string ;
 	dbpprop:town	 "Rochefort-sur-Loire"^^xsd:string ;
-	igeo:codeINSEE	 "49259"^^xsd:string ;
+	dbpprop:insee	 "49259"^^xsd:string ;
 	dbpprop:website	 "www.rochefortsurloire.fr/"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Editeurs, poètes, participation des habitants"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Poésie"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Editeurs, poètes, participation des habitants"^^xsd:string ;
+	sc:genre	 "Poésie"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/NUIT%20DES%20CHIMERES>	 foaf:name 	 "NUIT DES CHIMERES"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Ville du Mans"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "-"^^xsd:string ;
+	foaf:page	 "-"^^xsd:string ;
 	geo:lat	"48.003684"^^xsd:decimal ;
 	geo:long	"0.196304"^^xsd:decimal  ;
 	sc:openingHours	 "Juillet et Août"^^xsd:string ;
 	dbpedia-owl:department	 "72"^^xsd:string ;
 	dbpprop:town	 "Le Mans"^^xsd:string ;
-	igeo:codeINSEE	 "72181"^^xsd:string ;
+	dbpprop:insee	 "72181"^^xsd:string ;
 	dbpprop:website	 "www.nuitdeschimeres.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Projections sur les façades de la ville"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Spectacle de sons, lumières et images"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Projections sur les façades de la ville"^^xsd:string ;
+	sc:genre	 "Spectacle de sons, lumières et images"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/QUINZAINE%20RADIEUSE>	 foaf:name 	 "QUINZAINE RADIEUSE"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Piacé le Radieux, Bézart-le Corbusier"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "-"^^xsd:string ;
+	foaf:page	 "-"^^xsd:string ;
 	geo:lat	"48.258509"^^xsd:decimal ;
 	geo:long	"0.113169"^^xsd:decimal  ;
 	sc:openingHours	 "du 27 au 29 juin"^^xsd:string ;
 	dbpedia-owl:department	 "72"^^xsd:string ;
 	dbpprop:town	 "Piacé"^^xsd:string ;
-	igeo:codeINSEE	 "72235"^^xsd:string ;
+	dbpprop:insee	 "72235"^^xsd:string ;
 	dbpprop:website	 "www.piaceleradieux.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Charles Pennequin, Emilie Nicot, Daniel Nadaud, Neal Beggs, Bob Corn, Mathieu Mercier"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique , performances, lectures, exposition"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Charles Pennequin, Emilie Nicot, Daniel Nadaud, Neal Beggs, Bob Corn, Mathieu Mercier"^^xsd:string ;
+	sc:genre	 "Musique , performances, lectures, exposition"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/RENCONTRES%20%20AVEC%20LA%20MER>	 foaf:name 	 "RENCONTRES  AVEC LA MER"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Printemps Lecture et culture de L'île de Noirmoutier"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "fr-fr.facebook.com/events/611902002167792/"^^xsd:string ;
+	foaf:page	 "fr-fr.facebook.com/events/611902002167792/"^^xsd:string ;
 	geo:lat	"47.001033"^^xsd:decimal ;
 	geo:long	"-2.243542"^^xsd:decimal  ;
 	sc:openingHours	 "14 et 15 juin"^^xsd:string ;
 	dbpedia-owl:department	 "85"^^xsd:string ;
 	dbpprop:town	 "Noirmoutier"^^xsd:string ;
-	igeo:codeINSEE	 "85163"^^xsd:string ;
+	dbpprop:insee	 "85163"^^xsd:string ;
 	dbpprop:website	 "www.livre-mer-noirmoutier.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Les Ecrivains de Marine"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Dédicaces, conférences, cafés littéraires"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Les Ecrivains de Marine"^^xsd:string ;
+	sc:genre	 "Dédicaces, conférences, cafés littéraires"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/ROCK%20ICI%20M%C3%94MES>	 foaf:name 	 "ROCK ICI MÔMES"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association L'entracte"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "fr-fr.facebook.com/lentractesable"^^xsd:string ;
+	foaf:page	 "fr-fr.facebook.com/lentractesable"^^xsd:string ;
 	geo:lat	"47.839808"^^xsd:decimal ;
 	geo:long	"-0.33432"^^xsd:decimal  ;
 	sc:openingHours	 "le 17 juillet"^^xsd:string ;
 	dbpedia-owl:department	 "72"^^xsd:string ;
 	dbpprop:town	 "Sablé sur sarthe"^^xsd:string ;
-	igeo:codeINSEE	 "72264"^^xsd:string ;
+	dbpprop:insee	 "72264"^^xsd:string ;
 	dbpprop:website	 "www.lentracte-sable.fr/rockicimomes.htm"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "-"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Chanson pour enfants"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "-"^^xsd:string ;
+	sc:genre	 "Chanson pour enfants"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/SAINT%20JAZZ%20SUR%20VIE>	 foaf:name 	 "SAINT JAZZ SUR VIE"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Festival International de Jazz - Saint Jazz sur Vie"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "fr-fr.facebook.com/pages/Saint-Jazz-sur-Vie/350768464951470"^^xsd:string ;
+	foaf:page	 "fr-fr.facebook.com/pages/Saint-Jazz-sur-Vie/350768464951470"^^xsd:string ;
 	geo:lat	"46.696452"^^xsd:decimal ;
 	geo:long	"-1.941376"^^xsd:decimal  ;
 	sc:openingHours	 "du 30 mai au 8 juin"^^xsd:string ;
 	dbpedia-owl:department	 "85"^^xsd:string ;
 	dbpprop:town	 "Saint Gilles Croix de Vie"^^xsd:string ;
-	igeo:codeINSEE	 "85222"^^xsd:string ;
+	dbpprop:insee	 "85222"^^xsd:string ;
 	dbpprop:website	 "www.saint-jazz-sur-vie.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Gospel For You Family, Florence Grimal Quartet, Les Jives Aces, Paolo Fresu Devil quartet, Moutin Factory quintet"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique jazz"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Gospel For You Family, Florence Grimal Quartet, Les Jives Aces, Paolo Fresu Devil quartet, Moutin Factory quintet"^^xsd:string ;
+	sc:genre	 "Musique jazz"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/SAVEURS%20JAZZ%20FESTIVAL>	 foaf:name 	 "SAVEURS JAZZ FESTIVAL"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Jazz au Pays"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/saveursjazz"^^xsd:string ;
+	foaf:page	 "www.facebook.com/saveursjazz"^^xsd:string ;
 	geo:lat	"47.685809"^^xsd:decimal ;
 	geo:long	"-0.873048"^^xsd:decimal  ;
 	sc:openingHours	 "du 16 au 20 juillet"^^xsd:string ;
 	dbpedia-owl:department	 "49"^^xsd:string ;
 	dbpprop:town	 "Segré"^^xsd:string ;
-	igeo:codeINSEE	 "49331"^^xsd:string ;
+	dbpprop:insee	 "49331"^^xsd:string ;
 	dbpprop:website	 "http://saveursjazzfestival.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "Sainte Gemmes d'Andigné"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Richard Galliano, Maceo Parker, Youn Sun Nah, Ibrahim Maalouf, Charlier/Sourisse, Infernale Momus"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique"^^xsd:string .
+	gndo:otherPlace	 "Sainte Gemmes d'Andigné"^^xsd:string ;
+	sc:performers	 "Richard Galliano, Maceo Parker, Youn Sun Nah, Ibrahim Maalouf, Charlier/Sourisse, Infernale Momus"^^xsd:string ;
+	sc:genre	 "Musique"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/TEMPS%20D%27%C3%89T%C3%89%20A%20LA%20RANLOUE>	 foaf:name 	 "TEMPS D'ÉTÉ A LA RANLOUE"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Ville de Saint Barthélemy d'Anjou"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/pages/THV/165189628454"^^xsd:string ;
+	foaf:page	 "www.facebook.com/pages/THV/165189628454"^^xsd:string ;
 	geo:lat	"47.46699"^^xsd:decimal ;
 	geo:long	"-0.496135"^^xsd:decimal  ;
 	sc:openingHours	 "18 et 20 juin"^^xsd:string ;
 	dbpedia-owl:department	 "49"^^xsd:string ;
 	dbpprop:town	 "Saint Barthélemy d'Anjou"^^xsd:string ;
-	igeo:codeINSEE	 "49267"^^xsd:string ;
+	dbpprop:insee	 "49267"^^xsd:string ;
 	dbpprop:website	 "http://www.ville-saint-barthelemy-anjou.fr/"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "-"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Jean Jouzel, Niobé, cie Jo Bithume, cie Loba"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique"^^xsd:string .
+	gndo:otherPlace	 "-"^^xsd:string ;
+	sc:performers	 "Jean Jouzel, Niobé, cie Jo Bithume, cie Loba"^^xsd:string ;
+	sc:genre	 "Musique"^^xsd:string .
 
 <http://lodpaddle.univ-nantes.fr/festivals_printemps_ete_pays_de_la_loire/VAGUE%20DE%20JAZZ>	 foaf:name 	 "VAGUE DE JAZZ"^^xsd:string ;
 	rdf:type	 pdll:festivals_printemps_ete_pays_de_la_loire;
 	sc:performer	 "Association Vague de Jazz"^^xsd:string ;
-	TEMPORAIRE:PAGE_FACEBOOK	 "www.facebook.com/pages/Vague-de-Jazz/109932979035357"^^xsd:string ;
+	foaf:page	 "www.facebook.com/pages/Vague-de-Jazz/109932979035357"^^xsd:string ;
 	geo:lat	"46.424238"^^xsd:decimal ;
 	geo:long	"-1.490016"^^xsd:decimal  ;
 	sc:openingHours	 "du 26 juillet au 2 août"^^xsd:string ;
 	dbpedia-owl:department	 "85"^^xsd:string ;
 	dbpprop:town	 "Longevilles sur Mer"^^xsd:string ;
-	igeo:codeINSEE	 "85127"^^xsd:string ;
+	dbpprop:insee	 "85127"^^xsd:string ;
 	dbpprop:website	 "www.vaguedejazz.com"^^xsd:string ;
-	TEMPORAIRE:AUTRES_VILLES	 "Mareuil sur Lay, Les Sables d'Olonnes"^^xsd:string ;
-	TEMPORAIRE:PROGRAMMATION	 "Louis Scalvis, Marc Ducret, Joëlle Léandre, Vincent Courtois, Orchestre National de Jazz"^^xsd:string ;
-	TEMPORAIRE:TypeProblem	 "Musique jazz"^^xsd:string .
+	gndo:otherPlace	 "Mareuil sur Lay, Les Sables d'Olonnes"^^xsd:string ;
+	sc:performers	 "Louis Scalvis, Marc Ducret, Joëlle Léandre, Vincent Courtois, Orchestre National de Jazz"^^xsd:string ;
+	sc:genre	 "Musique jazz"^^xsd:string .
 

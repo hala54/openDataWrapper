@@ -453,7 +453,7 @@
   <source>
     <nom>festivals_printemps_ete_pays_de_la_loire</nom>
     <apiurl>http://data.nantes.fr/api/publication/23440003400026_J293/carte_festivals_table/content/?format=xml</apiurl>
-    <url>liste de festivals en pays de la loire</url>
+    <url>http://data.nantes.fr/donnees/detail/les-festivals-du-printemps-et-de-lete-en-pays-de-la-loire/</url>
     <publisher>Région des Pays de la Loire</publisher>
     <titre>festivals printemps ete pays de la loire</titre>
     <xsltFile>src/main/resources/xsl/festivals_printemps_ete_pays_de_la_loire.xsl</xsltFile>
