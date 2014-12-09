@@ -89,18 +89,8 @@ public class XSLConstructor {
 		try {
 			document = XMLFile;
 			Map<String, MappingUnit> map = new HashMap<String, MappingUnit>();
-			Element element;
-			
-			//Syntaxe pour l'api de openDataWeather
-			if(document.getRootElement().getName().equals("current"))
-			{
-				element = document.getRootElement();
-			}
-			else //Syntaxe pour openDataNantes
-			{
-				element = document.getRootElement().getChild("data")
+			Element element = document.getRootElement().getChild("data")
 					.getChild("element");
-			}
 			
 			// on possède ainsi un élément du fichier
 			List<Element> listeTag = element.getChildren();
