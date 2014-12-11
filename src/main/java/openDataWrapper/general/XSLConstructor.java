@@ -91,6 +91,7 @@ public class XSLConstructor {
 			Map<String, MappingUnit> map = new HashMap<String, MappingUnit>();
 			Element element = document.getRootElement().getChild("data")
 					.getChild("element");
+			
 			// on possède ainsi un élément du fichier
 			List<Element> listeTag = element.getChildren();
 			Iterator<Element> it = listeTag.iterator();

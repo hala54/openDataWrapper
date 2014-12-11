@@ -461,4 +461,26 @@
     <outputTtlFile>src/main/resources/output/ttl/festivals_printemps_ete_pays_de_la_loire.n3</outputTtlFile>
     <outputXmlFile>src/main/resources/output/rdf-xml/festivals_printemps_ete_pays_de_la_loire.rdf</outputXmlFile>
   </source>
+  <source>
+    <nom>meteoCourante</nom>
+    <apiurl>http://api.openweathermap.org/data/2.5/weather?q=Nantes&amp;mode=xml</apiurl>
+    <url>http://openweathermap.org/</url>
+    <publisher>Open Weather Map</publisher>
+    <titre>La meteo courante de la ville de Nantes</titre>
+    <xsltFile>src/main/resources/xsl/meteoCourante.xsl</xsltFile>
+    <specificXSLT>true</specificXSLT>
+    <outputTtlFile>src/main/resources/output/ttl/meteoCourante.n3</outputTtlFile>
+    <outputXmlFile>src/main/resources/output/rdf-xml/meteoCourante.rdf</outputXmlFile>
+  </source>
+  <source>
+    <nom>meteoPrevision3h</nom>
+    <apiurl>http://api.openweathermap.org/data/2.5/forecast?q=Nantes&amp;mode=xml</apiurl>
+    <url>http://openweathermap.org/</url>
+    <publisher>Open Weather Map</publisher>
+    <titre>Les previsions meteo la ville de Nantes toutes les 3h sur 5 jours</titre>
+    <xsltFile>src/main/resources/xsl/meteoPrevision3h.xsl</xsltFile>
+    <specificXSLT>true</specificXSLT>
+    <outputTtlFile>src/main/resources/output/ttl/meteoPrevision3h.n3</outputTtlFile>
+    <outputXmlFile>src/main/resources/output/rdf-xml/meteoPrevision3h.rdf</outputXmlFile>
+  </source>
 </sources>
