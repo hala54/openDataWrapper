@@ -12,12 +12,6 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 </properties>
 
-	<repositories>
-		<repository>
-			<id>dralagen-maven-repo</id>
-			<url>https://raw.github.com/dralagen/maven-repo/master/</url>
-		</repository>
-	</repositories>
 	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<plugins>
@@ -137,7 +131,7 @@
 			<type>pom</type>
 			<version>2.12.0</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
@@ -170,9 +164,10 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.dralagen</groupId>
+			<groupId>fr.dralagen</groupId>
 			<artifactId>csv2xml</artifactId>
 			<version>0.1</version>
 		</dependency>
 	</dependencies>
 </project>
+
