@@ -1,1 +1,8 @@
-/target
+.*
+
+# intellij
+*.iml
+
+# maven
+**/target
+/target/
